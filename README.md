@@ -58,6 +58,6 @@ This public repository is intended to let others **read, download, fork, evaluat
 
 GitHub repository: `https://github.com/AZgunNut/ShopAI-Open`
 
-**License status:** No open-source license is being asserted for these archived files until original authorship and third-party rights have been reviewed and the owner chooses a license. GitHub's fork feature is available for public repositories, but broader legal rights to reuse or redistribute this content require a valid license. See `LICENSING.md`.
+**License:** ShopAI Community & Commercial Reciprocity License v1.0 ([LICENSE](LICENSE); plain-English [LICENSING.md](LICENSING.md)). Personal use is free. Commercial use is permitted with attribution, a grant-back of ShopAI-derived source/improvements to `AZgunNut`, and free ongoing use for the maintainer of commercially offered ShopAI-based software/services. This is a custom **source-available** license, not an OSI-approved open-source license. Copyright and third-party provenance still need per-file review.
 
 **Important public security notice:** This source retains example local IPs, historical machine names and absolute paths because they help understand the original setup. No operational tokens, private keys or model weights are intentionally included. Do not upload secrets, credentials, personal data or raw terminal/home backups in contributions.
