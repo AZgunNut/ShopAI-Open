@@ -1,0 +1,61 @@
+{
+  "action": "create_part_from_features",
+  "part_name": "ledger_real_gears_test",
+  "units": "mm",
+  "datums": {
+    "origin": "lower_left_front_corner",
+    "x_axis": "length",
+    "y_axis": "width",
+    "z_axis": "height"
+  },
+  "features": [
+    {
+      "id": "base_plate",
+      "type": "box",
+      "length_mm": 170,
+      "width_mm": 95,
+      "height_mm": 8,
+      "origin_mm": [0, 0, 0],
+      "confidence": 1.0,
+      "source": "direct user test"
+    },
+    {
+      "id": "external_spur_gear",
+      "type": "involute_gear_external_z",
+      "center_mm": [45, 48],
+      "teeth": 24,
+      "module_mm": 2,
+      "pressure_angle_deg": 20,
+      "face_width_mm": 8,
+      "bore_diameter_mm": 10,
+      "base_z_mm": 8,
+      "standard": "metric involute external gear",
+      "confidence": 1.0,
+      "source": "real external involute gear test"
+    },
+    {
+      "id": "internal_gear_cut",
+      "type": "involute_gear_internal_z",
+      "center_mm": [120, 48],
+      "teeth": 36,
+      "module_mm": 1.5,
+      "pressure_angle_deg": 20,
+      "face_width_mm": 10,
+      "bore_diameter_mm": 40,
+      "base_z_mm": -1,
+      "standard": "metric involute internal gear cutter",
+      "confidence": 1.0,
+      "source": "real internal involute gear cut test"
+    }
+  ],
+  "exports": [
+    "FCStd",
+    "STEP",
+    "SVG_TOP",
+    "SVG_FRONT",
+    "SVG_RIGHT",
+    "DXF_TOP",
+    "DXF_FRONT",
+    "DXF_RIGHT"
+  ]
+}

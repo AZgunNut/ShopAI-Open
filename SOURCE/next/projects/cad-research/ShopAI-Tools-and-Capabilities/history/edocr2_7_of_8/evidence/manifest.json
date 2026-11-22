@@ -1,0 +1,373 @@
+[
+  {
+    "name": "EDOCR2_native_p9",
+    "rc": 0,
+    "completed": true,
+    "mask_saved": true,
+    "csv_files": 1,
+    "success": true,
+    "seconds": 19.0,
+    "reason": "",
+    "artifacts": [
+      {
+        "path": "p9/p9_mask.png",
+        "bytes": 292031
+      },
+      {
+        "path": "p9/dimension_results.csv",
+        "bytes": 101
+      }
+    ],
+    "tail": [
+      "",
+      "1/1 [==============================] - ETA: 0s\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b",
+      "1/1 [==============================] - 0s 43ms/step",
+      "",
+      "1/1 [==============================] - ETA: 0s\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b",
+      "1/1 [==============================] - 0s 43ms/step",
+      "Recognition finished. Performing template matching...",
+      "Prediction on dimensions and extra information Done",
+      "Mask saved",
+      "Raw output saved",
+      "Session Timing Report:",
+      "Loading session:           8.703 s",
+      "----------------------",
+      "Drawing segmentation:      0.004 s",
+      "Table prediction:          0.001 s",
+      "GD&T prediction:           0.000 s",
+      "Dimension & other info:    9.003 s",
+      "Saving & processing:       0.021 s",
+      "----------------------",
+      "OCR in p9.png: 9.029 s",
+      "----------------------",
+      "Total time:                17.742 s",
+      "",
+      "EDOCR2_NATIVE_COMPLETED"
+    ]
+  },
+  {
+    "name": "EDOCR2_native_p15",
+    "rc": 0,
+    "completed": true,
+    "mask_saved": true,
+    "csv_files": 2,
+    "success": true,
+    "seconds": 17.0,
+    "reason": "",
+    "artifacts": [
+      {
+        "path": "p15/other_info.csv",
+        "bytes": 44
+      },
+      {
+        "path": "p15/p15_mask.png",
+        "bytes": 198827
+      },
+      {
+        "path": "p15/dimension_results.csv",
+        "bytes": 75
+      }
+    ],
+    "tail": [
+      "",
+      "1/1 [==============================] - ETA: 0s\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b",
+      "1/1 [==============================] - 0s 44ms/step",
+      "",
+      "1/1 [==============================] - ETA: 0s\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b",
+      "1/1 [==============================] - 0s 43ms/step",
+      "Recognition finished. Performing template matching...",
+      "Prediction on dimensions and extra information Done",
+      "Mask saved",
+      "Raw output saved",
+      "Session Timing Report:",
+      "Loading session:           8.161 s",
+      "----------------------",
+      "Drawing segmentation:      0.004 s",
+      "Table prediction:          0.000 s",
+      "GD&T prediction:           0.000 s",
+      "Dimension & other info:    7.365 s",
+      "Saving & processing:       0.018 s",
+      "----------------------",
+      "OCR in p15.png: 7.388 s",
+      "----------------------",
+      "Total time:                15.557 s",
+      "",
+      "EDOCR2_NATIVE_COMPLETED"
+    ]
+  },
+  {
+    "name": "EDOCR2_native_p20",
+    "rc": 0,
+    "completed": true,
+    "mask_saved": true,
+    "csv_files": 1,
+    "success": true,
+    "seconds": 18.0,
+    "reason": "",
+    "artifacts": [
+      {
+        "path": "p20/dimension_results.csv",
+        "bytes": 87
+      },
+      {
+        "path": "p20/p20_mask.png",
+        "bytes": 346482
+      }
+    ],
+    "tail": [
+      "",
+      "1/1 [==============================] - ETA: 0s\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b",
+      "1/1 [==============================] - 0s 44ms/step",
+      "",
+      "1/1 [==============================] - ETA: 0s\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b",
+      "1/1 [==============================] - 0s 43ms/step",
+      "Recognition finished. Performing template matching...",
+      "Prediction on dimensions and extra information Done",
+      "Mask saved",
+      "Raw output saved",
+      "Session Timing Report:",
+      "Loading session:           8.137 s",
+      "----------------------",
+      "Drawing segmentation:      0.010 s",
+      "Table prediction:          0.000 s",
+      "GD&T prediction:           0.000 s",
+      "Dimension & other info:    8.564 s",
+      "Saving & processing:       0.021 s",
+      "----------------------",
+      "OCR in p20.png: 8.595 s",
+      "----------------------",
+      "Total time:                16.741 s",
+      "",
+      "EDOCR2_NATIVE_COMPLETED"
+    ]
+  },
+  {
+    "name": "EDOCR2_native_p12",
+    "rc": 0,
+    "completed": true,
+    "mask_saved": true,
+    "csv_files": 0,
+    "success": true,
+    "seconds": 16.0,
+    "reason": "",
+    "artifacts": [
+      {
+        "path": "p12/p12_mask.png",
+        "bytes": 236827
+      }
+    ],
+    "tail": [
+      "1/1 [==============================] - ETA: 0s\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b",
+      "1/1 [==============================] - 1s 1s/step",
+      "",
+      "1/1 [==============================] - ETA: 0s\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b",
+      "1/1 [==============================] - 1s 1s/step",
+      "Detection finished. Starting Recognition...",
+      "Recognition finished. Performing template matching...",
+      "Prediction on dimensions and extra information Done",
+      "Mask saved",
+      "Raw output saved",
+      "Session Timing Report:",
+      "Loading session:           8.153 s",
+      "----------------------",
+      "Drawing segmentation:      0.003 s",
+      "Table prediction:          0.000 s",
+      "GD&T prediction:           0.000 s",
+      "Dimension & other info:    7.088 s",
+      "Saving & processing:       0.015 s",
+      "----------------------",
+      "OCR in p12.png: 7.106 s",
+      "----------------------",
+      "Total time:                15.267 s",
+      "",
+      "EDOCR2_NATIVE_COMPLETED"
+    ]
+  },
+  {
+    "name": "EDOCR2_native_P1",
+    "rc": 0,
+    "completed": true,
+    "mask_saved": true,
+    "csv_files": 2,
+    "success": true,
+    "seconds": 23.0,
+    "reason": "",
+    "artifacts": [
+      {
+        "path": "P1/other_info.csv",
+        "bytes": 52
+      },
+      {
+        "path": "P1/dimension_results.csv",
+        "bytes": 142
+      },
+      {
+        "path": "P1/P1_mask.png",
+        "bytes": 505232
+      }
+    ],
+    "tail": [
+      "",
+      "1/1 [==============================] - ETA: 0s\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b",
+      "1/1 [==============================] - 0s 44ms/step",
+      "",
+      "1/1 [==============================] - ETA: 0s\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b",
+      "1/1 [==============================] - 0s 46ms/step",
+      "Recognition finished. Performing template matching...",
+      "Prediction on dimensions and extra information Done",
+      "Mask saved",
+      "Raw output saved",
+      "Session Timing Report:",
+      "Loading session:           8.185 s",
+      "----------------------",
+      "Drawing segmentation:      0.010 s",
+      "Table prediction:          0.002 s",
+      "GD&T prediction:           0.000 s",
+      "Dimension & other info:    13.291 s",
+      "Saving & processing:       0.039 s",
+      "----------------------",
+      "OCR in P1.png: 13.342 s",
+      "----------------------",
+      "Total time:                21.540 s",
+      "",
+      "EDOCR2_NATIVE_COMPLETED"
+    ]
+  },
+  {
+    "name": "EDOCR2_native_p2",
+    "rc": 0,
+    "completed": true,
+    "mask_saved": true,
+    "csv_files": 2,
+    "success": true,
+    "seconds": 26.0,
+    "reason": "",
+    "artifacts": [
+      {
+        "path": "p2/other_info.csv",
+        "bytes": 52
+      },
+      {
+        "path": "p2/p2_mask.png",
+        "bytes": 529205
+      },
+      {
+        "path": "p2/dimension_results.csv",
+        "bytes": 109
+      }
+    ],
+    "tail": [
+      "",
+      "1/1 [==============================] - ETA: 0s\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b",
+      "1/1 [==============================] - 0s 43ms/step",
+      "",
+      "1/1 [==============================] - ETA: 0s\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b",
+      "1/1 [==============================] - 0s 44ms/step",
+      "Recognition finished. Performing template matching...",
+      "Prediction on dimensions and extra information Done",
+      "Mask saved",
+      "Raw output saved",
+      "Session Timing Report:",
+      "Loading session:           8.094 s",
+      "----------------------",
+      "Drawing segmentation:      0.012 s",
+      "Table prediction:          0.001 s",
+      "GD&T prediction:           0.000 s",
+      "Dimension & other info:    16.605 s",
+      "Saving & processing:       0.049 s",
+      "----------------------",
+      "OCR in p2.png: 16.667 s",
+      "----------------------",
+      "Total time:                24.780 s",
+      "",
+      "EDOCR2_NATIVE_COMPLETED"
+    ]
+  },
+  {
+    "name": "EDOCR2_native_p5",
+    "rc": 1,
+    "completed": false,
+    "mask_saved": false,
+    "csv_files": 0,
+    "success": false,
+    "seconds": 26.0,
+    "reason": "",
+    "artifacts": [],
+    "tail": [
+      "                         ^^^^^^^^^^^^^^^^^^^^^",
+      "  File \"/mnt/shopai-data-new/cad-research/experiments/qwen-3-drawing-20261030-173652-610108/shopai_three_drawing_truth/batch_lab/ocr_outline_eight_v1/results/edocr2_templates_fixed_20261109T005511Z_744784/copies/eDOCr2/ocr_it.py\", line 41, in ocr_drawing",
+      "    dimensions, other_info, process_img, _ = tools.ocr_pipelines.ocr_dimensions(process_img, dimension_tuple[0], dimension_tuple[1], dimension_tuple[2],",
+      "                                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^",
+      "  File \"/mnt/shopai-data-new/cad-research/experiments/qwen-3-drawing-20261030-173652-610108/shopai_three_drawing_truth/batch_lab/ocr_outline_eight_v1/results/edocr2_templates_fixed_20261109T005511Z_744784/copies/eDOCr2/edocr2/tools/ocr_pipelines.py\", line 858, in ocr_dimensions",
+      "    dimensions, other_info, dim_pyt = pipeline.ocr_img_patches(img, 0.05)",
+      "                                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^",
+      "  File \"/mnt/shopai-data-new/cad-research/experiments/qwen-3-drawing-20261030-173652-610108/shopai_three_drawing_truth/batch_lab/ocr_outline_eight_v1/results/edocr2_templates_fixed_20261109T005511Z_744784/copies/eDOCr2/edocr2/tools/ocr_pipelines.py\", line 570, in ocr_img_patches",
+      "    dimensions, other_info, dimensions_pyt = self.recognize_dimensions(np.int32(new_group), np.array(img))",
+      "                                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^",
+      "  File \"/mnt/shopai-data-new/cad-research/experiments/qwen-3-drawing-20261030-173652-610108/shopai_three_drawing_truth/batch_lab/ocr_outline_eight_v1/results/edocr2_templates_fixed_20261109T005511Z_744784/copies/eDOCr2/edocr2/tools/ocr_pipelines.py\", line 498, in recognize_dimensions",
+      "    pred = self.recognizer.recognize(image=img_croped)",
+      "           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^",
+      "  File \"/mnt/shopai-data-new/cad-research/experiments/qwen-3-drawing-20261030-173652-610108/shopai_three_drawing_truth/batch_lab/ocr_outline_eight_v1/results/edocr2_templates_fixed_20261109T005511Z_744784/copies/eDOCr2/edocr2/keras_ocr/recognition.py\", line 472, in recognize",
+      "    image = tools.read_and_fit(",
+      "            ^^^^^^^^^^^^^^^^^^^",
+      "  File \"/mnt/shopai-data-new/cad-research/experiments/qwen-3-drawing-20261030-173652-610108/shopai_three_drawing_truth/batch_lab/ocr_outline_eight_v1/results/edocr2_templates_fixed_20261109T005511Z_744784/copies/eDOCr2/edocr2/keras_ocr/tools.py\", line 480, in read_and_fit",
+      "    image = fit(image=image, width=width, height=height, cval=cval, mode=mode)",
+      "            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^",
+      "  File \"/mnt/shopai-data-new/cad-research/experiments/qwen-3-drawing-20261030-173652-610108/shopai_three_drawing_truth/batch_lab/ocr_outline_eight_v1/results/edocr2_templates_fixed_20261109T005511Z_744784/copies/eDOCr2/edocr2/keras_ocr/tools.py\", line 443, in fit",
+      "    image = cv2.resize(image, dsize=(resize_width, resize_height))",
+      "            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^",
+      "cv2.error: OpenCV(5.0.0) /io/opencv/modules/imgproc/src/resize.cpp:4220: error: (-215:Assertion failed) inv_scale_x > 0 in function 'resize'",
+      ""
+    ]
+  },
+  {
+    "name": "EDOCR2_native_p27",
+    "rc": 0,
+    "completed": true,
+    "mask_saved": true,
+    "csv_files": 2,
+    "success": true,
+    "seconds": 19.0,
+    "reason": "",
+    "artifacts": [
+      {
+        "path": "p27/other_info.csv",
+        "bytes": 56
+      },
+      {
+        "path": "p27/dimension_results.csv",
+        "bytes": 60
+      },
+      {
+        "path": "p27/p27_mask.png",
+        "bytes": 348050
+      }
+    ],
+    "tail": [
+      "",
+      "1/1 [==============================] - ETA: 0s\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b",
+      "1/1 [==============================] - 0s 43ms/step",
+      "",
+      "1/1 [==============================] - ETA: 0s\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b",
+      "1/1 [==============================] - 0s 43ms/step",
+      "Recognition finished. Performing template matching...",
+      "Prediction on dimensions and extra information Done",
+      "Mask saved",
+      "Raw output saved",
+      "Session Timing Report:",
+      "Loading session:           8.099 s",
+      "----------------------",
+      "Drawing segmentation:      0.014 s",
+      "Table prediction:          0.000 s",
+      "GD&T prediction:           0.000 s",
+      "Dimension & other info:    9.762 s",
+      "Saving & processing:       0.020 s",
+      "----------------------",
+      "OCR in p27.png: 9.796 s",
+      "----------------------",
+      "Total time:                17.904 s",
+      "",
+      "EDOCR2_NATIVE_COMPLETED"
+    ]
+  }
+]

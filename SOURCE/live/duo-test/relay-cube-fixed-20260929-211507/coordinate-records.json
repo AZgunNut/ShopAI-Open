@@ -1,0 +1,172 @@
+{
+  "image_path": "/home/shopai/ShopAI/duo-test/cube-relay-v2/cubewithHoleTest.png",
+  "image_size": [
+    360,
+    494
+  ],
+  "locked_datum": {
+    "source": "chosen",
+    "origin_feature": "Bottom-front-left physical corner of the block",
+    "units": "unknown",
+    "common_zero": [
+      0,
+      0,
+      0
+    ],
+    "uncertainty": "Physical units are not printed. Retain drawing values without assuming mm or inches.",
+    "views": [
+      {
+        "id": "Top (upper view)",
+        "plane": [
+          "X",
+          "Y"
+        ],
+        "horizontal_axis": "X",
+        "vertical_axis": "Y",
+        "horizontal_sign": 1,
+        "vertical_sign": 1,
+        "origin_pixel": [
+          149,
+          276
+        ],
+        "origin_evidence": "Common corner projects to lower-left of upper square."
+      },
+      {
+        "id": "Front (lower view)",
+        "plane": [
+          "X",
+          "Z"
+        ],
+        "horizontal_axis": "X",
+        "vertical_axis": "Z",
+        "horizontal_sign": 1,
+        "vertical_sign": 1,
+        "origin_pixel": [
+          149,
+          114
+        ],
+        "origin_evidence": "Common corner is lower-left of lower square."
+      }
+    ],
+    "locked": true,
+    "verification": "Chosen working frame based on inspected drawing; pixel locations approximate"
+  },
+  "coordinate_system": {
+    "origin": "bottom-left pixel",
+    "x": "right",
+    "y": "up",
+    "units": "pixels"
+  },
+  "observations": [
+    {
+      "round": 1,
+      "checklist_item": 1,
+      "id": "Top (upper view)",
+      "view": "upper view",
+      "kind": "view",
+      "description": "The upper view displays the top face of the block, showing a square outline with a central hole and dimension annotations (e.g., 1.00, 2.00).",
+      "points": [],
+      "dimension_text": "1.00, 2.00",
+      "uncertainty": "The view is projected onto the X‑Y plane; the coordinate system is defined by the locked datum.",
+      "part_coordinate": null,
+      "coordinate_system": "image_cartesian_bottom_left",
+      "coordinate_units": "pixels",
+      "verification": "unverified_model_observation"
+    },
+    {
+      "round": 1,
+      "checklist_item": 1,
+      "id": "Front (lower view)",
+      "view": "lower view",
+      "kind": "view",
+      "description": "The lower view shows the front face of the block, revealing the hole’s depth and side dimensions (e.g., 2.00, (1.18)), with dashed lines indicating the hole’s interior.",
+      "points": [],
+      "dimension_text": "2.00, (1.18)",
+      "uncertainty": "The view is projected onto the X‑Z plane; the coordinate system is defined by the locked datum.",
+      "part_coordinate": null,
+      "coordinate_system": "image_cartesian_bottom_left",
+      "coordinate_units": "pixels",
+      "verification": "unverified_model_observation"
+    },
+    {
+      "round": 2,
+      "checklist_item": 2,
+      "id": "overall width dimension",
+      "view": "Front (lower view)",
+      "kind": "dimension annotation",
+      "description": "A horizontal dimension line labeled '2.00' spans the full width of the block (left edge to right edge).",
+      "points": [],
+      "dimension_text": "\"2.00\"",
+      "uncertainty": "The drawing explicitly provides the value; no ambiguity about the feature or its location.",
+      "pixel_status": "not_provided",
+      "coordinate_system": "image_cartesian_bottom_left",
+      "coordinate_units": "pixels",
+      "verification": "unverified_model_observation"
+    }
+  ],
+  "director_assessments": [
+    {
+      "checklist_item": 1,
+      "round": 0,
+      "forced_advance": false,
+      "decision": "none",
+      "reason": "Initial checklist step; no prior answers to assess.",
+      "action": "ask",
+      "question": "What are the visible view labels and their corresponding XYZ projection planes?"
+    },
+    {
+      "checklist_item": 1,
+      "round": 1,
+      "forced_advance": false,
+      "decision": "accepted",
+      "reason": "Viewer correctly identified the Top (X-Y) and Front (X-Z) views matching the locked datum definition.",
+      "action": "advance",
+      "question": null
+    },
+    {
+      "checklist_item": 2,
+      "round": 1,
+      "forced_advance": false,
+      "decision": "none",
+      "reason": "Initial checklist step; no prior answers to assess.",
+      "action": "ask",
+      "question": "What is the overall width dimension of the block?"
+    },
+    {
+      "checklist_item": 2,
+      "round": 2,
+      "forced_advance": false,
+      "decision": "accepted",
+      "reason": "Viewer correctly identified the overall width dimension as 2.00 from the Front view.",
+      "action": "advance",
+      "question": null
+    },
+    {
+      "checklist_item": 3,
+      "round": 2,
+      "forced_advance": false,
+      "decision": "none",
+      "reason": "Initial checklist step; no prior answers to assess.",
+      "action": "ask",
+      "question": "What is the pixel coordinate of the top-right corner of the block in the Top view?"
+    },
+    {
+      "checklist_item": 3,
+      "round": 3,
+      "forced_advance": false,
+      "decision": "rejected",
+      "reason": "Viewer could not locate the top-right corner; observation is empty.",
+      "action": "ask",
+      "question": "What is the pixel coordinate of the bottom-left corner of the block in the Front view?"
+    },
+    {
+      "checklist_item": 3,
+      "round": 4,
+      "forced_advance": false,
+      "decision": "rejected",
+      "reason": "Viewer failed to locate the bottom-left corner in the Front view; observation is empty.",
+      "action": "ask",
+      "question": "What is the pixel coordinate of the top-left corner of the block in the Top view?"
+    }
+  ]
+}

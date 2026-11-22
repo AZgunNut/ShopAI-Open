@@ -1,0 +1,124 @@
+{
+  "truth_file": "/mnt/shopai-data-new/cad-research/experiments/qwen-3-drawing-20261030-173652-610108/shopai_three_drawing_truth/batch_lab/ocr_outline_eight_v1/truths/p12.truth.json",
+  "prediction_file": "/mnt/shopai-data-new/cad-research/experiments/qwen-3-drawing-20261030-173652-610108/shopai_three_drawing_truth/batch_lab/ocr_outline_eight_v1/results/full_gambit_20261108T191855Z_740546_12852/p12/tesseract_clahe_cw0_psm12_score_readings.json",
+  "truth_coverage_certified": false,
+  "certified_100_percent": false,
+  "truth_gap_count": 1,
+  "ground_truth_pending_review": 1,
+  "expected_provisional_character_instances": 2,
+  "observed_character_instances": 15,
+  "character_inventory_overlap_provisional": 0,
+  "character_inventory_pct_provisional": 0.0,
+  "missing_characters": {
+    "4": 1,
+    "R": 1
+  },
+  "extra_characters": {
+    "(": 1,
+    "+": 2,
+    "a": 1,
+    "e": 2,
+    "i": 1,
+    "m": 1,
+    "o": 1,
+    "s": 1,
+    "u": 1,
+    "x": 1,
+    "}": 1,
+    "»": 1,
+    "“": 1
+  },
+  "provisional_annotation_matches": 0,
+  "provisional_annotation_total": 1,
+  "missing_annotations": [
+    {
+      "truth_id": "p12_T001",
+      "expected_text": "R4",
+      "anchor_px": [
+        10.0,
+        651.0
+      ]
+    }
+  ],
+  "extra_or_fragmented_groups": [
+    {
+      "text": "“ax",
+      "confidence": 0.4638,
+      "bbox_px": [
+        201.0,
+        132.0,
+        536.0,
+        299.0
+      ],
+      "index": 0
+    },
+    {
+      "text": "»",
+      "confidence": 0.4566,
+      "bbox_px": [
+        201.0,
+        301.0,
+        300.0,
+        525.0
+      ],
+      "index": 1
+    },
+    {
+      "text": "(eo",
+      "confidence": 0.0775,
+      "bbox_px": [
+        436.0,
+        301.0,
+        686.0,
+        527.0
+      ],
+      "index": 2
+    },
+    {
+      "text": "++}",
+      "confidence": 0.6888,
+      "bbox_px": [
+        575.0,
+        754.0,
+        643.0,
+        769.0
+      ],
+      "index": 3
+    },
+    {
+      "text": "i",
+      "confidence": 0.7341,
+      "bbox_px": [
+        128.0,
+        814.0,
+        161.0,
+        896.0
+      ],
+      "index": 4
+    },
+    {
+      "text": "mes",
+      "confidence": 0.407,
+      "bbox_px": [
+        202.0,
+        841.0,
+        261.0,
+        842.0
+      ],
+      "index": 5
+    },
+    {
+      "text": "u",
+      "confidence": 0.3001,
+      "bbox_px": [
+        575.0,
+        873.0,
+        643.0,
+        874.0
+      ],
+      "index": 6
+    }
+  ],
+  "matching_instances_diagnostic": [],
+  "note": "Inventory counts and annotation matches are PROVISIONAL. No per-glyph spatial truth exists and truth coverage is not independently verified. Counts may cancel swapped or misplaced glyphs."
+}

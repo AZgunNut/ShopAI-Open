@@ -1,0 +1,75 @@
+{
+  "action": "create_part_from_features",
+  "part_name": "ledger_more_features_test",
+  "units": "mm",
+  "datums": {
+    "origin": "lower_left_front_corner",
+    "x_axis": "length",
+    "y_axis": "width",
+    "z_axis": "height"
+  },
+  "features": [
+    {
+      "id": "base_block",
+      "type": "box",
+      "length_mm": 120,
+      "width_mm": 70,
+      "height_mm": 16,
+      "origin_mm": [0, 0, 0],
+      "confidence": 1.0,
+      "source": "direct user test"
+    },
+    {
+      "id": "square_cutout",
+      "type": "rectangular_cutout_z",
+      "center_mm": [25, 35],
+      "length_mm": 14,
+      "width_mm": 14,
+      "angle_deg": 0,
+      "source": "square through hole",
+      "confidence": 1.0
+    },
+    {
+      "id": "rect_pocket",
+      "type": "rectangular_pocket_z",
+      "center_mm": [60, 35],
+      "length_mm": 28,
+      "width_mm": 20,
+      "depth_mm": 5,
+      "angle_deg": 0,
+      "source": "rectangular blind pocket",
+      "confidence": 1.0
+    },
+    {
+      "id": "diagonal_channel",
+      "type": "channel_z",
+      "center_mm": [92, 35],
+      "length_mm": 42,
+      "width_mm": 8,
+      "depth_mm": 4,
+      "angle_deg": 25,
+      "source": "angled channel",
+      "confidence": 1.0
+    },
+    {
+      "id": "boss_1",
+      "type": "boss_cylinder_z",
+      "center_mm": [100, 55],
+      "diameter_mm": 14,
+      "height_mm": 8,
+      "base_z_mm": 16,
+      "source": "raised round boss",
+      "confidence": 1.0
+    }
+  ],
+  "exports": [
+    "FCStd",
+    "STEP",
+    "SVG_TOP",
+    "SVG_FRONT",
+    "SVG_RIGHT",
+    "DXF_TOP",
+    "DXF_FRONT",
+    "DXF_RIGHT"
+  ]
+}

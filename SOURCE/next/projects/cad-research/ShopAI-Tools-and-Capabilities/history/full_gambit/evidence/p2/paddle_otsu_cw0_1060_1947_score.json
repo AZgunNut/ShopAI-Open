@@ -1,0 +1,808 @@
+{
+  "truth_file": "/mnt/shopai-data-new/cad-research/experiments/qwen-3-drawing-20261030-173652-610108/shopai_three_drawing_truth/batch_lab/ocr_outline_eight_v1/truths/p2.truth.json",
+  "prediction_file": "/mnt/shopai-data-new/cad-research/experiments/qwen-3-drawing-20261030-173652-610108/shopai_three_drawing_truth/batch_lab/ocr_outline_eight_v1/results/full_gambit_20261108T191855Z_740546_12852/p2/paddle_otsu_cw0_1060_1947_score_readings.json",
+  "truth_coverage_certified": false,
+  "certified_100_percent": false,
+  "truth_gap_count": 4,
+  "ground_truth_pending_review": 59,
+  "expected_provisional_character_instances": 185,
+  "observed_character_instances": 86,
+  "character_inventory_overlap_provisional": 71,
+  "character_inventory_pct_provisional": 38.38,
+  "missing_characters": {
+    ".": 1,
+    "0": 6,
+    "1": 6,
+    "2": 3,
+    "3": 2,
+    "4": 3,
+    "6": 3,
+    "7": 2,
+    "8": 3,
+    "9": 1,
+    "A": 8,
+    "B": 2,
+    "C": 8,
+    "D": 5,
+    "E": 11,
+    "F": 4,
+    "G": 1,
+    "H": 2,
+    "I": 3,
+    "K": 1,
+    "L": 2,
+    "M": 2,
+    "N": 6,
+    "O": 4,
+    "P": 2,
+    "R": 4,
+    "S": 6,
+    "T": 3,
+    "U": 1,
+    "V": 1,
+    "W": 1,
+    "Z": 1,
+    "s": 1,
+    "Ø": 5
+  },
+  "extra_characters": {
+    "a": 1,
+    "c": 1,
+    "d": 1,
+    "e": 1,
+    "i": 2,
+    "n": 1,
+    "o": 1,
+    "r": 1,
+    "t": 2,
+    "v": 1,
+    "y": 1,
+    "°": 1,
+    "品": 1
+  },
+  "provisional_annotation_matches": 10,
+  "provisional_annotation_total": 59,
+  "missing_annotations": [
+    {
+      "truth_id": "p2_T001",
+      "expected_text": "A",
+      "anchor_px": [
+        138.0,
+        155.0
+      ]
+    },
+    {
+      "truth_id": "p2_T002",
+      "expected_text": "A",
+      "anchor_px": [
+        825.0,
+        155.0
+      ]
+    },
+    {
+      "truth_id": "p2_T004",
+      "expected_text": "Ø60",
+      "anchor_px": [
+        752.0,
+        816.0
+      ]
+    },
+    {
+      "truth_id": "p2_T005",
+      "expected_text": "1",
+      "anchor_px": [
+        101.0,
+        12.0
+      ]
+    },
+    {
+      "truth_id": "p2_T006",
+      "expected_text": "2",
+      "anchor_px": [
+        290.0,
+        12.0
+      ]
+    },
+    {
+      "truth_id": "p2_T007",
+      "expected_text": "3",
+      "anchor_px": [
+        477.0,
+        12.0
+      ]
+    },
+    {
+      "truth_id": "p2_T008",
+      "expected_text": "4",
+      "anchor_px": [
+        658.0,
+        12.0
+      ]
+    },
+    {
+      "truth_id": "p2_T009",
+      "expected_text": "5",
+      "anchor_px": [
+        834.0,
+        12.0
+      ]
+    },
+    {
+      "truth_id": "p2_T010",
+      "expected_text": "6",
+      "anchor_px": [
+        1031.0,
+        12.0
+      ]
+    },
+    {
+      "truth_id": "p2_T011",
+      "expected_text": "7",
+      "anchor_px": [
+        1218.0,
+        12.0
+      ]
+    },
+    {
+      "truth_id": "p2_T012",
+      "expected_text": "8",
+      "anchor_px": [
+        1400.0,
+        12.0
+      ]
+    },
+    {
+      "truth_id": "p2_T013",
+      "expected_text": "A",
+      "anchor_px": [
+        5.0,
+        103.0
+      ]
+    },
+    {
+      "truth_id": "p2_T014",
+      "expected_text": "B",
+      "anchor_px": [
+        5.0,
+        264.0
+      ]
+    },
+    {
+      "truth_id": "p2_T015",
+      "expected_text": "C",
+      "anchor_px": [
+        5.0,
+        429.0
+      ]
+    },
+    {
+      "truth_id": "p2_T016",
+      "expected_text": "D",
+      "anchor_px": [
+        5.0,
+        594.0
+      ]
+    },
+    {
+      "truth_id": "p2_T017",
+      "expected_text": "E",
+      "anchor_px": [
+        5.0,
+        757.0
+      ]
+    },
+    {
+      "truth_id": "p2_T018",
+      "expected_text": "F",
+      "anchor_px": [
+        5.0,
+        922.0
+      ]
+    },
+    {
+      "truth_id": "p2_T019",
+      "expected_text": "A",
+      "anchor_px": [
+        1463.0,
+        103.0
+      ]
+    },
+    {
+      "truth_id": "p2_T020",
+      "expected_text": "B",
+      "anchor_px": [
+        1463.0,
+        264.0
+      ]
+    },
+    {
+      "truth_id": "p2_T021",
+      "expected_text": "C",
+      "anchor_px": [
+        1463.0,
+        429.0
+      ]
+    },
+    {
+      "truth_id": "p2_T022",
+      "expected_text": "D",
+      "anchor_px": [
+        1463.0,
+        594.0
+      ]
+    },
+    {
+      "truth_id": "p2_T023",
+      "expected_text": "E",
+      "anchor_px": [
+        1463.0,
+        757.0
+      ]
+    },
+    {
+      "truth_id": "p2_T024",
+      "expected_text": "F",
+      "anchor_px": [
+        1463.0,
+        922.0
+      ]
+    },
+    {
+      "truth_id": "p2_T025",
+      "expected_text": "100",
+      "anchor_px": [
+        156.0,
+        101.0
+      ]
+    },
+    {
+      "truth_id": "p2_T028",
+      "expected_text": "40",
+      "anchor_px": [
+        866.0,
+        147.0
+      ]
+    },
+    {
+      "truth_id": "p2_T029",
+      "expected_text": "70",
+      "anchor_px": [
+        906.0,
+        151.0
+      ]
+    },
+    {
+      "truth_id": "p2_T030",
+      "expected_text": "Ø58",
+      "anchor_px": [
+        615.0,
+        398.0
+      ]
+    },
+    {
+      "truth_id": "p2_T031",
+      "expected_text": "2x45",
+      "anchor_px": [
+        468.0,
+        310.0
+      ]
+    },
+    {
+      "truth_id": "p2_T033",
+      "expected_text": "91",
+      "anchor_px": [
+        449.0,
+        554.0
+      ]
+    },
+    {
+      "truth_id": "p2_T035",
+      "expected_text": "Ø14",
+      "anchor_px": [
+        224.0,
+        643.0
+      ]
+    },
+    {
+      "truth_id": "p2_T037",
+      "expected_text": "68",
+      "anchor_px": [
+        165.0,
+        737.0
+      ]
+    },
+    {
+      "truth_id": "p2_T038",
+      "expected_text": "8",
+      "anchor_px": [
+        207.0,
+        739.0
+      ]
+    },
+    {
+      "truth_id": "p2_T039",
+      "expected_text": "10",
+      "anchor_px": [
+        266.0,
+        849.0
+      ]
+    },
+    {
+      "truth_id": "p2_T040",
+      "expected_text": "Ø12",
+      "anchor_px": [
+        453.0,
+        894.0
+      ]
+    },
+    {
+      "truth_id": "p2_T041",
+      "expected_text": "Ø20",
+      "anchor_px": [
+        343.0,
+        929.0
+      ]
+    },
+    {
+      "truth_id": "p2_T043",
+      "expected_text": "320",
+      "anchor_px": [
+        455.0,
+        895.0
+      ]
+    },
+    {
+      "truth_id": "p2_T044",
+      "expected_text": "FILE NAME",
+      "anchor_px": [
+        878.0,
+        837.0
+      ]
+    },
+    {
+      "truth_id": "p2_T045",
+      "expected_text": "FSCM NO",
+      "anchor_px": [
+        1007.0,
+        836.0
+      ]
+    },
+    {
+      "truth_id": "p2_T046",
+      "expected_text": "SHEET",
+      "anchor_px": [
+        1175.0,
+        836.0
+      ]
+    },
+    {
+      "truth_id": "p2_T047",
+      "expected_text": "SCALE",
+      "anchor_px": [
+        1330.0,
+        836.0
+      ]
+    },
+    {
+      "truth_id": "p2_T048",
+      "expected_text": "SIZE",
+      "anchor_px": [
+        880.0,
+        874.0
+      ]
+    },
+    {
+      "truth_id": "p2_T049",
+      "expected_text": "DRAWN",
+      "anchor_px": [
+        883.0,
+        894.0
+      ]
+    },
+    {
+      "truth_id": "p2_T050",
+      "expected_text": "CHECK",
+      "anchor_px": [
+        885.0,
+        913.0
+      ]
+    },
+    {
+      "truth_id": "p2_T051",
+      "expected_text": "APPR.",
+      "anchor_px": [
+        884.0,
+        930.0
+      ]
+    },
+    {
+      "truth_id": "p2_T052",
+      "expected_text": "ISSUED",
+      "anchor_px": [
+        880.0,
+        951.0
+      ]
+    },
+    {
+      "truth_id": "p2_T053",
+      "expected_text": "REV",
+      "anchor_px": [
+        879.0,
+        974.0
+      ]
+    },
+    {
+      "truth_id": "p2_T054",
+      "expected_text": "CONTRACT NO",
+      "anchor_px": [
+        906.0,
+        1003.0
+      ]
+    },
+    {
+      "truth_id": "p2_T055",
+      "expected_text": "DWG NO",
+      "anchor_px": [
+        1164.0,
+        987.0
+      ]
+    },
+    {
+      "truth_id": "p2_T059",
+      "expected_text": "Material Bengos",
+      "anchor_px": [
+        1202.0,
+        962.0
+      ]
+    }
+  ],
+  "extra_or_fragmented_groups": [
+    {
+      "text": "品",
+      "bbox_px": [
+        934.0,
+        161.0,
+        943.0,
+        171.0
+      ],
+      "bbox_rotated_px": [
+        934.0,
+        161.0,
+        943.0,
+        171.0
+      ],
+      "alternatives": [
+        {
+          "text": "品",
+          "key": "品",
+          "score": 0.46961,
+          "kind": "unclassified",
+          "parse_quality": -0.25,
+          "flags": [],
+          "confidence_peak": 0.301,
+          "whole_profiles": [
+            "1060"
+          ],
+          "profiles": [
+            "1060"
+          ],
+          "tile_samples": 0,
+          "support_examples": 1,
+          "style_bonus": 0.0
+        }
+      ],
+      "index": 1
+    },
+    {
+      "text": "2x45°",
+      "bbox_px": [
+        495.0,
+        333.0,
+        525.0,
+        344.0
+      ],
+      "bbox_rotated_px": [
+        495.0,
+        333.0,
+        525.0,
+        344.0
+      ],
+      "alternatives": [
+        {
+          "text": "2x45°",
+          "key": "2X45°",
+          "score": 2.85706,
+          "kind": "quantity_dimension",
+          "parse_quality": 1.7,
+          "flags": [],
+          "confidence_peak": 0.846,
+          "whole_profiles": [
+            "1060",
+            "1947"
+          ],
+          "profiles": [
+            "1060",
+            "1947"
+          ],
+          "tile_samples": 0,
+          "support_examples": 2,
+          "style_bonus": 0.0
+        }
+      ],
+      "index": 2
+    },
+    {
+      "text": "058",
+      "bbox_px": [
+        655.0,
+        429.0,
+        678.0,
+        442.0
+      ],
+      "bbox_rotated_px": [
+        655.0,
+        429.0,
+        678.0,
+        442.0
+      ],
+      "alternatives": [
+        {
+          "text": "058",
+          "key": "058",
+          "score": 2.9751,
+          "kind": "linear_or_value",
+          "parse_quality": 1.8,
+          "flags": [],
+          "confidence_peak": 0.884,
+          "whole_profiles": [
+            "1060",
+            "1947"
+          ],
+          "profiles": [
+            "1060",
+            "1947"
+          ],
+          "tile_samples": 0,
+          "support_examples": 2,
+          "style_bonus": 0.0
+        }
+      ],
+      "index": 3
+    },
+    {
+      "text": "ry",
+      "bbox_px": [
+        949.0,
+        913.0,
+        1114.0,
+        931.0
+      ],
+      "bbox_rotated_px": [
+        949.0,
+        913.0,
+        1114.0,
+        931.0
+      ],
+      "alternatives": [
+        {
+          "text": "ry",
+          "key": "RY",
+          "score": 0.48519,
+          "kind": "unclassified",
+          "parse_quality": -0.25,
+          "flags": [
+            "PARTIAL_DIMENSION_TOKEN"
+          ],
+          "confidence_peak": 0.334,
+          "whole_profiles": [
+            "1060"
+          ],
+          "profiles": [
+            "1060"
+          ],
+          "tile_samples": 0,
+          "support_examples": 1,
+          "style_bonus": 0.0
+        }
+      ],
+      "index": 7
+    },
+    {
+      "text": "20",
+      "bbox_px": [
+        355.0,
+        1002.0,
+        381.0,
+        1015.0
+      ],
+      "bbox_rotated_px": [
+        355.0,
+        1002.0,
+        381.0,
+        1015.0
+      ],
+      "alternatives": [
+        {
+          "text": "20",
+          "key": "20",
+          "score": 3.02947,
+          "kind": "linear_or_value",
+          "parse_quality": 1.8,
+          "flags": [],
+          "confidence_peak": 0.999,
+          "whole_profiles": [
+            "1060",
+            "1947"
+          ],
+          "profiles": [
+            "1060",
+            "1947"
+          ],
+          "tile_samples": 0,
+          "support_examples": 2,
+          "style_bonus": 0.0
+        }
+      ],
+      "index": 12
+    },
+    {
+      "text": "Material Bengo5",
+      "bbox_px": [
+        1274.0,
+        1015.0,
+        1394.0,
+        1038.0
+      ],
+      "bbox_rotated_px": [
+        1274.0,
+        1015.0,
+        1394.0,
+        1038.0
+      ],
+      "alternatives": [
+        {
+          "text": "Material Bengo5",
+          "key": "MATERIALBENGO5",
+          "score": 0.79095,
+          "kind": "unclassified",
+          "parse_quality": -0.25,
+          "flags": [
+            "PARTIAL_DIMENSION_TOKEN"
+          ],
+          "confidence_peak": 0.981,
+          "whole_profiles": [
+            "1947"
+          ],
+          "profiles": [
+            "1947"
+          ],
+          "tile_samples": 0,
+          "support_examples": 1,
+          "style_bonus": 0.0
+        },
+        {
+          "text": "Material Benqo5",
+          "key": "MATERIALBENQO5",
+          "score": 0.77032,
+          "kind": "unclassified",
+          "parse_quality": -0.25,
+          "flags": [
+            "PARTIAL_DIMENSION_TOKEN"
+          ],
+          "confidence_peak": 0.937,
+          "whole_profiles": [
+            "1060"
+          ],
+          "profiles": [
+            "1060"
+          ],
+          "tile_samples": 0,
+          "support_examples": 1,
+          "style_bonus": 0.0
+        }
+      ],
+      "index": 13
+    },
+    {
+      "text": "Activate Windo",
+      "bbox_px": [
+        1461.0,
+        1080.0,
+        1599.0,
+        1103.0
+      ],
+      "bbox_rotated_px": [
+        1461.0,
+        1080.0,
+        1599.0,
+        1103.0
+      ],
+      "alternatives": [
+        {
+          "text": "Activate Windo",
+          "key": "ACTIVATEWINDO",
+          "score": 2.02887,
+          "kind": "text_note",
+          "parse_quality": 0.8,
+          "flags": [],
+          "confidence_peak": 0.998,
+          "whole_profiles": [
+            "1060",
+            "1947"
+          ],
+          "profiles": [
+            "1060",
+            "1947"
+          ],
+          "tile_samples": 0,
+          "support_examples": 2,
+          "style_bonus": 0.0
+        }
+      ],
+      "index": 15
+    }
+  ],
+  "matching_instances_diagnostic": [
+    {
+      "truth_id": "p2_T003",
+      "text": "R34",
+      "observation_index": 16,
+      "anchor_distance_px": 90.3
+    },
+    {
+      "truth_id": "p2_T026",
+      "text": "20",
+      "observation_index": 0,
+      "anchor_distance_px": 26.2
+    },
+    {
+      "truth_id": "p2_T027",
+      "text": "12",
+      "observation_index": 10,
+      "anchor_distance_px": 830.3
+    },
+    {
+      "truth_id": "p2_T032",
+      "text": "Sectiunea A-A",
+      "observation_index": 4,
+      "anchor_distance_px": 62.5
+    },
+    {
+      "truth_id": "p2_T034",
+      "text": "80",
+      "observation_index": 5,
+      "anchor_distance_px": 65.2
+    },
+    {
+      "truth_id": "p2_T036",
+      "text": "R15",
+      "observation_index": 6,
+      "anchor_distance_px": 32.8
+    },
+    {
+      "truth_id": "p2_T042",
+      "text": "60",
+      "observation_index": 14,
+      "anchor_distance_px": 92.8
+    },
+    {
+      "truth_id": "p2_T056",
+      "text": "A3",
+      "observation_index": 9,
+      "anchor_distance_px": 79.0
+    },
+    {
+      "truth_id": "p2_T057",
+      "text": "05/20/2024 NeaPi",
+      "observation_index": 11,
+      "anchor_distance_px": 89.6
+    },
+    {
+      "truth_id": "p2_T058",
+      "text": "1:1",
+      "observation_index": 8,
+      "anchor_distance_px": 123.6
+    }
+  ],
+  "note": "Inventory counts and annotation matches are PROVISIONAL. No per-glyph spatial truth exists and truth coverage is not independently verified. Counts may cancel swapped or misplaced glyphs."
+}

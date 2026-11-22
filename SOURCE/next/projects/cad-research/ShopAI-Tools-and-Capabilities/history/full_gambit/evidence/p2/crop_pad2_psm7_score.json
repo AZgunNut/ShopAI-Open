@@ -1,0 +1,834 @@
+{
+  "truth_file": "/mnt/shopai-data-new/cad-research/experiments/qwen-3-drawing-20261030-173652-610108/shopai_three_drawing_truth/batch_lab/ocr_outline_eight_v1/truths/p2.truth.json",
+  "prediction_file": "/mnt/shopai-data-new/cad-research/experiments/qwen-3-drawing-20261030-173652-610108/shopai_three_drawing_truth/batch_lab/ocr_outline_eight_v1/results/full_gambit_20261108T191855Z_740546_12852/p2/crop_pad2_psm7_score_readings.json",
+  "truth_coverage_certified": false,
+  "certified_100_percent": false,
+  "truth_gap_count": 4,
+  "ground_truth_pending_review": 59,
+  "expected_provisional_character_instances": 185,
+  "observed_character_instances": 154,
+  "character_inventory_overlap_provisional": 102,
+  "character_inventory_pct_provisional": 55.14,
+  "missing_characters": {
+    ".": 1,
+    "0": 8,
+    "1": 5,
+    "2": 4,
+    "3": 2,
+    "4": 4,
+    "5": 1,
+    "6": 2,
+    "7": 2,
+    "8": 4,
+    "A": 2,
+    "B": 2,
+    "C": 4,
+    "D": 2,
+    "E": 8,
+    "F": 4,
+    "H": 1,
+    "I": 2,
+    "L": 2,
+    "M": 2,
+    "N": 4,
+    "O": 1,
+    "P": 1,
+    "R": 3,
+    "S": 5,
+    "U": 1,
+    "W": 1,
+    "Ø": 5
+  },
+  "extra_characters": {
+    "(": 1,
+    "9": 2,
+    "<": 1,
+    "K": 1,
+    "a": 5,
+    "c": 3,
+    "d": 2,
+    "e": 7,
+    "g": 1,
+    "i": 4,
+    "l": 2,
+    "n": 2,
+    "o": 1,
+    "p": 1,
+    "r": 2,
+    "s": 4,
+    "t": 3,
+    "u": 1,
+    "v": 2,
+    "w": 1,
+    "|": 3,
+    "©": 2,
+    "°": 1
+  },
+  "provisional_annotation_matches": 10,
+  "provisional_annotation_total": 59,
+  "missing_annotations": [
+    {
+      "truth_id": "p2_T003",
+      "expected_text": "R34",
+      "anchor_px": [
+        753.0,
+        677.0
+      ]
+    },
+    {
+      "truth_id": "p2_T004",
+      "expected_text": "Ø60",
+      "anchor_px": [
+        752.0,
+        816.0
+      ]
+    },
+    {
+      "truth_id": "p2_T005",
+      "expected_text": "1",
+      "anchor_px": [
+        101.0,
+        12.0
+      ]
+    },
+    {
+      "truth_id": "p2_T006",
+      "expected_text": "2",
+      "anchor_px": [
+        290.0,
+        12.0
+      ]
+    },
+    {
+      "truth_id": "p2_T007",
+      "expected_text": "3",
+      "anchor_px": [
+        477.0,
+        12.0
+      ]
+    },
+    {
+      "truth_id": "p2_T008",
+      "expected_text": "4",
+      "anchor_px": [
+        658.0,
+        12.0
+      ]
+    },
+    {
+      "truth_id": "p2_T009",
+      "expected_text": "5",
+      "anchor_px": [
+        834.0,
+        12.0
+      ]
+    },
+    {
+      "truth_id": "p2_T010",
+      "expected_text": "6",
+      "anchor_px": [
+        1031.0,
+        12.0
+      ]
+    },
+    {
+      "truth_id": "p2_T011",
+      "expected_text": "7",
+      "anchor_px": [
+        1218.0,
+        12.0
+      ]
+    },
+    {
+      "truth_id": "p2_T012",
+      "expected_text": "8",
+      "anchor_px": [
+        1400.0,
+        12.0
+      ]
+    },
+    {
+      "truth_id": "p2_T013",
+      "expected_text": "A",
+      "anchor_px": [
+        5.0,
+        103.0
+      ]
+    },
+    {
+      "truth_id": "p2_T014",
+      "expected_text": "B",
+      "anchor_px": [
+        5.0,
+        264.0
+      ]
+    },
+    {
+      "truth_id": "p2_T015",
+      "expected_text": "C",
+      "anchor_px": [
+        5.0,
+        429.0
+      ]
+    },
+    {
+      "truth_id": "p2_T016",
+      "expected_text": "D",
+      "anchor_px": [
+        5.0,
+        594.0
+      ]
+    },
+    {
+      "truth_id": "p2_T017",
+      "expected_text": "E",
+      "anchor_px": [
+        5.0,
+        757.0
+      ]
+    },
+    {
+      "truth_id": "p2_T018",
+      "expected_text": "F",
+      "anchor_px": [
+        5.0,
+        922.0
+      ]
+    },
+    {
+      "truth_id": "p2_T019",
+      "expected_text": "A",
+      "anchor_px": [
+        1463.0,
+        103.0
+      ]
+    },
+    {
+      "truth_id": "p2_T020",
+      "expected_text": "B",
+      "anchor_px": [
+        1463.0,
+        264.0
+      ]
+    },
+    {
+      "truth_id": "p2_T021",
+      "expected_text": "C",
+      "anchor_px": [
+        1463.0,
+        429.0
+      ]
+    },
+    {
+      "truth_id": "p2_T022",
+      "expected_text": "D",
+      "anchor_px": [
+        1463.0,
+        594.0
+      ]
+    },
+    {
+      "truth_id": "p2_T023",
+      "expected_text": "E",
+      "anchor_px": [
+        1463.0,
+        757.0
+      ]
+    },
+    {
+      "truth_id": "p2_T024",
+      "expected_text": "F",
+      "anchor_px": [
+        1463.0,
+        922.0
+      ]
+    },
+    {
+      "truth_id": "p2_T025",
+      "expected_text": "100",
+      "anchor_px": [
+        156.0,
+        101.0
+      ]
+    },
+    {
+      "truth_id": "p2_T026",
+      "expected_text": "20",
+      "anchor_px": [
+        249.0,
+        114.0
+      ]
+    },
+    {
+      "truth_id": "p2_T027",
+      "expected_text": "12",
+      "anchor_px": [
+        191.0,
+        196.0
+      ]
+    },
+    {
+      "truth_id": "p2_T028",
+      "expected_text": "40",
+      "anchor_px": [
+        866.0,
+        147.0
+      ]
+    },
+    {
+      "truth_id": "p2_T029",
+      "expected_text": "70",
+      "anchor_px": [
+        906.0,
+        151.0
+      ]
+    },
+    {
+      "truth_id": "p2_T030",
+      "expected_text": "Ø58",
+      "anchor_px": [
+        615.0,
+        398.0
+      ]
+    },
+    {
+      "truth_id": "p2_T031",
+      "expected_text": "2x45",
+      "anchor_px": [
+        468.0,
+        310.0
+      ]
+    },
+    {
+      "truth_id": "p2_T032",
+      "expected_text": "Sectiunea A-A",
+      "anchor_px": [
+        467.0,
+        515.0
+      ]
+    },
+    {
+      "truth_id": "p2_T034",
+      "expected_text": "80",
+      "anchor_px": [
+        466.0,
+        583.0
+      ]
+    },
+    {
+      "truth_id": "p2_T035",
+      "expected_text": "Ø14",
+      "anchor_px": [
+        224.0,
+        643.0
+      ]
+    },
+    {
+      "truth_id": "p2_T037",
+      "expected_text": "68",
+      "anchor_px": [
+        165.0,
+        737.0
+      ]
+    },
+    {
+      "truth_id": "p2_T038",
+      "expected_text": "8",
+      "anchor_px": [
+        207.0,
+        739.0
+      ]
+    },
+    {
+      "truth_id": "p2_T039",
+      "expected_text": "10",
+      "anchor_px": [
+        266.0,
+        849.0
+      ]
+    },
+    {
+      "truth_id": "p2_T040",
+      "expected_text": "Ø12",
+      "anchor_px": [
+        453.0,
+        894.0
+      ]
+    },
+    {
+      "truth_id": "p2_T041",
+      "expected_text": "Ø20",
+      "anchor_px": [
+        343.0,
+        929.0
+      ]
+    },
+    {
+      "truth_id": "p2_T043",
+      "expected_text": "320",
+      "anchor_px": [
+        455.0,
+        895.0
+      ]
+    },
+    {
+      "truth_id": "p2_T044",
+      "expected_text": "FILE NAME",
+      "anchor_px": [
+        878.0,
+        837.0
+      ]
+    },
+    {
+      "truth_id": "p2_T045",
+      "expected_text": "FSCM NO",
+      "anchor_px": [
+        1007.0,
+        836.0
+      ]
+    },
+    {
+      "truth_id": "p2_T046",
+      "expected_text": "SHEET",
+      "anchor_px": [
+        1175.0,
+        836.0
+      ]
+    },
+    {
+      "truth_id": "p2_T047",
+      "expected_text": "SCALE",
+      "anchor_px": [
+        1330.0,
+        836.0
+      ]
+    },
+    {
+      "truth_id": "p2_T048",
+      "expected_text": "SIZE",
+      "anchor_px": [
+        880.0,
+        874.0
+      ]
+    },
+    {
+      "truth_id": "p2_T049",
+      "expected_text": "DRAWN",
+      "anchor_px": [
+        883.0,
+        894.0
+      ]
+    },
+    {
+      "truth_id": "p2_T051",
+      "expected_text": "APPR.",
+      "anchor_px": [
+        884.0,
+        930.0
+      ]
+    },
+    {
+      "truth_id": "p2_T052",
+      "expected_text": "ISSUED",
+      "anchor_px": [
+        880.0,
+        951.0
+      ]
+    },
+    {
+      "truth_id": "p2_T053",
+      "expected_text": "REV",
+      "anchor_px": [
+        879.0,
+        974.0
+      ]
+    },
+    {
+      "truth_id": "p2_T054",
+      "expected_text": "CONTRACT NO",
+      "anchor_px": [
+        906.0,
+        1003.0
+      ]
+    },
+    {
+      "truth_id": "p2_T055",
+      "expected_text": "DWG NO",
+      "anchor_px": [
+        1164.0,
+        987.0
+      ]
+    }
+  ],
+  "extra_or_fragmented_groups": [
+    {
+      "text": "a",
+      "bbox_px": [
+        263.0,
+        119.0,
+        280.0,
+        136.0
+      ],
+      "source_box": 0,
+      "crop_px": [
+        261,
+        117,
+        282,
+        138
+      ],
+      "index": 0
+    },
+    {
+      "text": "©",
+      "bbox_px": [
+        934.0,
+        161.0,
+        943.0,
+        171.0
+      ],
+      "source_box": 1,
+      "crop_px": [
+        932,
+        159,
+        945,
+        173
+      ],
+      "index": 1
+    },
+    {
+      "text": "2x45°",
+      "bbox_px": [
+        495.0,
+        333.0,
+        525.0,
+        344.0
+      ],
+      "source_box": 2,
+      "crop_px": [
+        493,
+        331,
+        527,
+        346
+      ],
+      "index": 2
+    },
+    {
+      "text": "958",
+      "bbox_px": [
+        655.0,
+        429.0,
+        678.0,
+        442.0
+      ],
+      "source_box": 3,
+      "crop_px": [
+        653,
+        427,
+        680,
+        444
+      ],
+      "index": 3
+    },
+    {
+      "text": "sectiunea A-A",
+      "bbox_px": [
+        418.0,
+        548.0,
+        596.0,
+        578.0
+      ],
+      "source_box": 4,
+      "crop_px": [
+        416,
+        546,
+        598,
+        580
+      ],
+      "index": 4
+    },
+    {
+      "text": "30",
+      "bbox_px": [
+        501.0,
+        626.0,
+        516.0,
+        639.0
+      ],
+      "source_box": 5,
+      "crop_px": [
+        499,
+        624,
+        518,
+        641
+      ],
+      "index": 5
+    },
+    {
+      "text": "(ers earn Deep Aviad AD Alec Pt ag",
+      "bbox_px": [
+        949.0,
+        913.0,
+        1114.0,
+        931.0
+      ],
+      "source_box": 7,
+      "crop_px": [
+        947,
+        911,
+        1116,
+        933
+      ],
+      "index": 7
+    },
+    {
+      "text": "912",
+      "bbox_px": [
+        483.0,
+        961.0,
+        508.0,
+        976.0
+      ],
+      "source_box": 10,
+      "crop_px": [
+        481,
+        959,
+        510,
+        978
+      ],
+      "index": 10
+    },
+    {
+      "text": "G20",
+      "bbox_px": [
+        355.0,
+        1002.0,
+        381.0,
+        1015.0
+      ],
+      "source_box": 12,
+      "crop_px": [
+        353,
+        1000,
+        383,
+        1017
+      ],
+      "index": 12
+    },
+    {
+      "text": "Activate Windo",
+      "bbox_px": [
+        1461.0,
+        1080.0,
+        1599.0,
+        1103.0
+      ],
+      "source_box": 15,
+      "crop_px": [
+        1459,
+        1078,
+        1599,
+        1105
+      ],
+      "index": 15
+    },
+    {
+      "text": "<",
+      "bbox_px": [
+        967.33,
+        217.33,
+        982.67,
+        232.0
+      ],
+      "source_box": 18,
+      "crop_px": [
+        965,
+        215,
+        984,
+        234
+      ],
+      "index": 18
+    },
+    {
+      "text": "©",
+      "bbox_px": [
+        161.33,
+        802.0,
+        176.67,
+        816.67
+      ],
+      "source_box": 20,
+      "crop_px": [
+        159,
+        800,
+        178,
+        818
+      ],
+      "index": 20
+    },
+    {
+      "text": "cS",
+      "bbox_px": [
+        293.33,
+        918.0,
+        301.33,
+        926.0
+      ],
+      "source_box": 21,
+      "crop_px": [
+        291,
+        916,
+        303,
+        928
+      ],
+      "index": 21
+    },
+    {
+      "text": "| SIZE",
+      "bbox_px": [
+        939.33,
+        931.33,
+        966.0,
+        950.67
+      ],
+      "source_box": 22,
+      "crop_px": [
+        937,
+        929,
+        968,
+        952
+      ],
+      "index": 22
+    },
+    {
+      "text": "Tissue",
+      "bbox_px": [
+        936.0,
+        1024.0,
+        980.67,
+        1048.67
+      ],
+      "source_box": 24,
+      "crop_px": [
+        934,
+        1022,
+        982,
+        1050
+      ],
+      "index": 24
+    },
+    {
+      "text": "| REV",
+      "bbox_px": [
+        939.33,
+        1048.67,
+        967.33,
+        1070.0
+      ],
+      "source_box": 25,
+      "crop_px": [
+        937,
+        1046,
+        969,
+        1072
+      ],
+      "index": 25
+    },
+    {
+      "text": "lDw6 NO",
+      "bbox_px": [
+        1258.67,
+        1045.33,
+        1302.0,
+        1063.33
+      ],
+      "source_box": 26,
+      "crop_px": [
+        1256,
+        1043,
+        1304,
+        1065
+      ],
+      "index": 26
+    },
+    {
+      "text": "| CONTRACT KO",
+      "bbox_px": [
+        935.33,
+        1068.0,
+        994.67,
+        1097.33
+      ],
+      "source_box": 27,
+      "crop_px": [
+        933,
+        1066,
+        996,
+        1099
+      ],
+      "index": 27
+    }
+  ],
+  "matching_instances_diagnostic": [
+    {
+      "truth_id": "p2_T001",
+      "text": "A",
+      "observation_index": 17,
+      "anchor_distance_px": 16.0
+    },
+    {
+      "truth_id": "p2_T002",
+      "text": "A",
+      "observation_index": 16,
+      "anchor_distance_px": 72.5
+    },
+    {
+      "truth_id": "p2_T033",
+      "text": "91",
+      "observation_index": 19,
+      "anchor_distance_px": 63.8
+    },
+    {
+      "truth_id": "p2_T036",
+      "text": "R15",
+      "observation_index": 6,
+      "anchor_distance_px": 32.8
+    },
+    {
+      "truth_id": "p2_T042",
+      "text": "60",
+      "observation_index": 14,
+      "anchor_distance_px": 92.8
+    },
+    {
+      "truth_id": "p2_T050",
+      "text": "CHECK",
+      "observation_index": 23,
+      "anchor_distance_px": 105.4
+    },
+    {
+      "truth_id": "p2_T056",
+      "text": "A3",
+      "observation_index": 9,
+      "anchor_distance_px": 79.0
+    },
+    {
+      "truth_id": "p2_T057",
+      "text": "05/20/2024 NeaPi",
+      "observation_index": 11,
+      "anchor_distance_px": 89.6
+    },
+    {
+      "truth_id": "p2_T058",
+      "text": "1:1",
+      "observation_index": 8,
+      "anchor_distance_px": 123.6
+    },
+    {
+      "truth_id": "p2_T059",
+      "text": "Material Bengos",
+      "observation_index": 13,
+      "anchor_distance_px": 146.9
+    }
+  ],
+  "note": "Inventory counts and annotation matches are PROVISIONAL. No per-glyph spatial truth exists and truth coverage is not independently verified. Counts may cancel swapped or misplaced glyphs."
+}

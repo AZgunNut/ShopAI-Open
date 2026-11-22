@@ -1,0 +1,724 @@
+{
+  "engine": "PADDLE otsu_cw0 1060+1947",
+  "readings": [
+    {
+      "text": "Sactiurea A-A",
+      "bbox_px": [
+        534.0,
+        30.0,
+        593.0,
+        44.0
+      ],
+      "bbox_rotated_px": [
+        534.0,
+        30.0,
+        593.0,
+        44.0
+      ],
+      "alternatives": [
+        {
+          "text": "Sactiurea A-A",
+          "key": "SACTIUREAA-A",
+          "score": 0.67971,
+          "kind": "unclassified",
+          "parse_quality": -0.25,
+          "flags": [
+            "PARTIAL_DIMENSION_TOKEN"
+          ],
+          "confidence_peak": 0.745,
+          "whole_profiles": [
+            "1060"
+          ],
+          "profiles": [
+            "1060"
+          ],
+          "tile_samples": 0,
+          "support_examples": 1,
+          "style_bonus": 0.0
+        },
+        {
+          "text": "Sactiuraa A-A",
+          "key": "SACTIURAAA-A",
+          "score": 0.658,
+          "kind": "unclassified",
+          "parse_quality": -0.25,
+          "flags": [
+            "PARTIAL_DIMENSION_TOKEN"
+          ],
+          "confidence_peak": 0.699,
+          "whole_profiles": [
+            "1947"
+          ],
+          "profiles": [
+            "1947"
+          ],
+          "tile_samples": 0,
+          "support_examples": 1,
+          "style_bonus": 0.0
+        }
+      ]
+    },
+    {
+      "text": "060",
+      "bbox_px": [
+        551.0,
+        63.0,
+        579.0,
+        80.0
+      ],
+      "bbox_rotated_px": [
+        551.0,
+        63.0,
+        579.0,
+        80.0
+      ],
+      "alternatives": [
+        {
+          "text": "060",
+          "key": "060",
+          "score": 3.02212,
+          "kind": "linear_or_value",
+          "parse_quality": 1.8,
+          "flags": [],
+          "confidence_peak": 0.983,
+          "whole_profiles": [
+            "1060",
+            "1947"
+          ],
+          "profiles": [
+            "1060",
+            "1947"
+          ],
+          "tile_samples": 0,
+          "support_examples": 2,
+          "style_bonus": 0.0
+        }
+      ]
+    },
+    {
+      "text": "040",
+      "bbox_px": [
+        549.0,
+        92.0,
+        580.0,
+        112.0
+      ],
+      "bbox_rotated_px": [
+        549.0,
+        92.0,
+        580.0,
+        112.0
+      ],
+      "alternatives": [
+        {
+          "text": "040",
+          "key": "040",
+          "score": 3.01265,
+          "kind": "linear_or_value",
+          "parse_quality": 1.8,
+          "flags": [],
+          "confidence_peak": 0.963,
+          "whole_profiles": [
+            "1060",
+            "1947"
+          ],
+          "profiles": [
+            "1060",
+            "1947"
+          ],
+          "tile_samples": 0,
+          "support_examples": 2,
+          "style_bonus": 0.0
+        }
+      ]
+    },
+    {
+      "text": "016",
+      "bbox_px": [
+        261.0,
+        165.0,
+        288.0,
+        180.0
+      ],
+      "bbox_rotated_px": [
+        261.0,
+        165.0,
+        288.0,
+        180.0
+      ],
+      "alternatives": [
+        {
+          "text": "016",
+          "key": "016",
+          "score": 3.01201,
+          "kind": "linear_or_value",
+          "parse_quality": 1.8,
+          "flags": [],
+          "confidence_peak": 0.962,
+          "whole_profiles": [
+            "1060",
+            "1947"
+          ],
+          "profiles": [
+            "1060",
+            "1947"
+          ],
+          "tile_samples": 0,
+          "support_examples": 2,
+          "style_bonus": 0.0
+        }
+      ]
+    },
+    {
+      "text": "R15",
+      "bbox_px": [
+        68.0,
+        176.0,
+        91.0,
+        189.0
+      ],
+      "bbox_rotated_px": [
+        68.0,
+        176.0,
+        91.0,
+        189.0
+      ],
+      "alternatives": [
+        {
+          "text": "R15",
+          "key": "R15",
+          "score": 3.77974,
+          "kind": "radius",
+          "parse_quality": 2.2,
+          "flags": [],
+          "confidence_peak": 0.999,
+          "whole_profiles": [
+            "1060",
+            "1947"
+          ],
+          "profiles": [
+            "1060",
+            "1947"
+          ],
+          "tile_samples": 0,
+          "support_examples": 2,
+          "style_bonus": 0.35
+        }
+      ]
+    },
+    {
+      "text": "品",
+      "bbox_px": [
+        402.0,
+        213.0,
+        416.0,
+        228.0
+      ],
+      "bbox_rotated_px": [
+        402.0,
+        213.0,
+        416.0,
+        228.0
+      ],
+      "alternatives": [
+        {
+          "text": "品",
+          "key": "品",
+          "score": 0.9438,
+          "kind": "unclassified",
+          "parse_quality": -0.25,
+          "flags": [],
+          "confidence_peak": 0.923,
+          "whole_profiles": [
+            "1060",
+            "1947"
+          ],
+          "profiles": [
+            "1060",
+            "1947"
+          ],
+          "tile_samples": 0,
+          "support_examples": 2,
+          "style_bonus": 0.0
+        }
+      ]
+    },
+    {
+      "text": "030",
+      "bbox_px": [
+        551.0,
+        325.0,
+        578.0,
+        340.0
+      ],
+      "bbox_rotated_px": [
+        551.0,
+        325.0,
+        578.0,
+        340.0
+      ],
+      "alternatives": [
+        {
+          "text": "030",
+          "key": "030",
+          "score": 3.02277,
+          "kind": "linear_or_value",
+          "parse_quality": 1.8,
+          "flags": [],
+          "confidence_peak": 0.985,
+          "whole_profiles": [
+            "1060",
+            "1947"
+          ],
+          "profiles": [
+            "1060",
+            "1947"
+          ],
+          "tile_samples": 0,
+          "support_examples": 2,
+          "style_bonus": 0.0
+        }
+      ]
+    },
+    {
+      "text": "145",
+      "bbox_px": [
+        606.0,
+        395.0,
+        630.0,
+        411.0
+      ],
+      "bbox_rotated_px": [
+        606.0,
+        395.0,
+        630.0,
+        411.0
+      ],
+      "alternatives": [
+        {
+          "text": "145",
+          "key": "145",
+          "score": 3.02991,
+          "kind": "linear_or_value",
+          "parse_quality": 1.8,
+          "flags": [],
+          "confidence_peak": 1.0,
+          "whole_profiles": [
+            "1060",
+            "1947"
+          ],
+          "profiles": [
+            "1060",
+            "1947"
+          ],
+          "tile_samples": 0,
+          "support_examples": 2,
+          "style_bonus": 0.0
+        }
+      ]
+    },
+    {
+      "text": "50",
+      "bbox_px": [
+        496.0,
+        419.0,
+        514.0,
+        433.0
+      ],
+      "bbox_rotated_px": [
+        496.0,
+        419.0,
+        514.0,
+        433.0
+      ],
+      "alternatives": [
+        {
+          "text": "50",
+          "key": "50",
+          "score": 3.0299,
+          "kind": "linear_or_value",
+          "parse_quality": 1.8,
+          "flags": [],
+          "confidence_peak": 1.0,
+          "whole_profiles": [
+            "1060",
+            "1947"
+          ],
+          "profiles": [
+            "1060",
+            "1947"
+          ],
+          "tile_samples": 0,
+          "support_examples": 2,
+          "style_bonus": 0.0
+        }
+      ]
+    },
+    {
+      "text": "R15",
+      "bbox_px": [
+        629.0,
+        426.0,
+        655.0,
+        442.0
+      ],
+      "bbox_rotated_px": [
+        629.0,
+        426.0,
+        655.0,
+        442.0
+      ],
+      "alternatives": [
+        {
+          "text": "R15",
+          "key": "R15",
+          "score": 3.77977,
+          "kind": "radius",
+          "parse_quality": 2.2,
+          "flags": [],
+          "confidence_peak": 1.0,
+          "whole_profiles": [
+            "1060",
+            "1947"
+          ],
+          "profiles": [
+            "1060",
+            "1947"
+          ],
+          "tile_samples": 0,
+          "support_examples": 2,
+          "style_bonus": 0.35
+        }
+      ]
+    },
+    {
+      "text": "R15",
+      "bbox_px": [
+        405.0,
+        442.0,
+        431.0,
+        454.0
+      ],
+      "bbox_rotated_px": [
+        405.0,
+        442.0,
+        431.0,
+        454.0
+      ],
+      "alternatives": [
+        {
+          "text": "R15",
+          "key": "R15",
+          "score": 3.77957,
+          "kind": "radius",
+          "parse_quality": 2.2,
+          "flags": [],
+          "confidence_peak": 0.999,
+          "whole_profiles": [
+            "1060",
+            "1947"
+          ],
+          "profiles": [
+            "1060",
+            "1947"
+          ],
+          "tile_samples": 0,
+          "support_examples": 2,
+          "style_bonus": 0.35
+        }
+      ]
+    },
+    {
+      "text": "R15",
+      "bbox_px": [
+        874.0,
+        535.0,
+        897.0,
+        549.0
+      ],
+      "bbox_rotated_px": [
+        874.0,
+        535.0,
+        897.0,
+        549.0
+      ],
+      "alternatives": [
+        {
+          "text": "R15",
+          "key": "R15",
+          "score": 3.77938,
+          "kind": "radius",
+          "parse_quality": 2.2,
+          "flags": [],
+          "confidence_peak": 0.999,
+          "whole_profiles": [
+            "1060",
+            "1947"
+          ],
+          "profiles": [
+            "1060",
+            "1947"
+          ],
+          "tile_samples": 0,
+          "support_examples": 2,
+          "style_bonus": 0.35
+        }
+      ]
+    },
+    {
+      "text": "吕",
+      "bbox_px": [
+        368.0,
+        571.0,
+        381.0,
+        589.0
+      ],
+      "bbox_rotated_px": [
+        368.0,
+        571.0,
+        381.0,
+        589.0
+      ],
+      "alternatives": [
+        {
+          "text": "吕",
+          "key": "吕",
+          "score": 0.68513,
+          "kind": "unclassified",
+          "parse_quality": -0.25,
+          "flags": [],
+          "confidence_peak": 0.757,
+          "whole_profiles": [
+            "1060"
+          ],
+          "profiles": [
+            "1060"
+          ],
+          "tile_samples": 0,
+          "support_examples": 1,
+          "style_bonus": 0.0
+        }
+      ]
+    },
+    {
+      "text": "50",
+      "bbox_px": [
+        398.0,
+        633.0,
+        412.0,
+        647.0
+      ],
+      "bbox_rotated_px": [
+        398.0,
+        633.0,
+        412.0,
+        647.0
+      ],
+      "alternatives": [
+        {
+          "text": "50",
+          "key": "50",
+          "score": 2.90922,
+          "kind": "linear_or_value",
+          "parse_quality": 1.8,
+          "flags": [],
+          "confidence_peak": 0.744,
+          "whole_profiles": [
+            "1060",
+            "1947"
+          ],
+          "profiles": [
+            "1060",
+            "1947"
+          ],
+          "tile_samples": 0,
+          "support_examples": 2,
+          "style_bonus": 0.0
+        }
+      ]
+    },
+    {
+      "text": "42",
+      "bbox_px": [
+        852.0,
+        641.0,
+        865.0,
+        655.0
+      ],
+      "bbox_rotated_px": [
+        852.0,
+        641.0,
+        865.0,
+        655.0
+      ],
+      "alternatives": [
+        {
+          "text": "42",
+          "key": "42",
+          "score": 3.00624,
+          "kind": "linear_or_value",
+          "parse_quality": 1.8,
+          "flags": [],
+          "confidence_peak": 0.95,
+          "whole_profiles": [
+            "1060",
+            "1947"
+          ],
+          "profiles": [
+            "1060",
+            "1947"
+          ],
+          "tile_samples": 0,
+          "support_examples": 2,
+          "style_bonus": 0.0
+        }
+      ]
+    },
+    {
+      "text": "45",
+      "bbox_px": [
+        608.0,
+        663.0,
+        629.0,
+        680.0
+      ],
+      "bbox_rotated_px": [
+        608.0,
+        663.0,
+        629.0,
+        680.0
+      ],
+      "alternatives": [
+        {
+          "text": "45",
+          "key": "45",
+          "score": 3.0299,
+          "kind": "linear_or_value",
+          "parse_quality": 1.8,
+          "flags": [],
+          "confidence_peak": 1.0,
+          "whole_profiles": [
+            "1060",
+            "1947"
+          ],
+          "profiles": [
+            "1060",
+            "1947"
+          ],
+          "tile_samples": 0,
+          "support_examples": 2,
+          "style_bonus": 0.0
+        }
+      ]
+    },
+    {
+      "text": "R15",
+      "bbox_px": [
+        366.0,
+        716.0,
+        395.0,
+        736.0
+      ],
+      "bbox_rotated_px": [
+        366.0,
+        716.0,
+        395.0,
+        736.0
+      ],
+      "alternatives": [
+        {
+          "text": "R15",
+          "key": "R15",
+          "score": 3.77945,
+          "kind": "radius",
+          "parse_quality": 2.2,
+          "flags": [],
+          "confidence_peak": 0.999,
+          "whole_profiles": [
+            "1060",
+            "1947"
+          ],
+          "profiles": [
+            "1060",
+            "1947"
+          ],
+          "tile_samples": 0,
+          "support_examples": 2,
+          "style_bonus": 0.35
+        }
+      ]
+    },
+    {
+      "text": "R15",
+      "bbox_px": [
+        740.0,
+        716.0,
+        768.0,
+        733.0
+      ],
+      "bbox_rotated_px": [
+        740.0,
+        716.0,
+        768.0,
+        733.0
+      ],
+      "alternatives": [
+        {
+          "text": "R15",
+          "key": "R15",
+          "score": 3.77636,
+          "kind": "radius",
+          "parse_quality": 2.2,
+          "flags": [],
+          "confidence_peak": 0.992,
+          "whole_profiles": [
+            "1060",
+            "1947"
+          ],
+          "profiles": [
+            "1060",
+            "1947"
+          ],
+          "tile_samples": 0,
+          "support_examples": 2,
+          "style_bonus": 0.35
+        }
+      ]
+    },
+    {
+      "text": "0",
+      "bbox_px": [
+        682.0,
+        468.0,
+        707.33,
+        496.67
+      ],
+      "bbox_rotated_px": [
+        682.0,
+        468.0,
+        707.33,
+        496.67
+      ],
+      "alternatives": [
+        {
+          "text": "0",
+          "key": "0",
+          "score": 2.6331,
+          "kind": "linear_or_value",
+          "parse_quality": 1.8,
+          "flags": [],
+          "confidence_peak": 0.541,
+          "whole_profiles": [
+            "1947"
+          ],
+          "profiles": [
+            "1947"
+          ],
+          "tile_samples": 0,
+          "support_examples": 1,
+          "style_bonus": 0.0
+        }
+      ]
+    }
+  ]
+}

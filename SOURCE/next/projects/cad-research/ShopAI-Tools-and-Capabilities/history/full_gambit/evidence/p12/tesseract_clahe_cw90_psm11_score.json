@@ -1,0 +1,82 @@
+{
+  "truth_file": "/mnt/shopai-data-new/cad-research/experiments/qwen-3-drawing-20261030-173652-610108/shopai_three_drawing_truth/batch_lab/ocr_outline_eight_v1/truths/p12.truth.json",
+  "prediction_file": "/mnt/shopai-data-new/cad-research/experiments/qwen-3-drawing-20261030-173652-610108/shopai_three_drawing_truth/batch_lab/ocr_outline_eight_v1/results/full_gambit_20261108T191855Z_740546_12852/p12/tesseract_clahe_cw90_psm11_score_readings.json",
+  "truth_coverage_certified": false,
+  "certified_100_percent": false,
+  "truth_gap_count": 1,
+  "ground_truth_pending_review": 1,
+  "expected_provisional_character_instances": 2,
+  "observed_character_instances": 8,
+  "character_inventory_overlap_provisional": 1,
+  "character_inventory_pct_provisional": 50.0,
+  "missing_characters": {
+    "4": 1
+  },
+  "extra_characters": {
+    "A": 1,
+    "N": 1,
+    "S": 3,
+    "Y": 1,
+    "o": 1
+  },
+  "provisional_annotation_matches": 0,
+  "provisional_annotation_total": 1,
+  "missing_annotations": [
+    {
+      "truth_id": "p12_T001",
+      "expected_text": "R4",
+      "anchor_px": [
+        10.0,
+        651.0
+      ]
+    }
+  ],
+  "extra_or_fragmented_groups": [
+    {
+      "text": "SS",
+      "confidence": 0.4522,
+      "bbox_px": [
+        0.0,
+        658.0,
+        61.0,
+        934.0
+      ],
+      "index": 0
+    },
+    {
+      "text": "SN",
+      "confidence": 0.5878,
+      "bbox_px": [
+        201.0,
+        197.0,
+        368.0,
+        525.0
+      ],
+      "index": 1
+    },
+    {
+      "text": "Ao",
+      "confidence": 0.1417,
+      "bbox_px": [
+        575.0,
+        721.0,
+        643.0,
+        907.0
+      ],
+      "index": 2
+    },
+    {
+      "text": "RY",
+      "confidence": 0.2698,
+      "bbox_px": [
+        369.0,
+        132.0,
+        688.0,
+        527.0
+      ],
+      "index": 3
+    }
+  ],
+  "matching_instances_diagnostic": [],
+  "note": "Inventory counts and annotation matches are PROVISIONAL. No per-glyph spatial truth exists and truth coverage is not independently verified. Counts may cancel swapped or misplaced glyphs."
+}

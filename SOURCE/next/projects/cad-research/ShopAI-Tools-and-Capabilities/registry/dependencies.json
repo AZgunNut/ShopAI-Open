@@ -1,0 +1,27 @@
+{
+  "virtualenvs": {
+    "paddleocr": "/mnt/shopai-data-new/cad-research/environments/paddleocr/bin/python",
+    "common": "/mnt/shopai-data-new/cad-research/environments/common/bin/python",
+    "edocr2": "/mnt/shopai-data-new/cad-research/environments/edocr2/bin/python",
+    "vtracer-standalone-v1": "/mnt/shopai-data-new/cad-research/environments/vtracer-standalone-v1/bin/python"
+  },
+  "edocr2_pythonpath_order": [
+    "/mnt/shopai-data-new/cad-research/ShopAI-Tools-and-Capabilities/dependencies/imgaug-numpy2",
+    "/mnt/shopai-data-new/cad-research/ShopAI-Tools-and-Capabilities/dependencies/closure-added",
+    "/mnt/shopai-data-new/cad-research/ShopAI-Tools-and-Capabilities/dependencies/keras-added",
+    "/mnt/shopai-data-new/cad-research/ShopAI-Tools-and-Capabilities/dependencies/original-added",
+    "/mnt/shopai-data-new/cad-research/ShopAI-Tools-and-Capabilities/sources/eDOCr2-native-p5-resize-patched"
+  ],
+  "edocr2_tessdata": "/mnt/shopai-data-new/cad-research/ShopAI-Tools-and-Capabilities/models/tessdata",
+  "edocr2_weights": "/mnt/shopai-data-new/cad-research/ShopAI-Tools-and-Capabilities/models/edocr2",
+  "edocr2_symbol_templates": "/mnt/shopai-data-new/cad-research/ShopAI-Tools-and-Capabilities/sources/eDOCr2-native-p5-resize-patched/edocr2/tools/symbol_match",
+  "cadocr_paddle_models": "/mnt/shopai-data-new/cad-research/ShopAI-Tools-and-Capabilities/models/paddle-v6",
+  "cadocr_ezdxf_sitepackages": "/mnt/shopai-data-new/cad-research/environments/common/lib/python3.12/site-packages",
+  "dual_profiles": {
+    "1060": "Otsu/black ink",
+    "1947": "sharpened/enlarged color",
+    "selector": "selector_v2.py",
+    "original_source": "/mnt/shopai-data-new/cad-research/experiments/qwen-3-drawing-20261030-173652-610108/shopai_three_drawing_truth/batch_lab/baseline/ocr_selector",
+    "archived_launcher_verified": false
+  }
+}

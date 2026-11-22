@@ -1,0 +1,1578 @@
+[
+  {
+    "method": "CADOCR_tesseract_p9",
+    "status": "output",
+    "returncode": 0,
+    "seconds": 3.0,
+    "outputs": [
+      {
+        "path": "native_output/p9.txt",
+        "bytes": 44
+      },
+      {
+        "path": "native_output/p9.json",
+        "bytes": 10649
+      },
+      {
+        "path": "native_output/p9.dxf",
+        "bytes": 27027
+      }
+    ],
+    "reason": "",
+    "argv": [
+      "/mnt/shopai-data-new/cad-research/environments/common/bin/python",
+      "-B",
+      "-c",
+      "from cadocr.cli import main; main()",
+      "/mnt/shopai-data-new/cad-research/experiments/qwen-3-drawing-20261030-173652-610108/shopai_three_drawing_truth/batch_lab/ocr_outline_eight_v1/images/p9.png",
+      "-o",
+      "native_output",
+      "--engine",
+      "tesseract"
+    ]
+  },
+  {
+    "method": "CADOCR_paddle_p9",
+    "status": "failed",
+    "returncode": 1,
+    "seconds": 1.0,
+    "outputs": [],
+    "reason": "",
+    "argv": [
+      "/mnt/shopai-data-new/cad-research/environments/paddleocr/bin/python",
+      "-B",
+      "-c",
+      "from cadocr.cli import main; main()",
+      "/mnt/shopai-data-new/cad-research/experiments/qwen-3-drawing-20261030-173652-610108/shopai_three_drawing_truth/batch_lab/ocr_outline_eight_v1/images/p9.png",
+      "-o",
+      "native_output",
+      "--engine",
+      "paddle"
+    ]
+  },
+  {
+    "method": "CADOCR_geometry_p9",
+    "status": "output",
+    "returncode": 0,
+    "seconds": 1.0,
+    "outputs": [
+      {
+        "path": "native_output/p9.txt",
+        "bytes": 0
+      },
+      {
+        "path": "native_output/p9.json",
+        "bytes": 10229
+      },
+      {
+        "path": "native_output/p9.dxf",
+        "bytes": 28118
+      }
+    ],
+    "reason": "",
+    "argv": [
+      "/mnt/shopai-data-new/cad-research/environments/common/bin/python",
+      "-B",
+      "-c",
+      "from cadocr.cli import main; main()",
+      "/mnt/shopai-data-new/cad-research/experiments/qwen-3-drawing-20261030-173652-610108/shopai_three_drawing_truth/batch_lab/ocr_outline_eight_v1/images/p9.png",
+      "-o",
+      "native_output",
+      "--no-ocr"
+    ]
+  },
+  {
+    "method": "CADOCR_tesseract_p15",
+    "status": "output",
+    "returncode": 0,
+    "seconds": 1.0,
+    "outputs": [
+      {
+        "path": "native_output/p15.txt",
+        "bytes": 28
+      },
+      {
+        "path": "native_output/p15.json",
+        "bytes": 15743
+      },
+      {
+        "path": "native_output/p15.dxf",
+        "bytes": 33952
+      }
+    ],
+    "reason": "",
+    "argv": [
+      "/mnt/shopai-data-new/cad-research/environments/common/bin/python",
+      "-B",
+      "-c",
+      "from cadocr.cli import main; main()",
+      "/mnt/shopai-data-new/cad-research/experiments/qwen-3-drawing-20261030-173652-610108/shopai_three_drawing_truth/batch_lab/ocr_outline_eight_v1/images/p15.png",
+      "-o",
+      "native_output",
+      "--engine",
+      "tesseract"
+    ]
+  },
+  {
+    "method": "CADOCR_paddle_p15",
+    "status": "failed",
+    "returncode": 1,
+    "seconds": 1.0,
+    "outputs": [],
+    "reason": "",
+    "argv": [
+      "/mnt/shopai-data-new/cad-research/environments/paddleocr/bin/python",
+      "-B",
+      "-c",
+      "from cadocr.cli import main; main()",
+      "/mnt/shopai-data-new/cad-research/experiments/qwen-3-drawing-20261030-173652-610108/shopai_three_drawing_truth/batch_lab/ocr_outline_eight_v1/images/p15.png",
+      "-o",
+      "native_output",
+      "--engine",
+      "paddle"
+    ]
+  },
+  {
+    "method": "CADOCR_geometry_p15",
+    "status": "output",
+    "returncode": 0,
+    "seconds": 1.0,
+    "outputs": [
+      {
+        "path": "native_output/p15.txt",
+        "bytes": 0
+      },
+      {
+        "path": "native_output/p15.json",
+        "bytes": 14420
+      },
+      {
+        "path": "native_output/p15.dxf",
+        "bytes": 33526
+      }
+    ],
+    "reason": "",
+    "argv": [
+      "/mnt/shopai-data-new/cad-research/environments/common/bin/python",
+      "-B",
+      "-c",
+      "from cadocr.cli import main; main()",
+      "/mnt/shopai-data-new/cad-research/experiments/qwen-3-drawing-20261030-173652-610108/shopai_three_drawing_truth/batch_lab/ocr_outline_eight_v1/images/p15.png",
+      "-o",
+      "native_output",
+      "--no-ocr"
+    ]
+  },
+  {
+    "method": "CADOCR_tesseract_p20",
+    "status": "output",
+    "returncode": 0,
+    "seconds": 1.0,
+    "outputs": [
+      {
+        "path": "native_output/p20.txt",
+        "bytes": 5
+      },
+      {
+        "path": "native_output/p20.dxf",
+        "bytes": 29837
+      },
+      {
+        "path": "native_output/p20.json",
+        "bytes": 11666
+      }
+    ],
+    "reason": "",
+    "argv": [
+      "/mnt/shopai-data-new/cad-research/environments/common/bin/python",
+      "-B",
+      "-c",
+      "from cadocr.cli import main; main()",
+      "/mnt/shopai-data-new/cad-research/experiments/qwen-3-drawing-20261030-173652-610108/shopai_three_drawing_truth/batch_lab/ocr_outline_eight_v1/images/p20.png",
+      "-o",
+      "native_output",
+      "--engine",
+      "tesseract"
+    ]
+  },
+  {
+    "method": "CADOCR_paddle_p20",
+    "status": "failed",
+    "returncode": 1,
+    "seconds": 1.0,
+    "outputs": [],
+    "reason": "",
+    "argv": [
+      "/mnt/shopai-data-new/cad-research/environments/paddleocr/bin/python",
+      "-B",
+      "-c",
+      "from cadocr.cli import main; main()",
+      "/mnt/shopai-data-new/cad-research/experiments/qwen-3-drawing-20261030-173652-610108/shopai_three_drawing_truth/batch_lab/ocr_outline_eight_v1/images/p20.png",
+      "-o",
+      "native_output",
+      "--engine",
+      "paddle"
+    ]
+  },
+  {
+    "method": "CADOCR_geometry_p20",
+    "status": "output",
+    "returncode": 0,
+    "seconds": 1.0,
+    "outputs": [
+      {
+        "path": "native_output/p20.txt",
+        "bytes": 0
+      },
+      {
+        "path": "native_output/p20.dxf",
+        "bytes": 30966
+      },
+      {
+        "path": "native_output/p20.json",
+        "bytes": 12367
+      }
+    ],
+    "reason": "",
+    "argv": [
+      "/mnt/shopai-data-new/cad-research/environments/common/bin/python",
+      "-B",
+      "-c",
+      "from cadocr.cli import main; main()",
+      "/mnt/shopai-data-new/cad-research/experiments/qwen-3-drawing-20261030-173652-610108/shopai_three_drawing_truth/batch_lab/ocr_outline_eight_v1/images/p20.png",
+      "-o",
+      "native_output",
+      "--no-ocr"
+    ]
+  },
+  {
+    "method": "CADOCR_tesseract_p12",
+    "status": "output",
+    "returncode": 0,
+    "seconds": 1.0,
+    "outputs": [
+      {
+        "path": "native_output/p12.txt",
+        "bytes": 15
+      },
+      {
+        "path": "native_output/p12.dxf",
+        "bytes": 25199
+      },
+      {
+        "path": "native_output/p12.json",
+        "bytes": 8418
+      }
+    ],
+    "reason": "",
+    "argv": [
+      "/mnt/shopai-data-new/cad-research/environments/common/bin/python",
+      "-B",
+      "-c",
+      "from cadocr.cli import main; main()",
+      "/mnt/shopai-data-new/cad-research/experiments/qwen-3-drawing-20261030-173652-610108/shopai_three_drawing_truth/batch_lab/ocr_outline_eight_v1/images/p12.png",
+      "-o",
+      "native_output",
+      "--engine",
+      "tesseract"
+    ]
+  },
+  {
+    "method": "CADOCR_paddle_p12",
+    "status": "failed",
+    "returncode": 1,
+    "seconds": 1.0,
+    "outputs": [],
+    "reason": "",
+    "argv": [
+      "/mnt/shopai-data-new/cad-research/environments/paddleocr/bin/python",
+      "-B",
+      "-c",
+      "from cadocr.cli import main; main()",
+      "/mnt/shopai-data-new/cad-research/experiments/qwen-3-drawing-20261030-173652-610108/shopai_three_drawing_truth/batch_lab/ocr_outline_eight_v1/images/p12.png",
+      "-o",
+      "native_output",
+      "--engine",
+      "paddle"
+    ]
+  },
+  {
+    "method": "CADOCR_geometry_p12",
+    "status": "output",
+    "returncode": 0,
+    "seconds": 1.0,
+    "outputs": [
+      {
+        "path": "native_output/p12.txt",
+        "bytes": 0
+      },
+      {
+        "path": "native_output/p12.dxf",
+        "bytes": 24712
+      },
+      {
+        "path": "native_output/p12.json",
+        "bytes": 7552
+      }
+    ],
+    "reason": "",
+    "argv": [
+      "/mnt/shopai-data-new/cad-research/environments/common/bin/python",
+      "-B",
+      "-c",
+      "from cadocr.cli import main; main()",
+      "/mnt/shopai-data-new/cad-research/experiments/qwen-3-drawing-20261030-173652-610108/shopai_three_drawing_truth/batch_lab/ocr_outline_eight_v1/images/p12.png",
+      "-o",
+      "native_output",
+      "--no-ocr"
+    ]
+  },
+  {
+    "method": "CADOCR_tesseract_P1",
+    "status": "output",
+    "returncode": 0,
+    "seconds": 1.0,
+    "outputs": [
+      {
+        "path": "native_output/P1.txt",
+        "bytes": 115
+      },
+      {
+        "path": "native_output/P1.json",
+        "bytes": 15752
+      },
+      {
+        "path": "native_output/P1.dxf",
+        "bytes": 31479
+      }
+    ],
+    "reason": "",
+    "argv": [
+      "/mnt/shopai-data-new/cad-research/environments/common/bin/python",
+      "-B",
+      "-c",
+      "from cadocr.cli import main; main()",
+      "/mnt/shopai-data-new/cad-research/experiments/qwen-3-drawing-20261030-173652-610108/shopai_three_drawing_truth/batch_lab/ocr_outline_eight_v1/images/P1.png",
+      "-o",
+      "native_output",
+      "--engine",
+      "tesseract"
+    ]
+  },
+  {
+    "method": "CADOCR_paddle_P1",
+    "status": "failed",
+    "returncode": 1,
+    "seconds": 1.0,
+    "outputs": [],
+    "reason": "",
+    "argv": [
+      "/mnt/shopai-data-new/cad-research/environments/paddleocr/bin/python",
+      "-B",
+      "-c",
+      "from cadocr.cli import main; main()",
+      "/mnt/shopai-data-new/cad-research/experiments/qwen-3-drawing-20261030-173652-610108/shopai_three_drawing_truth/batch_lab/ocr_outline_eight_v1/images/P1.png",
+      "-o",
+      "native_output",
+      "--engine",
+      "paddle"
+    ]
+  },
+  {
+    "method": "CADOCR_geometry_P1",
+    "status": "output",
+    "returncode": 0,
+    "seconds": 1.0,
+    "outputs": [
+      {
+        "path": "native_output/P1.txt",
+        "bytes": 0
+      },
+      {
+        "path": "native_output/P1.json",
+        "bytes": 13118
+      },
+      {
+        "path": "native_output/P1.dxf",
+        "bytes": 31799
+      }
+    ],
+    "reason": "",
+    "argv": [
+      "/mnt/shopai-data-new/cad-research/environments/common/bin/python",
+      "-B",
+      "-c",
+      "from cadocr.cli import main; main()",
+      "/mnt/shopai-data-new/cad-research/experiments/qwen-3-drawing-20261030-173652-610108/shopai_three_drawing_truth/batch_lab/ocr_outline_eight_v1/images/P1.png",
+      "-o",
+      "native_output",
+      "--no-ocr"
+    ]
+  },
+  {
+    "method": "CADOCR_tesseract_p2",
+    "status": "output",
+    "returncode": 0,
+    "seconds": 1.0,
+    "outputs": [
+      {
+        "path": "native_output/p2.txt",
+        "bytes": 86
+      },
+      {
+        "path": "native_output/p2.json",
+        "bytes": 9123
+      },
+      {
+        "path": "native_output/p2.dxf",
+        "bytes": 24245
+      }
+    ],
+    "reason": "",
+    "argv": [
+      "/mnt/shopai-data-new/cad-research/environments/common/bin/python",
+      "-B",
+      "-c",
+      "from cadocr.cli import main; main()",
+      "/mnt/shopai-data-new/cad-research/experiments/qwen-3-drawing-20261030-173652-610108/shopai_three_drawing_truth/batch_lab/ocr_outline_eight_v1/images/p2.png",
+      "-o",
+      "native_output",
+      "--engine",
+      "tesseract"
+    ]
+  },
+  {
+    "method": "CADOCR_paddle_p2",
+    "status": "failed",
+    "returncode": 1,
+    "seconds": 1.0,
+    "outputs": [],
+    "reason": "",
+    "argv": [
+      "/mnt/shopai-data-new/cad-research/environments/paddleocr/bin/python",
+      "-B",
+      "-c",
+      "from cadocr.cli import main; main()",
+      "/mnt/shopai-data-new/cad-research/experiments/qwen-3-drawing-20261030-173652-610108/shopai_three_drawing_truth/batch_lab/ocr_outline_eight_v1/images/p2.png",
+      "-o",
+      "native_output",
+      "--engine",
+      "paddle"
+    ]
+  },
+  {
+    "method": "CADOCR_geometry_p2",
+    "status": "output",
+    "returncode": 0,
+    "seconds": 1.0,
+    "outputs": [
+      {
+        "path": "native_output/p2.txt",
+        "bytes": 0
+      },
+      {
+        "path": "native_output/p2.json",
+        "bytes": 7025
+      },
+      {
+        "path": "native_output/p2.dxf",
+        "bytes": 24128
+      }
+    ],
+    "reason": "",
+    "argv": [
+      "/mnt/shopai-data-new/cad-research/environments/common/bin/python",
+      "-B",
+      "-c",
+      "from cadocr.cli import main; main()",
+      "/mnt/shopai-data-new/cad-research/experiments/qwen-3-drawing-20261030-173652-610108/shopai_three_drawing_truth/batch_lab/ocr_outline_eight_v1/images/p2.png",
+      "-o",
+      "native_output",
+      "--no-ocr"
+    ]
+  },
+  {
+    "method": "CADOCR_tesseract_p5",
+    "status": "output",
+    "returncode": 0,
+    "seconds": 1.0,
+    "outputs": [
+      {
+        "path": "native_output/p5.txt",
+        "bytes": 107
+      },
+      {
+        "path": "native_output/p5.dxf",
+        "bytes": 69601
+      },
+      {
+        "path": "native_output/p5.json",
+        "bytes": 45632
+      }
+    ],
+    "reason": "",
+    "argv": [
+      "/mnt/shopai-data-new/cad-research/environments/common/bin/python",
+      "-B",
+      "-c",
+      "from cadocr.cli import main; main()",
+      "/mnt/shopai-data-new/cad-research/experiments/qwen-3-drawing-20261030-173652-610108/shopai_three_drawing_truth/batch_lab/ocr_outline_eight_v1/images/p5.png",
+      "-o",
+      "native_output",
+      "--engine",
+      "tesseract"
+    ]
+  },
+  {
+    "method": "CADOCR_paddle_p5",
+    "status": "failed",
+    "returncode": 1,
+    "seconds": 1.0,
+    "outputs": [],
+    "reason": "",
+    "argv": [
+      "/mnt/shopai-data-new/cad-research/environments/paddleocr/bin/python",
+      "-B",
+      "-c",
+      "from cadocr.cli import main; main()",
+      "/mnt/shopai-data-new/cad-research/experiments/qwen-3-drawing-20261030-173652-610108/shopai_three_drawing_truth/batch_lab/ocr_outline_eight_v1/images/p5.png",
+      "-o",
+      "native_output",
+      "--engine",
+      "paddle"
+    ]
+  },
+  {
+    "method": "CADOCR_geometry_p5",
+    "status": "output",
+    "returncode": 0,
+    "seconds": 1.0,
+    "outputs": [
+      {
+        "path": "native_output/p5.txt",
+        "bytes": 0
+      },
+      {
+        "path": "native_output/p5.dxf",
+        "bytes": 67750
+      },
+      {
+        "path": "native_output/p5.json",
+        "bytes": 40975
+      }
+    ],
+    "reason": "",
+    "argv": [
+      "/mnt/shopai-data-new/cad-research/environments/common/bin/python",
+      "-B",
+      "-c",
+      "from cadocr.cli import main; main()",
+      "/mnt/shopai-data-new/cad-research/experiments/qwen-3-drawing-20261030-173652-610108/shopai_three_drawing_truth/batch_lab/ocr_outline_eight_v1/images/p5.png",
+      "-o",
+      "native_output",
+      "--no-ocr"
+    ]
+  },
+  {
+    "method": "CADOCR_tesseract_p27",
+    "status": "output",
+    "returncode": 0,
+    "seconds": 1.0,
+    "outputs": [
+      {
+        "path": "native_output/p27.txt",
+        "bytes": 105
+      },
+      {
+        "path": "native_output/p27.json",
+        "bytes": 23279
+      },
+      {
+        "path": "native_output/p27.dxf",
+        "bytes": 41192
+      }
+    ],
+    "reason": "",
+    "argv": [
+      "/mnt/shopai-data-new/cad-research/environments/common/bin/python",
+      "-B",
+      "-c",
+      "from cadocr.cli import main; main()",
+      "/mnt/shopai-data-new/cad-research/experiments/qwen-3-drawing-20261030-173652-610108/shopai_three_drawing_truth/batch_lab/ocr_outline_eight_v1/images/p27.png",
+      "-o",
+      "native_output",
+      "--engine",
+      "tesseract"
+    ]
+  },
+  {
+    "method": "CADOCR_paddle_p27",
+    "status": "failed",
+    "returncode": 1,
+    "seconds": 1.0,
+    "outputs": [],
+    "reason": "",
+    "argv": [
+      "/mnt/shopai-data-new/cad-research/environments/paddleocr/bin/python",
+      "-B",
+      "-c",
+      "from cadocr.cli import main; main()",
+      "/mnt/shopai-data-new/cad-research/experiments/qwen-3-drawing-20261030-173652-610108/shopai_three_drawing_truth/batch_lab/ocr_outline_eight_v1/images/p27.png",
+      "-o",
+      "native_output",
+      "--engine",
+      "paddle"
+    ]
+  },
+  {
+    "method": "CADOCR_geometry_p27",
+    "status": "output",
+    "returncode": 0,
+    "seconds": 1.0,
+    "outputs": [
+      {
+        "path": "native_output/p27.txt",
+        "bytes": 0
+      },
+      {
+        "path": "native_output/p27.json",
+        "bytes": 29513
+      },
+      {
+        "path": "native_output/p27.dxf",
+        "bytes": 52543
+      }
+    ],
+    "reason": "",
+    "argv": [
+      "/mnt/shopai-data-new/cad-research/environments/common/bin/python",
+      "-B",
+      "-c",
+      "from cadocr.cli import main; main()",
+      "/mnt/shopai-data-new/cad-research/experiments/qwen-3-drawing-20261030-173652-610108/shopai_three_drawing_truth/batch_lab/ocr_outline_eight_v1/images/p27.png",
+      "-o",
+      "native_output",
+      "--no-ocr"
+    ]
+  },
+  {
+    "method": "DRAWING_TO_DXF_geometry_p9",
+    "status": "output",
+    "returncode": 0,
+    "seconds": 4.0,
+    "outputs": [
+      {
+        "path": "native_output/p9_assembly_layers.dxf",
+        "bytes": 77349
+      },
+      {
+        "path": "native_output/p9_manifest.json",
+        "bytes": 7043
+      }
+    ],
+    "reason": "",
+    "argv": [
+      "/mnt/shopai-data-new/cad-research/environments/common/bin/python",
+      "-B",
+      "-c",
+      "import sys,importlib;m,f=sys.argv[1].split(\":\");sys.argv=[\"drawing-to-dxf\"]+sys.argv[2:];getattr(importlib.import_module(m),f)()",
+      "drawing_to_dxf.cli:main",
+      "/mnt/shopai-data-new/cad-research/experiments/qwen-3-drawing-20261030-173652-610108/shopai_three_drawing_truth/batch_lab/ocr_outline_eight_v1/images/p9.png",
+      "-o",
+      "native_output",
+      "--skip-ocr"
+    ]
+  },
+  {
+    "method": "DRAWING_TO_DXF_full_p9",
+    "status": "output",
+    "returncode": 0,
+    "seconds": 2.0,
+    "outputs": [
+      {
+        "path": "native_output/p9_assembly_layers.dxf",
+        "bytes": 77347
+      },
+      {
+        "path": "native_output/p9_manifest.json",
+        "bytes": 7255
+      }
+    ],
+    "reason": "",
+    "argv": [
+      "/mnt/shopai-data-new/cad-research/environments/common/bin/python",
+      "-B",
+      "-c",
+      "import sys,importlib;m,f=sys.argv[1].split(\":\");sys.argv=[\"drawing-to-dxf\"]+sys.argv[2:];getattr(importlib.import_module(m),f)()",
+      "drawing_to_dxf.cli:main",
+      "/mnt/shopai-data-new/cad-research/experiments/qwen-3-drawing-20261030-173652-610108/shopai_three_drawing_truth/batch_lab/ocr_outline_eight_v1/images/p9.png",
+      "-o",
+      "native_output"
+    ]
+  },
+  {
+    "method": "DRAWING_TO_DXF_geometry_p15",
+    "status": "output",
+    "returncode": 0,
+    "seconds": 2.0,
+    "outputs": [
+      {
+        "path": "native_output/p15_manifest.json",
+        "bytes": 7046
+      },
+      {
+        "path": "native_output/p15_assembly_layers.dxf",
+        "bytes": 84076
+      }
+    ],
+    "reason": "",
+    "argv": [
+      "/mnt/shopai-data-new/cad-research/environments/common/bin/python",
+      "-B",
+      "-c",
+      "import sys,importlib;m,f=sys.argv[1].split(\":\");sys.argv=[\"drawing-to-dxf\"]+sys.argv[2:];getattr(importlib.import_module(m),f)()",
+      "drawing_to_dxf.cli:main",
+      "/mnt/shopai-data-new/cad-research/experiments/qwen-3-drawing-20261030-173652-610108/shopai_three_drawing_truth/batch_lab/ocr_outline_eight_v1/images/p15.png",
+      "-o",
+      "native_output",
+      "--skip-ocr"
+    ]
+  },
+  {
+    "method": "DRAWING_TO_DXF_full_p15",
+    "status": "output",
+    "returncode": 0,
+    "seconds": 2.0,
+    "outputs": [
+      {
+        "path": "native_output/p15_manifest.json",
+        "bytes": 7258
+      },
+      {
+        "path": "native_output/p15_assembly_layers.dxf",
+        "bytes": 84078
+      }
+    ],
+    "reason": "",
+    "argv": [
+      "/mnt/shopai-data-new/cad-research/environments/common/bin/python",
+      "-B",
+      "-c",
+      "import sys,importlib;m,f=sys.argv[1].split(\":\");sys.argv=[\"drawing-to-dxf\"]+sys.argv[2:];getattr(importlib.import_module(m),f)()",
+      "drawing_to_dxf.cli:main",
+      "/mnt/shopai-data-new/cad-research/experiments/qwen-3-drawing-20261030-173652-610108/shopai_three_drawing_truth/batch_lab/ocr_outline_eight_v1/images/p15.png",
+      "-o",
+      "native_output"
+    ]
+  },
+  {
+    "method": "DRAWING_TO_DXF_geometry_p20",
+    "status": "output",
+    "returncode": 0,
+    "seconds": 2.0,
+    "outputs": [
+      {
+        "path": "native_output/p20_assembly_layers.dxf",
+        "bytes": 79242
+      },
+      {
+        "path": "native_output/p20_manifest.json",
+        "bytes": 7045
+      }
+    ],
+    "reason": "",
+    "argv": [
+      "/mnt/shopai-data-new/cad-research/environments/common/bin/python",
+      "-B",
+      "-c",
+      "import sys,importlib;m,f=sys.argv[1].split(\":\");sys.argv=[\"drawing-to-dxf\"]+sys.argv[2:];getattr(importlib.import_module(m),f)()",
+      "drawing_to_dxf.cli:main",
+      "/mnt/shopai-data-new/cad-research/experiments/qwen-3-drawing-20261030-173652-610108/shopai_three_drawing_truth/batch_lab/ocr_outline_eight_v1/images/p20.png",
+      "-o",
+      "native_output",
+      "--skip-ocr"
+    ]
+  },
+  {
+    "method": "DRAWING_TO_DXF_full_p20",
+    "status": "output",
+    "returncode": 0,
+    "seconds": 2.0,
+    "outputs": [
+      {
+        "path": "native_output/p20_assembly_layers.dxf",
+        "bytes": 79242
+      },
+      {
+        "path": "native_output/p20_manifest.json",
+        "bytes": 7257
+      }
+    ],
+    "reason": "",
+    "argv": [
+      "/mnt/shopai-data-new/cad-research/environments/common/bin/python",
+      "-B",
+      "-c",
+      "import sys,importlib;m,f=sys.argv[1].split(\":\");sys.argv=[\"drawing-to-dxf\"]+sys.argv[2:];getattr(importlib.import_module(m),f)()",
+      "drawing_to_dxf.cli:main",
+      "/mnt/shopai-data-new/cad-research/experiments/qwen-3-drawing-20261030-173652-610108/shopai_three_drawing_truth/batch_lab/ocr_outline_eight_v1/images/p20.png",
+      "-o",
+      "native_output"
+    ]
+  },
+  {
+    "method": "DRAWING_TO_DXF_geometry_p12",
+    "status": "output",
+    "returncode": 0,
+    "seconds": 2.0,
+    "outputs": [
+      {
+        "path": "native_output/p12_manifest.json",
+        "bytes": 7042
+      },
+      {
+        "path": "native_output/p12_assembly_layers.dxf",
+        "bytes": 72277
+      }
+    ],
+    "reason": "",
+    "argv": [
+      "/mnt/shopai-data-new/cad-research/environments/common/bin/python",
+      "-B",
+      "-c",
+      "import sys,importlib;m,f=sys.argv[1].split(\":\");sys.argv=[\"drawing-to-dxf\"]+sys.argv[2:];getattr(importlib.import_module(m),f)()",
+      "drawing_to_dxf.cli:main",
+      "/mnt/shopai-data-new/cad-research/experiments/qwen-3-drawing-20261030-173652-610108/shopai_three_drawing_truth/batch_lab/ocr_outline_eight_v1/images/p12.png",
+      "-o",
+      "native_output",
+      "--skip-ocr"
+    ]
+  },
+  {
+    "method": "DRAWING_TO_DXF_full_p12",
+    "status": "output",
+    "returncode": 0,
+    "seconds": 2.0,
+    "outputs": [
+      {
+        "path": "native_output/p12_manifest.json",
+        "bytes": 7254
+      },
+      {
+        "path": "native_output/p12_assembly_layers.dxf",
+        "bytes": 72277
+      }
+    ],
+    "reason": "",
+    "argv": [
+      "/mnt/shopai-data-new/cad-research/environments/common/bin/python",
+      "-B",
+      "-c",
+      "import sys,importlib;m,f=sys.argv[1].split(\":\");sys.argv=[\"drawing-to-dxf\"]+sys.argv[2:];getattr(importlib.import_module(m),f)()",
+      "drawing_to_dxf.cli:main",
+      "/mnt/shopai-data-new/cad-research/experiments/qwen-3-drawing-20261030-173652-610108/shopai_three_drawing_truth/batch_lab/ocr_outline_eight_v1/images/p12.png",
+      "-o",
+      "native_output"
+    ]
+  },
+  {
+    "method": "DRAWING_TO_DXF_geometry_P1",
+    "status": "output",
+    "returncode": 0,
+    "seconds": 2.0,
+    "outputs": [
+      {
+        "path": "native_output/P1_assembly_layers.dxf",
+        "bytes": 87662
+      },
+      {
+        "path": "native_output/P1_manifest.json",
+        "bytes": 7043
+      }
+    ],
+    "reason": "",
+    "argv": [
+      "/mnt/shopai-data-new/cad-research/environments/common/bin/python",
+      "-B",
+      "-c",
+      "import sys,importlib;m,f=sys.argv[1].split(\":\");sys.argv=[\"drawing-to-dxf\"]+sys.argv[2:];getattr(importlib.import_module(m),f)()",
+      "drawing_to_dxf.cli:main",
+      "/mnt/shopai-data-new/cad-research/experiments/qwen-3-drawing-20261030-173652-610108/shopai_three_drawing_truth/batch_lab/ocr_outline_eight_v1/images/P1.png",
+      "-o",
+      "native_output",
+      "--skip-ocr"
+    ]
+  },
+  {
+    "method": "DRAWING_TO_DXF_full_P1",
+    "status": "output",
+    "returncode": 0,
+    "seconds": 2.0,
+    "outputs": [
+      {
+        "path": "native_output/P1_assembly_layers.dxf",
+        "bytes": 87662
+      },
+      {
+        "path": "native_output/P1_manifest.json",
+        "bytes": 7255
+      }
+    ],
+    "reason": "",
+    "argv": [
+      "/mnt/shopai-data-new/cad-research/environments/common/bin/python",
+      "-B",
+      "-c",
+      "import sys,importlib;m,f=sys.argv[1].split(\":\");sys.argv=[\"drawing-to-dxf\"]+sys.argv[2:];getattr(importlib.import_module(m),f)()",
+      "drawing_to_dxf.cli:main",
+      "/mnt/shopai-data-new/cad-research/experiments/qwen-3-drawing-20261030-173652-610108/shopai_three_drawing_truth/batch_lab/ocr_outline_eight_v1/images/P1.png",
+      "-o",
+      "native_output"
+    ]
+  },
+  {
+    "method": "DRAWING_TO_DXF_geometry_p2",
+    "status": "output",
+    "returncode": 0,
+    "seconds": 2.0,
+    "outputs": [
+      {
+        "path": "native_output/p2_assembly_layers.dxf",
+        "bytes": 84022
+      },
+      {
+        "path": "native_output/p2_manifest.json",
+        "bytes": 7046
+      }
+    ],
+    "reason": "",
+    "argv": [
+      "/mnt/shopai-data-new/cad-research/environments/common/bin/python",
+      "-B",
+      "-c",
+      "import sys,importlib;m,f=sys.argv[1].split(\":\");sys.argv=[\"drawing-to-dxf\"]+sys.argv[2:];getattr(importlib.import_module(m),f)()",
+      "drawing_to_dxf.cli:main",
+      "/mnt/shopai-data-new/cad-research/experiments/qwen-3-drawing-20261030-173652-610108/shopai_three_drawing_truth/batch_lab/ocr_outline_eight_v1/images/p2.png",
+      "-o",
+      "native_output",
+      "--skip-ocr"
+    ]
+  },
+  {
+    "method": "DRAWING_TO_DXF_full_p2",
+    "status": "output",
+    "returncode": 0,
+    "seconds": 2.0,
+    "outputs": [
+      {
+        "path": "native_output/p2_assembly_layers.dxf",
+        "bytes": 84022
+      },
+      {
+        "path": "native_output/p2_manifest.json",
+        "bytes": 7258
+      }
+    ],
+    "reason": "",
+    "argv": [
+      "/mnt/shopai-data-new/cad-research/environments/common/bin/python",
+      "-B",
+      "-c",
+      "import sys,importlib;m,f=sys.argv[1].split(\":\");sys.argv=[\"drawing-to-dxf\"]+sys.argv[2:];getattr(importlib.import_module(m),f)()",
+      "drawing_to_dxf.cli:main",
+      "/mnt/shopai-data-new/cad-research/experiments/qwen-3-drawing-20261030-173652-610108/shopai_three_drawing_truth/batch_lab/ocr_outline_eight_v1/images/p2.png",
+      "-o",
+      "native_output"
+    ]
+  },
+  {
+    "method": "DRAWING_TO_DXF_geometry_p5",
+    "status": "output",
+    "returncode": 0,
+    "seconds": 4.0,
+    "outputs": [
+      {
+        "path": "native_output/p5_manifest.json",
+        "bytes": 7047
+      },
+      {
+        "path": "native_output/p5_assembly_layers.dxf",
+        "bytes": 111812
+      }
+    ],
+    "reason": "",
+    "argv": [
+      "/mnt/shopai-data-new/cad-research/environments/common/bin/python",
+      "-B",
+      "-c",
+      "import sys,importlib;m,f=sys.argv[1].split(\":\");sys.argv=[\"drawing-to-dxf\"]+sys.argv[2:];getattr(importlib.import_module(m),f)()",
+      "drawing_to_dxf.cli:main",
+      "/mnt/shopai-data-new/cad-research/experiments/qwen-3-drawing-20261030-173652-610108/shopai_three_drawing_truth/batch_lab/ocr_outline_eight_v1/images/p5.png",
+      "-o",
+      "native_output",
+      "--skip-ocr"
+    ]
+  },
+  {
+    "method": "DRAWING_TO_DXF_full_p5",
+    "status": "output",
+    "returncode": 0,
+    "seconds": 4.0,
+    "outputs": [
+      {
+        "path": "native_output/p5_manifest.json",
+        "bytes": 7259
+      },
+      {
+        "path": "native_output/p5_assembly_layers.dxf",
+        "bytes": 111812
+      }
+    ],
+    "reason": "",
+    "argv": [
+      "/mnt/shopai-data-new/cad-research/environments/common/bin/python",
+      "-B",
+      "-c",
+      "import sys,importlib;m,f=sys.argv[1].split(\":\");sys.argv=[\"drawing-to-dxf\"]+sys.argv[2:];getattr(importlib.import_module(m),f)()",
+      "drawing_to_dxf.cli:main",
+      "/mnt/shopai-data-new/cad-research/experiments/qwen-3-drawing-20261030-173652-610108/shopai_three_drawing_truth/batch_lab/ocr_outline_eight_v1/images/p5.png",
+      "-o",
+      "native_output"
+    ]
+  },
+  {
+    "method": "DRAWING_TO_DXF_geometry_p27",
+    "status": "output",
+    "returncode": 0,
+    "seconds": 2.0,
+    "outputs": [
+      {
+        "path": "native_output/p27_manifest.json",
+        "bytes": 7047
+      },
+      {
+        "path": "native_output/p27_assembly_layers.dxf",
+        "bytes": 86704
+      }
+    ],
+    "reason": "",
+    "argv": [
+      "/mnt/shopai-data-new/cad-research/environments/common/bin/python",
+      "-B",
+      "-c",
+      "import sys,importlib;m,f=sys.argv[1].split(\":\");sys.argv=[\"drawing-to-dxf\"]+sys.argv[2:];getattr(importlib.import_module(m),f)()",
+      "drawing_to_dxf.cli:main",
+      "/mnt/shopai-data-new/cad-research/experiments/qwen-3-drawing-20261030-173652-610108/shopai_three_drawing_truth/batch_lab/ocr_outline_eight_v1/images/p27.png",
+      "-o",
+      "native_output",
+      "--skip-ocr"
+    ]
+  },
+  {
+    "method": "DRAWING_TO_DXF_full_p27",
+    "status": "output",
+    "returncode": 0,
+    "seconds": 2.0,
+    "outputs": [
+      {
+        "path": "native_output/p27_manifest.json",
+        "bytes": 7259
+      },
+      {
+        "path": "native_output/p27_assembly_layers.dxf",
+        "bytes": 86704
+      }
+    ],
+    "reason": "",
+    "argv": [
+      "/mnt/shopai-data-new/cad-research/environments/common/bin/python",
+      "-B",
+      "-c",
+      "import sys,importlib;m,f=sys.argv[1].split(\":\");sys.argv=[\"drawing-to-dxf\"]+sys.argv[2:];getattr(importlib.import_module(m),f)()",
+      "drawing_to_dxf.cli:main",
+      "/mnt/shopai-data-new/cad-research/experiments/qwen-3-drawing-20261030-173652-610108/shopai_three_drawing_truth/batch_lab/ocr_outline_eight_v1/images/p27.png",
+      "-o",
+      "native_output"
+    ]
+  },
+  {
+    "method": "VTRACER_binary_p9",
+    "status": "output",
+    "returncode": 0,
+    "seconds": 1.0,
+    "outputs": [
+      {
+        "path": "p9_binary.svg",
+        "bytes": 95431
+      }
+    ],
+    "reason": "",
+    "argv": [
+      "/mnt/shopai-data-new/cad-research/environments/vtracer-standalone-v1/bin/python",
+      "-B",
+      "-c",
+      "import sys,vtracer;vtracer.convert_image_to_svg_py(sys.argv[1],sys.argv[2],colormode=sys.argv[3])",
+      "/mnt/shopai-data-new/cad-research/experiments/qwen-3-drawing-20261030-173652-610108/shopai_three_drawing_truth/batch_lab/ocr_outline_eight_v1/images/p9.png",
+      "p9_binary.svg",
+      "binary"
+    ]
+  },
+  {
+    "method": "VTRACER_color_p9",
+    "status": "output",
+    "returncode": 0,
+    "seconds": 1.0,
+    "outputs": [
+      {
+        "path": "p9_color.svg",
+        "bytes": 317490
+      }
+    ],
+    "reason": "",
+    "argv": [
+      "/mnt/shopai-data-new/cad-research/environments/vtracer-standalone-v1/bin/python",
+      "-B",
+      "-c",
+      "import sys,vtracer;vtracer.convert_image_to_svg_py(sys.argv[1],sys.argv[2],colormode=sys.argv[3])",
+      "/mnt/shopai-data-new/cad-research/experiments/qwen-3-drawing-20261030-173652-610108/shopai_three_drawing_truth/batch_lab/ocr_outline_eight_v1/images/p9.png",
+      "p9_color.svg",
+      "color"
+    ]
+  },
+  {
+    "method": "VTRACER_binary_p15",
+    "status": "output",
+    "returncode": 0,
+    "seconds": 1.0,
+    "outputs": [
+      {
+        "path": "p15_binary.svg",
+        "bytes": 121702
+      }
+    ],
+    "reason": "",
+    "argv": [
+      "/mnt/shopai-data-new/cad-research/environments/vtracer-standalone-v1/bin/python",
+      "-B",
+      "-c",
+      "import sys,vtracer;vtracer.convert_image_to_svg_py(sys.argv[1],sys.argv[2],colormode=sys.argv[3])",
+      "/mnt/shopai-data-new/cad-research/experiments/qwen-3-drawing-20261030-173652-610108/shopai_three_drawing_truth/batch_lab/ocr_outline_eight_v1/images/p15.png",
+      "p15_binary.svg",
+      "binary"
+    ]
+  },
+  {
+    "method": "VTRACER_color_p15",
+    "status": "output",
+    "returncode": 0,
+    "seconds": 1.0,
+    "outputs": [
+      {
+        "path": "p15_color.svg",
+        "bytes": 250117
+      }
+    ],
+    "reason": "",
+    "argv": [
+      "/mnt/shopai-data-new/cad-research/environments/vtracer-standalone-v1/bin/python",
+      "-B",
+      "-c",
+      "import sys,vtracer;vtracer.convert_image_to_svg_py(sys.argv[1],sys.argv[2],colormode=sys.argv[3])",
+      "/mnt/shopai-data-new/cad-research/experiments/qwen-3-drawing-20261030-173652-610108/shopai_three_drawing_truth/batch_lab/ocr_outline_eight_v1/images/p15.png",
+      "p15_color.svg",
+      "color"
+    ]
+  },
+  {
+    "method": "VTRACER_binary_p20",
+    "status": "output",
+    "returncode": 0,
+    "seconds": 1.0,
+    "outputs": [
+      {
+        "path": "p20_binary.svg",
+        "bytes": 153714
+      }
+    ],
+    "reason": "",
+    "argv": [
+      "/mnt/shopai-data-new/cad-research/environments/vtracer-standalone-v1/bin/python",
+      "-B",
+      "-c",
+      "import sys,vtracer;vtracer.convert_image_to_svg_py(sys.argv[1],sys.argv[2],colormode=sys.argv[3])",
+      "/mnt/shopai-data-new/cad-research/experiments/qwen-3-drawing-20261030-173652-610108/shopai_three_drawing_truth/batch_lab/ocr_outline_eight_v1/images/p20.png",
+      "p20_binary.svg",
+      "binary"
+    ]
+  },
+  {
+    "method": "VTRACER_color_p20",
+    "status": "output",
+    "returncode": 0,
+    "seconds": 1.0,
+    "outputs": [
+      {
+        "path": "p20_color.svg",
+        "bytes": 413687
+      }
+    ],
+    "reason": "",
+    "argv": [
+      "/mnt/shopai-data-new/cad-research/environments/vtracer-standalone-v1/bin/python",
+      "-B",
+      "-c",
+      "import sys,vtracer;vtracer.convert_image_to_svg_py(sys.argv[1],sys.argv[2],colormode=sys.argv[3])",
+      "/mnt/shopai-data-new/cad-research/experiments/qwen-3-drawing-20261030-173652-610108/shopai_three_drawing_truth/batch_lab/ocr_outline_eight_v1/images/p20.png",
+      "p20_color.svg",
+      "color"
+    ]
+  },
+  {
+    "method": "VTRACER_binary_p12",
+    "status": "output",
+    "returncode": 0,
+    "seconds": 1.0,
+    "outputs": [
+      {
+        "path": "p12_binary.svg",
+        "bytes": 87892
+      }
+    ],
+    "reason": "",
+    "argv": [
+      "/mnt/shopai-data-new/cad-research/environments/vtracer-standalone-v1/bin/python",
+      "-B",
+      "-c",
+      "import sys,vtracer;vtracer.convert_image_to_svg_py(sys.argv[1],sys.argv[2],colormode=sys.argv[3])",
+      "/mnt/shopai-data-new/cad-research/experiments/qwen-3-drawing-20261030-173652-610108/shopai_three_drawing_truth/batch_lab/ocr_outline_eight_v1/images/p12.png",
+      "p12_binary.svg",
+      "binary"
+    ]
+  },
+  {
+    "method": "VTRACER_color_p12",
+    "status": "output",
+    "returncode": 0,
+    "seconds": 1.0,
+    "outputs": [
+      {
+        "path": "p12_color.svg",
+        "bytes": 228526
+      }
+    ],
+    "reason": "",
+    "argv": [
+      "/mnt/shopai-data-new/cad-research/environments/vtracer-standalone-v1/bin/python",
+      "-B",
+      "-c",
+      "import sys,vtracer;vtracer.convert_image_to_svg_py(sys.argv[1],sys.argv[2],colormode=sys.argv[3])",
+      "/mnt/shopai-data-new/cad-research/experiments/qwen-3-drawing-20261030-173652-610108/shopai_three_drawing_truth/batch_lab/ocr_outline_eight_v1/images/p12.png",
+      "p12_color.svg",
+      "color"
+    ]
+  },
+  {
+    "method": "VTRACER_binary_P1",
+    "status": "output",
+    "returncode": 0,
+    "seconds": 1.0,
+    "outputs": [
+      {
+        "path": "P1_binary.svg",
+        "bytes": 218666
+      }
+    ],
+    "reason": "",
+    "argv": [
+      "/mnt/shopai-data-new/cad-research/environments/vtracer-standalone-v1/bin/python",
+      "-B",
+      "-c",
+      "import sys,vtracer;vtracer.convert_image_to_svg_py(sys.argv[1],sys.argv[2],colormode=sys.argv[3])",
+      "/mnt/shopai-data-new/cad-research/experiments/qwen-3-drawing-20261030-173652-610108/shopai_three_drawing_truth/batch_lab/ocr_outline_eight_v1/images/P1.png",
+      "P1_binary.svg",
+      "binary"
+    ]
+  },
+  {
+    "method": "VTRACER_color_P1",
+    "status": "output",
+    "returncode": 0,
+    "seconds": 1.0,
+    "outputs": [
+      {
+        "path": "P1_color.svg",
+        "bytes": 631984
+      }
+    ],
+    "reason": "",
+    "argv": [
+      "/mnt/shopai-data-new/cad-research/environments/vtracer-standalone-v1/bin/python",
+      "-B",
+      "-c",
+      "import sys,vtracer;vtracer.convert_image_to_svg_py(sys.argv[1],sys.argv[2],colormode=sys.argv[3])",
+      "/mnt/shopai-data-new/cad-research/experiments/qwen-3-drawing-20261030-173652-610108/shopai_three_drawing_truth/batch_lab/ocr_outline_eight_v1/images/P1.png",
+      "P1_color.svg",
+      "color"
+    ]
+  },
+  {
+    "method": "VTRACER_binary_p2",
+    "status": "output",
+    "returncode": 0,
+    "seconds": 1.0,
+    "outputs": [
+      {
+        "path": "p2_binary.svg",
+        "bytes": 239234
+      }
+    ],
+    "reason": "",
+    "argv": [
+      "/mnt/shopai-data-new/cad-research/environments/vtracer-standalone-v1/bin/python",
+      "-B",
+      "-c",
+      "import sys,vtracer;vtracer.convert_image_to_svg_py(sys.argv[1],sys.argv[2],colormode=sys.argv[3])",
+      "/mnt/shopai-data-new/cad-research/experiments/qwen-3-drawing-20261030-173652-610108/shopai_three_drawing_truth/batch_lab/ocr_outline_eight_v1/images/p2.png",
+      "p2_binary.svg",
+      "binary"
+    ]
+  },
+  {
+    "method": "VTRACER_color_p2",
+    "status": "output",
+    "returncode": 0,
+    "seconds": 1.0,
+    "outputs": [
+      {
+        "path": "p2_color.svg",
+        "bytes": 617153
+      }
+    ],
+    "reason": "",
+    "argv": [
+      "/mnt/shopai-data-new/cad-research/environments/vtracer-standalone-v1/bin/python",
+      "-B",
+      "-c",
+      "import sys,vtracer;vtracer.convert_image_to_svg_py(sys.argv[1],sys.argv[2],colormode=sys.argv[3])",
+      "/mnt/shopai-data-new/cad-research/experiments/qwen-3-drawing-20261030-173652-610108/shopai_three_drawing_truth/batch_lab/ocr_outline_eight_v1/images/p2.png",
+      "p2_color.svg",
+      "color"
+    ]
+  },
+  {
+    "method": "VTRACER_binary_p5",
+    "status": "output",
+    "returncode": 0,
+    "seconds": 1.0,
+    "outputs": [
+      {
+        "path": "p5_binary.svg",
+        "bytes": 360290
+      }
+    ],
+    "reason": "",
+    "argv": [
+      "/mnt/shopai-data-new/cad-research/environments/vtracer-standalone-v1/bin/python",
+      "-B",
+      "-c",
+      "import sys,vtracer;vtracer.convert_image_to_svg_py(sys.argv[1],sys.argv[2],colormode=sys.argv[3])",
+      "/mnt/shopai-data-new/cad-research/experiments/qwen-3-drawing-20261030-173652-610108/shopai_three_drawing_truth/batch_lab/ocr_outline_eight_v1/images/p5.png",
+      "p5_binary.svg",
+      "binary"
+    ]
+  },
+  {
+    "method": "VTRACER_color_p5",
+    "status": "output",
+    "returncode": 0,
+    "seconds": 2.0,
+    "outputs": [
+      {
+        "path": "p5_color.svg",
+        "bytes": 1198738
+      }
+    ],
+    "reason": "",
+    "argv": [
+      "/mnt/shopai-data-new/cad-research/environments/vtracer-standalone-v1/bin/python",
+      "-B",
+      "-c",
+      "import sys,vtracer;vtracer.convert_image_to_svg_py(sys.argv[1],sys.argv[2],colormode=sys.argv[3])",
+      "/mnt/shopai-data-new/cad-research/experiments/qwen-3-drawing-20261030-173652-610108/shopai_three_drawing_truth/batch_lab/ocr_outline_eight_v1/images/p5.png",
+      "p5_color.svg",
+      "color"
+    ]
+  },
+  {
+    "method": "VTRACER_binary_p27",
+    "status": "output",
+    "returncode": 0,
+    "seconds": 1.0,
+    "outputs": [
+      {
+        "path": "p27_binary.svg",
+        "bytes": 288513
+      }
+    ],
+    "reason": "",
+    "argv": [
+      "/mnt/shopai-data-new/cad-research/environments/vtracer-standalone-v1/bin/python",
+      "-B",
+      "-c",
+      "import sys,vtracer;vtracer.convert_image_to_svg_py(sys.argv[1],sys.argv[2],colormode=sys.argv[3])",
+      "/mnt/shopai-data-new/cad-research/experiments/qwen-3-drawing-20261030-173652-610108/shopai_three_drawing_truth/batch_lab/ocr_outline_eight_v1/images/p27.png",
+      "p27_binary.svg",
+      "binary"
+    ]
+  },
+  {
+    "method": "VTRACER_color_p27",
+    "status": "output",
+    "returncode": 0,
+    "seconds": 1.0,
+    "outputs": [
+      {
+        "path": "p27_color.svg",
+        "bytes": 873584
+      }
+    ],
+    "reason": "",
+    "argv": [
+      "/mnt/shopai-data-new/cad-research/environments/vtracer-standalone-v1/bin/python",
+      "-B",
+      "-c",
+      "import sys,vtracer;vtracer.convert_image_to_svg_py(sys.argv[1],sys.argv[2],colormode=sys.argv[3])",
+      "/mnt/shopai-data-new/cad-research/experiments/qwen-3-drawing-20261030-173652-610108/shopai_three_drawing_truth/batch_lab/ocr_outline_eight_v1/images/p27.png",
+      "p27_color.svg",
+      "color"
+    ]
+  },
+  {
+    "method": "EDOCR_native_p9",
+    "status": "failed",
+    "returncode": 1,
+    "seconds": 1.0,
+    "outputs": [],
+    "reason": "",
+    "argv": [
+      "/mnt/shopai-data-new/cad-research/environments/edocr2/bin/python",
+      "-B",
+      "/mnt/shopai-data-new/cad-research/experiments/qwen-3-drawing-20261030-173652-610108/shopai_three_drawing_truth/batch_lab/ocr_outline_eight_v1/results/native_comparison_20261108T211844Z_2708791/copies/eDOCr/eDOCr/ocr_it.py",
+      "/mnt/shopai-data-new/cad-research/experiments/qwen-3-drawing-20261030-173652-610108/shopai_three_drawing_truth/batch_lab/ocr_outline_eight_v1/images/p9.png",
+      "--dest_folder",
+      "native_output"
+    ]
+  },
+  {
+    "method": "EDOCR_native_p15",
+    "status": "failed",
+    "returncode": 1,
+    "seconds": 1.0,
+    "outputs": [],
+    "reason": "",
+    "argv": [
+      "/mnt/shopai-data-new/cad-research/environments/edocr2/bin/python",
+      "-B",
+      "/mnt/shopai-data-new/cad-research/experiments/qwen-3-drawing-20261030-173652-610108/shopai_three_drawing_truth/batch_lab/ocr_outline_eight_v1/results/native_comparison_20261108T211844Z_2708791/copies/eDOCr/eDOCr/ocr_it.py",
+      "/mnt/shopai-data-new/cad-research/experiments/qwen-3-drawing-20261030-173652-610108/shopai_three_drawing_truth/batch_lab/ocr_outline_eight_v1/images/p15.png",
+      "--dest_folder",
+      "native_output"
+    ]
+  },
+  {
+    "method": "EDOCR_native_p20",
+    "status": "failed",
+    "returncode": 1,
+    "seconds": 1.0,
+    "outputs": [],
+    "reason": "",
+    "argv": [
+      "/mnt/shopai-data-new/cad-research/environments/edocr2/bin/python",
+      "-B",
+      "/mnt/shopai-data-new/cad-research/experiments/qwen-3-drawing-20261030-173652-610108/shopai_three_drawing_truth/batch_lab/ocr_outline_eight_v1/results/native_comparison_20261108T211844Z_2708791/copies/eDOCr/eDOCr/ocr_it.py",
+      "/mnt/shopai-data-new/cad-research/experiments/qwen-3-drawing-20261030-173652-610108/shopai_three_drawing_truth/batch_lab/ocr_outline_eight_v1/images/p20.png",
+      "--dest_folder",
+      "native_output"
+    ]
+  },
+  {
+    "method": "EDOCR_native_p12",
+    "status": "failed",
+    "returncode": 1,
+    "seconds": 1.0,
+    "outputs": [],
+    "reason": "",
+    "argv": [
+      "/mnt/shopai-data-new/cad-research/environments/edocr2/bin/python",
+      "-B",
+      "/mnt/shopai-data-new/cad-research/experiments/qwen-3-drawing-20261030-173652-610108/shopai_three_drawing_truth/batch_lab/ocr_outline_eight_v1/results/native_comparison_20261108T211844Z_2708791/copies/eDOCr/eDOCr/ocr_it.py",
+      "/mnt/shopai-data-new/cad-research/experiments/qwen-3-drawing-20261030-173652-610108/shopai_three_drawing_truth/batch_lab/ocr_outline_eight_v1/images/p12.png",
+      "--dest_folder",
+      "native_output"
+    ]
+  },
+  {
+    "method": "EDOCR_native_P1",
+    "status": "failed",
+    "returncode": 1,
+    "seconds": 1.0,
+    "outputs": [],
+    "reason": "",
+    "argv": [
+      "/mnt/shopai-data-new/cad-research/environments/edocr2/bin/python",
+      "-B",
+      "/mnt/shopai-data-new/cad-research/experiments/qwen-3-drawing-20261030-173652-610108/shopai_three_drawing_truth/batch_lab/ocr_outline_eight_v1/results/native_comparison_20261108T211844Z_2708791/copies/eDOCr/eDOCr/ocr_it.py",
+      "/mnt/shopai-data-new/cad-research/experiments/qwen-3-drawing-20261030-173652-610108/shopai_three_drawing_truth/batch_lab/ocr_outline_eight_v1/images/P1.png",
+      "--dest_folder",
+      "native_output"
+    ]
+  },
+  {
+    "method": "EDOCR_native_p2",
+    "status": "failed",
+    "returncode": 1,
+    "seconds": 1.0,
+    "outputs": [],
+    "reason": "",
+    "argv": [
+      "/mnt/shopai-data-new/cad-research/environments/edocr2/bin/python",
+      "-B",
+      "/mnt/shopai-data-new/cad-research/experiments/qwen-3-drawing-20261030-173652-610108/shopai_three_drawing_truth/batch_lab/ocr_outline_eight_v1/results/native_comparison_20261108T211844Z_2708791/copies/eDOCr/eDOCr/ocr_it.py",
+      "/mnt/shopai-data-new/cad-research/experiments/qwen-3-drawing-20261030-173652-610108/shopai_three_drawing_truth/batch_lab/ocr_outline_eight_v1/images/p2.png",
+      "--dest_folder",
+      "native_output"
+    ]
+  },
+  {
+    "method": "EDOCR_native_p5",
+    "status": "failed",
+    "returncode": 1,
+    "seconds": 1.0,
+    "outputs": [],
+    "reason": "",
+    "argv": [
+      "/mnt/shopai-data-new/cad-research/environments/edocr2/bin/python",
+      "-B",
+      "/mnt/shopai-data-new/cad-research/experiments/qwen-3-drawing-20261030-173652-610108/shopai_three_drawing_truth/batch_lab/ocr_outline_eight_v1/results/native_comparison_20261108T211844Z_2708791/copies/eDOCr/eDOCr/ocr_it.py",
+      "/mnt/shopai-data-new/cad-research/experiments/qwen-3-drawing-20261030-173652-610108/shopai_three_drawing_truth/batch_lab/ocr_outline_eight_v1/images/p5.png",
+      "--dest_folder",
+      "native_output"
+    ]
+  },
+  {
+    "method": "EDOCR_native_p27",
+    "status": "failed",
+    "returncode": 1,
+    "seconds": 1.0,
+    "outputs": [],
+    "reason": "",
+    "argv": [
+      "/mnt/shopai-data-new/cad-research/environments/edocr2/bin/python",
+      "-B",
+      "/mnt/shopai-data-new/cad-research/experiments/qwen-3-drawing-20261030-173652-610108/shopai_three_drawing_truth/batch_lab/ocr_outline_eight_v1/results/native_comparison_20261108T211844Z_2708791/copies/eDOCr/eDOCr/ocr_it.py",
+      "/mnt/shopai-data-new/cad-research/experiments/qwen-3-drawing-20261030-173652-610108/shopai_three_drawing_truth/batch_lab/ocr_outline_eight_v1/images/p27.png",
+      "--dest_folder",
+      "native_output"
+    ]
+  }
+]

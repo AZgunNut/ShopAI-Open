@@ -1,0 +1,63 @@
+{
+  "action": "create_part_from_features",
+  "part_name": "ledger_splines_gears_metadata_test",
+  "units": "mm",
+  "datums": {
+    "origin": "lower_left_front_corner",
+    "x_axis": "length",
+    "y_axis": "width",
+    "z_axis": "height"
+  },
+  "features": [
+    {
+      "id": "base_block",
+      "type": "box",
+      "length_mm": 160,
+      "width_mm": 90,
+      "height_mm": 12,
+      "origin_mm": [0, 0, 0],
+      "confidence": 1.0,
+      "source": "direct user test"
+    },
+    {
+      "id": "wavy_groove_callout",
+      "type": "spline_path_z",
+      "points_mm": [[20, 25], [45, 35], [70, 20], [95, 38], [120, 25]],
+      "width_mm": 6,
+      "depth_mm": 3,
+      "base_z_mm": 12,
+      "mode": "cut",
+      "confidence": 0.9,
+      "source": "wiggling groove / spline path callout"
+    },
+    {
+      "id": "external_gear_callout",
+      "type": "involute_gear_external_z",
+      "center_mm": [45, 65],
+      "teeth": 24,
+      "module_mm": 2,
+      "pressure_angle_deg": 20,
+      "face_width_mm": 10,
+      "bore_diameter_mm": 10,
+      "base_z_mm": 12,
+      "standard": "metric involute external gear",
+      "confidence": 0.95,
+      "source": "external involute gear callout"
+    },
+    {
+      "id": "internal_gear_callout",
+      "type": "involute_gear_internal_z",
+      "center_mm": [115, 65],
+      "teeth": 36,
+      "module_mm": 2,
+      "pressure_angle_deg": 20,
+      "face_width_mm": 10,
+      "bore_diameter_mm": 42,
+      "base_z_mm": 12,
+      "standard": "metric involute internal gear",
+      "confidence": 0.95,
+      "source": "internal involute gear callout"
+    }
+  ],
+  "exports": ["FCStd", "STEP", "SVG_TOP", "DXF_TOP"]
+}

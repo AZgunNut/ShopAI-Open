@@ -1,0 +1,15 @@
+{
+  "model": "/mnt/shopai-data-new/AI-Models/11-qwen3-coder-30b/Qwen3-Coder-30B-A3B-Instruct-Q4_K_M.gguf",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Return exactly valid JSON."
+    },
+    {
+      "role": "user",
+      "content": "You are improving a small engineering drawing feature-association Python formula. All physical dimensions are millimeters (mm), pixels are only image coordinates. We have three independent training drawings, and an independent scorer. Do NOT hardcode drawing IDs, texts, known targets, coordinates or dimensions. For each OCR label and geometric feature we calculate dx,dy,dist in pixels, area in pixels^2, and OCR confidence in [0,1]. The formula returns a LOWER-is-better association score. Allowed names: angle_weight,area,area_weight,confidence,confidence_weight,dist,dx,dy. Allowed functions: abs,min,max,sqrt,log1p. Allowed Python arithmetic: +,-,*,/,%, parentheses; avoid division by zero. Prior formula: dist + angle_weight * abs(dy) + area_weight / (1 + area) + confidence_weight * (1 - confidence). Most recent independent scoring aggregate: {\"D1\": {\"checks_passed\": 0, \"checks_total\": 11, \"full_pct\": 0.0, \"text_hits\": 5, \"text_total\": 5, \"passed\": false}, \"D2\": {\"checks_passed\": 0, \"checks_total\": 12, \"full_pct\": 0.0, \"text_hits\": 7, \"text_total\": 7, \"passed\": false}, \"D3\": {\"checks_passed\": 0, \"checks_total\": 35, \"full_pct\": 0.0, \"text_hits\": 22, \"text_total\": 25, \"passed\": false}}. Suggest ONE mathematically sensible new formula. Return ONLY compact JSON {\"expression\":\"...\",\"reason\":\"...\"}. Keep response under 180 words."
+    }
+  ],
+  "stream": false,
+  "temperature": 0.45
+}

@@ -1,0 +1,68 @@
+{
+  "action": "create_part_from_features",
+  "part_name": "ledger_cone_polygon_test",
+  "units": "mm",
+  "datums": {
+    "origin": "lower_left_front_corner",
+    "x_axis": "length",
+    "y_axis": "width",
+    "z_axis": "height"
+  },
+  "features": [
+    {
+      "id": "base_block",
+      "type": "box",
+      "length_mm": 130,
+      "width_mm": 80,
+      "height_mm": 16,
+      "origin_mm": [0, 0, 0],
+      "confidence": 1.0,
+      "source": "direct user test"
+    },
+    {
+      "id": "funnel_cut",
+      "type": "tapered_hole_z",
+      "center_mm": [30, 40],
+      "bottom_diameter_mm": 10,
+      "top_diameter_mm": 26,
+      "depth_mm": 10,
+      "source": "funnel/tapered hole test",
+      "confidence": 1.0
+    },
+    {
+      "id": "frustum_boss",
+      "type": "cone_frustum_z",
+      "center_mm": [70, 40],
+      "bottom_diameter_mm": 26,
+      "top_diameter_mm": 14,
+      "height_mm": 14,
+      "base_z_mm": 16,
+      "mode": "add",
+      "source": "raised conical/frustum boss",
+      "confidence": 1.0
+    },
+    {
+      "id": "hex_cut",
+      "type": "polygon_prism_z",
+      "center_mm": [105, 40],
+      "sides": 6,
+      "across_flats_mm": 18,
+      "height_mm": 18,
+      "base_z_mm": -1,
+      "angle_deg": 30,
+      "mode": "cut",
+      "source": "hexagonal through cut",
+      "confidence": 1.0
+    }
+  ],
+  "exports": [
+    "FCStd",
+    "STEP",
+    "SVG_TOP",
+    "SVG_FRONT",
+    "SVG_RIGHT",
+    "DXF_TOP",
+    "DXF_FRONT",
+    "DXF_RIGHT"
+  ]
+}

@@ -1,0 +1,456 @@
+{
+  "truth_file": "/mnt/shopai-data-new/cad-research/experiments/qwen-3-drawing-20261030-173652-610108/shopai_three_drawing_truth/batch_lab/ocr_outline_eight_v1/truths/p20.truth.json",
+  "prediction_file": "/mnt/shopai-data-new/cad-research/experiments/qwen-3-drawing-20261030-173652-610108/shopai_three_drawing_truth/batch_lab/ocr_outline_eight_v1/results/full_gambit_20261108T191855Z_740546_12852/p20/paddle_otsu_cw0_1947_score_readings.json",
+  "truth_coverage_certified": false,
+  "certified_100_percent": false,
+  "truth_gap_count": 1,
+  "ground_truth_pending_review": 23,
+  "expected_provisional_character_instances": 71,
+  "observed_character_instances": 55,
+  "character_inventory_overlap_provisional": 50,
+  "character_inventory_pct_provisional": 70.42,
+  "missing_characters": {
+    "1": 4,
+    "2": 2,
+    "3": 2,
+    "4": 1,
+    "5": 1,
+    "6": 1,
+    "8": 1,
+    "e": 2,
+    "n": 1,
+    "°": 2,
+    "Ø": 4
+  },
+  "extra_characters": {
+    "0": 1,
+    "a": 2,
+    "r": 1,
+    "品": 1
+  },
+  "provisional_annotation_matches": 11,
+  "provisional_annotation_total": 23,
+  "missing_annotations": [
+    {
+      "truth_id": "p20_T001",
+      "expected_text": "Sectiunea A-A",
+      "anchor_px": [
+        572.0,
+        38.0
+      ]
+    },
+    {
+      "truth_id": "p20_T003",
+      "expected_text": "Ø16",
+      "anchor_px": [
+        274.0,
+        178.0
+      ]
+    },
+    {
+      "truth_id": "p20_T005",
+      "expected_text": "80",
+      "anchor_px": [
+        416.0,
+        218.0
+      ]
+    },
+    {
+      "truth_id": "p20_T006",
+      "expected_text": "16",
+      "anchor_px": [
+        499.0,
+        152.0
+      ]
+    },
+    {
+      "truth_id": "p20_T007",
+      "expected_text": "Ø60",
+      "anchor_px": [
+        555.0,
+        72.0
+      ]
+    },
+    {
+      "truth_id": "p20_T008",
+      "expected_text": "Ø40",
+      "anchor_px": [
+        552.0,
+        104.0
+      ]
+    },
+    {
+      "truth_id": "p20_T009",
+      "expected_text": "Ø30",
+      "anchor_px": [
+        549.0,
+        305.0
+      ]
+    },
+    {
+      "truth_id": "p20_T010",
+      "expected_text": "12",
+      "anchor_px": [
+        866.0,
+        310.0
+      ]
+    },
+    {
+      "truth_id": "p20_T018",
+      "expected_text": "100",
+      "anchor_px": [
+        385.0,
+        575.0
+      ]
+    },
+    {
+      "truth_id": "p20_T021",
+      "expected_text": "42",
+      "anchor_px": [
+        837.0,
+        602.0
+      ]
+    },
+    {
+      "truth_id": "p20_T022",
+      "expected_text": "30°",
+      "anchor_px": [
+        684.0,
+        480.0
+      ]
+    },
+    {
+      "truth_id": "p20_T023",
+      "expected_text": "135°",
+      "anchor_px": [
+        726.0,
+        645.0
+      ]
+    }
+  ],
+  "extra_or_fragmented_groups": [
+    {
+      "text": "Sactiuraa A-A",
+      "bbox_px": [
+        535.33,
+        32.0,
+        592.0,
+        42.67
+      ],
+      "bbox_rotated_px": [
+        535.33,
+        32.0,
+        592.0,
+        42.67
+      ],
+      "alternatives": [
+        {
+          "text": "Sactiuraa A-A",
+          "key": "SACTIURAAA-A",
+          "score": 0.658,
+          "kind": "unclassified",
+          "parse_quality": -0.25,
+          "flags": [
+            "PARTIAL_DIMENSION_TOKEN"
+          ],
+          "confidence_peak": 0.699,
+          "whole_profiles": [
+            "1947"
+          ],
+          "profiles": [
+            "1947"
+          ],
+          "tile_samples": 0,
+          "support_examples": 1,
+          "style_bonus": 0.0
+        }
+      ],
+      "index": 0
+    },
+    {
+      "text": "060",
+      "bbox_px": [
+        550.0,
+        64.0,
+        579.33,
+        79.33
+      ],
+      "bbox_rotated_px": [
+        550.0,
+        64.0,
+        579.33,
+        79.33
+      ],
+      "alternatives": [
+        {
+          "text": "060",
+          "key": "060",
+          "score": 2.84212,
+          "kind": "linear_or_value",
+          "parse_quality": 1.8,
+          "flags": [],
+          "confidence_peak": 0.983,
+          "whole_profiles": [
+            "1947"
+          ],
+          "profiles": [
+            "1947"
+          ],
+          "tile_samples": 0,
+          "support_examples": 1,
+          "style_bonus": 0.0
+        }
+      ],
+      "index": 1
+    },
+    {
+      "text": "040",
+      "bbox_px": [
+        550.0,
+        94.67,
+        579.33,
+        110.0
+      ],
+      "bbox_rotated_px": [
+        550.0,
+        94.67,
+        579.33,
+        110.0
+      ],
+      "alternatives": [
+        {
+          "text": "040",
+          "key": "040",
+          "score": 2.82681,
+          "kind": "linear_or_value",
+          "parse_quality": 1.8,
+          "flags": [],
+          "confidence_peak": 0.951,
+          "whole_profiles": [
+            "1947"
+          ],
+          "profiles": [
+            "1947"
+          ],
+          "tile_samples": 0,
+          "support_examples": 1,
+          "style_bonus": 0.0
+        }
+      ],
+      "index": 2
+    },
+    {
+      "text": "016",
+      "bbox_px": [
+        261.33,
+        164.0,
+        288.0,
+        180.0
+      ],
+      "bbox_rotated_px": [
+        261.33,
+        164.0,
+        288.0,
+        180.0
+      ],
+      "alternatives": [
+        {
+          "text": "016",
+          "key": "016",
+          "score": 2.83201,
+          "kind": "linear_or_value",
+          "parse_quality": 1.8,
+          "flags": [],
+          "confidence_peak": 0.962,
+          "whole_profiles": [
+            "1947"
+          ],
+          "profiles": [
+            "1947"
+          ],
+          "tile_samples": 0,
+          "support_examples": 1,
+          "style_bonus": 0.0
+        }
+      ],
+      "index": 3
+    },
+    {
+      "text": "品",
+      "bbox_px": [
+        402.67,
+        213.33,
+        415.33,
+        228.0
+      ],
+      "bbox_rotated_px": [
+        402.67,
+        213.33,
+        415.33,
+        228.0
+      ],
+      "alternatives": [
+        {
+          "text": "品",
+          "key": "品",
+          "score": 0.7638,
+          "kind": "unclassified",
+          "parse_quality": -0.25,
+          "flags": [],
+          "confidence_peak": 0.923,
+          "whole_profiles": [
+            "1947"
+          ],
+          "profiles": [
+            "1947"
+          ],
+          "tile_samples": 0,
+          "support_examples": 1,
+          "style_bonus": 0.0
+        }
+      ],
+      "index": 5
+    },
+    {
+      "text": "030",
+      "bbox_px": [
+        550.0,
+        324.67,
+        579.33,
+        340.0
+      ],
+      "bbox_rotated_px": [
+        550.0,
+        324.67,
+        579.33,
+        340.0
+      ],
+      "alternatives": [
+        {
+          "text": "030",
+          "key": "030",
+          "score": 2.84277,
+          "kind": "linear_or_value",
+          "parse_quality": 1.8,
+          "flags": [],
+          "confidence_peak": 0.985,
+          "whole_profiles": [
+            "1947"
+          ],
+          "profiles": [
+            "1947"
+          ],
+          "tile_samples": 0,
+          "support_examples": 1,
+          "style_bonus": 0.0
+        }
+      ],
+      "index": 6
+    },
+    {
+      "text": "0",
+      "bbox_px": [
+        682.0,
+        468.0,
+        707.33,
+        496.67
+      ],
+      "bbox_rotated_px": [
+        682.0,
+        468.0,
+        707.33,
+        496.67
+      ],
+      "alternatives": [
+        {
+          "text": "0",
+          "key": "0",
+          "score": 2.6331,
+          "kind": "linear_or_value",
+          "parse_quality": 1.8,
+          "flags": [],
+          "confidence_peak": 0.541,
+          "whole_profiles": [
+            "1947"
+          ],
+          "profiles": [
+            "1947"
+          ],
+          "tile_samples": 0,
+          "support_examples": 1,
+          "style_bonus": 0.0
+        }
+      ],
+      "index": 11
+    }
+  ],
+  "matching_instances_diagnostic": [
+    {
+      "truth_id": "p20_T002",
+      "text": "R15",
+      "observation_index": 4,
+      "anchor_distance_px": 3.2
+    },
+    {
+      "truth_id": "p20_T004",
+      "text": "42",
+      "observation_index": 14,
+      "anchor_distance_px": 903.7
+    },
+    {
+      "truth_id": "p20_T011",
+      "text": "145",
+      "observation_index": 7,
+      "anchor_distance_px": 0.5
+    },
+    {
+      "truth_id": "p20_T012",
+      "text": "50",
+      "observation_index": 8,
+      "anchor_distance_px": 5.8
+    },
+    {
+      "truth_id": "p20_T013",
+      "text": "R15",
+      "observation_index": 9,
+      "anchor_distance_px": 2.1
+    },
+    {
+      "truth_id": "p20_T014",
+      "text": "R15",
+      "observation_index": 12,
+      "anchor_distance_px": 3.8
+    },
+    {
+      "truth_id": "p20_T015",
+      "text": "R15",
+      "observation_index": 17,
+      "anchor_distance_px": 22.7
+    },
+    {
+      "truth_id": "p20_T016",
+      "text": "R15",
+      "observation_index": 16,
+      "anchor_distance_px": 39.1
+    },
+    {
+      "truth_id": "p20_T017",
+      "text": "R15",
+      "observation_index": 10,
+      "anchor_distance_px": 21.5
+    },
+    {
+      "truth_id": "p20_T019",
+      "text": "50",
+      "observation_index": 13,
+      "anchor_distance_px": 3.0
+    },
+    {
+      "truth_id": "p20_T020",
+      "text": "45",
+      "observation_index": 15,
+      "anchor_distance_px": 3.0
+    }
+  ],
+  "note": "Inventory counts and annotation matches are PROVISIONAL. No per-glyph spatial truth exists and truth coverage is not independently verified. Counts may cancel swapped or misplaced glyphs."
+}

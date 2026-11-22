@@ -1,0 +1,47 @@
+{
+  "source": "chosen",
+  "origin_feature": "Bottom-front-left physical corner of the block",
+  "units": "unknown",
+  "common_zero": [
+    0,
+    0,
+    0
+  ],
+  "uncertainty": "Physical units are not printed. Retain drawing values without assuming mm or inches.",
+  "views": [
+    {
+      "id": "Top (upper view)",
+      "plane": [
+        "X",
+        "Y"
+      ],
+      "horizontal_axis": "X",
+      "vertical_axis": "Y",
+      "horizontal_sign": 1,
+      "vertical_sign": 1,
+      "origin_pixel": [
+        149,
+        276
+      ],
+      "origin_evidence": "Common corner projects to lower-left of upper square."
+    },
+    {
+      "id": "Front (lower view)",
+      "plane": [
+        "X",
+        "Z"
+      ],
+      "horizontal_axis": "X",
+      "vertical_axis": "Z",
+      "horizontal_sign": 1,
+      "vertical_sign": 1,
+      "origin_pixel": [
+        149,
+        114
+      ],
+      "origin_evidence": "Common corner is lower-left of lower square."
+    }
+  ],
+  "locked": true,
+  "verification": "Chosen working frame based on inspected drawing; pixel locations approximate"
+}

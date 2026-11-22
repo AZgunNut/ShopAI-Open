@@ -1,0 +1,40 @@
+{
+  "engine": "PADDLE otsu_cw90 1060+1947",
+  "readings": [
+    {
+      "text": "A",
+      "bbox_px": [
+        0.0,
+        640.0,
+        18.0,
+        655.0
+      ],
+      "bbox_rotated_px": [
+        327.0,
+        0.0,
+        342.0,
+        18.0
+      ],
+      "alternatives": [
+        {
+          "text": "A",
+          "key": "A",
+          "score": 1.12998,
+          "kind": "datum_or_letter",
+          "parse_quality": 0.5,
+          "flags": [],
+          "confidence_peak": 0.111,
+          "whole_profiles": [
+            "1060"
+          ],
+          "profiles": [
+            "1060"
+          ],
+          "tile_samples": 0,
+          "support_examples": 1,
+          "style_bonus": 0.0
+        }
+      ]
+    }
+  ]
+}

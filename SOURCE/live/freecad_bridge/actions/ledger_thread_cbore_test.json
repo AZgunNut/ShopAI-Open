@@ -1,0 +1,64 @@
+{
+  "action": "create_part_from_features",
+  "part_name": "ledger_thread_cbore_test",
+  "units": "mm",
+  "datums": {
+    "origin": "lower_left_front_corner",
+    "x_axis": "length",
+    "y_axis": "width",
+    "z_axis": "height"
+  },
+  "features": [
+    {
+      "id": "base_block",
+      "type": "box",
+      "length_mm": 90,
+      "width_mm": 50,
+      "height_mm": 16,
+      "origin_mm": [0, 0, 0],
+      "confidence": 1.0,
+      "source": "direct user test"
+    },
+    {
+      "id": "cbore_1",
+      "type": "counterbore_z",
+      "center_mm": [25, 25],
+      "hole_diameter_mm": 6,
+      "counterbore_diameter_mm": 12,
+      "counterbore_depth_mm": 5,
+      "source": "counterbore geometry test",
+      "confidence": 1.0
+    },
+    {
+      "id": "thread_note_1",
+      "type": "thread_metadata",
+      "center_mm": [65, 25],
+      "source_callout": "1/4-20 UNC TAP THRU",
+      "thread_standard": "UNC",
+      "nominal": "1/4",
+      "tpi": 20,
+      "thread_angle_deg": 60,
+      "hand": "RH",
+      "source": "thread metadata test",
+      "confidence": 1.0
+    },
+    {
+      "id": "thread_pilot_hole",
+      "type": "through_hole_z",
+      "center_mm": [65, 25],
+      "diameter_mm": 5.1,
+      "source": "pilot/tap drill representation for 1/4-20",
+      "confidence": 0.8
+    }
+  ],
+  "exports": [
+    "FCStd",
+    "STEP",
+    "SVG_TOP",
+    "SVG_FRONT",
+    "SVG_RIGHT",
+    "DXF_TOP",
+    "DXF_FRONT",
+    "DXF_RIGHT"
+  ]
+}

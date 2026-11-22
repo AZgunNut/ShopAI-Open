@@ -1,0 +1,63 @@
+{
+  "action": "create_part_from_features",
+  "part_name": "ledger_csink_pocket_bolt_test",
+  "units": "mm",
+  "datums": {
+    "origin": "lower_left_front_corner",
+    "x_axis": "length",
+    "y_axis": "width",
+    "z_axis": "height"
+  },
+  "features": [
+    {
+      "id": "base_block",
+      "type": "box",
+      "length_mm": 120,
+      "width_mm": 80,
+      "height_mm": 16,
+      "origin_mm": [0, 0, 0],
+      "confidence": 1.0,
+      "source": "direct user test"
+    },
+    {
+      "id": "countersink_1",
+      "type": "countersink_z",
+      "center_mm": [25, 25],
+      "hole_diameter_mm": 5,
+      "countersink_diameter_mm": 12,
+      "countersink_angle_deg": 82,
+      "source": "countersink geometry test",
+      "confidence": 1.0
+    },
+    {
+      "id": "round_pocket_1",
+      "type": "round_pocket_z",
+      "center_mm": [60, 25],
+      "diameter_mm": 22,
+      "depth_mm": 5,
+      "source": "round blind pocket test",
+      "confidence": 1.0
+    },
+    {
+      "id": "bolt_circle_1",
+      "type": "bolt_circle_holes_z",
+      "center_mm": [80, 55],
+      "bolt_circle_diameter_mm": 28,
+      "hole_diameter_mm": 4,
+      "count": 6,
+      "start_angle_deg": 30,
+      "source": "six-hole bolt circle test",
+      "confidence": 1.0
+    }
+  ],
+  "exports": [
+    "FCStd",
+    "STEP",
+    "SVG_TOP",
+    "SVG_FRONT",
+    "SVG_RIGHT",
+    "DXF_TOP",
+    "DXF_FRONT",
+    "DXF_RIGHT"
+  ]
+}

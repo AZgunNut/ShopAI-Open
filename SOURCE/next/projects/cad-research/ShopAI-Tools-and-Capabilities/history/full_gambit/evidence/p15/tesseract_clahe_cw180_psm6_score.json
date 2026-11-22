@@ -1,0 +1,713 @@
+{
+  "truth_file": "/mnt/shopai-data-new/cad-research/experiments/qwen-3-drawing-20261030-173652-610108/shopai_three_drawing_truth/batch_lab/ocr_outline_eight_v1/truths/p15.truth.json",
+  "prediction_file": "/mnt/shopai-data-new/cad-research/experiments/qwen-3-drawing-20261030-173652-610108/shopai_three_drawing_truth/batch_lab/ocr_outline_eight_v1/results/full_gambit_20261108T191855Z_740546_12852/p15/tesseract_clahe_cw180_psm6_score_readings.json",
+  "truth_coverage_certified": false,
+  "certified_100_percent": false,
+  "truth_gap_count": 1,
+  "ground_truth_pending_review": 12,
+  "expected_provisional_character_instances": 56,
+  "observed_character_instances": 119,
+  "character_inventory_overlap_provisional": 21,
+  "character_inventory_pct_provisional": 37.5,
+  "missing_characters": {
+    "0": 2,
+    "1": 6,
+    "3": 1,
+    "4": 1,
+    "5": 8,
+    "6": 1,
+    ":": 1,
+    "c": 3,
+    "i": 4,
+    "t": 2,
+    "x": 1,
+    "Ø": 5
+  },
+  "extra_characters": {
+    "(": 1,
+    ")": 3,
+    ",": 1,
+    "-": 2,
+    ".": 1,
+    "2": 1,
+    "7": 2,
+    "<": 1,
+    "=": 1,
+    "@": 1,
+    "A": 2,
+    "D": 2,
+    "G": 2,
+    "I": 2,
+    "J": 1,
+    "L": 2,
+    "N": 2,
+    "O": 2,
+    "P": 2,
+    "Q": 1,
+    "S": 2,
+    "T": 2,
+    "V": 2,
+    "X": 1,
+    "Y": 1,
+    "Z": 1,
+    "\\": 1,
+    "_": 3,
+    "a": 5,
+    "d": 2,
+    "e": 10,
+    "f": 1,
+    "g": 2,
+    "o": 5,
+    "p": 1,
+    "r": 1,
+    "s": 2,
+    "u": 2,
+    "z": 1,
+    "{": 1,
+    "|": 5,
+    "}": 2,
+    "®": 1,
+    "—": 11,
+    "‘": 1
+  },
+  "provisional_annotation_matches": 2,
+  "provisional_annotation_total": 12,
+  "missing_annotations": [
+    {
+      "truth_id": "p15_T001",
+      "expected_text": "Ø2 conicitate 1:50",
+      "anchor_px": [
+        43.0,
+        228.0
+      ]
+    },
+    {
+      "truth_id": "p15_T002",
+      "expected_text": "Ø5 conicitate 1:50",
+      "anchor_px": [
+        43.0,
+        597.0
+      ]
+    },
+    {
+      "truth_id": "p15_T003",
+      "expected_text": "Ø6",
+      "anchor_px": [
+        423.0,
+        54.0
+      ]
+    },
+    {
+      "truth_id": "p15_T004",
+      "expected_text": "1x45°",
+      "anchor_px": [
+        584.0,
+        73.0
+      ]
+    },
+    {
+      "truth_id": "p15_T005",
+      "expected_text": "5",
+      "anchor_px": [
+        547.0,
+        190.0
+      ]
+    },
+    {
+      "truth_id": "p15_T006",
+      "expected_text": "12",
+      "anchor_px": [
+        683.0,
+        180.0
+      ]
+    },
+    {
+      "truth_id": "p15_T007",
+      "expected_text": "31.5",
+      "anchor_px": [
+        676.0,
+        364.0
+      ]
+    },
+    {
+      "truth_id": "p15_T010",
+      "expected_text": "Ø15",
+      "anchor_px": [
+        412.0,
+        542.0
+      ]
+    },
+    {
+      "truth_id": "p15_T011",
+      "expected_text": "Ø28",
+      "anchor_px": [
+        412.0,
+        585.0
+      ]
+    },
+    {
+      "truth_id": "p15_T012",
+      "expected_text": "5",
+      "anchor_px": [
+        393.0,
+        918.0
+      ]
+    }
+  ],
+  "extra_or_fragmented_groups": [
+    {
+      "text": "‘uorze2tTdde",
+      "confidence": 0.0,
+      "bbox_px": [
+        57.0,
+        1059.0,
+        138.0,
+        1071.0
+      ],
+      "index": 0
+    },
+    {
+      "text": "pasuact",
+      "confidence": 0.2573,
+      "bbox_px": [
+        1.0,
+        1059.0,
+        48.0,
+        1068.0
+      ],
+      "index": 1
+    },
+    {
+      "text": "Q",
+      "confidence": 0.8938,
+      "bbox_px": [
+        37.0,
+        648.0,
+        55.0,
+        665.0
+      ],
+      "index": 2
+    },
+    {
+      "text": "a",
+      "confidence": 0.9544,
+      "bbox_px": [
+        37.0,
+        636.0,
+        55.0,
+        647.0
+      ],
+      "index": 3
+    },
+    {
+      "text": "°",
+      "confidence": 0.552,
+      "bbox_px": [
+        41.0,
+        617.0,
+        55.0,
+        627.0
+      ],
+      "index": 4
+    },
+    {
+      "text": "fo}",
+      "confidence": 0.3972,
+      "bbox_px": [
+        41.0,
+        603.0,
+        55.0,
+        615.0
+      ],
+      "index": 5
+    },
+    {
+      "text": "|",
+      "confidence": 0.9288,
+      "bbox_px": [
+        206.0,
+        590.0,
+        207.0,
+        600.0
+      ],
+      "index": 6
+    },
+    {
+      "text": "2.",
+      "confidence": 0.7512,
+      "bbox_px": [
+        37.0,
+        586.0,
+        55.0,
+        602.0
+      ],
+      "index": 7
+    },
+    {
+      "text": "=",
+      "confidence": 0.4633,
+      "bbox_px": [
+        37.0,
+        569.0,
+        55.0,
+        584.0
+      ],
+      "index": 8
+    },
+    {
+      "text": "87D",
+      "confidence": 0.4233,
+      "bbox_px": [
+        343.0,
+        543.0,
+        386.0,
+        577.0
+      ],
+      "index": 9
+    },
+    {
+      "text": "D",
+      "confidence": 0.4969,
+      "bbox_px": [
+        37.0,
+        549.0,
+        55.0,
+        568.0
+      ],
+      "index": 10
+    },
+    {
+      "text": "Toe,",
+      "confidence": 0.2982,
+      "bbox_px": [
+        350.0,
+        495.0,
+        454.0,
+        557.0
+      ],
+      "index": 11
+    },
+    {
+      "text": "oO",
+      "confidence": 0.433,
+      "bbox_px": [
+        33.0,
+        518.0,
+        55.0,
+        552.0
+      ],
+      "index": 12
+    },
+    {
+      "text": "GIS",
+      "confidence": 0.5609,
+      "bbox_px": [
+        383.0,
+        506.0,
+        427.0,
+        525.0
+      ],
+      "index": 13
+    },
+    {
+      "text": "ag",
+      "confidence": 0.3941,
+      "bbox_px": [
+        37.0,
+        503.0,
+        55.0,
+        520.0
+      ],
+      "index": 14
+    },
+    {
+      "text": "a",
+      "confidence": 0.9501,
+      "bbox_px": [
+        37.0,
+        490.0,
+        55.0,
+        501.0
+      ],
+      "index": 15
+    },
+    {
+      "text": "Oo",
+      "confidence": 0.2693,
+      "bbox_px": [
+        37.0,
+        477.0,
+        55.0,
+        488.0
+      ],
+      "index": 16
+    },
+    {
+      "text": "-",
+      "confidence": 0.4447,
+      "bbox_px": [
+        551.0,
+        437.0,
+        569.0,
+        448.0
+      ],
+      "index": 17
+    },
+    {
+      "text": "{|",
+      "confidence": 0.3136,
+      "bbox_px": [
+        450.0,
+        427.0,
+        522.0,
+        487.0
+      ],
+      "index": 18
+    },
+    {
+      "text": "A)",
+      "confidence": 0.0857,
+      "bbox_px": [
+        208.0,
+        427.0,
+        280.0,
+        487.0
+      ],
+      "index": 19
+    },
+    {
+      "text": "ee",
+      "confidence": 0.4037,
+      "bbox_px": [
+        613.0,
+        391.0,
+        631.0,
+        398.0
+      ],
+      "index": 20
+    },
+    {
+      "text": "ee",
+      "confidence": 0.1922,
+      "bbox_px": [
+        529.0,
+        385.0,
+        567.0,
+        440.0
+      ],
+      "index": 21
+    },
+    {
+      "text": "nee",
+      "confidence": 0.1798,
+      "bbox_px": [
+        448.0,
+        398.0,
+        522.0,
+        425.0
+      ],
+      "index": 22
+    },
+    {
+      "text": "ee",
+      "confidence": 0.2535,
+      "bbox_px": [
+        369.0,
+        385.0,
+        429.0,
+        440.0
+      ],
+      "index": 23
+    },
+    {
+      "text": "®",
+      "confidence": 0.6193,
+      "bbox_px": [
+        613.0,
+        375.0,
+        631.0,
+        386.0
+      ],
+      "index": 24
+    },
+    {
+      "text": "|",
+      "confidence": 0.3306,
+      "bbox_px": [
+        448.0,
+        370.0,
+        522.0,
+        397.0
+      ],
+      "index": 25
+    },
+    {
+      "text": "(J",
+      "confidence": 0.1313,
+      "bbox_px": [
+        208.0,
+        370.0,
+        282.0,
+        397.0
+      ],
+      "index": 26
+    },
+    {
+      "text": "2",
+      "confidence": 0.4652,
+      "bbox_px": [
+        673.0,
+        312.0,
+        691.0,
+        333.0
+      ],
+      "index": 27
+    },
+    {
+      "text": "a",
+      "confidence": 0.4994,
+      "bbox_px": [
+        649.0,
+        284.0,
+        691.0,
+        305.0
+      ],
+      "index": 28
+    },
+    {
+      "text": "<P",
+      "confidence": 0.1508,
+      "bbox_px": [
+        322.0,
+        237.0,
+        407.0,
+        284.0
+      ],
+      "index": 30
+    },
+    {
+      "text": "nN",
+      "confidence": 0.3743,
+      "bbox_px": [
+        36.0,
+        246.0,
+        58.0,
+        269.0
+      ],
+      "index": 31
+    },
+    {
+      "text": "as",
+      "confidence": 0.3056,
+      "bbox_px": [
+        608.0,
+        196.0,
+        630.0,
+        224.0
+      ],
+      "index": 33
+    },
+    {
+      "text": "2.",
+      "confidence": 0.7699,
+      "bbox_px": [
+        36.0,
+        204.0,
+        54.0,
+        220.0
+      ],
+      "index": 34
+    },
+    {
+      "text": "N\\A",
+      "confidence": 0.1013,
+      "bbox_px": [
+        586.0,
+        189.0,
+        630.0,
+        200.0
+      ],
+      "index": 35
+    },
+    {
+      "text": "-——",
+      "confidence": 0.0702,
+      "bbox_px": [
+        453.0,
+        169.0,
+        526.0,
+        204.0
+      ],
+      "index": 36
+    },
+    {
+      "text": "__———————",
+      "confidence": 0.1329,
+      "bbox_px": [
+        205.0,
+        169.0,
+        392.0,
+        204.0
+      ],
+      "index": 37
+    },
+    {
+      "text": "——",
+      "confidence": 0.4979,
+      "bbox_px": [
+        36.0,
+        140.0,
+        200.0,
+        222.0
+      ],
+      "index": 38
+    },
+    {
+      "text": "go",
+      "confidence": 0.3721,
+      "bbox_px": [
+        40.0,
+        167.0,
+        54.0,
+        178.0
+      ],
+      "index": 39
+    },
+    {
+      "text": "eV",
+      "confidence": 0.5477,
+      "bbox_px": [
+        456.0,
+        133.0,
+        566.0,
+        177.0
+      ],
+      "index": 40
+    },
+    {
+      "text": "|",
+      "confidence": 0.3969,
+      "bbox_px": [
+        412.0,
+        116.0,
+        430.0,
+        181.0
+      ],
+      "index": 41
+    },
+    {
+      "text": "IV",
+      "confidence": 0.4464,
+      "bbox_px": [
+        337.0,
+        116.0,
+        392.0,
+        181.0
+      ],
+      "index": 42
+    },
+    {
+      "text": "ZY)",
+      "confidence": 0.4464,
+      "bbox_px": [
+        207.0,
+        116.0,
+        310.0,
+        181.0
+      ],
+      "index": 43
+    },
+    {
+      "text": "@",
+      "confidence": 0.5636,
+      "bbox_px": [
+        36.0,
+        146.0,
+        54.0,
+        166.0
+      ],
+      "index": 44
+    },
+    {
+      "text": ":",
+      "confidence": 0.0,
+      "bbox_px": [
+        36.0,
+        108.0,
+        54.0,
+        138.0
+      ],
+      "index": 45
+    },
+    {
+      "text": "|",
+      "confidence": 0.7777,
+      "bbox_px": [
+        584.0,
+        98.0,
+        585.0,
+        114.0
+      ],
+      "index": 46
+    },
+    {
+      "text": "S}",
+      "confidence": 0.4577,
+      "bbox_px": [
+        36.0,
+        95.0,
+        54.0,
+        106.0
+      ],
+      "index": 47
+    },
+    {
+      "text": "oGPXL",
+      "confidence": 0.2114,
+      "bbox_px": [
+        561.0,
+        65.0,
+        618.0,
+        82.0
+      ],
+      "index": 48
+    },
+    {
+      "text": "L_",
+      "confidence": 0.3358,
+      "bbox_px": [
+        387.0,
+        57.0,
+        460.0,
+        126.0
+      ],
+      "index": 49
+    },
+    {
+      "text": "7)",
+      "confidence": 0.4561,
+      "bbox_px": [
+        408.0,
+        37.0,
+        438.0,
+        56.0
+      ],
+      "index": 50
+    }
+  ],
+  "matching_instances_diagnostic": [
+    {
+      "truth_id": "p15_T008",
+      "text": "18",
+      "observation_index": 32,
+      "anchor_distance_px": 596.6
+    },
+    {
+      "truth_id": "p15_T009",
+      "text": "8",
+      "observation_index": 29,
+      "anchor_distance_px": 610.6
+    }
+  ],
+  "note": "Inventory counts and annotation matches are PROVISIONAL. No per-glyph spatial truth exists and truth coverage is not independently verified. Counts may cancel swapped or misplaced glyphs."
+}

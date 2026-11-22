@@ -1,0 +1,188 @@
+{
+  "schema_version": 1,
+  "created_utc": "2026-11-10T00:08:14.826613+00:00",
+  "library_root": "/mnt/shopai-data-new/cad-research/ShopAI-Tools-and-Capabilities",
+  "tools": [
+    {
+      "id": "paddleocr-v5",
+      "description": "Standalone PaddleOCR v5 detector and recognizer.",
+      "best_for": "General technical text candidate detection with positions.",
+      "dependencies": "paddleocr environment; archived v5 detector/recognizer models",
+      "execution_status": "historically_working_launcher_unverified",
+      "readme": "/mnt/shopai-data-new/cad-research/ShopAI-Tools-and-Capabilities/tool-guides/paddleocr-v5/README.md",
+      "launcher": "/mnt/shopai-data-new/cad-research/ShopAI-Tools-and-Capabilities/tool-guides/paddleocr-v5/run.sh"
+    },
+    {
+      "id": "tesseract",
+      "description": "Standalone Tesseract OCR.",
+      "best_for": "Independent OCR and fallback recognition.",
+      "dependencies": "system Tesseract; English/Norwegian traineddata",
+      "execution_status": "historically_working_launcher_unverified",
+      "readme": "/mnt/shopai-data-new/cad-research/ShopAI-Tools-and-Capabilities/tool-guides/tesseract/README.md",
+      "launcher": "/mnt/shopai-data-new/cad-research/ShopAI-Tools-and-Capabilities/tool-guides/tesseract/run.sh"
+    },
+    {
+      "id": "cadocr-paddle",
+      "description": "CADOCR using PaddleOCR 3.7.",
+      "best_for": "Text and line extraction to JSON/TXT/DXF.",
+      "dependencies": "paddleocr environment, common ezdxf, local v6 models",
+      "execution_status": "verified_8_of_8",
+      "readme": "/mnt/shopai-data-new/cad-research/ShopAI-Tools-and-Capabilities/tool-guides/cadocr-paddle/README.md",
+      "launcher": "/mnt/shopai-data-new/cad-research/ShopAI-Tools-and-Capabilities/tool-guides/cadocr-paddle/run.sh"
+    },
+    {
+      "id": "cadocr-tesseract",
+      "description": "CADOCR using Tesseract.",
+      "best_for": "Alternative text and line extraction.",
+      "dependencies": "common environment; system Tesseract",
+      "execution_status": "verified_8_of_8",
+      "readme": "/mnt/shopai-data-new/cad-research/ShopAI-Tools-and-Capabilities/tool-guides/cadocr-tesseract/README.md",
+      "launcher": "/mnt/shopai-data-new/cad-research/ShopAI-Tools-and-Capabilities/tool-guides/cadocr-tesseract/run.sh"
+    },
+    {
+      "id": "cadocr-geometry",
+      "description": "CADOCR without OCR.",
+      "best_for": "Independent line and circle extraction.",
+      "dependencies": "common environment; ezdxf",
+      "execution_status": "verified_8_of_8",
+      "readme": "/mnt/shopai-data-new/cad-research/ShopAI-Tools-and-Capabilities/tool-guides/cadocr-geometry/README.md",
+      "launcher": "/mnt/shopai-data-new/cad-research/ShopAI-Tools-and-Capabilities/tool-guides/cadocr-geometry/run.sh"
+    },
+    {
+      "id": "edocr2-native",
+      "description": "Native eDOCr2.",
+      "best_for": "Engineering dimensions, GD&T, symbols, masks, positional CSV.",
+      "dependencies": "edocr2 environment; isolated Python dependencies; CRAFT; Keras recognizers; eng/nor Tesseract; symbol templates",
+      "execution_status": "verified_8_of_8",
+      "readme": "/mnt/shopai-data-new/cad-research/ShopAI-Tools-and-Capabilities/tool-guides/edocr2-native/README.md",
+      "launcher": "/mnt/shopai-data-new/cad-research/ShopAI-Tools-and-Capabilities/tool-guides/edocr2-native/run.sh"
+    },
+    {
+      "id": "drawing-to-dxf-geometry",
+      "description": "Drawing-to-DXF geometry-only.",
+      "best_for": "Vectorized DXF geometry; accuracy still needs visual validation.",
+      "dependencies": "common environment; archived Drawing-to-DXF code",
+      "execution_status": "verified_8_of_8",
+      "readme": "/mnt/shopai-data-new/cad-research/ShopAI-Tools-and-Capabilities/tool-guides/drawing-to-dxf-geometry/README.md",
+      "launcher": "/mnt/shopai-data-new/cad-research/ShopAI-Tools-and-Capabilities/tool-guides/drawing-to-dxf-geometry/run.sh"
+    },
+    {
+      "id": "drawing-to-dxf-full",
+      "description": "Drawing-to-DXF full mode.",
+      "best_for": "DXF pipeline with OCR-related processing; compared modelspace geometry matched geometry-only on eight drawings.",
+      "dependencies": "common environment; archived Drawing-to-DXF code",
+      "execution_status": "verified_8_of_8",
+      "readme": "/mnt/shopai-data-new/cad-research/ShopAI-Tools-and-Capabilities/tool-guides/drawing-to-dxf-full/README.md",
+      "launcher": "/mnt/shopai-data-new/cad-research/ShopAI-Tools-and-Capabilities/tool-guides/drawing-to-dxf-full/run.sh"
+    },
+    {
+      "id": "vtracer-binary",
+      "description": "VTracer binary vectorization.",
+      "best_for": "Binary contours to SVG; not semantic CAD geometry.",
+      "dependencies": "vtracer-standalone-v1 environment",
+      "execution_status": "verified_8_of_8",
+      "readme": "/mnt/shopai-data-new/cad-research/ShopAI-Tools-and-Capabilities/tool-guides/vtracer-binary/README.md",
+      "launcher": "/mnt/shopai-data-new/cad-research/ShopAI-Tools-and-Capabilities/tool-guides/vtracer-binary/run.sh"
+    },
+    {
+      "id": "vtracer-color",
+      "description": "VTracer color vectorization.",
+      "best_for": "Color-region contours to SVG; not semantic CAD geometry.",
+      "dependencies": "vtracer-standalone-v1 environment",
+      "execution_status": "verified_8_of_8",
+      "readme": "/mnt/shopai-data-new/cad-research/ShopAI-Tools-and-Capabilities/tool-guides/vtracer-color/README.md",
+      "launcher": "/mnt/shopai-data-new/cad-research/ShopAI-Tools-and-Capabilities/tool-guides/vtracer-color/run.sh"
+    },
+    {
+      "id": "dual-1060-1947-selector-v2",
+      "description": "Original dual PaddleOCR pipeline: 1060 + 1947, Selector v2.",
+      "best_for": "Preserve Otsu/black-ink and sharpened/enlarged color profiles. Historical candidate coverage was 24/24; automatic selection and position accuracy require separate verification.",
+      "dependencies": "PaddleOCR environment; archived baseline and SQLite configs",
+      "execution_status": "historical_launcher_needs_reverification",
+      "readme": "/mnt/shopai-data-new/cad-research/ShopAI-Tools-and-Capabilities/tool-guides/dual-1060-1947-selector-v2/README.md",
+      "launcher": "/mnt/shopai-data-new/cad-research/ShopAI-Tools-and-Capabilities/tool-guides/dual-1060-1947-selector-v2/run.sh"
+    },
+    {
+      "id": "paddle-tesseract-fusion-historical",
+      "description": "Historical combined OCR concept.",
+      "best_for": "Separate from the two-profile 1060+1947 pipeline.",
+      "dependencies": "No verified combined fusion launcher recovered",
+      "execution_status": "not_verified",
+      "readme": "/mnt/shopai-data-new/cad-research/ShopAI-Tools-and-Capabilities/tool-guides/paddle-tesseract-fusion-historical/README.md",
+      "launcher": null
+    },
+    {
+      "id": "edocr-original",
+      "description": "Original eDOCr.",
+      "best_for": "Separate project from working eDOCr2.",
+      "dependencies": "Original repository; runtime incomplete",
+      "execution_status": "not_verified",
+      "readme": "/mnt/shopai-data-new/cad-research/ShopAI-Tools-and-Capabilities/tool-guides/edocr-original/README.md",
+      "launcher": null
+    },
+    {
+      "id": "scan-vectorizer",
+      "description": "Scan-Vectorizer.",
+      "best_for": "Additional tracing candidate.",
+      "dependencies": "Installed repository; not benchmarked",
+      "execution_status": "not_verified",
+      "readme": "/mnt/shopai-data-new/cad-research/ShopAI-Tools-and-Capabilities/tool-guides/scan-vectorizer/README.md",
+      "launcher": null
+    },
+    {
+      "id": "orthocad",
+      "description": "Ortho2CAD.",
+      "best_for": "Additional drawing-to-CAD candidate.",
+      "dependencies": "Installed repository; not benchmarked",
+      "execution_status": "not_verified",
+      "readme": "/mnt/shopai-data-new/cad-research/ShopAI-Tools-and-Capabilities/tool-guides/orthocad/README.md",
+      "launcher": null
+    },
+    {
+      "id": "qwen3-vl",
+      "description": "Qwen3-VL.",
+      "best_for": "Vision-language analysis candidate.",
+      "dependencies": "Separate model runtime; not benchmarked",
+      "execution_status": "not_verified",
+      "readme": "/mnt/shopai-data-new/cad-research/ShopAI-Tools-and-Capabilities/tool-guides/qwen3-vl/README.md",
+      "launcher": null
+    },
+    {
+      "id": "internvl35",
+      "description": "InternVL3.5.",
+      "best_for": "Vision-language analysis candidate.",
+      "dependencies": "Separate model runtime; not benchmarked",
+      "execution_status": "not_verified",
+      "readme": "/mnt/shopai-data-new/cad-research/ShopAI-Tools-and-Capabilities/tool-guides/internvl35/README.md",
+      "launcher": null
+    },
+    {
+      "id": "sam3",
+      "description": "SAM3.",
+      "best_for": "Segmentation candidate.",
+      "dependencies": "Separate runtime; not benchmarked",
+      "execution_status": "not_verified",
+      "readme": "/mnt/shopai-data-new/cad-research/ShopAI-Tools-and-Capabilities/tool-guides/sam3/README.md",
+      "launcher": null
+    }
+  ],
+  "history": {
+    "native_64_tests": "native_comparison_20261108T211844Z_2708791",
+    "cadocr_paddle_8_of_8": "compat_recovery_20261109T002647Z_744127",
+    "edocr2_7_of_8": "edocr2_templates_fixed_20261109T005511Z_744784",
+    "edocr2_p5_1_of_1": "edocr2_p5_resize_fix_20261109T012516Z_745228",
+    "full_gambit": "full_gambit_20261108T191855Z_740546_12852"
+  },
+  "source_origins": {
+    "cadocr": "/mnt/shopai-data-new/cad-research/experiments/qwen-3-drawing-20261030-173652-610108/shopai_three_drawing_truth/batch_lab/ocr_outline_eight_v1/results/compat_recovery_20261109T002647Z_744127/copies/CADOCR",
+    "edocr2": "/mnt/shopai-data-new/cad-research/experiments/qwen-3-drawing-20261030-173652-610108/shopai_three_drawing_truth/batch_lab/ocr_outline_eight_v1/results/edocr2_p5_resize_fix_20261109T012516Z_745228/eDOCr2",
+    "paddle_models": "/mnt/shopai-data-new/cad-research/experiments/qwen-3-drawing-20261030-173652-610108/shopai_three_drawing_truth/batch_lab/ocr_outline_eight_v1/offline_assets/offline_retry_20261109T002014Z_744018/models",
+    "tessdata": "/mnt/shopai-data-new/cad-research/experiments/qwen-3-drawing-20261030-173652-610108/shopai_three_drawing_truth/batch_lab/ocr_outline_eight_v1/offline_assets/edocr2_nor_retry_20261109T004802Z_744676/tessdata",
+    "edocr2_python": "/mnt/shopai-data-new/cad-research/environments/edocr2/bin/python",
+    "paddle_python": "/mnt/shopai-data-new/cad-research/environments/paddleocr/bin/python",
+    "common_python": "/mnt/shopai-data-new/cad-research/environments/common/bin/python",
+    "vtracer_python": "/mnt/shopai-data-new/cad-research/environments/vtracer-standalone-v1/bin/python",
+    "original_dual_1060_1947": "/mnt/shopai-data-new/cad-research/experiments/qwen-3-drawing-20261030-173652-610108/shopai_three_drawing_truth/batch_lab/baseline/ocr_selector"
+  },
+  "accuracy_warning": "Successful execution does not establish OCR accuracy. The 24/24 historical dual result was candidate coverage, not spatially verified automatic selection."
+}

@@ -1,0 +1,515 @@
+{
+  "source": "D1 post-test truth reveal from completed real OCR+v5 processing",
+  "active_drawings": [
+    "D1"
+  ],
+  "already_tested_truth": {
+    "D1": {
+      "schema_version": "1.0",
+      "drawing_id": "D1",
+      "difficulty_rank": 1,
+      "image": "drawing_01.png",
+      "image_width": 1536,
+      "image_height": 1024,
+      "units": {
+        "displayed_on_drawing": null,
+        "user_explicitly_declared_for_this_drawing": null,
+        "interpretation": "Units unspecified; retain drawing units. Do not silently convert or invent."
+      },
+      "datum": {
+        "origin": "lower-left outer profile corner",
+        "x_positive": "right",
+        "y_positive": "up",
+        "basis": "analysis convention, not a printed datum"
+      },
+      "visible_readings": [
+        {
+          "id": "D1_A01",
+          "text": "1.5",
+          "kind": "linear_dimension",
+          "target": "top_horizontal_edge",
+          "value": 1.5
+        },
+        {
+          "id": "D1_A02",
+          "text": "2.0",
+          "kind": "linear_dimension",
+          "target": "overall_height_left",
+          "value": 2.0
+        },
+        {
+          "id": "D1_A03",
+          "text": "3.0",
+          "kind": "linear_dimension",
+          "target": "overall_width_bottom",
+          "value": 3.0
+        },
+        {
+          "id": "D1_A04",
+          "text": "1.0",
+          "kind": "linear_dimension",
+          "target": "right_vertical_edge",
+          "value": 1.0
+        },
+        {
+          "id": "D1_A05",
+          "text": "R0.5",
+          "kind": "radius_dimension",
+          "target": "central_circle",
+          "value": 0.5
+        }
+      ],
+      "geometry_checks": [
+        {
+          "id": "D1_G01",
+          "path": "geometry.outer_profile_vertices",
+          "expected": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              1.5,
+              2
+            ],
+            [
+              3,
+              1
+            ],
+            [
+              3,
+              0
+            ]
+          ],
+          "tolerance": 0.001,
+          "evidence": "clockwise or counter-clockwise cyclic rotation accepted"
+        },
+        {
+          "id": "D1_G02",
+          "path": "geometry.outer_edge_count",
+          "expected": 5
+        },
+        {
+          "id": "D1_G03",
+          "path": "geometry.circle_count",
+          "expected": 1
+        },
+        {
+          "id": "D1_G04",
+          "path": "geometry.circle_center",
+          "expected": [
+            1.5,
+            1.0
+          ],
+          "tolerance": 0.001,
+          "evidence": "crosshair x=1.5, y=1.0"
+        },
+        {
+          "id": "D1_G05",
+          "path": "geometry.circle_radius",
+          "expected": 0.5,
+          "tolerance": 0.001
+        },
+        {
+          "id": "D1_G06",
+          "path": "geometry.sloping_edge_endpoints",
+          "expected": [
+            [
+              1.5,
+              2.0
+            ],
+            [
+              3.0,
+              1.0
+            ]
+          ],
+          "tolerance": 0.001
+        }
+      ],
+      "visual_context": {
+        "outline_color": "blue",
+        "dimensions_and_centermarks_color": "red",
+        "known_profile": "five straight outline segments and one internal circle"
+      },
+      "notes": [
+        "No thickness, material or extrusion depth specified.",
+        "Do not confuse red extension/center lines with blue profile edges.",
+        "No printed unit."
+      ],
+      "ambiguities": []
+    }
+  },
+  "baseline_evidence": {
+    "prediction_path": "/mnt/shopai-data-new/cad-research/experiments/qwen-3-drawing-20261030-173652-610108/shopai_three_drawing_truth/batch_lab/d1_postrun_scoring/271ae9460cd6/D1.prediction.json",
+    "score_path": "/mnt/shopai-data-new/cad-research/experiments/qwen-3-drawing-20261030-173652-610108/shopai_three_drawing_truth/batch_lab/d1_postrun_scoring/271ae9460cd6/D1.score.json",
+    "raw_ocr_text_correct": 5,
+    "raw_ocr_text_total": 5,
+    "geometry_json_path": "/mnt/shopai-data-new/cad-research/experiments/qwen-3-drawing-20261030-173652-610108/shopai_three_drawing_truth/batch_lab/real_geometry_d1/20261031T081526Z-1421171/winner_geometry.json",
+    "important": "Do NOT equate v5 internal fitness with accuracy against dimensional truth; raw geometry remains unnormalized."
+  },
+  "baseline_report": {
+    "drawing_id": "D1",
+    "checks_total": 11,
+    "checks_passed": 0,
+    "score_pct": 0.0,
+    "passed": false,
+    "human_image_review_required": true,
+    "warnings": [
+      "5 unmatched/extra predictions need human verification"
+    ],
+    "checks": [
+      {
+        "id": "D1_A01",
+        "category": "visible_reading",
+        "pass": false,
+        "expected": {
+          "id": "D1_A01",
+          "text": "1.5",
+          "kind": "linear_dimension",
+          "target": "top_horizontal_edge",
+          "value": 1.5
+        },
+        "actual": [
+          {
+            "text": "1.5",
+            "kind": "linear_dimension",
+            "value": 1.5,
+            "target": null,
+            "evidence": {
+              "bbox_original_px": [
+                467.0,
+                88.0,
+                594.0,
+                158.0
+              ],
+              "ocr_kind": "linear_or_value",
+              "ocr_state": "PLAUSIBLE_UNVERIFIED",
+              "alternatives": [
+                {
+                  "text": "1.5",
+                  "key": "1.5",
+                  "score": 3.19945,
+                  "kind": "linear_or_value",
+                  "parse_quality": 1.8,
+                  "flags": [],
+                  "confidence_peak": 0.999,
+                  "whole_profiles": [
+                    "1060"
+                  ],
+                  "profiles": [
+                    "1060"
+                  ],
+                  "tile_samples": 0,
+                  "support_examples": 1,
+                  "style_bonus": 0.35
+                }
+              ],
+              "source_profiles": "1060+1947"
+            }
+          }
+        ],
+        "problem": "Missing exact observation, classification, value or association"
+      },
+      {
+        "id": "D1_A02",
+        "category": "visible_reading",
+        "pass": false,
+        "expected": {
+          "id": "D1_A02",
+          "text": "2.0",
+          "kind": "linear_dimension",
+          "target": "overall_height_left",
+          "value": 2.0
+        },
+        "actual": [
+          {
+            "text": "2.0",
+            "kind": "linear_dimension",
+            "value": 2.0,
+            "target": null,
+            "evidence": {
+              "bbox_original_px": [
+                77.0,
+                446.0,
+                205.0,
+                525.0
+              ],
+              "ocr_kind": "linear_or_value",
+              "ocr_state": "PLAUSIBLE_UNVERIFIED",
+              "alternatives": [
+                {
+                  "text": "2.0",
+                  "key": "2.0",
+                  "score": 3.37984,
+                  "kind": "linear_or_value",
+                  "parse_quality": 1.8,
+                  "flags": [],
+                  "confidence_peak": 1.0,
+                  "whole_profiles": [
+                    "1060",
+                    "1947"
+                  ],
+                  "profiles": [
+                    "1060",
+                    "1947"
+                  ],
+                  "tile_samples": 0,
+                  "support_examples": 2,
+                  "style_bonus": 0.35
+                }
+              ],
+              "source_profiles": "1060+1947"
+            }
+          }
+        ],
+        "problem": "Missing exact observation, classification, value or association"
+      },
+      {
+        "id": "D1_A03",
+        "category": "visible_reading",
+        "pass": false,
+        "expected": {
+          "id": "D1_A03",
+          "text": "3.0",
+          "kind": "linear_dimension",
+          "target": "overall_width_bottom",
+          "value": 3.0
+        },
+        "actual": [
+          {
+            "text": "3.0",
+            "kind": "linear_dimension",
+            "value": 3.0,
+            "target": null,
+            "evidence": {
+              "bbox_original_px": [
+                686.0,
+                833.0,
+                826.0,
+                916.0
+              ],
+              "ocr_kind": "linear_or_value",
+              "ocr_state": "PLAUSIBLE_UNVERIFIED",
+              "alternatives": [
+                {
+                  "text": "3.0",
+                  "key": "3.0",
+                  "score": 3.37952,
+                  "kind": "linear_or_value",
+                  "parse_quality": 1.8,
+                  "flags": [],
+                  "confidence_peak": 0.999,
+                  "whole_profiles": [
+                    "1060",
+                    "1947"
+                  ],
+                  "profiles": [
+                    "1060",
+                    "1947"
+                  ],
+                  "tile_samples": 0,
+                  "support_examples": 2,
+                  "style_bonus": 0.35
+                }
+              ],
+              "source_profiles": "1060+1947"
+            }
+          }
+        ],
+        "problem": "Missing exact observation, classification, value or association"
+      },
+      {
+        "id": "D1_A04",
+        "category": "visible_reading",
+        "pass": false,
+        "expected": {
+          "id": "D1_A04",
+          "text": "1.0",
+          "kind": "linear_dimension",
+          "target": "right_vertical_edge",
+          "value": 1.0
+        },
+        "actual": [
+          {
+            "text": "1.0",
+            "kind": "linear_dimension",
+            "value": 1.0,
+            "target": null,
+            "evidence": {
+              "bbox_original_px": [
+                1354.0,
+                590.0,
+                1479.0,
+                673.0
+              ],
+              "ocr_kind": "linear_or_value",
+              "ocr_state": "PLAUSIBLE_UNVERIFIED",
+              "alternatives": [
+                {
+                  "text": "1.0",
+                  "key": "1.0",
+                  "score": 3.19826,
+                  "kind": "linear_or_value",
+                  "parse_quality": 1.8,
+                  "flags": [],
+                  "confidence_peak": 0.996,
+                  "whole_profiles": [
+                    "1060"
+                  ],
+                  "profiles": [
+                    "1060"
+                  ],
+                  "tile_samples": 0,
+                  "support_examples": 1,
+                  "style_bonus": 0.35
+                }
+              ],
+              "source_profiles": "1060+1947"
+            }
+          }
+        ],
+        "problem": "Missing exact observation, classification, value or association"
+      },
+      {
+        "id": "D1_A05",
+        "category": "visible_reading",
+        "pass": false,
+        "expected": {
+          "id": "D1_A05",
+          "text": "R0.5",
+          "kind": "radius_dimension",
+          "target": "central_circle",
+          "value": 0.5
+        },
+        "actual": [
+          {
+            "text": "R0.5",
+            "kind": "radius_dimension",
+            "value": 0.5,
+            "target": null,
+            "evidence": {
+              "bbox_original_px": [
+                1110.0,
+                211.0,
+                1283.0,
+                290.0
+              ],
+              "ocr_kind": "radius",
+              "ocr_state": "PLAUSIBLE_UNVERIFIED",
+              "alternatives": [
+                {
+                  "text": "R0.5",
+                  "key": "R0.5",
+                  "score": 3.77602,
+                  "kind": "radius",
+                  "parse_quality": 2.2,
+                  "flags": [],
+                  "confidence_peak": 0.992,
+                  "whole_profiles": [
+                    "1060",
+                    "1947"
+                  ],
+                  "profiles": [
+                    "1060",
+                    "1947"
+                  ],
+                  "tile_samples": 0,
+                  "support_examples": 2,
+                  "style_bonus": 0.35
+                }
+              ],
+              "source_profiles": "1060+1947"
+            }
+          }
+        ],
+        "problem": "Missing exact observation, classification, value or association"
+      },
+      {
+        "id": "D1_G01",
+        "category": "geometry",
+        "pass": false,
+        "expected": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            1.5,
+            2
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            3,
+            0
+          ]
+        ],
+        "actual": null,
+        "problem": "Missing or unequal geometric assertion"
+      },
+      {
+        "id": "D1_G02",
+        "category": "geometry",
+        "pass": false,
+        "expected": 5,
+        "actual": null,
+        "problem": "Missing or unequal geometric assertion"
+      },
+      {
+        "id": "D1_G03",
+        "category": "geometry",
+        "pass": false,
+        "expected": 1,
+        "actual": null,
+        "problem": "Missing or unequal geometric assertion"
+      },
+      {
+        "id": "D1_G04",
+        "category": "geometry",
+        "pass": false,
+        "expected": [
+          1.5,
+          1.0
+        ],
+        "actual": null,
+        "problem": "Missing or unequal geometric assertion"
+      },
+      {
+        "id": "D1_G05",
+        "category": "geometry",
+        "pass": false,
+        "expected": 0.5,
+        "actual": null,
+        "problem": "Missing or unequal geometric assertion"
+      },
+      {
+        "id": "D1_G06",
+        "category": "geometry",
+        "pass": false,
+        "expected": [
+          [
+            1.5,
+            2.0
+          ],
+          [
+            3.0,
+            1.0
+          ]
+        ],
+        "actual": null,
+        "problem": "Missing or unequal geometric assertion"
+      }
+    ]
+  },
+  "warning": "Truth is development feedback AFTER a completed prediction. Do not hardcode drawing IDs, labels, values, regions or coordinates in the extractor. Future drawings may have no truth."
+}

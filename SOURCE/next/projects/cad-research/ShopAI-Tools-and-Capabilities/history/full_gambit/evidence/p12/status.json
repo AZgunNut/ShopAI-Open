@@ -1,0 +1,1860 @@
+{
+  "drawing": "p12",
+  "status": "complete",
+  "methods": [
+    {
+      "label": "EXISTING BASELINE Paddle",
+      "characters": 2,
+      "expected": 2,
+      "annotation_matches": 1,
+      "missing_characters": {},
+      "extra_characters": {
+        "S": 1
+      },
+      "missing_count": 0,
+      "extra_count": 1,
+      "annotations": 1,
+      "score": "p12/baseline_paddle_score.json",
+      "n_readings": 2
+    },
+    {
+      "label": "PADDLE raw_cw0 1060",
+      "characters": 2,
+      "expected": 2,
+      "annotation_matches": 1,
+      "missing_characters": {},
+      "extra_characters": {
+        "S": 1
+      },
+      "missing_count": 0,
+      "extra_count": 1,
+      "annotations": 1,
+      "score": "p12/paddle_raw_cw0_1060_score.json",
+      "n_readings": 2
+    },
+    {
+      "label": "PADDLE raw_cw0 1947",
+      "characters": 2,
+      "expected": 2,
+      "annotation_matches": 1,
+      "missing_characters": {},
+      "extra_characters": {},
+      "missing_count": 0,
+      "extra_count": 0,
+      "annotations": 1,
+      "score": "p12/paddle_raw_cw0_1947_score.json",
+      "n_readings": 1
+    },
+    {
+      "label": "PADDLE raw_cw0 1060+1947",
+      "characters": 2,
+      "expected": 2,
+      "annotation_matches": 1,
+      "missing_characters": {},
+      "extra_characters": {
+        "S": 1
+      },
+      "missing_count": 0,
+      "extra_count": 1,
+      "annotations": 1,
+      "score": "p12/paddle_raw_cw0_1060_1947_score.json",
+      "n_readings": 2
+    },
+    {
+      "label": "TESSERACT p12 raw_cw0 PSM3",
+      "characters": 0,
+      "expected": 2,
+      "annotation_matches": 0,
+      "missing_characters": {
+        "4": 1,
+        "R": 1
+      },
+      "extra_characters": {},
+      "missing_count": 2,
+      "extra_count": 0,
+      "annotations": 1,
+      "score": "p12/tesseract_raw_cw0_psm3_score.json",
+      "n_readings": 0
+    },
+    {
+      "label": "TESSERACT p12 raw_cw0 PSM6",
+      "characters": 0,
+      "expected": 2,
+      "annotation_matches": 0,
+      "missing_characters": {
+        "4": 1,
+        "R": 1
+      },
+      "extra_characters": {
+        "S": 1,
+        "a": 1,
+        "e": 2,
+        "t": 1
+      },
+      "missing_count": 2,
+      "extra_count": 5,
+      "annotations": 1,
+      "score": "p12/tesseract_raw_cw0_psm6_score.json",
+      "n_readings": 2
+    },
+    {
+      "label": "TESSERACT p12 raw_cw0 PSM11",
+      "characters": 0,
+      "expected": 2,
+      "annotation_matches": 0,
+      "missing_characters": {
+        "4": 1,
+        "R": 1
+      },
+      "extra_characters": {
+        ":": 1,
+        "e": 1,
+        "i": 2,
+        "l": 1,
+        "y": 1
+      },
+      "missing_count": 2,
+      "extra_count": 6,
+      "annotations": 1,
+      "score": "p12/tesseract_raw_cw0_psm11_score.json",
+      "n_readings": 5
+    },
+    {
+      "label": "TESSERACT p12 raw_cw0 PSM12",
+      "characters": 0,
+      "expected": 2,
+      "annotation_matches": 0,
+      "missing_characters": {
+        "4": 1,
+        "R": 1
+      },
+      "extra_characters": {
+        "(": 1,
+        "a": 1,
+        "l": 1,
+        "x": 1,
+        "»": 1
+      },
+      "missing_count": 2,
+      "extra_count": 5,
+      "annotations": 1,
+      "score": "p12/tesseract_raw_cw0_psm12_score.json",
+      "n_readings": 3
+    },
+    {
+      "label": "PADDLE raw_cw90 1060",
+      "characters": 0,
+      "expected": 2,
+      "annotation_matches": 0,
+      "missing_characters": {
+        "4": 1,
+        "R": 1
+      },
+      "extra_characters": {
+        "A": 1
+      },
+      "missing_count": 2,
+      "extra_count": 1,
+      "annotations": 1,
+      "score": "p12/paddle_raw_cw90_1060_score.json",
+      "n_readings": 1
+    },
+    {
+      "label": "PADDLE raw_cw90 1060+1947",
+      "characters": 0,
+      "expected": 2,
+      "annotation_matches": 0,
+      "missing_characters": {
+        "4": 1,
+        "R": 1
+      },
+      "extra_characters": {
+        "A": 1
+      },
+      "missing_count": 2,
+      "extra_count": 1,
+      "annotations": 1,
+      "score": "p12/paddle_raw_cw90_1060_1947_score.json",
+      "n_readings": 1
+    },
+    {
+      "label": "TESSERACT p12 raw_cw90 PSM3",
+      "characters": 0,
+      "expected": 2,
+      "annotation_matches": 0,
+      "missing_characters": {
+        "4": 1,
+        "R": 1
+      },
+      "extra_characters": {
+        "-": 3,
+        "=": 1,
+        "I": 1,
+        "J": 1,
+        "N": 1,
+        "V": 1,
+        "a": 3,
+        "d": 1,
+        "e": 1,
+        "f": 1,
+        "l": 1,
+        "o": 2,
+        "p": 3,
+        "r": 1,
+        "y": 1,
+        "|": 1
+      },
+      "missing_count": 2,
+      "extra_count": 23,
+      "annotations": 1,
+      "score": "p12/tesseract_raw_cw90_psm3_score.json",
+      "n_readings": 11
+    },
+    {
+      "label": "TESSERACT p12 raw_cw90 PSM6",
+      "characters": 0,
+      "expected": 2,
+      "annotation_matches": 0,
+      "missing_characters": {
+        "4": 1,
+        "R": 1
+      },
+      "extra_characters": {},
+      "missing_count": 2,
+      "extra_count": 0,
+      "annotations": 1,
+      "score": "p12/tesseract_raw_cw90_psm6_score.json",
+      "n_readings": 0
+    },
+    {
+      "label": "TESSERACT p12 raw_cw90 PSM11",
+      "characters": 1,
+      "expected": 2,
+      "annotation_matches": 0,
+      "missing_characters": {
+        "R": 1
+      },
+      "extra_characters": {
+        "(": 1,
+        "-": 5,
+        ".": 2,
+        "2": 1,
+        "4": 1,
+        "=": 3,
+        "C": 1,
+        "F": 1,
+        "I": 1,
+        "J": 1,
+        "L": 1,
+        "N": 1,
+        "S": 3,
+        "_": 3,
+        "a": 4,
+        "d": 1,
+        "e": 4,
+        "f": 1,
+        "o": 3,
+        "p": 1,
+        "r": 1,
+        "t": 1,
+        "y": 1,
+        "|": 2,
+        "}": 1,
+        "—": 2
+      },
+      "missing_count": 1,
+      "extra_count": 47,
+      "annotations": 1,
+      "score": "p12/tesseract_raw_cw90_psm11_score.json",
+      "n_readings": 27
+    },
+    {
+      "label": "TESSERACT p12 raw_cw90 PSM12",
+      "characters": 1,
+      "expected": 2,
+      "annotation_matches": 0,
+      "missing_characters": {
+        "R": 1
+      },
+      "extra_characters": {
+        "(": 1,
+        "-": 5,
+        ".": 2,
+        "2": 1,
+        "4": 1,
+        "=": 3,
+        "C": 1,
+        "F": 1,
+        "I": 1,
+        "J": 1,
+        "L": 1,
+        "N": 1,
+        "S": 3,
+        "_": 3,
+        "a": 4,
+        "d": 1,
+        "e": 4,
+        "f": 1,
+        "o": 3,
+        "p": 1,
+        "r": 1,
+        "t": 1,
+        "y": 1,
+        "|": 2,
+        "}": 1,
+        "—": 2
+      },
+      "missing_count": 1,
+      "extra_count": 47,
+      "annotations": 1,
+      "score": "p12/tesseract_raw_cw90_psm12_score.json",
+      "n_readings": 27
+    },
+    {
+      "label": "PADDLE raw_cw180 1060",
+      "characters": 1,
+      "expected": 2,
+      "annotation_matches": 0,
+      "missing_characters": {
+        "R": 1
+      },
+      "extra_characters": {},
+      "missing_count": 1,
+      "extra_count": 0,
+      "annotations": 1,
+      "score": "p12/paddle_raw_cw180_1060_score.json",
+      "n_readings": 1
+    },
+    {
+      "label": "PADDLE raw_cw180 1947",
+      "characters": 1,
+      "expected": 2,
+      "annotation_matches": 0,
+      "missing_characters": {
+        "R": 1
+      },
+      "extra_characters": {},
+      "missing_count": 1,
+      "extra_count": 0,
+      "annotations": 1,
+      "score": "p12/paddle_raw_cw180_1947_score.json",
+      "n_readings": 1
+    },
+    {
+      "label": "PADDLE raw_cw180 1060+1947",
+      "characters": 1,
+      "expected": 2,
+      "annotation_matches": 0,
+      "missing_characters": {
+        "R": 1
+      },
+      "extra_characters": {},
+      "missing_count": 1,
+      "extra_count": 0,
+      "annotations": 1,
+      "score": "p12/paddle_raw_cw180_1060_1947_score.json",
+      "n_readings": 1
+    },
+    {
+      "label": "TESSERACT p12 raw_cw180 PSM3",
+      "characters": 1,
+      "expected": 2,
+      "annotation_matches": 0,
+      "missing_characters": {
+        "R": 1
+      },
+      "extra_characters": {
+        "-": 2,
+        "4": 2,
+        "=": 2,
+        "a": 1,
+        "s": 1,
+        "—": 3
+      },
+      "missing_count": 1,
+      "extra_count": 11,
+      "annotations": 1,
+      "score": "p12/tesseract_raw_cw180_psm3_score.json",
+      "n_readings": 4
+    },
+    {
+      "label": "TESSERACT p12 raw_cw180 PSM6",
+      "characters": 1,
+      "expected": 2,
+      "annotation_matches": 0,
+      "missing_characters": {
+        "4": 1
+      },
+      "extra_characters": {
+        "B": 1,
+        "E": 1,
+        "U": 1,
+        "a": 3,
+        "t": 1,
+        "y": 1
+      },
+      "missing_count": 1,
+      "extra_count": 8,
+      "annotations": 1,
+      "score": "p12/tesseract_raw_cw180_psm6_score.json",
+      "n_readings": 3
+    },
+    {
+      "label": "TESSERACT p12 raw_cw180 PSM11",
+      "characters": 0,
+      "expected": 2,
+      "annotation_matches": 0,
+      "missing_characters": {
+        "4": 1,
+        "R": 1
+      },
+      "extra_characters": {
+        "'": 1,
+        ",": 1,
+        "A": 1,
+        "G": 1,
+        "N": 1,
+        "O": 1,
+        "f": 1,
+        "i": 1,
+        "k": 1
+      },
+      "missing_count": 2,
+      "extra_count": 9,
+      "annotations": 1,
+      "score": "p12/tesseract_raw_cw180_psm11_score.json",
+      "n_readings": 4
+    },
+    {
+      "label": "TESSERACT p12 raw_cw180 PSM12",
+      "characters": 0,
+      "expected": 2,
+      "annotation_matches": 0,
+      "missing_characters": {
+        "4": 1,
+        "R": 1
+      },
+      "extra_characters": {
+        ")": 1,
+        ",": 1,
+        "S": 1,
+        "Y": 1,
+        "i": 1,
+        "w": 1,
+        "y": 1
+      },
+      "missing_count": 2,
+      "extra_count": 7,
+      "annotations": 1,
+      "score": "p12/tesseract_raw_cw180_psm12_score.json",
+      "n_readings": 3
+    },
+    {
+      "label": "PADDLE raw_cw270 1060",
+      "characters": 2,
+      "expected": 2,
+      "annotation_matches": 1,
+      "missing_characters": {},
+      "extra_characters": {},
+      "missing_count": 0,
+      "extra_count": 0,
+      "annotations": 1,
+      "score": "p12/paddle_raw_cw270_1060_score.json",
+      "n_readings": 1
+    },
+    {
+      "label": "PADDLE raw_cw270 1947",
+      "characters": 1,
+      "expected": 2,
+      "annotation_matches": 0,
+      "missing_characters": {
+        "R": 1
+      },
+      "extra_characters": {
+        "2": 1
+      },
+      "missing_count": 1,
+      "extra_count": 1,
+      "annotations": 1,
+      "score": "p12/paddle_raw_cw270_1947_score.json",
+      "n_readings": 1
+    },
+    {
+      "label": "PADDLE raw_cw270 1060+1947",
+      "characters": 2,
+      "expected": 2,
+      "annotation_matches": 1,
+      "missing_characters": {},
+      "extra_characters": {},
+      "missing_count": 0,
+      "extra_count": 0,
+      "annotations": 1,
+      "score": "p12/paddle_raw_cw270_1060_1947_score.json",
+      "n_readings": 1
+    },
+    {
+      "label": "TESSERACT p12 raw_cw270 PSM3",
+      "characters": 0,
+      "expected": 2,
+      "annotation_matches": 0,
+      "missing_characters": {
+        "4": 1,
+        "R": 1
+      },
+      "extra_characters": {
+        "(": 1,
+        "a": 1,
+        "e": 9,
+        "i": 1,
+        "m": 1,
+        "t": 1,
+        "y": 1,
+        "|": 1
+      },
+      "missing_count": 2,
+      "extra_count": 16,
+      "annotations": 1,
+      "score": "p12/tesseract_raw_cw270_psm3_score.json",
+      "n_readings": 8
+    },
+    {
+      "label": "TESSERACT p12 raw_cw270 PSM6",
+      "characters": 0,
+      "expected": 2,
+      "annotation_matches": 0,
+      "missing_characters": {
+        "4": 1,
+        "R": 1
+      },
+      "extra_characters": {
+        "E": 1,
+        "G": 1
+      },
+      "missing_count": 2,
+      "extra_count": 2,
+      "annotations": 1,
+      "score": "p12/tesseract_raw_cw270_psm6_score.json",
+      "n_readings": 1
+    },
+    {
+      "label": "TESSERACT p12 raw_cw270 PSM11",
+      "characters": 1,
+      "expected": 2,
+      "annotation_matches": 0,
+      "missing_characters": {
+        "R": 1
+      },
+      "extra_characters": {
+        ")": 1,
+        "-": 5,
+        "=": 12,
+        ">": 1,
+        "A": 1,
+        "E": 1,
+        "L": 4,
+        "S": 3,
+        "_": 3,
+        "a": 3,
+        "d": 2,
+        "e": 3,
+        "m": 1,
+        "n": 1,
+        "o": 1,
+        "s": 1,
+        "y": 1,
+        "|": 2,
+        "}": 2,
+        "—": 9
+      },
+      "missing_count": 1,
+      "extra_count": 57,
+      "annotations": 1,
+      "score": "p12/tesseract_raw_cw270_psm11_score.json",
+      "n_readings": 22
+    },
+    {
+      "label": "TESSERACT p12 raw_cw270 PSM12",
+      "characters": 2,
+      "expected": 2,
+      "annotation_matches": 0,
+      "missing_characters": {},
+      "extra_characters": {
+        ")": 1,
+        "-": 5,
+        "=": 12,
+        ">": 1,
+        "A": 1,
+        "E": 1,
+        "L": 4,
+        "S": 1,
+        "W": 1,
+        "_": 3,
+        "a": 3,
+        "d": 2,
+        "e": 3,
+        "m": 1,
+        "n": 1,
+        "o": 1,
+        "s": 1,
+        "y": 1,
+        "|": 2,
+        "}": 2,
+        "—": 9
+      },
+      "missing_count": 0,
+      "extra_count": 56,
+      "annotations": 1,
+      "score": "p12/tesseract_raw_cw270_psm12_score.json",
+      "n_readings": 22
+    },
+    {
+      "label": "PADDLE clahe_cw0 1060",
+      "characters": 2,
+      "expected": 2,
+      "annotation_matches": 1,
+      "missing_characters": {},
+      "extra_characters": {},
+      "missing_count": 0,
+      "extra_count": 0,
+      "annotations": 1,
+      "score": "p12/paddle_clahe_cw0_1060_score.json",
+      "n_readings": 1
+    },
+    {
+      "label": "PADDLE clahe_cw0 1947",
+      "characters": 2,
+      "expected": 2,
+      "annotation_matches": 1,
+      "missing_characters": {},
+      "extra_characters": {},
+      "missing_count": 0,
+      "extra_count": 0,
+      "annotations": 1,
+      "score": "p12/paddle_clahe_cw0_1947_score.json",
+      "n_readings": 1
+    },
+    {
+      "label": "PADDLE clahe_cw0 1060+1947",
+      "characters": 2,
+      "expected": 2,
+      "annotation_matches": 1,
+      "missing_characters": {},
+      "extra_characters": {},
+      "missing_count": 0,
+      "extra_count": 0,
+      "annotations": 1,
+      "score": "p12/paddle_clahe_cw0_1060_1947_score.json",
+      "n_readings": 1
+    },
+    {
+      "label": "TESSERACT p12 clahe_cw0 PSM3",
+      "characters": 0,
+      "expected": 2,
+      "annotation_matches": 0,
+      "missing_characters": {
+        "4": 1,
+        "R": 1
+      },
+      "extra_characters": {},
+      "missing_count": 2,
+      "extra_count": 0,
+      "annotations": 1,
+      "score": "p12/tesseract_clahe_cw0_psm3_score.json",
+      "n_readings": 0
+    },
+    {
+      "label": "TESSERACT p12 clahe_cw0 PSM6",
+      "characters": 0,
+      "expected": 2,
+      "annotation_matches": 0,
+      "missing_characters": {
+        "4": 1,
+        "R": 1
+      },
+      "extra_characters": {
+        "(": 1,
+        ")": 1,
+        "|": 1
+      },
+      "missing_count": 2,
+      "extra_count": 3,
+      "annotations": 1,
+      "score": "p12/tesseract_clahe_cw0_psm6_score.json",
+      "n_readings": 3
+    },
+    {
+      "label": "TESSERACT p12 clahe_cw0 PSM11",
+      "characters": 0,
+      "expected": 2,
+      "annotation_matches": 0,
+      "missing_characters": {
+        "4": 1,
+        "R": 1
+      },
+      "extra_characters": {
+        "+": 2,
+        "T": 1,
+        "a": 1,
+        "e": 2,
+        "i": 1,
+        "m": 1,
+        "s": 1,
+        "u": 1,
+        "x": 1,
+        "}": 1,
+        "“": 1
+      },
+      "missing_count": 2,
+      "extra_count": 13,
+      "annotations": 1,
+      "score": "p12/tesseract_clahe_cw0_psm11_score.json",
+      "n_readings": 6
+    },
+    {
+      "label": "TESSERACT p12 clahe_cw0 PSM12",
+      "characters": 0,
+      "expected": 2,
+      "annotation_matches": 0,
+      "missing_characters": {
+        "4": 1,
+        "R": 1
+      },
+      "extra_characters": {
+        "(": 1,
+        "+": 2,
+        "a": 1,
+        "e": 2,
+        "i": 1,
+        "m": 1,
+        "o": 1,
+        "s": 1,
+        "u": 1,
+        "x": 1,
+        "}": 1,
+        "»": 1,
+        "“": 1
+      },
+      "missing_count": 2,
+      "extra_count": 15,
+      "annotations": 1,
+      "score": "p12/tesseract_clahe_cw0_psm12_score.json",
+      "n_readings": 7
+    },
+    {
+      "label": "PADDLE clahe_cw90 1060",
+      "characters": 0,
+      "expected": 2,
+      "annotation_matches": 0,
+      "missing_characters": {
+        "4": 1,
+        "R": 1
+      },
+      "extra_characters": {
+        "A": 1
+      },
+      "missing_count": 2,
+      "extra_count": 1,
+      "annotations": 1,
+      "score": "p12/paddle_clahe_cw90_1060_score.json",
+      "n_readings": 1
+    },
+    {
+      "label": "PADDLE clahe_cw90 1060+1947",
+      "characters": 0,
+      "expected": 2,
+      "annotation_matches": 0,
+      "missing_characters": {
+        "4": 1,
+        "R": 1
+      },
+      "extra_characters": {
+        "A": 1
+      },
+      "missing_count": 2,
+      "extra_count": 1,
+      "annotations": 1,
+      "score": "p12/paddle_clahe_cw90_1060_1947_score.json",
+      "n_readings": 1
+    },
+    {
+      "label": "TESSERACT p12 clahe_cw90 PSM3",
+      "characters": 0,
+      "expected": 2,
+      "annotation_matches": 0,
+      "missing_characters": {
+        "4": 1,
+        "R": 1
+      },
+      "extra_characters": {},
+      "missing_count": 2,
+      "extra_count": 0,
+      "annotations": 1,
+      "score": "p12/tesseract_clahe_cw90_psm3_score.json",
+      "n_readings": 0
+    },
+    {
+      "label": "TESSERACT p12 clahe_cw90 PSM6",
+      "characters": 0,
+      "expected": 2,
+      "annotation_matches": 0,
+      "missing_characters": {
+        "4": 1,
+        "R": 1
+      },
+      "extra_characters": {},
+      "missing_count": 2,
+      "extra_count": 0,
+      "annotations": 1,
+      "score": "p12/tesseract_clahe_cw90_psm6_score.json",
+      "n_readings": 0
+    },
+    {
+      "label": "TESSERACT p12 clahe_cw90 PSM11",
+      "characters": 1,
+      "expected": 2,
+      "annotation_matches": 0,
+      "missing_characters": {
+        "4": 1
+      },
+      "extra_characters": {
+        "A": 1,
+        "N": 1,
+        "S": 3,
+        "Y": 1,
+        "o": 1
+      },
+      "missing_count": 1,
+      "extra_count": 7,
+      "annotations": 1,
+      "score": "p12/tesseract_clahe_cw90_psm11_score.json",
+      "n_readings": 4
+    },
+    {
+      "label": "TESSERACT p12 clahe_cw90 PSM12",
+      "characters": 1,
+      "expected": 2,
+      "annotation_matches": 0,
+      "missing_characters": {
+        "4": 1
+      },
+      "extra_characters": {
+        "A": 1,
+        "D": 1,
+        "E": 4,
+        "H": 1,
+        "S": 3,
+        "Y": 1,
+        "o": 1
+      },
+      "missing_count": 1,
+      "extra_count": 12,
+      "annotations": 1,
+      "score": "p12/tesseract_clahe_cw90_psm12_score.json",
+      "n_readings": 5
+    },
+    {
+      "label": "PADDLE clahe_cw180 1060",
+      "characters": 1,
+      "expected": 2,
+      "annotation_matches": 0,
+      "missing_characters": {
+        "R": 1
+      },
+      "extra_characters": {},
+      "missing_count": 1,
+      "extra_count": 0,
+      "annotations": 1,
+      "score": "p12/paddle_clahe_cw180_1060_score.json",
+      "n_readings": 1
+    },
+    {
+      "label": "PADDLE clahe_cw180 1947",
+      "characters": 1,
+      "expected": 2,
+      "annotation_matches": 0,
+      "missing_characters": {
+        "R": 1
+      },
+      "extra_characters": {
+        "心": 1
+      },
+      "missing_count": 1,
+      "extra_count": 1,
+      "annotations": 1,
+      "score": "p12/paddle_clahe_cw180_1947_score.json",
+      "n_readings": 2
+    },
+    {
+      "label": "PADDLE clahe_cw180 1060+1947",
+      "characters": 1,
+      "expected": 2,
+      "annotation_matches": 0,
+      "missing_characters": {
+        "R": 1
+      },
+      "extra_characters": {
+        "心": 1
+      },
+      "missing_count": 1,
+      "extra_count": 1,
+      "annotations": 1,
+      "score": "p12/paddle_clahe_cw180_1060_1947_score.json",
+      "n_readings": 2
+    },
+    {
+      "label": "TESSERACT p12 clahe_cw180 PSM3",
+      "characters": 0,
+      "expected": 2,
+      "annotation_matches": 0,
+      "missing_characters": {
+        "4": 1,
+        "R": 1
+      },
+      "extra_characters": {
+        ")": 1,
+        ",": 1,
+        "1": 1,
+        "I": 1,
+        "\\": 1,
+        "e": 2,
+        "f": 1,
+        "n": 1,
+        "|": 2
+      },
+      "missing_count": 2,
+      "extra_count": 11,
+      "annotations": 1,
+      "score": "p12/tesseract_clahe_cw180_psm3_score.json",
+      "n_readings": 7
+    },
+    {
+      "label": "TESSERACT p12 clahe_cw180 PSM6",
+      "characters": 0,
+      "expected": 2,
+      "annotation_matches": 0,
+      "missing_characters": {
+        "4": 1,
+        "R": 1
+      },
+      "extra_characters": {},
+      "missing_count": 2,
+      "extra_count": 0,
+      "annotations": 1,
+      "score": "p12/tesseract_clahe_cw180_psm6_score.json",
+      "n_readings": 0
+    },
+    {
+      "label": "TESSERACT p12 clahe_cw180 PSM11",
+      "characters": 0,
+      "expected": 2,
+      "annotation_matches": 0,
+      "missing_characters": {
+        "4": 1,
+        "R": 1
+      },
+      "extra_characters": {
+        "+": 2,
+        "A": 2,
+        "B": 1,
+        "N": 1,
+        "S": 1,
+        "a": 1,
+        "f": 1,
+        "i": 2,
+        "y": 1,
+        "|": 1
+      },
+      "missing_count": 2,
+      "extra_count": 13,
+      "annotations": 1,
+      "score": "p12/tesseract_clahe_cw180_psm11_score.json",
+      "n_readings": 7
+    },
+    {
+      "label": "TESSERACT p12 clahe_cw180 PSM12",
+      "characters": 0,
+      "expected": 2,
+      "annotation_matches": 0,
+      "missing_characters": {
+        "4": 1,
+        "R": 1
+      },
+      "extra_characters": {
+        ")": 1,
+        "+": 3,
+        "A": 2,
+        "B": 1,
+        "N": 1,
+        "S": 1,
+        "f": 2,
+        "i": 2
+      },
+      "missing_count": 2,
+      "extra_count": 13,
+      "annotations": 1,
+      "score": "p12/tesseract_clahe_cw180_psm12_score.json",
+      "n_readings": 6
+    },
+    {
+      "label": "PADDLE clahe_cw270 1060",
+      "characters": 2,
+      "expected": 2,
+      "annotation_matches": 1,
+      "missing_characters": {},
+      "extra_characters": {},
+      "missing_count": 0,
+      "extra_count": 0,
+      "annotations": 1,
+      "score": "p12/paddle_clahe_cw270_1060_score.json",
+      "n_readings": 1
+    },
+    {
+      "label": "PADDLE clahe_cw270 1060+1947",
+      "characters": 2,
+      "expected": 2,
+      "annotation_matches": 1,
+      "missing_characters": {},
+      "extra_characters": {},
+      "missing_count": 0,
+      "extra_count": 0,
+      "annotations": 1,
+      "score": "p12/paddle_clahe_cw270_1060_1947_score.json",
+      "n_readings": 1
+    },
+    {
+      "label": "TESSERACT p12 clahe_cw270 PSM3",
+      "characters": 0,
+      "expected": 2,
+      "annotation_matches": 0,
+      "missing_characters": {
+        "4": 1,
+        "R": 1
+      },
+      "extra_characters": {
+        "(": 1
+      },
+      "missing_count": 2,
+      "extra_count": 1,
+      "annotations": 1,
+      "score": "p12/tesseract_clahe_cw270_psm3_score.json",
+      "n_readings": 1
+    },
+    {
+      "label": "TESSERACT p12 clahe_cw270 PSM6",
+      "characters": 0,
+      "expected": 2,
+      "annotation_matches": 0,
+      "missing_characters": {
+        "4": 1,
+        "R": 1
+      },
+      "extra_characters": {
+        "E": 1,
+        "G": 1
+      },
+      "missing_count": 2,
+      "extra_count": 2,
+      "annotations": 1,
+      "score": "p12/tesseract_clahe_cw270_psm6_score.json",
+      "n_readings": 1
+    },
+    {
+      "label": "TESSERACT p12 clahe_cw270 PSM11",
+      "characters": 0,
+      "expected": 2,
+      "annotation_matches": 0,
+      "missing_characters": {
+        "4": 1,
+        "R": 1
+      },
+      "extra_characters": {
+        "A": 1,
+        "E": 1,
+        "e": 3,
+        "j": 1,
+        "o": 1,
+        "t": 1
+      },
+      "missing_count": 2,
+      "extra_count": 8,
+      "annotations": 1,
+      "score": "p12/tesseract_clahe_cw270_psm11_score.json",
+      "n_readings": 3
+    },
+    {
+      "label": "TESSERACT p12 clahe_cw270 PSM12",
+      "characters": 1,
+      "expected": 2,
+      "annotation_matches": 0,
+      "missing_characters": {
+        "4": 1
+      },
+      "extra_characters": {
+        "A": 1,
+        "E": 1,
+        "W": 1,
+        "a": 1,
+        "s": 1,
+        "t": 1
+      },
+      "missing_count": 1,
+      "extra_count": 6,
+      "annotations": 1,
+      "score": "p12/tesseract_clahe_cw270_psm12_score.json",
+      "n_readings": 3
+    },
+    {
+      "label": "PADDLE otsu_cw0 1060",
+      "characters": 2,
+      "expected": 2,
+      "annotation_matches": 1,
+      "missing_characters": {},
+      "extra_characters": {
+        "S": 1
+      },
+      "missing_count": 0,
+      "extra_count": 1,
+      "annotations": 1,
+      "score": "p12/paddle_otsu_cw0_1060_score.json",
+      "n_readings": 2
+    },
+    {
+      "label": "PADDLE otsu_cw0 1947",
+      "characters": 2,
+      "expected": 2,
+      "annotation_matches": 1,
+      "missing_characters": {},
+      "extra_characters": {},
+      "missing_count": 0,
+      "extra_count": 0,
+      "annotations": 1,
+      "score": "p12/paddle_otsu_cw0_1947_score.json",
+      "n_readings": 1
+    },
+    {
+      "label": "PADDLE otsu_cw0 1060+1947",
+      "characters": 2,
+      "expected": 2,
+      "annotation_matches": 1,
+      "missing_characters": {},
+      "extra_characters": {
+        "S": 1
+      },
+      "missing_count": 0,
+      "extra_count": 1,
+      "annotations": 1,
+      "score": "p12/paddle_otsu_cw0_1060_1947_score.json",
+      "n_readings": 2
+    },
+    {
+      "label": "TESSERACT p12 otsu_cw0 PSM3",
+      "characters": 0,
+      "expected": 2,
+      "annotation_matches": 0,
+      "missing_characters": {
+        "4": 1,
+        "R": 1
+      },
+      "extra_characters": {
+        "a": 1,
+        "l": 1,
+        "x": 1
+      },
+      "missing_count": 2,
+      "extra_count": 3,
+      "annotations": 1,
+      "score": "p12/tesseract_otsu_cw0_psm3_score.json",
+      "n_readings": 1
+    },
+    {
+      "label": "TESSERACT p12 otsu_cw0 PSM6",
+      "characters": 0,
+      "expected": 2,
+      "annotation_matches": 0,
+      "missing_characters": {
+        "4": 1,
+        "R": 1
+      },
+      "extra_characters": {
+        ")": 1,
+        ">": 1
+      },
+      "missing_count": 2,
+      "extra_count": 2,
+      "annotations": 1,
+      "score": "p12/tesseract_otsu_cw0_psm6_score.json",
+      "n_readings": 1
+    },
+    {
+      "label": "TESSERACT p12 otsu_cw0 PSM11",
+      "characters": 0,
+      "expected": 2,
+      "annotation_matches": 0,
+      "missing_characters": {
+        "4": 1,
+        "R": 1
+      },
+      "extra_characters": {
+        ",": 1,
+        "i": 2,
+        "l": 1
+      },
+      "missing_count": 2,
+      "extra_count": 4,
+      "annotations": 1,
+      "score": "p12/tesseract_otsu_cw0_psm11_score.json",
+      "n_readings": 3
+    },
+    {
+      "label": "TESSERACT p12 otsu_cw0 PSM12",
+      "characters": 0,
+      "expected": 2,
+      "annotation_matches": 0,
+      "missing_characters": {
+        "4": 1,
+        "R": 1
+      },
+      "extra_characters": {
+        ">": 1,
+        "a": 1,
+        "o": 1,
+        "s": 1
+      },
+      "missing_count": 2,
+      "extra_count": 4,
+      "annotations": 1,
+      "score": "p12/tesseract_otsu_cw0_psm12_score.json",
+      "n_readings": 3
+    },
+    {
+      "label": "PADDLE otsu_cw90 1060",
+      "characters": 0,
+      "expected": 2,
+      "annotation_matches": 0,
+      "missing_characters": {
+        "4": 1,
+        "R": 1
+      },
+      "extra_characters": {
+        "A": 1
+      },
+      "missing_count": 2,
+      "extra_count": 1,
+      "annotations": 1,
+      "score": "p12/paddle_otsu_cw90_1060_score.json",
+      "n_readings": 1
+    },
+    {
+      "label": "PADDLE otsu_cw90 1060+1947",
+      "characters": 0,
+      "expected": 2,
+      "annotation_matches": 0,
+      "missing_characters": {
+        "4": 1,
+        "R": 1
+      },
+      "extra_characters": {
+        "A": 1
+      },
+      "missing_count": 2,
+      "extra_count": 1,
+      "annotations": 1,
+      "score": "p12/paddle_otsu_cw90_1060_1947_score.json",
+      "n_readings": 1
+    },
+    {
+      "label": "TESSERACT p12 otsu_cw90 PSM3",
+      "characters": 0,
+      "expected": 2,
+      "annotation_matches": 0,
+      "missing_characters": {
+        "4": 1,
+        "R": 1
+      },
+      "extra_characters": {},
+      "missing_count": 2,
+      "extra_count": 0,
+      "annotations": 1,
+      "score": "p12/tesseract_otsu_cw90_psm3_score.json",
+      "n_readings": 0
+    },
+    {
+      "label": "TESSERACT p12 otsu_cw90 PSM6",
+      "characters": 0,
+      "expected": 2,
+      "annotation_matches": 0,
+      "missing_characters": {
+        "4": 1,
+        "R": 1
+      },
+      "extra_characters": {},
+      "missing_count": 2,
+      "extra_count": 0,
+      "annotations": 1,
+      "score": "p12/tesseract_otsu_cw90_psm6_score.json",
+      "n_readings": 0
+    },
+    {
+      "label": "TESSERACT p12 otsu_cw90 PSM11",
+      "characters": 0,
+      "expected": 2,
+      "annotation_matches": 0,
+      "missing_characters": {
+        "4": 1,
+        "R": 1
+      },
+      "extra_characters": {
+        "-": 3,
+        "=": 5,
+        "A": 1,
+        "N": 1,
+        "S": 1,
+        "_": 1,
+        "d": 1,
+        "e": 1,
+        "n": 1,
+        "r": 1,
+        "{": 1,
+        "|": 1,
+        "—": 4
+      },
+      "missing_count": 2,
+      "extra_count": 22,
+      "annotations": 1,
+      "score": "p12/tesseract_otsu_cw90_psm11_score.json",
+      "n_readings": 12
+    },
+    {
+      "label": "TESSERACT p12 otsu_cw90 PSM12",
+      "characters": 0,
+      "expected": 2,
+      "annotation_matches": 0,
+      "missing_characters": {
+        "4": 1,
+        "R": 1
+      },
+      "extra_characters": {
+        "-": 3,
+        "=": 5,
+        "A": 1,
+        "N": 1,
+        "S": 1,
+        "_": 1,
+        "d": 1,
+        "e": 1,
+        "n": 1,
+        "r": 1,
+        "{": 1,
+        "|": 1,
+        "—": 4
+      },
+      "missing_count": 2,
+      "extra_count": 22,
+      "annotations": 1,
+      "score": "p12/tesseract_otsu_cw90_psm12_score.json",
+      "n_readings": 12
+    },
+    {
+      "label": "PADDLE otsu_cw180 1060",
+      "characters": 1,
+      "expected": 2,
+      "annotation_matches": 0,
+      "missing_characters": {
+        "R": 1
+      },
+      "extra_characters": {},
+      "missing_count": 1,
+      "extra_count": 0,
+      "annotations": 1,
+      "score": "p12/paddle_otsu_cw180_1060_score.json",
+      "n_readings": 1
+    },
+    {
+      "label": "PADDLE otsu_cw180 1947",
+      "characters": 1,
+      "expected": 2,
+      "annotation_matches": 0,
+      "missing_characters": {
+        "R": 1
+      },
+      "extra_characters": {},
+      "missing_count": 1,
+      "extra_count": 0,
+      "annotations": 1,
+      "score": "p12/paddle_otsu_cw180_1947_score.json",
+      "n_readings": 1
+    },
+    {
+      "label": "PADDLE otsu_cw180 1060+1947",
+      "characters": 1,
+      "expected": 2,
+      "annotation_matches": 0,
+      "missing_characters": {
+        "R": 1
+      },
+      "extra_characters": {},
+      "missing_count": 1,
+      "extra_count": 0,
+      "annotations": 1,
+      "score": "p12/paddle_otsu_cw180_1060_1947_score.json",
+      "n_readings": 1
+    },
+    {
+      "label": "TESSERACT p12 otsu_cw180 PSM3",
+      "characters": 0,
+      "expected": 2,
+      "annotation_matches": 0,
+      "missing_characters": {
+        "4": 1,
+        "R": 1
+      },
+      "extra_characters": {},
+      "missing_count": 2,
+      "extra_count": 0,
+      "annotations": 1,
+      "score": "p12/tesseract_otsu_cw180_psm3_score.json",
+      "n_readings": 0
+    },
+    {
+      "label": "TESSERACT p12 otsu_cw180 PSM6",
+      "characters": 0,
+      "expected": 2,
+      "annotation_matches": 0,
+      "missing_characters": {
+        "4": 1,
+        "R": 1
+      },
+      "extra_characters": {},
+      "missing_count": 2,
+      "extra_count": 0,
+      "annotations": 1,
+      "score": "p12/tesseract_otsu_cw180_psm6_score.json",
+      "n_readings": 0
+    },
+    {
+      "label": "TESSERACT p12 otsu_cw180 PSM11",
+      "characters": 0,
+      "expected": 2,
+      "annotation_matches": 0,
+      "missing_characters": {
+        "4": 1,
+        "R": 1
+      },
+      "extra_characters": {
+        "A": 1,
+        "G": 1,
+        "L": 2,
+        "M": 1,
+        "N": 1,
+        "P": 1,
+        "Z": 1,
+        "f": 1,
+        "i": 1,
+        "t": 1,
+        "|": 1
+      },
+      "missing_count": 2,
+      "extra_count": 12,
+      "annotations": 1,
+      "score": "p12/tesseract_otsu_cw180_psm11_score.json",
+      "n_readings": 6
+    },
+    {
+      "label": "TESSERACT p12 otsu_cw180 PSM12",
+      "characters": 0,
+      "expected": 2,
+      "annotation_matches": 0,
+      "missing_characters": {
+        "4": 1,
+        "R": 1
+      },
+      "extra_characters": {
+        "A": 1,
+        "G": 1,
+        "L": 1,
+        "M": 1,
+        "N": 1,
+        "P": 1,
+        "Z": 1
+      },
+      "missing_count": 2,
+      "extra_count": 7,
+      "annotations": 1,
+      "score": "p12/tesseract_otsu_cw180_psm12_score.json",
+      "n_readings": 2
+    },
+    {
+      "label": "PADDLE otsu_cw270 1060",
+      "characters": 2,
+      "expected": 2,
+      "annotation_matches": 1,
+      "missing_characters": {},
+      "extra_characters": {},
+      "missing_count": 0,
+      "extra_count": 0,
+      "annotations": 1,
+      "score": "p12/paddle_otsu_cw270_1060_score.json",
+      "n_readings": 1
+    },
+    {
+      "label": "PADDLE otsu_cw270 1947",
+      "characters": 1,
+      "expected": 2,
+      "annotation_matches": 0,
+      "missing_characters": {
+        "R": 1
+      },
+      "extra_characters": {},
+      "missing_count": 1,
+      "extra_count": 0,
+      "annotations": 1,
+      "score": "p12/paddle_otsu_cw270_1947_score.json",
+      "n_readings": 1
+    },
+    {
+      "label": "PADDLE otsu_cw270 1060+1947",
+      "characters": 2,
+      "expected": 2,
+      "annotation_matches": 1,
+      "missing_characters": {},
+      "extra_characters": {},
+      "missing_count": 0,
+      "extra_count": 0,
+      "annotations": 1,
+      "score": "p12/paddle_otsu_cw270_1060_1947_score.json",
+      "n_readings": 1
+    },
+    {
+      "label": "TESSERACT p12 otsu_cw270 PSM3",
+      "characters": 0,
+      "expected": 2,
+      "annotation_matches": 0,
+      "missing_characters": {
+        "4": 1,
+        "R": 1
+      },
+      "extra_characters": {
+        "E": 1,
+        "S": 2,
+        "a": 1,
+        "y": 1
+      },
+      "missing_count": 2,
+      "extra_count": 5,
+      "annotations": 1,
+      "score": "p12/tesseract_otsu_cw270_psm3_score.json",
+      "n_readings": 2
+    },
+    {
+      "label": "TESSERACT p12 otsu_cw270 PSM6",
+      "characters": 0,
+      "expected": 2,
+      "annotation_matches": 0,
+      "missing_characters": {
+        "4": 1,
+        "R": 1
+      },
+      "extra_characters": {
+        "E": 1,
+        "G": 1
+      },
+      "missing_count": 2,
+      "extra_count": 2,
+      "annotations": 1,
+      "score": "p12/tesseract_otsu_cw270_psm6_score.json",
+      "n_readings": 1
+    },
+    {
+      "label": "TESSERACT p12 otsu_cw270 PSM11",
+      "characters": 0,
+      "expected": 2,
+      "annotation_matches": 0,
+      "missing_characters": {
+        "4": 1,
+        "R": 1
+      },
+      "extra_characters": {
+        "-": 1,
+        "=": 6,
+        "E": 1,
+        "S": 2,
+        "_": 1,
+        "a": 1,
+        "i": 1,
+        "l": 1,
+        "{": 1,
+        "—": 3
+      },
+      "missing_count": 2,
+      "extra_count": 18,
+      "annotations": 1,
+      "score": "p12/tesseract_otsu_cw270_psm11_score.json",
+      "n_readings": 11
+    },
+    {
+      "label": "TESSERACT p12 otsu_cw270 PSM12",
+      "characters": 0,
+      "expected": 2,
+      "annotation_matches": 0,
+      "missing_characters": {
+        "4": 1,
+        "R": 1
+      },
+      "extra_characters": {
+        "-": 1,
+        "=": 6,
+        "E": 1,
+        "S": 2,
+        "_": 1,
+        "a": 1,
+        "i": 1,
+        "l": 1,
+        "{": 1,
+        "—": 3
+      },
+      "missing_count": 2,
+      "extra_count": 18,
+      "annotations": 1,
+      "score": "p12/tesseract_otsu_cw270_psm12_score.json",
+      "n_readings": 11
+    },
+    {
+      "label": "Tesseract cropped symbol recovery p12 pad2_psm7",
+      "characters": 1,
+      "expected": 2,
+      "annotation_matches": 0,
+      "missing_characters": {
+        "R": 1
+      },
+      "extra_characters": {
+        "x": 1
+      },
+      "missing_count": 1,
+      "extra_count": 1,
+      "annotations": 1,
+      "score": "p12/crop_pad2_psm7_score.json",
+      "n_readings": 1
+    },
+    {
+      "label": "Tesseract cropped symbol recovery p12 pad2_psm13",
+      "characters": 1,
+      "expected": 2,
+      "annotation_matches": 0,
+      "missing_characters": {
+        "R": 1
+      },
+      "extra_characters": {
+        "2": 1,
+        "S": 1,
+        "e": 1
+      },
+      "missing_count": 1,
+      "extra_count": 3,
+      "annotations": 1,
+      "score": "p12/crop_pad2_psm13_score.json",
+      "n_readings": 2
+    },
+    {
+      "label": "Tesseract cropped symbol recovery p12 pad6_psm7",
+      "characters": 1,
+      "expected": 2,
+      "annotation_matches": 0,
+      "missing_characters": {
+        "R": 1
+      },
+      "extra_characters": {
+        ")": 1,
+        "2": 1,
+        "x": 1
+      },
+      "missing_count": 1,
+      "extra_count": 3,
+      "annotations": 1,
+      "score": "p12/crop_pad6_psm7_score.json",
+      "n_readings": 2
+    },
+    {
+      "label": "Tesseract cropped symbol recovery p12 pad6_psm13",
+      "characters": 1,
+      "expected": 2,
+      "annotation_matches": 0,
+      "missing_characters": {
+        "R": 1
+      },
+      "extra_characters": {
+        "8": 1,
+        "S": 1,
+        "a": 1
+      },
+      "missing_count": 1,
+      "extra_count": 3,
+      "annotations": 1,
+      "score": "p12/crop_pad6_psm13_score.json",
+      "n_readings": 2
+    },
+    {
+      "label": "eDOCr2 recognizer_dimensions_2.keras",
+      "characters": 2,
+      "expected": 2,
+      "annotation_matches": 1,
+      "missing_characters": {},
+      "extra_characters": {},
+      "missing_count": 0,
+      "extra_count": 0,
+      "annotations": 1,
+      "score": "p12/edocr2_recognizer_dimensions_2.keras_score.json",
+      "n_readings": 2
+    },
+    {
+      "label": "eDOCr2 recognizer_gdts.keras",
+      "characters": 1,
+      "expected": 2,
+      "annotation_matches": 0,
+      "missing_characters": {
+        "R": 1
+      },
+      "extra_characters": {
+        "⌓": 1
+      },
+      "missing_count": 1,
+      "extra_count": 1,
+      "annotations": 1,
+      "score": "p12/edocr2_recognizer_gdts.keras_score.json",
+      "n_readings": 2
+    }
+  ],
+  "errors": [],
+  "sha256": "f902e983ac578df61c211345af06d1f6ecf82778e8bcffac30bd4fc31a6b52f7",
+  "highest_posthoc_scores_NOT_blind_selection": [
+    {
+      "label": "PADDLE raw_cw0 1947",
+      "characters": 2,
+      "expected": 2,
+      "annotation_matches": 1,
+      "missing_characters": {},
+      "extra_characters": {},
+      "missing_count": 0,
+      "extra_count": 0,
+      "annotations": 1,
+      "score": "p12/paddle_raw_cw0_1947_score.json",
+      "n_readings": 1
+    },
+    {
+      "label": "PADDLE raw_cw270 1060",
+      "characters": 2,
+      "expected": 2,
+      "annotation_matches": 1,
+      "missing_characters": {},
+      "extra_characters": {},
+      "missing_count": 0,
+      "extra_count": 0,
+      "annotations": 1,
+      "score": "p12/paddle_raw_cw270_1060_score.json",
+      "n_readings": 1
+    },
+    {
+      "label": "PADDLE raw_cw270 1060+1947",
+      "characters": 2,
+      "expected": 2,
+      "annotation_matches": 1,
+      "missing_characters": {},
+      "extra_characters": {},
+      "missing_count": 0,
+      "extra_count": 0,
+      "annotations": 1,
+      "score": "p12/paddle_raw_cw270_1060_1947_score.json",
+      "n_readings": 1
+    },
+    {
+      "label": "PADDLE clahe_cw0 1060",
+      "characters": 2,
+      "expected": 2,
+      "annotation_matches": 1,
+      "missing_characters": {},
+      "extra_characters": {},
+      "missing_count": 0,
+      "extra_count": 0,
+      "annotations": 1,
+      "score": "p12/paddle_clahe_cw0_1060_score.json",
+      "n_readings": 1
+    },
+    {
+      "label": "PADDLE clahe_cw0 1947",
+      "characters": 2,
+      "expected": 2,
+      "annotation_matches": 1,
+      "missing_characters": {},
+      "extra_characters": {},
+      "missing_count": 0,
+      "extra_count": 0,
+      "annotations": 1,
+      "score": "p12/paddle_clahe_cw0_1947_score.json",
+      "n_readings": 1
+    },
+    {
+      "label": "PADDLE clahe_cw0 1060+1947",
+      "characters": 2,
+      "expected": 2,
+      "annotation_matches": 1,
+      "missing_characters": {},
+      "extra_characters": {},
+      "missing_count": 0,
+      "extra_count": 0,
+      "annotations": 1,
+      "score": "p12/paddle_clahe_cw0_1060_1947_score.json",
+      "n_readings": 1
+    },
+    {
+      "label": "PADDLE clahe_cw270 1060",
+      "characters": 2,
+      "expected": 2,
+      "annotation_matches": 1,
+      "missing_characters": {},
+      "extra_characters": {},
+      "missing_count": 0,
+      "extra_count": 0,
+      "annotations": 1,
+      "score": "p12/paddle_clahe_cw270_1060_score.json",
+      "n_readings": 1
+    },
+    {
+      "label": "PADDLE clahe_cw270 1060+1947",
+      "characters": 2,
+      "expected": 2,
+      "annotation_matches": 1,
+      "missing_characters": {},
+      "extra_characters": {},
+      "missing_count": 0,
+      "extra_count": 0,
+      "annotations": 1,
+      "score": "p12/paddle_clahe_cw270_1060_1947_score.json",
+      "n_readings": 1
+    },
+    {
+      "label": "PADDLE otsu_cw0 1947",
+      "characters": 2,
+      "expected": 2,
+      "annotation_matches": 1,
+      "missing_characters": {},
+      "extra_characters": {},
+      "missing_count": 0,
+      "extra_count": 0,
+      "annotations": 1,
+      "score": "p12/paddle_otsu_cw0_1947_score.json",
+      "n_readings": 1
+    },
+    {
+      "label": "PADDLE otsu_cw270 1060",
+      "characters": 2,
+      "expected": 2,
+      "annotation_matches": 1,
+      "missing_characters": {},
+      "extra_characters": {},
+      "missing_count": 0,
+      "extra_count": 0,
+      "annotations": 1,
+      "score": "p12/paddle_otsu_cw270_1060_score.json",
+      "n_readings": 1
+    }
+  ]
+}

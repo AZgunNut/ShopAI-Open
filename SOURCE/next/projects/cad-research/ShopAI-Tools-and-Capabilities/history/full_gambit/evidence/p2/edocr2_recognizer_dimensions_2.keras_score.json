@@ -1,0 +1,931 @@
+{
+  "truth_file": "/mnt/shopai-data-new/cad-research/experiments/qwen-3-drawing-20261030-173652-610108/shopai_three_drawing_truth/batch_lab/ocr_outline_eight_v1/truths/p2.truth.json",
+  "prediction_file": "/mnt/shopai-data-new/cad-research/experiments/qwen-3-drawing-20261030-173652-610108/shopai_three_drawing_truth/batch_lab/ocr_outline_eight_v1/results/full_gambit_20261108T191855Z_740546_12852/p2/edocr2_recognizer_dimensions_2.keras_score_readings.json",
+  "truth_coverage_certified": false,
+  "certified_100_percent": false,
+  "truth_gap_count": 4,
+  "ground_truth_pending_review": 59,
+  "expected_provisional_character_instances": 185,
+  "observed_character_instances": 92,
+  "character_inventory_overlap_provisional": 49,
+  "character_inventory_pct_provisional": 26.49,
+  "missing_characters": {
+    "0": 9,
+    "1": 7,
+    "2": 4,
+    "3": 4,
+    "4": 5,
+    "5": 4,
+    "6": 4,
+    "7": 2,
+    "8": 5,
+    "A": 5,
+    "B": 2,
+    "C": 8,
+    "D": 3,
+    "E": 11,
+    "F": 4,
+    "H": 2,
+    "I": 3,
+    "K": 1,
+    "L": 2,
+    "N": 7,
+    "O": 4,
+    "P": 3,
+    "R": 2,
+    "S": 7,
+    "T": 3,
+    "U": 1,
+    "V": 1,
+    "W": 2,
+    "Z": 1,
+    "c": 1,
+    "e": 5,
+    "g": 1,
+    "i": 3,
+    "l": 1,
+    "o": 1,
+    "r": 1,
+    "s": 1,
+    "u": 1,
+    "Ø": 5
+  },
+  "extra_characters": {
+    "\"": 1,
+    "(": 2,
+    ")": 3,
+    ",": 7,
+    ".": 9,
+    "9": 2,
+    ":": 7,
+    "=": 3,
+    "a": 4,
+    "±": 2,
+    "⌀": 3
+  },
+  "provisional_annotation_matches": 6,
+  "provisional_annotation_total": 59,
+  "missing_annotations": [
+    {
+      "truth_id": "p2_T003",
+      "expected_text": "R34",
+      "anchor_px": [
+        753.0,
+        677.0
+      ]
+    },
+    {
+      "truth_id": "p2_T004",
+      "expected_text": "Ø60",
+      "anchor_px": [
+        752.0,
+        816.0
+      ]
+    },
+    {
+      "truth_id": "p2_T005",
+      "expected_text": "1",
+      "anchor_px": [
+        101.0,
+        12.0
+      ]
+    },
+    {
+      "truth_id": "p2_T006",
+      "expected_text": "2",
+      "anchor_px": [
+        290.0,
+        12.0
+      ]
+    },
+    {
+      "truth_id": "p2_T007",
+      "expected_text": "3",
+      "anchor_px": [
+        477.0,
+        12.0
+      ]
+    },
+    {
+      "truth_id": "p2_T008",
+      "expected_text": "4",
+      "anchor_px": [
+        658.0,
+        12.0
+      ]
+    },
+    {
+      "truth_id": "p2_T009",
+      "expected_text": "5",
+      "anchor_px": [
+        834.0,
+        12.0
+      ]
+    },
+    {
+      "truth_id": "p2_T010",
+      "expected_text": "6",
+      "anchor_px": [
+        1031.0,
+        12.0
+      ]
+    },
+    {
+      "truth_id": "p2_T011",
+      "expected_text": "7",
+      "anchor_px": [
+        1218.0,
+        12.0
+      ]
+    },
+    {
+      "truth_id": "p2_T012",
+      "expected_text": "8",
+      "anchor_px": [
+        1400.0,
+        12.0
+      ]
+    },
+    {
+      "truth_id": "p2_T015",
+      "expected_text": "C",
+      "anchor_px": [
+        5.0,
+        429.0
+      ]
+    },
+    {
+      "truth_id": "p2_T017",
+      "expected_text": "E",
+      "anchor_px": [
+        5.0,
+        757.0
+      ]
+    },
+    {
+      "truth_id": "p2_T018",
+      "expected_text": "F",
+      "anchor_px": [
+        5.0,
+        922.0
+      ]
+    },
+    {
+      "truth_id": "p2_T019",
+      "expected_text": "A",
+      "anchor_px": [
+        1463.0,
+        103.0
+      ]
+    },
+    {
+      "truth_id": "p2_T020",
+      "expected_text": "B",
+      "anchor_px": [
+        1463.0,
+        264.0
+      ]
+    },
+    {
+      "truth_id": "p2_T021",
+      "expected_text": "C",
+      "anchor_px": [
+        1463.0,
+        429.0
+      ]
+    },
+    {
+      "truth_id": "p2_T022",
+      "expected_text": "D",
+      "anchor_px": [
+        1463.0,
+        594.0
+      ]
+    },
+    {
+      "truth_id": "p2_T023",
+      "expected_text": "E",
+      "anchor_px": [
+        1463.0,
+        757.0
+      ]
+    },
+    {
+      "truth_id": "p2_T024",
+      "expected_text": "F",
+      "anchor_px": [
+        1463.0,
+        922.0
+      ]
+    },
+    {
+      "truth_id": "p2_T025",
+      "expected_text": "100",
+      "anchor_px": [
+        156.0,
+        101.0
+      ]
+    },
+    {
+      "truth_id": "p2_T026",
+      "expected_text": "20",
+      "anchor_px": [
+        249.0,
+        114.0
+      ]
+    },
+    {
+      "truth_id": "p2_T027",
+      "expected_text": "12",
+      "anchor_px": [
+        191.0,
+        196.0
+      ]
+    },
+    {
+      "truth_id": "p2_T028",
+      "expected_text": "40",
+      "anchor_px": [
+        866.0,
+        147.0
+      ]
+    },
+    {
+      "truth_id": "p2_T029",
+      "expected_text": "70",
+      "anchor_px": [
+        906.0,
+        151.0
+      ]
+    },
+    {
+      "truth_id": "p2_T030",
+      "expected_text": "Ø58",
+      "anchor_px": [
+        615.0,
+        398.0
+      ]
+    },
+    {
+      "truth_id": "p2_T031",
+      "expected_text": "2x45",
+      "anchor_px": [
+        468.0,
+        310.0
+      ]
+    },
+    {
+      "truth_id": "p2_T032",
+      "expected_text": "Sectiunea A-A",
+      "anchor_px": [
+        467.0,
+        515.0
+      ]
+    },
+    {
+      "truth_id": "p2_T034",
+      "expected_text": "80",
+      "anchor_px": [
+        466.0,
+        583.0
+      ]
+    },
+    {
+      "truth_id": "p2_T035",
+      "expected_text": "Ø14",
+      "anchor_px": [
+        224.0,
+        643.0
+      ]
+    },
+    {
+      "truth_id": "p2_T036",
+      "expected_text": "R15",
+      "anchor_px": [
+        206.0,
+        680.0
+      ]
+    },
+    {
+      "truth_id": "p2_T037",
+      "expected_text": "68",
+      "anchor_px": [
+        165.0,
+        737.0
+      ]
+    },
+    {
+      "truth_id": "p2_T038",
+      "expected_text": "8",
+      "anchor_px": [
+        207.0,
+        739.0
+      ]
+    },
+    {
+      "truth_id": "p2_T039",
+      "expected_text": "10",
+      "anchor_px": [
+        266.0,
+        849.0
+      ]
+    },
+    {
+      "truth_id": "p2_T040",
+      "expected_text": "Ø12",
+      "anchor_px": [
+        453.0,
+        894.0
+      ]
+    },
+    {
+      "truth_id": "p2_T041",
+      "expected_text": "Ø20",
+      "anchor_px": [
+        343.0,
+        929.0
+      ]
+    },
+    {
+      "truth_id": "p2_T042",
+      "expected_text": "60",
+      "anchor_px": [
+        501.0,
+        956.0
+      ]
+    },
+    {
+      "truth_id": "p2_T043",
+      "expected_text": "320",
+      "anchor_px": [
+        455.0,
+        895.0
+      ]
+    },
+    {
+      "truth_id": "p2_T044",
+      "expected_text": "FILE NAME",
+      "anchor_px": [
+        878.0,
+        837.0
+      ]
+    },
+    {
+      "truth_id": "p2_T045",
+      "expected_text": "FSCM NO",
+      "anchor_px": [
+        1007.0,
+        836.0
+      ]
+    },
+    {
+      "truth_id": "p2_T046",
+      "expected_text": "SHEET",
+      "anchor_px": [
+        1175.0,
+        836.0
+      ]
+    },
+    {
+      "truth_id": "p2_T047",
+      "expected_text": "SCALE",
+      "anchor_px": [
+        1330.0,
+        836.0
+      ]
+    },
+    {
+      "truth_id": "p2_T048",
+      "expected_text": "SIZE",
+      "anchor_px": [
+        880.0,
+        874.0
+      ]
+    },
+    {
+      "truth_id": "p2_T049",
+      "expected_text": "DRAWN",
+      "anchor_px": [
+        883.0,
+        894.0
+      ]
+    },
+    {
+      "truth_id": "p2_T050",
+      "expected_text": "CHECK",
+      "anchor_px": [
+        885.0,
+        913.0
+      ]
+    },
+    {
+      "truth_id": "p2_T051",
+      "expected_text": "APPR.",
+      "anchor_px": [
+        884.0,
+        930.0
+      ]
+    },
+    {
+      "truth_id": "p2_T052",
+      "expected_text": "ISSUED",
+      "anchor_px": [
+        880.0,
+        951.0
+      ]
+    },
+    {
+      "truth_id": "p2_T053",
+      "expected_text": "REV",
+      "anchor_px": [
+        879.0,
+        974.0
+      ]
+    },
+    {
+      "truth_id": "p2_T054",
+      "expected_text": "CONTRACT NO",
+      "anchor_px": [
+        906.0,
+        1003.0
+      ]
+    },
+    {
+      "truth_id": "p2_T055",
+      "expected_text": "DWG NO",
+      "anchor_px": [
+        1164.0,
+        987.0
+      ]
+    },
+    {
+      "truth_id": "p2_T056",
+      "expected_text": "A3",
+      "anchor_px": [
+        955.0,
+        875.0
+      ]
+    },
+    {
+      "truth_id": "p2_T057",
+      "expected_text": "05/20/2024 NeaPi",
+      "anchor_px": [
+        994.0,
+        896.0
+      ]
+    },
+    {
+      "truth_id": "p2_T058",
+      "expected_text": "1:1",
+      "anchor_px": [
+        1340.0,
+        854.0
+      ]
+    },
+    {
+      "truth_id": "p2_T059",
+      "expected_text": "Material Bengos",
+      "anchor_px": [
+        1202.0,
+        962.0
+      ]
+    }
+  ],
+  "extra_or_fragmented_groups": [
+    {
+      "text": "R",
+      "bbox_px": [
+        261,
+        117,
+        282,
+        138
+      ],
+      "source_bbox": [
+        263.0,
+        119.0,
+        280.0,
+        136.0
+      ],
+      "recognizer": "recognizer_dimensions_2.keras",
+      "detection_source": "existing Paddle baseline boxes",
+      "index": 0
+    },
+    {
+      "text": "=",
+      "bbox_px": [
+        932,
+        159,
+        945,
+        173
+      ],
+      "source_bbox": [
+        934.0,
+        161.0,
+        943.0,
+        171.0
+      ],
+      "recognizer": "recognizer_dimensions_2.keras",
+      "detection_source": "existing Paddle baseline boxes",
+      "index": 1
+    },
+    {
+      "text": "2x4",
+      "bbox_px": [
+        493,
+        331,
+        527,
+        346
+      ],
+      "source_bbox": [
+        495.0,
+        333.0,
+        525.0,
+        344.0
+      ],
+      "recognizer": "recognizer_dimensions_2.keras",
+      "detection_source": "existing Paddle baseline boxes",
+      "index": 2
+    },
+    {
+      "text": "⌀",
+      "bbox_px": [
+        653,
+        427,
+        680,
+        444
+      ],
+      "source_bbox": [
+        655.0,
+        429.0,
+        678.0,
+        442.0
+      ],
+      "recognizer": "recognizer_dimensions_2.keras",
+      "detection_source": "existing Paddle baseline boxes",
+      "index": 3
+    },
+    {
+      "text": "9=atGn±aA-A",
+      "bbox_px": [
+        416,
+        546,
+        598,
+        580
+      ],
+      "source_bbox": [
+        418.0,
+        548.0,
+        596.0,
+        578.0
+      ],
+      "recognizer": "recognizer_dimensions_2.keras",
+      "detection_source": "existing Paddle baseline boxes",
+      "index": 4
+    },
+    {
+      "text": ":0",
+      "bbox_px": [
+        499,
+        624,
+        518,
+        641
+      ],
+      "source_bbox": [
+        501.0,
+        626.0,
+        516.0,
+        639.0
+      ],
+      "recognizer": "recognizer_dimensions_2.keras",
+      "detection_source": "existing Paddle baseline boxes",
+      "index": 5
+    },
+    {
+      "text": "R",
+      "bbox_px": [
+        200,
+        702,
+        230,
+        721
+      ],
+      "source_bbox": [
+        202.0,
+        704.0,
+        228.0,
+        719.0
+      ],
+      "recognizer": "recognizer_dimensions_2.keras",
+      "detection_source": "existing Paddle baseline boxes",
+      "index": 6
+    },
+    {
+      "text": ",,:(±:.:.D):\"A",
+      "bbox_px": [
+        947,
+        911,
+        1116,
+        933
+      ],
+      "source_bbox": [
+        949.0,
+        913.0,
+        1114.0,
+        931.0
+      ],
+      "recognizer": "recognizer_dimensions_2.keras",
+      "detection_source": "existing Paddle baseline boxes",
+      "index": 7
+    },
+    {
+      "text": "11",
+      "bbox_px": [
+        1434,
+        912,
+        1453,
+        931
+      ],
+      "source_bbox": [
+        1436.0,
+        914.0,
+        1451.0,
+        929.0
+      ],
+      "recognizer": "recognizer_dimensions_2.keras",
+      "detection_source": "existing Paddle baseline boxes",
+      "index": 8
+    },
+    {
+      "text": "⌀2",
+      "bbox_px": [
+        481,
+        959,
+        510,
+        978
+      ],
+      "source_bbox": [
+        483.0,
+        961.0,
+        508.0,
+        976.0
+      ],
+      "recognizer": "recognizer_dimensions_2.keras",
+      "detection_source": "existing Paddle baseline boxes",
+      "index": 10
+    },
+    {
+      "text": "05/20/22MaaR",
+      "bbox_px": [
+        986,
+        952,
+        1121,
+        974
+      ],
+      "source_bbox": [
+        988.0,
+        954.0,
+        1119.0,
+        972.0
+      ],
+      "recognizer": "recognizer_dimensions_2.keras",
+      "detection_source": "existing Paddle baseline boxes",
+      "index": 11
+    },
+    {
+      "text": "⌀20",
+      "bbox_px": [
+        353,
+        1000,
+        383,
+        1017
+      ],
+      "source_bbox": [
+        355.0,
+        1002.0,
+        381.0,
+        1015.0
+      ],
+      "recognizer": "recognizer_dimensions_2.keras",
+      "detection_source": "existing Paddle baseline boxes",
+      "index": 12
+    },
+    {
+      "text": "Ma.,.a.,.,",
+      "bbox_px": [
+        1272,
+        1013,
+        1396,
+        1040
+      ],
+      "source_bbox": [
+        1274.0,
+        1015.0,
+        1394.0,
+        1038.0
+      ],
+      "recognizer": "recognizer_dimensions_2.keras",
+      "detection_source": "existing Paddle baseline boxes",
+      "index": 13
+    },
+    {
+      "text": ":0",
+      "bbox_px": [
+        538,
+        1027,
+        558,
+        1045
+      ],
+      "source_bbox": [
+        540.0,
+        1029.0,
+        556.0,
+        1043.0
+      ],
+      "recognizer": "recognizer_dimensions_2.keras",
+      "detection_source": "existing Paddle baseline boxes",
+      "index": 14
+    },
+    {
+      "text": "AaRat.M(n",
+      "bbox_px": [
+        1459,
+        1078,
+        1599,
+        1105
+      ],
+      "source_bbox": [
+        1461.0,
+        1080.0,
+        1599.0,
+        1103.0
+      ],
+      "recognizer": "recognizer_dimensions_2.keras",
+      "detection_source": "existing Paddle baseline boxes",
+      "index": 15
+    },
+    {
+      "text": "::",
+      "bbox_px": [
+        159,
+        800,
+        178,
+        818
+      ],
+      "source_bbox": [
+        161.33,
+        802.0,
+        176.67,
+        816.67
+      ],
+      "recognizer": "recognizer_dimensions_2.keras",
+      "detection_source": "existing Paddle baseline boxes",
+      "index": 20
+    },
+    {
+      "text": "=",
+      "bbox_px": [
+        291,
+        916,
+        303,
+        928
+      ],
+      "source_bbox": [
+        293.33,
+        918.0,
+        301.33,
+        926.0
+      ],
+      "recognizer": "recognizer_dimensions_2.keras",
+      "detection_source": "existing Paddle baseline boxes",
+      "index": 21
+    },
+    {
+      "text": "",
+      "bbox_px": [
+        937,
+        929,
+        968,
+        952
+      ],
+      "source_bbox": [
+        939.33,
+        931.33,
+        966.0,
+        950.67
+      ],
+      "recognizer": "recognizer_dimensions_2.keras",
+      "detection_source": "existing Paddle baseline boxes",
+      "index": 22
+    },
+    {
+      "text": ".",
+      "bbox_px": [
+        937,
+        977,
+        978,
+        1001
+      ],
+      "source_bbox": [
+        939.33,
+        979.33,
+        976.0,
+        999.33
+      ],
+      "recognizer": "recognizer_dimensions_2.keras",
+      "detection_source": "existing Paddle baseline boxes",
+      "index": 23
+    },
+    {
+      "text": ",9)",
+      "bbox_px": [
+        934,
+        1022,
+        982,
+        1050
+      ],
+      "source_bbox": [
+        936.0,
+        1024.0,
+        980.67,
+        1048.67
+      ],
+      "recognizer": "recognizer_dimensions_2.keras",
+      "detection_source": "existing Paddle baseline boxes",
+      "index": 24
+    },
+    {
+      "text": ".,",
+      "bbox_px": [
+        937,
+        1046,
+        969,
+        1072
+      ],
+      "source_bbox": [
+        939.33,
+        1048.67,
+        967.33,
+        1070.0
+      ],
+      "recognizer": "recognizer_dimensions_2.keras",
+      "detection_source": "existing Paddle baseline boxes",
+      "index": 25
+    },
+    {
+      "text": ").",
+      "bbox_px": [
+        1256,
+        1043,
+        1304,
+        1065
+      ],
+      "source_bbox": [
+        1258.67,
+        1045.33,
+        1302.0,
+        1063.33
+      ],
+      "recognizer": "recognizer_dimensions_2.keras",
+      "detection_source": "existing Paddle baseline boxes",
+      "index": 26
+    }
+  ],
+  "matching_instances_diagnostic": [
+    {
+      "truth_id": "p2_T001",
+      "text": "A",
+      "observation_index": 17,
+      "anchor_distance_px": 15.6
+    },
+    {
+      "truth_id": "p2_T002",
+      "text": "A",
+      "observation_index": 16,
+      "anchor_distance_px": 71.8
+    },
+    {
+      "truth_id": "p2_T013",
+      "text": "A",
+      "observation_index": 9,
+      "anchor_distance_px": 1299.7
+    },
+    {
+      "truth_id": "p2_T014",
+      "text": "B",
+      "observation_index": 18,
+      "anchor_distance_px": 970.3
+    },
+    {
+      "truth_id": "p2_T016",
+      "text": "D",
+      "observation_index": 27,
+      "anchor_distance_px": 1076.7
+    },
+    {
+      "truth_id": "p2_T033",
+      "text": "91",
+      "observation_index": 19,
+      "anchor_distance_px": 63.3
+    }
+  ],
+  "note": "Inventory counts and annotation matches are PROVISIONAL. No per-glyph spatial truth exists and truth coverage is not independently verified. Counts may cancel swapped or misplaced glyphs."
+}

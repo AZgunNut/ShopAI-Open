@@ -1,0 +1,171 @@
+{
+  "truth_file": "/mnt/shopai-data-new/cad-research/experiments/qwen-3-drawing-20261030-173652-610108/shopai_three_drawing_truth/batch_lab/ocr_outline_eight_v1/truths/p12.truth.json",
+  "prediction_file": "/mnt/shopai-data-new/cad-research/experiments/qwen-3-drawing-20261030-173652-610108/shopai_three_drawing_truth/batch_lab/ocr_outline_eight_v1/results/full_gambit_20261108T191855Z_740546_12852/p12/tesseract_raw_cw90_psm3_score_readings.json",
+  "truth_coverage_certified": false,
+  "certified_100_percent": false,
+  "truth_gap_count": 1,
+  "ground_truth_pending_review": 1,
+  "expected_provisional_character_instances": 2,
+  "observed_character_instances": 23,
+  "character_inventory_overlap_provisional": 0,
+  "character_inventory_pct_provisional": 0.0,
+  "missing_characters": {
+    "4": 1,
+    "R": 1
+  },
+  "extra_characters": {
+    "-": 3,
+    "=": 1,
+    "I": 1,
+    "J": 1,
+    "N": 1,
+    "V": 1,
+    "a": 3,
+    "d": 1,
+    "e": 1,
+    "f": 1,
+    "l": 1,
+    "o": 2,
+    "p": 3,
+    "r": 1,
+    "y": 1,
+    "|": 1
+  },
+  "provisional_annotation_matches": 0,
+  "provisional_annotation_total": 1,
+  "missing_annotations": [
+    {
+      "truth_id": "p12_T001",
+      "expected_text": "R4",
+      "anchor_px": [
+        10.0,
+        651.0
+      ]
+    }
+  ],
+  "extra_or_fragmented_groups": [
+    {
+      "text": "fo",
+      "confidence": 0.0,
+      "bbox_px": [
+        239.0,
+        919.0,
+        241.0,
+        943.0
+      ],
+      "index": 0
+    },
+    {
+      "text": "---",
+      "confidence": 0.0,
+      "bbox_px": [
+        239.0,
+        864.0,
+        241.0,
+        899.0
+      ],
+      "index": 1
+    },
+    {
+      "text": "=I",
+      "confidence": 0.0134,
+      "bbox_px": [
+        239.0,
+        822.0,
+        250.0,
+        859.0
+      ],
+      "index": 2
+    },
+    {
+      "text": "Jd",
+      "confidence": 0.3918,
+      "bbox_px": [
+        239.0,
+        685.0,
+        250.0,
+        734.0
+      ],
+      "index": 3
+    },
+    {
+      "text": "a",
+      "confidence": 0.2791,
+      "bbox_px": [
+        496.0,
+        907.0,
+        497.0,
+        943.0
+      ],
+      "index": 4
+    },
+    {
+      "text": "pp",
+      "confidence": 0.354,
+      "bbox_px": [
+        496.0,
+        877.0,
+        497.0,
+        896.0
+      ],
+      "index": 5
+    },
+    {
+      "text": "lV",
+      "confidence": 0.3802,
+      "bbox_px": [
+        478.0,
+        804.0,
+        506.0,
+        849.0
+      ],
+      "index": 6
+    },
+    {
+      "text": "ropa",
+      "confidence": 0.0,
+      "bbox_px": [
+        478.0,
+        752.0,
+        506.0,
+        796.0
+      ],
+      "index": 7
+    },
+    {
+      "text": "a",
+      "confidence": 0.4154,
+      "bbox_px": [
+        496.0,
+        697.0,
+        497.0,
+        705.0
+      ],
+      "index": 8
+    },
+    {
+      "text": "|",
+      "confidence": 0.6902,
+      "bbox_px": [
+        496.0,
+        683.0,
+        497.0,
+        684.0
+      ],
+      "index": 9
+    },
+    {
+      "text": "Ney",
+      "confidence": 0.3541,
+      "bbox_px": [
+        201.0,
+        133.0,
+        536.0,
+        299.0
+      ],
+      "index": 10
+    }
+  ],
+  "matching_instances_diagnostic": [],
+  "note": "Inventory counts and annotation matches are PROVISIONAL. No per-glyph spatial truth exists and truth coverage is not independently verified. Counts may cancel swapped or misplaced glyphs."
+}

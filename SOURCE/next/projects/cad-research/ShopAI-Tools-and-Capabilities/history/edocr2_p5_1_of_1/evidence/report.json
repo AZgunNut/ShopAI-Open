@@ -1,0 +1,60 @@
+{
+  "drawing": "p5",
+  "returncode": 0,
+  "pipeline_completed": true,
+  "resize_corrections": 1,
+  "mask_files": 1,
+  "csv_files": 2,
+  "duration_seconds": 27.0,
+  "stop_reason": "",
+  "outputs": [
+    {
+      "path": "console.log",
+      "bytes": 8363
+    },
+    {
+      "path": "p5/other_info.csv",
+      "bytes": 42
+    },
+    {
+      "path": "p5/dimension_results.csv",
+      "bytes": 161
+    },
+    {
+      "path": "p5/p5_mask.png",
+      "bytes": 817517
+    }
+  ],
+  "log_tail": [
+    "1/1 [==============================] - 0s 47ms/step",
+    "/mnt/shopai-data-new/cad-research/experiments/qwen-3-drawing-20261030-173652-610108/shopai_three_drawing_truth/batch_lab/ocr_outline_eight_v1/results/edocr2_p5_resize_fix_20261109T012516Z_745228/eDOCr2/edocr2/tools/ocr_pipelines.py:720: RuntimeWarning: invalid value encountered in divide",
+    "  z_scores = (counts - mean) / std",
+    "",
+    "1/1 [==============================] - ETA: 0s\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b",
+    "1/1 [==============================] - 0s 43ms/step",
+    "",
+    "1/1 [==============================] - ETA: 0s\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b",
+    "1/1 [==============================] - 0s 42ms/step",
+    "",
+    "1/1 [==============================] - ETA: 0s\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b",
+    "1/1 [==============================] - 0s 46ms/step",
+    "Recognition finished. Performing template matching...",
+    "Prediction on dimensions and extra information Done",
+    "Mask saved",
+    "Raw output saved",
+    "Session Timing Report:",
+    "Loading session:           8.753 s",
+    "----------------------",
+    "Drawing segmentation:      0.022 s",
+    "Table prediction:          0.001 s",
+    "GD&T prediction:           0.000 s",
+    "Dimension & other info:    17.208 s",
+    "Saving & processing:       0.057 s",
+    "----------------------",
+    "OCR in p5.png: 17.289 s",
+    "----------------------",
+    "Total time:                26.062 s",
+    "",
+    "EDOCR2_NATIVE_COMPLETED"
+  ]
+}

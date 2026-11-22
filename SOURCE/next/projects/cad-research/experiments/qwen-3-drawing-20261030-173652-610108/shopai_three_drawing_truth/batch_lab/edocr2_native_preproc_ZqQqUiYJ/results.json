@@ -1,0 +1,209 @@
+{
+  "engine": "eDOCr2 dimension recognizer",
+  "preprocessing": "Original upstream fit(), cval=0",
+  "decoder": "TensorFlow CTC greedy, blank last",
+  "source": "/mnt/shopai-data-new/cad-research/ocr-next/sources/edocr2-f6f96517a531/edocr2/keras_ocr",
+  "model": "/mnt/shopai-data-new/cad-research/ocr-next/models/edocr2/recognizer_dimensions_2.keras",
+  "model_sha256": "38cef806618da8b1d5c83c207fb5e4ee6964f7f14dc3f767a55bac96e9f54361",
+  "drawing": "/mnt/shopai-data-new/cad-research/experiments/qwen-3-drawing-20261030-173652-610108/shopai_three_drawing_truth/images/drawing_03.jpg",
+  "drawing_sha256": "4e6c3dc0cedbc71de9389d8dbaa60cd983eabc415d68aa26a1df69a6d27f6741",
+  "reference_answers_supplied_to_model": false,
+  "note": "Uses original fitting procedure and CTC decoding. OCR boxes came from existing PaddleOCR detections. Not a test of full eDOCr2 segmentation.",
+  "results": [
+    {
+      "target": "35°",
+      "variant": "exact",
+      "crop_px": [
+        259,
+        194,
+        276,
+        208
+      ],
+      "paddle_selected": "35°",
+      "edocr2_text": "x5",
+      "degree_class_max_probability": 0.000242
+    },
+    {
+      "target": "35°",
+      "variant": "1px",
+      "crop_px": [
+        258,
+        193,
+        277,
+        209
+      ],
+      "paddle_selected": "35°",
+      "edocr2_text": "xt",
+      "degree_class_max_probability": 0.000119
+    },
+    {
+      "target": "35°",
+      "variant": "2px_right4",
+      "crop_px": [
+        257,
+        192,
+        280,
+        210
+      ],
+      "paddle_selected": "35°",
+      "edocr2_text": "x",
+      "degree_class_max_probability": 9.8e-05
+    },
+    {
+      "target": "35°",
+      "variant": "3px_right9",
+      "crop_px": [
+        256,
+        191,
+        285,
+        211
+      ],
+      "paddle_selected": "35°",
+      "edocr2_text": "x",
+      "degree_class_max_probability": 0.00026
+    },
+    {
+      "target": "35°",
+      "variant": "right8_only",
+      "crop_px": [
+        259,
+        194,
+        284,
+        208
+      ],
+      "paddle_selected": "35°",
+      "edocr2_text": "x5",
+      "degree_class_max_probability": 0.000202
+    },
+    {
+      "target": "40",
+      "variant": "exact",
+      "crop_px": [
+        258,
+        239,
+        276,
+        251
+      ],
+      "paddle_selected": "4",
+      "edocr2_text": "4t",
+      "degree_class_max_probability": 8e-06
+    },
+    {
+      "target": "40",
+      "variant": "1px",
+      "crop_px": [
+        257,
+        238,
+        277,
+        252
+      ],
+      "paddle_selected": "4",
+      "edocr2_text": "4t",
+      "degree_class_max_probability": 4e-06
+    },
+    {
+      "target": "40",
+      "variant": "2px_right4",
+      "crop_px": [
+        256,
+        237,
+        280,
+        253
+      ],
+      "paddle_selected": "4",
+      "edocr2_text": ":t",
+      "degree_class_max_probability": 0.000119
+    },
+    {
+      "target": "40",
+      "variant": "3px_right9",
+      "crop_px": [
+        255,
+        236,
+        285,
+        254
+      ],
+      "paddle_selected": "4",
+      "edocr2_text": ":t-",
+      "degree_class_max_probability": 8.1e-05
+    },
+    {
+      "target": "40",
+      "variant": "right8_only",
+      "crop_px": [
+        258,
+        239,
+        284,
+        251
+      ],
+      "paddle_selected": "4",
+      "edocr2_text": "4tG",
+      "degree_class_max_probability": 6.4e-05
+    },
+    {
+      "target": "0.75DIA",
+      "variant": "exact",
+      "crop_px": [
+        128,
+        84,
+        177,
+        101
+      ],
+      "paddle_selected": "0.75DIA",
+      "edocr2_text": "a.7Bt.",
+      "degree_class_max_probability": 0.002064
+    },
+    {
+      "target": "0.75DIA",
+      "variant": "1px",
+      "crop_px": [
+        127,
+        83,
+        178,
+        102
+      ],
+      "paddle_selected": "0.75DIA",
+      "edocr2_text": "a7atA.",
+      "degree_class_max_probability": 9.3e-05
+    },
+    {
+      "target": "0.75DIA",
+      "variant": "2px_right4",
+      "crop_px": [
+        126,
+        82,
+        181,
+        103
+      ],
+      "paddle_selected": "0.75DIA",
+      "edocr2_text": "a7tA.",
+      "degree_class_max_probability": 0.000688
+    },
+    {
+      "target": "0.75DIA",
+      "variant": "3px_right9",
+      "crop_px": [
+        125,
+        81,
+        186,
+        104
+      ],
+      "paddle_selected": "0.75DIA",
+      "edocr2_text": "a,,:1",
+      "degree_class_max_probability": 0.000454
+    },
+    {
+      "target": "0.75DIA",
+      "variant": "right8_only",
+      "crop_px": [
+        128,
+        84,
+        185,
+        101
+      ],
+      "paddle_selected": "0.75DIA",
+      "edocr2_text": "a.7:t:",
+      "degree_class_max_probability": 0.002594
+    }
+  ]
+}

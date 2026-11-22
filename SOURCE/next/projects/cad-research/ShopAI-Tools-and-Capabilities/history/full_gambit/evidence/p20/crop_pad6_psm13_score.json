@@ -1,0 +1,554 @@
+{
+  "truth_file": "/mnt/shopai-data-new/cad-research/experiments/qwen-3-drawing-20261030-173652-610108/shopai_three_drawing_truth/batch_lab/ocr_outline_eight_v1/truths/p20.truth.json",
+  "prediction_file": "/mnt/shopai-data-new/cad-research/experiments/qwen-3-drawing-20261030-173652-610108/shopai_three_drawing_truth/batch_lab/ocr_outline_eight_v1/results/full_gambit_20261108T191855Z_740546_12852/p20/crop_pad6_psm13_score_readings.json",
+  "truth_coverage_certified": false,
+  "certified_100_percent": false,
+  "truth_gap_count": 1,
+  "ground_truth_pending_review": 23,
+  "expected_provisional_character_instances": 71,
+  "observed_character_instances": 60,
+  "character_inventory_overlap_provisional": 35,
+  "character_inventory_pct_provisional": 49.3,
+  "missing_characters": {
+    "-": 1,
+    "0": 4,
+    "1": 10,
+    "3": 2,
+    "4": 2,
+    "5": 8,
+    "6": 1,
+    "e": 1,
+    "n": 1,
+    "t": 1,
+    "°": 1,
+    "Ø": 4
+  },
+  "extra_characters": {
+    ".": 3,
+    "B": 1,
+    "E": 2,
+    "I": 3,
+    "S": 4,
+    "\\": 1,
+    "]": 1,
+    "a": 1,
+    "i": 1,
+    "l": 1,
+    "o": 1,
+    "r": 1,
+    "s": 1,
+    "|": 4
+  },
+  "provisional_annotation_matches": 2,
+  "provisional_annotation_total": 23,
+  "missing_annotations": [
+    {
+      "truth_id": "p20_T001",
+      "expected_text": "Sectiunea A-A",
+      "anchor_px": [
+        572.0,
+        38.0
+      ]
+    },
+    {
+      "truth_id": "p20_T002",
+      "expected_text": "R15",
+      "anchor_px": [
+        80.0,
+        185.0
+      ]
+    },
+    {
+      "truth_id": "p20_T003",
+      "expected_text": "Ø16",
+      "anchor_px": [
+        274.0,
+        178.0
+      ]
+    },
+    {
+      "truth_id": "p20_T004",
+      "expected_text": "42",
+      "anchor_px": [
+        39.0,
+        266.0
+      ]
+    },
+    {
+      "truth_id": "p20_T005",
+      "expected_text": "80",
+      "anchor_px": [
+        416.0,
+        218.0
+      ]
+    },
+    {
+      "truth_id": "p20_T006",
+      "expected_text": "16",
+      "anchor_px": [
+        499.0,
+        152.0
+      ]
+    },
+    {
+      "truth_id": "p20_T007",
+      "expected_text": "Ø60",
+      "anchor_px": [
+        555.0,
+        72.0
+      ]
+    },
+    {
+      "truth_id": "p20_T008",
+      "expected_text": "Ø40",
+      "anchor_px": [
+        552.0,
+        104.0
+      ]
+    },
+    {
+      "truth_id": "p20_T009",
+      "expected_text": "Ø30",
+      "anchor_px": [
+        549.0,
+        305.0
+      ]
+    },
+    {
+      "truth_id": "p20_T010",
+      "expected_text": "12",
+      "anchor_px": [
+        866.0,
+        310.0
+      ]
+    },
+    {
+      "truth_id": "p20_T012",
+      "expected_text": "50",
+      "anchor_px": [
+        508.0,
+        431.0
+      ]
+    },
+    {
+      "truth_id": "p20_T013",
+      "expected_text": "R15",
+      "anchor_px": [
+        644.0,
+        433.0
+      ]
+    },
+    {
+      "truth_id": "p20_T014",
+      "expected_text": "R15",
+      "anchor_px": [
+        887.0,
+        538.0
+      ]
+    },
+    {
+      "truth_id": "p20_T015",
+      "expected_text": "R15",
+      "anchor_px": [
+        742.0,
+        704.0
+      ]
+    },
+    {
+      "truth_id": "p20_T016",
+      "expected_text": "R15",
+      "anchor_px": [
+        414.0,
+        706.0
+      ]
+    },
+    {
+      "truth_id": "p20_T017",
+      "expected_text": "R15",
+      "anchor_px": [
+        416.0,
+        469.0
+      ]
+    },
+    {
+      "truth_id": "p20_T018",
+      "expected_text": "100",
+      "anchor_px": [
+        385.0,
+        575.0
+      ]
+    },
+    {
+      "truth_id": "p20_T019",
+      "expected_text": "50",
+      "anchor_px": [
+        404.0,
+        642.0
+      ]
+    },
+    {
+      "truth_id": "p20_T021",
+      "expected_text": "42",
+      "anchor_px": [
+        837.0,
+        602.0
+      ]
+    },
+    {
+      "truth_id": "p20_T022",
+      "expected_text": "30°",
+      "anchor_px": [
+        684.0,
+        480.0
+      ]
+    },
+    {
+      "truth_id": "p20_T023",
+      "expected_text": "135°",
+      "anchor_px": [
+        726.0,
+        645.0
+      ]
+    }
+  ],
+  "extra_or_fragmented_groups": [
+    {
+      "text": "| Sociuras AA.",
+      "bbox_px": [
+        534.0,
+        30.0,
+        593.0,
+        44.0
+      ],
+      "source_box": 0,
+      "crop_px": [
+        528,
+        24,
+        599,
+        50
+      ],
+      "index": 0
+    },
+    {
+      "text": "260.",
+      "bbox_px": [
+        551.0,
+        63.0,
+        579.0,
+        80.0
+      ],
+      "source_box": 1,
+      "crop_px": [
+        545,
+        57,
+        585,
+        86
+      ],
+      "index": 1
+    },
+    {
+      "text": "040",
+      "bbox_px": [
+        549.0,
+        92.0,
+        580.0,
+        112.0
+      ],
+      "source_box": 2,
+      "crop_px": [
+        543,
+        86,
+        586,
+        118
+      ],
+      "index": 2
+    },
+    {
+      "text": "216",
+      "bbox_px": [
+        261.0,
+        165.0,
+        288.0,
+        180.0
+      ],
+      "source_box": 3,
+      "crop_px": [
+        255,
+        159,
+        294,
+        186
+      ],
+      "index": 3
+    },
+    {
+      "text": "RIS",
+      "bbox_px": [
+        68.0,
+        176.0,
+        91.0,
+        189.0
+      ],
+      "source_box": 4,
+      "crop_px": [
+        62,
+        170,
+        97,
+        195
+      ],
+      "index": 4
+    },
+    {
+      "text": "|",
+      "bbox_px": [
+        402.0,
+        213.0,
+        416.0,
+        228.0
+      ],
+      "source_box": 5,
+      "crop_px": [
+        396,
+        207,
+        422,
+        234
+      ],
+      "index": 5
+    },
+    {
+      "text": "230°",
+      "bbox_px": [
+        551.0,
+        325.0,
+        578.0,
+        340.0
+      ],
+      "source_box": 6,
+      "crop_px": [
+        545,
+        319,
+        584,
+        346
+      ],
+      "index": 6
+    },
+    {
+      "text": "50.",
+      "bbox_px": [
+        496.0,
+        419.0,
+        514.0,
+        433.0
+      ],
+      "source_box": 8,
+      "crop_px": [
+        490,
+        413,
+        520,
+        439
+      ],
+      "index": 8
+    },
+    {
+      "text": "RS",
+      "bbox_px": [
+        629.0,
+        426.0,
+        655.0,
+        442.0
+      ],
+      "source_box": 9,
+      "crop_px": [
+        623,
+        420,
+        661,
+        448
+      ],
+      "index": 9
+    },
+    {
+      "text": "RE",
+      "bbox_px": [
+        405.0,
+        442.0,
+        431.0,
+        454.0
+      ],
+      "source_box": 10,
+      "crop_px": [
+        399,
+        436,
+        437,
+        460
+      ],
+      "index": 10
+    },
+    {
+      "text": "RIS",
+      "bbox_px": [
+        874.0,
+        535.0,
+        897.0,
+        549.0
+      ],
+      "source_box": 11,
+      "crop_px": [
+        868,
+        529,
+        903,
+        555
+      ],
+      "index": 11
+    },
+    {
+      "text": "8]",
+      "bbox_px": [
+        368.0,
+        571.0,
+        381.0,
+        589.0
+      ],
+      "source_box": 12,
+      "crop_px": [
+        362,
+        565,
+        387,
+        595
+      ],
+      "index": 12
+    },
+    {
+      "text": "Bl",
+      "bbox_px": [
+        398.0,
+        633.0,
+        412.0,
+        647.0
+      ],
+      "source_box": 13,
+      "crop_px": [
+        392,
+        627,
+        418,
+        653
+      ],
+      "index": 13
+    },
+    {
+      "text": "|",
+      "bbox_px": [
+        852.0,
+        641.0,
+        865.0,
+        655.0
+      ],
+      "source_box": 14,
+      "crop_px": [
+        846,
+        635,
+        871,
+        661
+      ],
+      "index": 14
+    },
+    {
+      "text": "RIE",
+      "bbox_px": [
+        366.0,
+        716.0,
+        395.0,
+        736.0
+      ],
+      "source_box": 16,
+      "crop_px": [
+        360,
+        710,
+        401,
+        742
+      ],
+      "index": 16
+    },
+    {
+      "text": "\\RS",
+      "bbox_px": [
+        740.0,
+        716.0,
+        768.0,
+        733.0
+      ],
+      "source_box": 17,
+      "crop_px": [
+        734,
+        710,
+        774,
+        739
+      ],
+      "index": 17
+    },
+    {
+      "text": "|",
+      "bbox_px": [
+        20.67,
+        258.0,
+        34.67,
+        273.33
+      ],
+      "source_box": 18,
+      "crop_px": [
+        14,
+        252,
+        40,
+        279
+      ],
+      "index": 18
+    },
+    {
+      "text": "a",
+      "bbox_px": [
+        780.67,
+        408.67,
+        789.33,
+        414.0
+      ],
+      "source_box": 19,
+      "crop_px": [
+        774,
+        402,
+        795,
+        420
+      ],
+      "index": 19
+    },
+    {
+      "text": "ei",
+      "bbox_px": [
+        683.33,
+        468.67,
+        705.33,
+        497.33
+      ],
+      "source_box": 20,
+      "crop_px": [
+        677,
+        462,
+        711,
+        503
+      ],
+      "index": 20
+    }
+  ],
+  "matching_instances_diagnostic": [
+    {
+      "truth_id": "p20_T011",
+      "text": "145",
+      "observation_index": 7,
+      "anchor_distance_px": 0.0
+    },
+    {
+      "truth_id": "p20_T020",
+      "text": "45",
+      "observation_index": 15,
+      "anchor_distance_px": 3.8
+    }
+  ],
+  "note": "Inventory counts and annotation matches are PROVISIONAL. No per-glyph spatial truth exists and truth coverage is not independently verified. Counts may cancel swapped or misplaced glyphs."
+}

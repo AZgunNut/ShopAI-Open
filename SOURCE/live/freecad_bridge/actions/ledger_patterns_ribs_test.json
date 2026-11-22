@@ -1,0 +1,66 @@
+{
+  "action": "create_part_from_features",
+  "part_name": "ledger_patterns_ribs_test",
+  "units": "mm",
+  "datums": {
+    "origin": "lower_left_front_corner",
+    "x_axis": "length",
+    "y_axis": "width",
+    "z_axis": "height"
+  },
+  "features": [
+    {
+      "id": "base_block",
+      "type": "box",
+      "length_mm": 150,
+      "width_mm": 90,
+      "height_mm": 16,
+      "origin_mm": [0, 0, 0],
+      "confidence": 1.0,
+      "source": "direct user test"
+    },
+    {
+      "id": "linear_hole_row",
+      "type": "linear_pattern_holes_z",
+      "start_mm": [20, 20],
+      "spacing_mm": [18, 0],
+      "count": 5,
+      "diameter_mm": 4,
+      "confidence": 1.0,
+      "source": "linear hole pattern callout"
+    },
+    {
+      "id": "rectangular_hole_array",
+      "type": "rectangular_pattern_holes_z",
+      "origin_mm": [25, 55],
+      "x_count": 3,
+      "y_count": 2,
+      "x_spacing_mm": 18,
+      "y_spacing_mm": 14,
+      "diameter_mm": 3.5,
+      "confidence": 1.0,
+      "source": "rectangular hole array callout"
+    },
+    {
+      "id": "diagonal_web",
+      "type": "rib_web_z",
+      "start_mm": [95, 20],
+      "end_mm": [130, 70],
+      "thickness_mm": 5,
+      "height_mm": 18,
+      "base_z_mm": 16,
+      "confidence": 1.0,
+      "source": "raised reinforcing rib / web"
+    }
+  ],
+  "exports": [
+    "FCStd",
+    "STEP",
+    "SVG_TOP",
+    "SVG_FRONT",
+    "SVG_RIGHT",
+    "DXF_TOP",
+    "DXF_FRONT",
+    "DXF_RIGHT"
+  ]
+}

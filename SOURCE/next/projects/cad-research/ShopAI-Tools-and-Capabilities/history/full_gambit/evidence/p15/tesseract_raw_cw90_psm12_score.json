@@ -1,0 +1,310 @@
+{
+  "truth_file": "/mnt/shopai-data-new/cad-research/experiments/qwen-3-drawing-20261030-173652-610108/shopai_three_drawing_truth/batch_lab/ocr_outline_eight_v1/truths/p15.truth.json",
+  "prediction_file": "/mnt/shopai-data-new/cad-research/experiments/qwen-3-drawing-20261030-173652-610108/shopai_three_drawing_truth/batch_lab/ocr_outline_eight_v1/results/full_gambit_20261108T191855Z_740546_12852/p15/tesseract_raw_cw90_psm12_score_readings.json",
+  "truth_coverage_certified": false,
+  "certified_100_percent": false,
+  "truth_gap_count": 1,
+  "ground_truth_pending_review": 12,
+  "expected_provisional_character_instances": 56,
+  "observed_character_instances": 60,
+  "character_inventory_overlap_provisional": 42,
+  "character_inventory_pct_provisional": 75.0,
+  "missing_characters": {
+    "1": 2,
+    "4": 1,
+    "5": 2,
+    "6": 1,
+    "8": 1,
+    "x": 1,
+    "°": 1,
+    "Ø": 5
+  },
+  "extra_characters": {
+    "(": 1,
+    ")": 1,
+    "0": 1,
+    "=": 2,
+    "@": 1,
+    "I": 1,
+    "L": 1,
+    "S": 2,
+    "Y": 1,
+    "\\": 1,
+    "_": 1,
+    "e": 1,
+    "i": 1,
+    "|": 1,
+    "—": 2
+  },
+  "provisional_annotation_matches": 5,
+  "provisional_annotation_total": 12,
+  "missing_annotations": [
+    {
+      "truth_id": "p15_T001",
+      "expected_text": "Ø2 conicitate 1:50",
+      "anchor_px": [
+        43.0,
+        228.0
+      ]
+    },
+    {
+      "truth_id": "p15_T002",
+      "expected_text": "Ø5 conicitate 1:50",
+      "anchor_px": [
+        43.0,
+        597.0
+      ]
+    },
+    {
+      "truth_id": "p15_T003",
+      "expected_text": "Ø6",
+      "anchor_px": [
+        423.0,
+        54.0
+      ]
+    },
+    {
+      "truth_id": "p15_T004",
+      "expected_text": "1x45°",
+      "anchor_px": [
+        584.0,
+        73.0
+      ]
+    },
+    {
+      "truth_id": "p15_T009",
+      "expected_text": "8",
+      "anchor_px": [
+        620.0,
+        480.0
+      ]
+    },
+    {
+      "truth_id": "p15_T010",
+      "expected_text": "Ø15",
+      "anchor_px": [
+        412.0,
+        542.0
+      ]
+    },
+    {
+      "truth_id": "p15_T011",
+      "expected_text": "Ø28",
+      "anchor_px": [
+        412.0,
+        585.0
+      ]
+    }
+  ],
+  "extra_or_fragmented_groups": [
+    {
+      "text": "i",
+      "confidence": 0.1823,
+      "bbox_px": [
+        1.0,
+        1062.0,
+        27.0,
+        1068.0
+      ],
+      "index": 0
+    },
+    {
+      "text": "@5",
+      "confidence": 0.7125,
+      "bbox_px": [
+        37.0,
+        636.0,
+        55.0,
+        665.0
+      ],
+      "index": 1
+    },
+    {
+      "text": "conicitate",
+      "confidence": 0.9231,
+      "bbox_px": [
+        37.0,
+        528.0,
+        55.0,
+        627.0
+      ],
+      "index": 2
+    },
+    {
+      "text": "1:50",
+      "confidence": 0.9638,
+      "bbox_px": [
+        37.0,
+        477.0,
+        55.0,
+        520.0
+      ],
+      "index": 3
+    },
+    {
+      "text": "2",
+      "confidence": 0.3547,
+      "bbox_px": [
+        36.0,
+        254.0,
+        54.0,
+        283.0
+      ],
+      "index": 4
+    },
+    {
+      "text": "conicitate",
+      "confidence": 0.93,
+      "bbox_px": [
+        36.0,
+        146.0,
+        54.0,
+        245.0
+      ],
+      "index": 5
+    },
+    {
+      "text": "1:50",
+      "confidence": 0.9685,
+      "bbox_px": [
+        36.0,
+        95.0,
+        54.0,
+        138.0
+      ],
+      "index": 6
+    },
+    {
+      "text": "—=",
+      "confidence": 0.3683,
+      "bbox_px": [
+        69.0,
+        144.0,
+        75.0,
+        173.0
+      ],
+      "index": 7
+    },
+    {
+      "text": "_",
+      "confidence": 0.0818,
+      "bbox_px": [
+        69.0,
+        205.0,
+        76.0,
+        218.0
+      ],
+      "index": 8
+    },
+    {
+      "text": "(|",
+      "confidence": 0.0,
+      "bbox_px": [
+        206.0,
+        707.0,
+        364.0,
+        1024.0
+      ],
+      "index": 10
+    },
+    {
+      "text": "\\",
+      "confidence": 0.0,
+      "bbox_px": [
+        202.0,
+        717.0,
+        421.0,
+        809.0
+      ],
+      "index": 11
+    },
+    {
+      "text": "820",
+      "confidence": 0.0324,
+      "bbox_px": [
+        343.0,
+        553.0,
+        386.0,
+        572.0
+      ],
+      "index": 12
+    },
+    {
+      "text": "SIS",
+      "confidence": 0.4548,
+      "bbox_px": [
+        383.0,
+        506.0,
+        427.0,
+        525.0
+      ],
+      "index": 13
+    },
+    {
+      "text": "—L",
+      "confidence": 0.0,
+      "bbox_px": [
+        421.0,
+        120.0,
+        422.0,
+        182.0
+      ],
+      "index": 14
+    },
+    {
+      "text": "Ye)",
+      "confidence": 0.6278,
+      "bbox_px": [
+        366.0,
+        707.0,
+        523.0,
+        1024.0
+      ],
+      "index": 15
+    },
+    {
+      "text": "=",
+      "confidence": 0.1856,
+      "bbox_px": [
+        643.0,
+        250.0,
+        651.0,
+        303.0
+      ],
+      "index": 19
+    }
+  ],
+  "matching_instances_diagnostic": [
+    {
+      "truth_id": "p15_T005",
+      "text": "5",
+      "observation_index": 16,
+      "anchor_distance_px": 124.0
+    },
+    {
+      "truth_id": "p15_T006",
+      "text": "12",
+      "observation_index": 18,
+      "anchor_distance_px": 65.3
+    },
+    {
+      "truth_id": "p15_T007",
+      "text": "31.5",
+      "observation_index": 20,
+      "anchor_distance_px": 53.3
+    },
+    {
+      "truth_id": "p15_T008",
+      "text": "18",
+      "observation_index": 17,
+      "anchor_distance_px": 26.7
+    },
+    {
+      "truth_id": "p15_T012",
+      "text": "5",
+      "observation_index": 9,
+      "anchor_distance_px": 313.6
+    }
+  ],
+  "note": "Inventory counts and annotation matches are PROVISIONAL. No per-glyph spatial truth exists and truth coverage is not independently verified. Counts may cancel swapped or misplaced glyphs."
+}

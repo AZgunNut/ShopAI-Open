@@ -1,0 +1,75 @@
+{
+  "engine": "PADDLE clahe_cw180 1947",
+  "readings": [
+    {
+      "text": "4",
+      "bbox_px": [
+        0.33,
+        636.0,
+        23.67,
+        660.0
+      ],
+      "bbox_rotated_px": [
+        699.33,
+        322.0,
+        722.67,
+        346.0
+      ],
+      "alternatives": [
+        {
+          "text": "4",
+          "key": "4",
+          "score": 2.49179,
+          "kind": "linear_or_value",
+          "parse_quality": 1.8,
+          "flags": [],
+          "confidence_peak": 0.242,
+          "whole_profiles": [
+            "1947"
+          ],
+          "profiles": [
+            "1947"
+          ],
+          "tile_samples": 0,
+          "support_examples": 1,
+          "style_bonus": 0.0
+        }
+      ]
+    },
+    {
+      "text": "心",
+      "bbox_px": [
+        0.33,
+        0.0,
+        723.0,
+        657.33
+      ],
+      "bbox_rotated_px": [
+        0.0,
+        324.67,
+        722.67,
+        982.0
+      ],
+      "alternatives": [
+        {
+          "text": "心",
+          "key": "心",
+          "score": 0.36293,
+          "kind": "unclassified",
+          "parse_quality": -0.25,
+          "flags": [],
+          "confidence_peak": 0.075,
+          "whole_profiles": [
+            "1947"
+          ],
+          "profiles": [
+            "1947"
+          ],
+          "tile_samples": 0,
+          "support_examples": 1,
+          "style_bonus": 0.0
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "ShopAI Loaded AI Manager",
+  "model_agnostic": true,
+  "entrypoint": "/home/shopai/ShopAI/tool-suites/model-manager/loaded_ai_manager.py",
+  "permanent_snapshot": "/mnt/shopai-data-new/cad-research/ShopAI-Tools-and-Capabilities/tools/Loaded-AI-Manager/loaded_ai_manager.py",
+  "sha256": "11e3c104bff421d3a840801381894c0eacf86e3cbc72eaabe5a488f6e685931c",
+  "read_only_discovery": "list-json",
+  "shutdown": "interactive confirmation required",
+  "infrastructure_preserved": true,
+  "confirmation_method": "two_blank_enter_presses",
+  "running_model_backup_by_default": false
+}

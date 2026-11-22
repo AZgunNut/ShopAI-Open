@@ -1,0 +1,357 @@
+[
+  {
+    "recipe": {
+      "weights": {
+        "bias": 0.0,
+        "vote": 0.2,
+        "conf": 0.2,
+        "grammar": 0.8,
+        "bad": -1.0,
+        "decimal": 0.2,
+        "radius": 0.15,
+        "diameter": 0.15,
+        "angle": 0.15,
+        "tail": -0.8,
+        "spaces": -0.01,
+        "letters": 0.0,
+        "digits": 0.0,
+        "length": 0.02,
+        "punct": -0.05,
+        "count": 0.0,
+        "note": 0.0,
+        "selected": 0.0
+      },
+      "rules": [],
+      "formula": "0"
+    },
+    "score": {
+      "reports": {
+        "D1": {
+          "exact_selected": 5,
+          "expected": 5,
+          "emitted": 5,
+          "f1": 1.0,
+          "candidate_coverage": "5/5",
+          "text_only_hits": 5,
+          "spatially_verified": false
+        },
+        "D2": {
+          "exact_selected": 7,
+          "expected": 7,
+          "emitted": 7,
+          "f1": 1.0,
+          "candidate_coverage": "7/7",
+          "text_only_hits": 7,
+          "spatially_verified": false
+        },
+        "D3": {
+          "exact_selected": 10,
+          "expected": 25,
+          "emitted": 26,
+          "f1": 0.392157,
+          "candidate_coverage": "10/25",
+          "text_only_hits": 10,
+          "spatially_verified": false
+        }
+      },
+      "exact_hits": 22,
+      "expected": 37,
+      "false_or_extra": 16,
+      "f1": 0.58666667,
+      "macro": 0.79738567,
+      "worst": 0.392157,
+      "signature": "a18aca72b30acb44",
+      "score_key": [
+        0.392157,
+        0.797386,
+        0.586667,
+        22,
+        -16
+      ]
+    }
+  },
+  {
+    "recipe": {
+      "weights": {
+        "bias": 0.0,
+        "vote": 0.2,
+        "conf": 5.40235,
+        "grammar": 0.8,
+        "bad": -0.98698,
+        "decimal": 3.0,
+        "radius": 2,
+        "diameter": 0.15,
+        "angle": 2,
+        "tail": -0.8,
+        "spaces": -0.01,
+        "letters": 0.0,
+        "digits": 0.0,
+        "length": 1.47033,
+        "punct": -3.07824,
+        "count": 0.0,
+        "note": 0.0,
+        "selected": 0.0
+      },
+      "formula": "0",
+      "rules": []
+    },
+    "score": {
+      "reports": {
+        "D1": {
+          "exact_selected": 5,
+          "expected": 5,
+          "emitted": 5,
+          "f1": 1.0,
+          "candidate_coverage": "5/5",
+          "text_only_hits": 5,
+          "spatially_verified": false
+        },
+        "D2": {
+          "exact_selected": 7,
+          "expected": 7,
+          "emitted": 7,
+          "f1": 1.0,
+          "candidate_coverage": "7/7",
+          "text_only_hits": 7,
+          "spatially_verified": false
+        },
+        "D3": {
+          "exact_selected": 10,
+          "expected": 25,
+          "emitted": 26,
+          "f1": 0.392157,
+          "candidate_coverage": "10/25",
+          "text_only_hits": 10,
+          "spatially_verified": false
+        }
+      },
+      "exact_hits": 22,
+      "expected": 37,
+      "false_or_extra": 16,
+      "f1": 0.58666667,
+      "macro": 0.79738567,
+      "worst": 0.392157,
+      "signature": "4f36c1f9c461c2c0",
+      "score_key": [
+        0.392157,
+        0.797386,
+        0.586667,
+        22,
+        -16
+      ]
+    }
+  },
+  {
+    "recipe": {
+      "weights": {
+        "bias": 0.0,
+        "vote": 0.2,
+        "conf": 5.40235,
+        "grammar": 0.8,
+        "bad": -0.98698,
+        "decimal": 3.0,
+        "radius": 2,
+        "diameter": 0.15,
+        "angle": 2,
+        "tail": -0.8,
+        "spaces": 6.82925,
+        "letters": 0.0,
+        "digits": 0.0,
+        "length": 1.47033,
+        "punct": -3.07824,
+        "count": 0.0,
+        "note": 0.0,
+        "selected": 0.0
+      },
+      "formula": "0",
+      "rules": []
+    },
+    "score": {
+      "reports": {
+        "D1": {
+          "exact_selected": 5,
+          "expected": 5,
+          "emitted": 5,
+          "f1": 1.0,
+          "candidate_coverage": "5/5",
+          "text_only_hits": 5,
+          "spatially_verified": false
+        },
+        "D2": {
+          "exact_selected": 7,
+          "expected": 7,
+          "emitted": 7,
+          "f1": 1.0,
+          "candidate_coverage": "7/7",
+          "text_only_hits": 7,
+          "spatially_verified": false
+        },
+        "D3": {
+          "exact_selected": 10,
+          "expected": 25,
+          "emitted": 26,
+          "f1": 0.392157,
+          "candidate_coverage": "10/25",
+          "text_only_hits": 10,
+          "spatially_verified": false
+        }
+      },
+      "exact_hits": 22,
+      "expected": 37,
+      "false_or_extra": 16,
+      "f1": 0.58666667,
+      "macro": 0.79738567,
+      "worst": 0.392157,
+      "signature": "bfa25d69a7341d2c",
+      "score_key": [
+        0.392157,
+        0.797386,
+        0.586667,
+        22,
+        -16
+      ]
+    }
+  },
+  {
+    "recipe": {
+      "weights": {
+        "bias": 0.0,
+        "vote": 0.2,
+        "conf": 5.40235,
+        "grammar": 0.8,
+        "bad": -0.98698,
+        "decimal": 3.0,
+        "radius": 2,
+        "diameter": 0.15,
+        "angle": 2,
+        "tail": -0.8,
+        "spaces": 6.82925,
+        "letters": 9.62722,
+        "digits": 0.0,
+        "length": 1.47033,
+        "punct": -3.07824,
+        "count": 0.0,
+        "note": 0.0,
+        "selected": 0.0
+      },
+      "formula": "0",
+      "rules": []
+    },
+    "score": {
+      "reports": {
+        "D1": {
+          "exact_selected": 5,
+          "expected": 5,
+          "emitted": 5,
+          "f1": 1.0,
+          "candidate_coverage": "5/5",
+          "text_only_hits": 5,
+          "spatially_verified": false
+        },
+        "D2": {
+          "exact_selected": 7,
+          "expected": 7,
+          "emitted": 7,
+          "f1": 1.0,
+          "candidate_coverage": "7/7",
+          "text_only_hits": 7,
+          "spatially_verified": false
+        },
+        "D3": {
+          "exact_selected": 10,
+          "expected": 25,
+          "emitted": 26,
+          "f1": 0.392157,
+          "candidate_coverage": "10/25",
+          "text_only_hits": 10,
+          "spatially_verified": false
+        }
+      },
+      "exact_hits": 22,
+      "expected": 37,
+      "false_or_extra": 16,
+      "f1": 0.58666667,
+      "macro": 0.79738567,
+      "worst": 0.392157,
+      "signature": "94530c6733a95a15",
+      "score_key": [
+        0.392157,
+        0.797386,
+        0.586667,
+        22,
+        -16
+      ]
+    }
+  },
+  {
+    "recipe": {
+      "weights": {
+        "bias": 0.0,
+        "vote": 0.2,
+        "conf": 5.40235,
+        "grammar": 0.8,
+        "bad": -0.98698,
+        "decimal": 3.0,
+        "radius": 2,
+        "diameter": 0.15,
+        "angle": 2,
+        "tail": -2.14856,
+        "spaces": 6.82925,
+        "letters": -0.21986,
+        "digits": 0.0,
+        "length": 1.47033,
+        "punct": -3.07824,
+        "count": 0.0,
+        "note": 0.0,
+        "selected": 0.0
+      },
+      "formula": "0",
+      "rules": []
+    },
+    "score": {
+      "reports": {
+        "D1": {
+          "exact_selected": 5,
+          "expected": 5,
+          "emitted": 5,
+          "f1": 1.0,
+          "candidate_coverage": "5/5",
+          "text_only_hits": 5,
+          "spatially_verified": false
+        },
+        "D2": {
+          "exact_selected": 7,
+          "expected": 7,
+          "emitted": 7,
+          "f1": 1.0,
+          "candidate_coverage": "7/7",
+          "text_only_hits": 7,
+          "spatially_verified": false
+        },
+        "D3": {
+          "exact_selected": 10,
+          "expected": 25,
+          "emitted": 26,
+          "f1": 0.392157,
+          "candidate_coverage": "10/25",
+          "text_only_hits": 10,
+          "spatially_verified": false
+        }
+      },
+      "exact_hits": 22,
+      "expected": 37,
+      "false_or_extra": 16,
+      "f1": 0.58666667,
+      "macro": 0.79738567,
+      "worst": 0.392157,
+      "signature": "e13e04abc6e5e305",
+      "score_key": [
+        0.392157,
+        0.797386,
+        0.586667,
+        22,
+        -16
+      ]
+    }
+  }
+]

@@ -1,0 +1,1334 @@
+{
+  "engine": "PADDLE clahe_cw0 1060+1947",
+  "readings": [
+    {
+      "text": "20",
+      "bbox_px": [
+        263.0,
+        119.0,
+        280.0,
+        136.0
+      ],
+      "bbox_rotated_px": [
+        263.0,
+        119.0,
+        280.0,
+        136.0
+      ],
+      "alternatives": [
+        {
+          "text": "20",
+          "key": "20",
+          "score": 2.92672,
+          "kind": "linear_or_value",
+          "parse_quality": 1.8,
+          "flags": [],
+          "confidence_peak": 0.781,
+          "whole_profiles": [
+            "1060",
+            "1947"
+          ],
+          "profiles": [
+            "1060",
+            "1947"
+          ],
+          "tile_samples": 0,
+          "support_examples": 2,
+          "style_bonus": 0.0
+        }
+      ]
+    },
+    {
+      "text": "4",
+      "bbox_px": [
+        933.0,
+        161.0,
+        943.0,
+        171.0
+      ],
+      "bbox_rotated_px": [
+        933.0,
+        161.0,
+        943.0,
+        171.0
+      ],
+      "alternatives": [
+        {
+          "text": "4",
+          "key": "4",
+          "score": 2.83637,
+          "kind": "linear_or_value",
+          "parse_quality": 1.8,
+          "flags": [],
+          "confidence_peak": 0.971,
+          "whole_profiles": [
+            "1947"
+          ],
+          "profiles": [
+            "1947"
+          ],
+          "tile_samples": 0,
+          "support_examples": 1,
+          "style_bonus": 0.0
+        },
+        {
+          "text": "品",
+          "key": "品",
+          "score": 0.42723,
+          "kind": "unclassified",
+          "parse_quality": -0.25,
+          "flags": [],
+          "confidence_peak": 0.211,
+          "whole_profiles": [
+            "1060"
+          ],
+          "profiles": [
+            "1060"
+          ],
+          "tile_samples": 0,
+          "support_examples": 1,
+          "style_bonus": 0.0
+        }
+      ]
+    },
+    {
+      "text": "7",
+      "bbox_px": [
+        968.0,
+        217.0,
+        983.0,
+        232.0
+      ],
+      "bbox_rotated_px": [
+        968.0,
+        217.0,
+        983.0,
+        232.0
+      ],
+      "alternatives": [
+        {
+          "text": "7",
+          "key": "7",
+          "score": 2.57493,
+          "kind": "linear_or_value",
+          "parse_quality": 1.8,
+          "flags": [],
+          "confidence_peak": 0.418,
+          "whole_profiles": [
+            "1060"
+          ],
+          "profiles": [
+            "1060"
+          ],
+          "tile_samples": 0,
+          "support_examples": 1,
+          "style_bonus": 0.0
+        }
+      ]
+    },
+    {
+      "text": "2x45°",
+      "bbox_px": [
+        495.0,
+        333.0,
+        525.0,
+        344.0
+      ],
+      "bbox_rotated_px": [
+        495.0,
+        333.0,
+        525.0,
+        344.0
+      ],
+      "alternatives": [
+        {
+          "text": "2x45°",
+          "key": "2X45°",
+          "score": 2.88349,
+          "kind": "quantity_dimension",
+          "parse_quality": 1.7,
+          "flags": [],
+          "confidence_peak": 0.902,
+          "whole_profiles": [
+            "1060",
+            "1947"
+          ],
+          "profiles": [
+            "1060",
+            "1947"
+          ],
+          "tile_samples": 0,
+          "support_examples": 2,
+          "style_bonus": 0.0
+        }
+      ]
+    },
+    {
+      "text": "058",
+      "bbox_px": [
+        655.0,
+        429.0,
+        678.0,
+        442.0
+      ],
+      "bbox_rotated_px": [
+        655.0,
+        429.0,
+        678.0,
+        442.0
+      ],
+      "alternatives": [
+        {
+          "text": "058",
+          "key": "058",
+          "score": 2.982,
+          "kind": "linear_or_value",
+          "parse_quality": 1.8,
+          "flags": [],
+          "confidence_peak": 0.898,
+          "whole_profiles": [
+            "1060",
+            "1947"
+          ],
+          "profiles": [
+            "1060",
+            "1947"
+          ],
+          "tile_samples": 0,
+          "support_examples": 2,
+          "style_bonus": 0.0
+        }
+      ]
+    },
+    {
+      "text": "Sectiunea A-A",
+      "bbox_px": [
+        416.0,
+        548.0,
+        596.0,
+        578.0
+      ],
+      "bbox_rotated_px": [
+        416.0,
+        548.0,
+        596.0,
+        578.0
+      ],
+      "alternatives": [
+        {
+          "text": "Sectiunea A-A",
+          "key": "SECTIUNEAA-A",
+          "score": 0.97868,
+          "kind": "unclassified",
+          "parse_quality": -0.25,
+          "flags": [],
+          "confidence_peak": 0.997,
+          "whole_profiles": [
+            "1060",
+            "1947"
+          ],
+          "profiles": [
+            "1060",
+            "1947"
+          ],
+          "tile_samples": 0,
+          "support_examples": 2,
+          "style_bonus": 0.0
+        }
+      ]
+    },
+    {
+      "text": "80",
+      "bbox_px": [
+        501.0,
+        626.0,
+        516.0,
+        639.0
+      ],
+      "bbox_rotated_px": [
+        501.0,
+        626.0,
+        516.0,
+        639.0
+      ],
+      "alternatives": [
+        {
+          "text": "80",
+          "key": "80",
+          "score": 2.84674,
+          "kind": "linear_or_value",
+          "parse_quality": 1.8,
+          "flags": [],
+          "confidence_peak": 0.993,
+          "whole_profiles": [
+            "1060"
+          ],
+          "profiles": [
+            "1060"
+          ],
+          "tile_samples": 0,
+          "support_examples": 1,
+          "style_bonus": 0.0
+        }
+      ]
+    },
+    {
+      "text": "R15",
+      "bbox_px": [
+        203.0,
+        704.0,
+        228.0,
+        719.0
+      ],
+      "bbox_rotated_px": [
+        203.0,
+        704.0,
+        228.0,
+        719.0
+      ],
+      "alternatives": [
+        {
+          "text": "R15",
+          "key": "R15",
+          "score": 3.42945,
+          "kind": "radius",
+          "parse_quality": 2.2,
+          "flags": [],
+          "confidence_peak": 0.999,
+          "whole_profiles": [
+            "1060",
+            "1947"
+          ],
+          "profiles": [
+            "1060",
+            "1947"
+          ],
+          "tile_samples": 0,
+          "support_examples": 2,
+          "style_bonus": 0.0
+        }
+      ]
+    },
+    {
+      "text": "8",
+      "bbox_px": [
+        163.0,
+        805.0,
+        173.0,
+        813.0
+      ],
+      "bbox_rotated_px": [
+        163.0,
+        805.0,
+        173.0,
+        813.0
+      ],
+      "alternatives": [
+        {
+          "text": "8",
+          "key": "8",
+          "score": 3.01606,
+          "kind": "linear_or_value",
+          "parse_quality": 1.8,
+          "flags": [],
+          "confidence_peak": 0.97,
+          "whole_profiles": [
+            "1060",
+            "1947"
+          ],
+          "profiles": [
+            "1060",
+            "1947"
+          ],
+          "tile_samples": 0,
+          "support_examples": 2,
+          "style_bonus": 0.0
+        }
+      ]
+    },
+    {
+      "text": "1:1",
+      "bbox_px": [
+        1434.0,
+        914.0,
+        1451.0,
+        929.0
+      ],
+      "bbox_rotated_px": [
+        1434.0,
+        914.0,
+        1451.0,
+        929.0
+      ],
+      "alternatives": [
+        {
+          "text": "1:1",
+          "key": "1:1",
+          "score": 0.90701,
+          "kind": "unclassified",
+          "parse_quality": -0.25,
+          "flags": [],
+          "confidence_peak": 0.846,
+          "whole_profiles": [
+            "1060",
+            "1947"
+          ],
+          "profiles": [
+            "1060",
+            "1947"
+          ],
+          "tile_samples": 0,
+          "support_examples": 2,
+          "style_bonus": 0.0
+        }
+      ]
+    },
+    {
+      "text": "A3",
+      "bbox_px": [
+        983.0,
+        926.0,
+        1014.0,
+        952.0
+      ],
+      "bbox_rotated_px": [
+        983.0,
+        926.0,
+        1014.0,
+        952.0
+      ],
+      "alternatives": [
+        {
+          "text": "A3",
+          "key": "A3",
+          "score": 0.79845,
+          "kind": "unclassified",
+          "parse_quality": -0.25,
+          "flags": [],
+          "confidence_peak": 0.997,
+          "whole_profiles": [
+            "1060"
+          ],
+          "profiles": [
+            "1060"
+          ],
+          "tile_samples": 0,
+          "support_examples": 1,
+          "style_bonus": 0.0
+        }
+      ]
+    },
+    {
+      "text": "12",
+      "bbox_px": [
+        483.0,
+        961.0,
+        508.0,
+        976.0
+      ],
+      "bbox_rotated_px": [
+        483.0,
+        961.0,
+        508.0,
+        976.0
+      ],
+      "alternatives": [
+        {
+          "text": "12",
+          "key": "12",
+          "score": 2.84906,
+          "kind": "linear_or_value",
+          "parse_quality": 1.8,
+          "flags": [],
+          "confidence_peak": 0.998,
+          "whole_profiles": [
+            "1060"
+          ],
+          "profiles": [
+            "1060"
+          ],
+          "tile_samples": 0,
+          "support_examples": 1,
+          "style_bonus": 0.0
+        },
+        {
+          "text": "012",
+          "key": "012",
+          "score": 2.83184,
+          "kind": "linear_or_value",
+          "parse_quality": 1.8,
+          "flags": [],
+          "confidence_peak": 0.962,
+          "whole_profiles": [
+            "1947"
+          ],
+          "profiles": [
+            "1947"
+          ],
+          "tile_samples": 0,
+          "support_examples": 1,
+          "style_bonus": 0.0
+        }
+      ]
+    },
+    {
+      "text": "05/20/2024NeaPi",
+      "bbox_px": [
+        988.0,
+        954.0,
+        1118.0,
+        972.0
+      ],
+      "bbox_rotated_px": [
+        988.0,
+        954.0,
+        1118.0,
+        972.0
+      ],
+      "alternatives": [
+        {
+          "text": "05/20/2024NeaPi",
+          "key": "05/20/2024NEAPI",
+          "score": 0.79499,
+          "kind": "unclassified",
+          "parse_quality": -0.25,
+          "flags": [],
+          "confidence_peak": 0.989,
+          "whole_profiles": [
+            "1060"
+          ],
+          "profiles": [
+            "1060"
+          ],
+          "tile_samples": 0,
+          "support_examples": 1,
+          "style_bonus": 0.0
+        },
+        {
+          "text": "DRAWN 05/20/2024 NeaPi",
+          "key": "DRAWN05/20/2024NEAPI",
+          "score": 0.77803,
+          "kind": "unclassified",
+          "parse_quality": -0.25,
+          "flags": [
+            "PARTIAL_DIMENSION_TOKEN"
+          ],
+          "confidence_peak": 0.953,
+          "whole_profiles": [
+            "1947"
+          ],
+          "profiles": [
+            "1947"
+          ],
+          "tile_samples": 0,
+          "support_examples": 1,
+          "style_bonus": 0.0
+        }
+      ]
+    },
+    {
+      "text": "20",
+      "bbox_px": [
+        355.0,
+        1002.0,
+        381.0,
+        1015.0
+      ],
+      "bbox_rotated_px": [
+        355.0,
+        1002.0,
+        381.0,
+        1015.0
+      ],
+      "alternatives": [
+        {
+          "text": "20",
+          "key": "20",
+          "score": 2.84887,
+          "kind": "linear_or_value",
+          "parse_quality": 1.8,
+          "flags": [],
+          "confidence_peak": 0.998,
+          "whole_profiles": [
+            "1060"
+          ],
+          "profiles": [
+            "1060"
+          ],
+          "tile_samples": 0,
+          "support_examples": 1,
+          "style_bonus": 0.0
+        },
+        {
+          "text": "020",
+          "key": "020",
+          "score": 2.81068,
+          "kind": "linear_or_value",
+          "parse_quality": 1.8,
+          "flags": [],
+          "confidence_peak": 0.917,
+          "whole_profiles": [
+            "1947"
+          ],
+          "profiles": [
+            "1947"
+          ],
+          "tile_samples": 0,
+          "support_examples": 1,
+          "style_bonus": 0.0
+        }
+      ]
+    },
+    {
+      "text": "Material Bengos",
+      "bbox_px": [
+        1272.0,
+        1015.0,
+        1394.0,
+        1042.0
+      ],
+      "bbox_rotated_px": [
+        1272.0,
+        1015.0,
+        1394.0,
+        1042.0
+      ],
+      "alternatives": [
+        {
+          "text": "Material Bengos",
+          "key": "MATERIALBENGOS",
+          "score": 2.02582,
+          "kind": "text_note",
+          "parse_quality": 0.8,
+          "flags": [],
+          "confidence_peak": 0.991,
+          "whole_profiles": [
+            "1060",
+            "1947"
+          ],
+          "profiles": [
+            "1060",
+            "1947"
+          ],
+          "tile_samples": 0,
+          "support_examples": 2,
+          "style_bonus": 0.0
+        }
+      ]
+    },
+    {
+      "text": "60",
+      "bbox_px": [
+        540.0,
+        1030.0,
+        556.0,
+        1043.0
+      ],
+      "bbox_rotated_px": [
+        540.0,
+        1030.0,
+        556.0,
+        1043.0
+      ],
+      "alternatives": [
+        {
+          "text": "60",
+          "key": "60",
+          "score": 3.02977,
+          "kind": "linear_or_value",
+          "parse_quality": 1.8,
+          "flags": [],
+          "confidence_peak": 1.0,
+          "whole_profiles": [
+            "1060",
+            "1947"
+          ],
+          "profiles": [
+            "1060",
+            "1947"
+          ],
+          "tile_samples": 0,
+          "support_examples": 2,
+          "style_bonus": 0.0
+        }
+      ]
+    },
+    {
+      "text": "ActivateWindo",
+      "bbox_px": [
+        1462.0,
+        1080.0,
+        1596.0,
+        1101.0
+      ],
+      "bbox_rotated_px": [
+        1462.0,
+        1080.0,
+        1596.0,
+        1101.0
+      ],
+      "alternatives": [
+        {
+          "text": "ActivateWindo",
+          "key": "ACTIVATEWINDO",
+          "score": 2.02691,
+          "kind": "text_note",
+          "parse_quality": 0.8,
+          "flags": [],
+          "confidence_peak": 0.993,
+          "whole_profiles": [
+            "1060",
+            "1947"
+          ],
+          "profiles": [
+            "1060",
+            "1947"
+          ],
+          "tile_samples": 0,
+          "support_examples": 2,
+          "style_bonus": 0.0
+        }
+      ]
+    },
+    {
+      "text": "A",
+      "bbox_px": [
+        138.0,
+        152.67,
+        161.33,
+        178.67
+      ],
+      "bbox_rotated_px": [
+        138.0,
+        152.67,
+        161.33,
+        178.67
+      ],
+      "alternatives": [
+        {
+          "text": "A",
+          "key": "A",
+          "score": 1.52843,
+          "kind": "datum_or_letter",
+          "parse_quality": 0.5,
+          "flags": [],
+          "confidence_peak": 0.954,
+          "whole_profiles": [
+            "1947"
+          ],
+          "profiles": [
+            "1947"
+          ],
+          "tile_samples": 0,
+          "support_examples": 1,
+          "style_bonus": 0.0
+        }
+      ]
+    },
+    {
+      "text": "A",
+      "bbox_px": [
+        884.0,
+        152.67,
+        907.33,
+        180.67
+      ],
+      "bbox_rotated_px": [
+        884.0,
+        152.67,
+        907.33,
+        180.67
+      ],
+      "alternatives": [
+        {
+          "text": "A",
+          "key": "A",
+          "score": 1.46719,
+          "kind": "datum_or_letter",
+          "parse_quality": 0.5,
+          "flags": [],
+          "confidence_peak": 0.825,
+          "whole_profiles": [
+            "1947"
+          ],
+          "profiles": [
+            "1947"
+          ],
+          "tile_samples": 0,
+          "support_examples": 1,
+          "style_bonus": 0.0
+        }
+      ]
+    },
+    {
+      "text": "B",
+      "bbox_px": [
+        3.33,
+        272.0,
+        24.67,
+        298.0
+      ],
+      "bbox_rotated_px": [
+        3.33,
+        272.0,
+        24.67,
+        298.0
+      ],
+      "alternatives": [
+        {
+          "text": "B",
+          "key": "B",
+          "score": 1.54131,
+          "kind": "datum_or_letter",
+          "parse_quality": 0.5,
+          "flags": [],
+          "confidence_peak": 0.982,
+          "whole_profiles": [
+            "1947"
+          ],
+          "profiles": [
+            "1947"
+          ],
+          "tile_samples": 0,
+          "support_examples": 1,
+          "style_bonus": 0.0
+        }
+      ]
+    },
+    {
+      "text": "91",
+      "bbox_px": [
+        481.33,
+        594.67,
+        496.0,
+        610.0
+      ],
+      "bbox_rotated_px": [
+        481.33,
+        594.67,
+        496.0,
+        610.0
+      ],
+      "alternatives": [
+        {
+          "text": "91",
+          "key": "91",
+          "score": 2.84963,
+          "kind": "linear_or_value",
+          "parse_quality": 1.8,
+          "flags": [],
+          "confidence_peak": 0.999,
+          "whole_profiles": [
+            "1947"
+          ],
+          "profiles": [
+            "1947"
+          ],
+          "tile_samples": 0,
+          "support_examples": 1,
+          "style_bonus": 0.0
+        }
+      ]
+    },
+    {
+      "text": "D",
+      "bbox_px": [
+        1.33,
+        631.33,
+        21.33,
+        656.0
+      ],
+      "bbox_rotated_px": [
+        1.33,
+        631.33,
+        21.33,
+        656.0
+      ],
+      "alternatives": [
+        {
+          "text": "D",
+          "key": "D",
+          "score": 1.50841,
+          "kind": "datum_or_letter",
+          "parse_quality": 0.5,
+          "flags": [],
+          "confidence_peak": 0.912,
+          "whole_profiles": [
+            "1947"
+          ],
+          "profiles": [
+            "1947"
+          ],
+          "tile_samples": 0,
+          "support_examples": 1,
+          "style_bonus": 0.0
+        }
+      ]
+    },
+    {
+      "text": "014",
+      "bbox_px": [
+        228.0,
+        677.33,
+        253.33,
+        699.33
+      ],
+      "bbox_rotated_px": [
+        228.0,
+        677.33,
+        253.33,
+        699.33
+      ],
+      "alternatives": [
+        {
+          "text": "014",
+          "key": "014",
+          "score": 2.58457,
+          "kind": "linear_or_value",
+          "parse_quality": 1.8,
+          "flags": [],
+          "confidence_peak": 0.438,
+          "whole_profiles": [
+            "1947"
+          ],
+          "profiles": [
+            "1947"
+          ],
+          "tile_samples": 0,
+          "support_examples": 1,
+          "style_bonus": 0.0
+        }
+      ]
+    },
+    {
+      "text": "E",
+      "bbox_px": [
+        3.33,
+        810.0,
+        23.33,
+        834.67
+      ],
+      "bbox_rotated_px": [
+        3.33,
+        810.0,
+        23.33,
+        834.67
+      ],
+      "alternatives": [
+        {
+          "text": "E",
+          "key": "E",
+          "score": 1.54059,
+          "kind": "datum_or_letter",
+          "parse_quality": 0.5,
+          "flags": [],
+          "confidence_peak": 0.98,
+          "whole_profiles": [
+            "1947"
+          ],
+          "profiles": [
+            "1947"
+          ],
+          "tile_samples": 0,
+          "support_examples": 1,
+          "style_bonus": 0.0
+        }
+      ]
+    },
+    {
+      "text": "FILE NAME",
+      "bbox_px": [
+        939.33,
+        899.33,
+        997.33,
+        912.67
+      ],
+      "bbox_rotated_px": [
+        939.33,
+        899.33,
+        997.33,
+        912.67
+      ],
+      "alternatives": [
+        {
+          "text": "FILE NAME",
+          "key": "FILENAME",
+          "score": 1.82397,
+          "kind": "text_note",
+          "parse_quality": 0.8,
+          "flags": [],
+          "confidence_peak": 0.945,
+          "whole_profiles": [
+            "1947"
+          ],
+          "profiles": [
+            "1947"
+          ],
+          "tile_samples": 0,
+          "support_examples": 1,
+          "style_bonus": 0.0
+        }
+      ]
+    },
+    {
+      "text": "FSCMNO",
+      "bbox_px": [
+        1127.33,
+        896.0,
+        1177.33,
+        914.67
+      ],
+      "bbox_rotated_px": [
+        1127.33,
+        896.0,
+        1177.33,
+        914.67
+      ],
+      "alternatives": [
+        {
+          "text": "FSCMNO",
+          "key": "FSCMNO",
+          "score": 1.8119,
+          "kind": "text_note",
+          "parse_quality": 0.8,
+          "flags": [],
+          "confidence_peak": 0.919,
+          "whole_profiles": [
+            "1947"
+          ],
+          "profiles": [
+            "1947"
+          ],
+          "tile_samples": 0,
+          "support_examples": 1,
+          "style_bonus": 0.0
+        }
+      ]
+    },
+    {
+      "text": "SHEET",
+      "bbox_px": [
+        1255.33,
+        896.0,
+        1297.33,
+        914.67
+      ],
+      "bbox_rotated_px": [
+        1255.33,
+        896.0,
+        1297.33,
+        914.67
+      ],
+      "alternatives": [
+        {
+          "text": "SHEET",
+          "key": "SHEET",
+          "score": 1.84638,
+          "kind": "text_note",
+          "parse_quality": 0.8,
+          "flags": [],
+          "confidence_peak": 0.992,
+          "whole_profiles": [
+            "1947"
+          ],
+          "profiles": [
+            "1947"
+          ],
+          "tile_samples": 0,
+          "support_examples": 1,
+          "style_bonus": 0.0
+        }
+      ]
+    },
+    {
+      "text": "SCALE",
+      "bbox_px": [
+        1422.0,
+        896.0,
+        1460.67,
+        916.0
+      ],
+      "bbox_rotated_px": [
+        1422.0,
+        896.0,
+        1460.67,
+        916.0
+      ],
+      "alternatives": [
+        {
+          "text": "SCALE",
+          "key": "SCALE",
+          "score": 2.74643,
+          "kind": "shop_note",
+          "parse_quality": 1.7,
+          "flags": [],
+          "confidence_peak": 0.992,
+          "whole_profiles": [
+            "1947"
+          ],
+          "profiles": [
+            "1947"
+          ],
+          "tile_samples": 0,
+          "support_examples": 1,
+          "style_bonus": 0.0
+        }
+      ]
+    },
+    {
+      "text": "(:usersleiopAudAdPg",
+      "bbox_px": [
+        947.33,
+        911.33,
+        1112.67,
+        931.33
+      ],
+      "bbox_rotated_px": [
+        947.33,
+        911.33,
+        1112.67,
+        931.33
+      ],
+      "alternatives": [
+        {
+          "text": "(:usersleiopAudAdPg",
+          "key": "(:USERSLEIOPAUDADPG",
+          "score": 0.53757,
+          "kind": "unclassified",
+          "parse_quality": -0.25,
+          "flags": [
+            "PARTIAL_DIMENSION_TOKEN"
+          ],
+          "confidence_peak": 0.445,
+          "whole_profiles": [
+            "1947"
+          ],
+          "profiles": [
+            "1947"
+          ],
+          "tile_samples": 0,
+          "support_examples": 1,
+          "style_bonus": 0.0
+        }
+      ]
+    },
+    {
+      "text": "CHECK",
+      "bbox_px": [
+        932.0,
+        973.33,
+        978.0,
+        1004.67
+      ],
+      "bbox_rotated_px": [
+        932.0,
+        973.33,
+        978.0,
+        1004.67
+      ],
+      "alternatives": [
+        {
+          "text": "CHECK",
+          "key": "CHECK",
+          "score": 1.81377,
+          "kind": "text_note",
+          "parse_quality": 0.8,
+          "flags": [],
+          "confidence_peak": 0.923,
+          "whole_profiles": [
+            "1947"
+          ],
+          "profiles": [
+            "1947"
+          ],
+          "tile_samples": 0,
+          "support_examples": 1,
+          "style_bonus": 0.0
+        }
+      ]
+    },
+    {
+      "text": "APPR.",
+      "bbox_px": [
+        939.33,
+        1002.0,
+        974.0,
+        1024.0
+      ],
+      "bbox_rotated_px": [
+        939.33,
+        1002.0,
+        974.0,
+        1024.0
+      ],
+      "alternatives": [
+        {
+          "text": "APPR.",
+          "key": "APPR.",
+          "score": -0.60719,
+          "kind": "unclassified",
+          "parse_quality": -1.65,
+          "flags": [
+            "PARTIAL_DIMENSION_TOKEN",
+            "TRAILING_STRAY_MARK"
+          ],
+          "confidence_peak": 0.985,
+          "whole_profiles": [
+            "1947"
+          ],
+          "profiles": [
+            "1947"
+          ],
+          "tile_samples": 0,
+          "support_examples": 1,
+          "style_bonus": 0.0
+        }
+      ]
+    },
+    {
+      "text": "ISSUED",
+      "bbox_px": [
+        937.33,
+        1025.33,
+        979.33,
+        1045.33
+      ],
+      "bbox_rotated_px": [
+        937.33,
+        1025.33,
+        979.33,
+        1045.33
+      ],
+      "alternatives": [
+        {
+          "text": "ISSUED",
+          "key": "ISSUED",
+          "score": 1.83348,
+          "kind": "text_note",
+          "parse_quality": 0.8,
+          "flags": [],
+          "confidence_peak": 0.965,
+          "whole_profiles": [
+            "1947"
+          ],
+          "profiles": [
+            "1947"
+          ],
+          "tile_samples": 0,
+          "support_examples": 1,
+          "style_bonus": 0.0
+        }
+      ]
+    },
+    {
+      "text": "REV",
+      "bbox_px": [
+        936.0,
+        1048.67,
+        966.0,
+        1072.0
+      ],
+      "bbox_rotated_px": [
+        936.0,
+        1048.67,
+        966.0,
+        1072.0
+      ],
+      "alternatives": [
+        {
+          "text": "REV",
+          "key": "REV",
+          "score": 0.77782,
+          "kind": "unclassified",
+          "parse_quality": -0.25,
+          "flags": [
+            "PARTIAL_DIMENSION_TOKEN"
+          ],
+          "confidence_peak": 0.953,
+          "whole_profiles": [
+            "1947"
+          ],
+          "profiles": [
+            "1947"
+          ],
+          "tile_samples": 0,
+          "support_examples": 1,
+          "style_bonus": 0.0
+        }
+      ]
+    },
+    {
+      "text": "lication or Autodesk licensed application.",
+      "bbox_px": [
+        0.0,
+        1068.67,
+        300.0,
+        1085.33
+      ],
+      "bbox_rotated_px": [
+        0.0,
+        1068.67,
+        300.0,
+        1085.33
+      ],
+      "alternatives": [
+        {
+          "text": "lication or Autodesk licensed application.",
+          "key": "LICATIONORAUTODESKLICENSEDAPPLICATION.",
+          "score": -0.61376,
+          "kind": "unclassified",
+          "parse_quality": -1.65,
+          "flags": [
+            "PARTIAL_DIMENSION_TOKEN",
+            "TRAILING_STRAY_MARK"
+          ],
+          "confidence_peak": 0.971,
+          "whole_profiles": [
+            "1947"
+          ],
+          "profiles": [
+            "1947"
+          ],
+          "tile_samples": 0,
+          "support_examples": 1,
+          "style_bonus": 0.0
+        }
+      ]
+    },
+    {
+      "text": "CONTRACT NO",
+      "bbox_px": [
+        934.0,
+        1066.67,
+        998.0,
+        1097.33
+      ],
+      "bbox_rotated_px": [
+        934.0,
+        1066.67,
+        998.0,
+        1097.33
+      ],
+      "alternatives": [
+        {
+          "text": "CONTRACT NO",
+          "key": "CONTRACTNO",
+          "score": 1.7016,
+          "kind": "text_note",
+          "parse_quality": 0.8,
+          "flags": [],
+          "confidence_peak": 0.686,
+          "whole_profiles": [
+            "1947"
+          ],
+          "profiles": [
+            "1947"
+          ],
+          "tile_samples": 0,
+          "support_examples": 1,
+          "style_bonus": 0.0
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "saved_utc": "20261108T183718Z",
+  "original_pid": 1468328,
+  "executable": "/mnt/shopai-data-new/AI-Tools/small-coder-runtime/b11913/llama-b11913/llama-server",
+  "argv": [
+    "/mnt/shopai-data-new/AI-Tools/small-coder-runtime/b11913/llama-b11913/llama-server",
+    "--model",
+    "/mnt/shopai-data-new/AI-Models/11-qwen3-coder-30b/Qwen3-Coder-30B-A3B-Instruct-Q4_K_M.gguf",
+    "--host",
+    "127.0.0.1",
+    "--port",
+    "19097",
+    "--ctx-size",
+    "0",
+    "--parallel",
+    "1",
+    "--threads",
+    "6"
+  ],
+  "cwd": "/mnt/shopai-data-new/cad-research/experiments/qwen-3-drawing-20261030-173652-610108/shopai_three_drawing_truth",
+  "stdout": "/mnt/shopai-data-new/cad-research/experiments/qwen-3-drawing-20261030-173652-610108/shopai_three_drawing_truth/batch_lab/services/qwen3coder/server.log",
+  "stderr": "/mnt/shopai-data-new/cad-research/experiments/qwen-3-drawing-20261030-173652-610108/shopai_three_drawing_truth/batch_lab/services/qwen3coder/server.log",
+  "model": "/mnt/shopai-data-new/AI-Models/11-qwen3-coder-30b/Qwen3-Coder-30B-A3B-Instruct-Q4_K_M.gguf",
+  "port": "19097"
+}

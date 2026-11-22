@@ -1,0 +1,520 @@
+{
+  "truth_file": "/mnt/shopai-data-new/cad-research/experiments/qwen-3-drawing-20261030-173652-610108/shopai_three_drawing_truth/batch_lab/ocr_outline_eight_v1/truths/p9.truth.json",
+  "prediction_file": "/mnt/shopai-data-new/cad-research/experiments/qwen-3-drawing-20261030-173652-610108/shopai_three_drawing_truth/batch_lab/ocr_outline_eight_v1/results/full_gambit_20261108T191855Z_740546_12852/p9/paddle_clahe_cw180_1060_1947_score_readings.json",
+  "truth_coverage_certified": false,
+  "certified_100_percent": false,
+  "truth_gap_count": 1,
+  "ground_truth_pending_review": 12,
+  "expected_provisional_character_instances": 31,
+  "observed_character_instances": 24,
+  "character_inventory_overlap_provisional": 16,
+  "character_inventory_pct_provisional": 51.61,
+  "missing_characters": {
+    "3": 1,
+    "5": 4,
+    "6": 3,
+    "7": 1,
+    "R": 2,
+    "x": 1,
+    "°": 1,
+    "Ø": 2
+  },
+  "extra_characters": {
+    "0": 4,
+    "1": 1,
+    "2": 1,
+    "4": 1,
+    "9": 1
+  },
+  "provisional_annotation_matches": 2,
+  "provisional_annotation_total": 12,
+  "missing_annotations": [
+    {
+      "truth_id": "p9_T001",
+      "expected_text": "36",
+      "anchor_px": [
+        250.0,
+        20.0
+      ]
+    },
+    {
+      "truth_id": "p9_T003",
+      "expected_text": "1.5",
+      "anchor_px": [
+        128.0,
+        103.0
+      ]
+    },
+    {
+      "truth_id": "p9_T004",
+      "expected_text": "Ø20",
+      "anchor_px": [
+        73.0,
+        219.0
+      ]
+    },
+    {
+      "truth_id": "p9_T005",
+      "expected_text": "Ø14",
+      "anchor_px": [
+        130.0,
+        221.0
+      ]
+    },
+    {
+      "truth_id": "p9_T006",
+      "expected_text": "78",
+      "anchor_px": [
+        58.0,
+        527.0
+      ]
+    },
+    {
+      "truth_id": "p9_T007",
+      "expected_text": "R6 x 6",
+      "anchor_px": [
+        399.0,
+        341.0
+      ]
+    },
+    {
+      "truth_id": "p9_T008",
+      "expected_text": "R15",
+      "anchor_px": [
+        544.0,
+        136.0
+      ]
+    },
+    {
+      "truth_id": "p9_T009",
+      "expected_text": "15",
+      "anchor_px": [
+        600.0,
+        289.0
+      ]
+    },
+    {
+      "truth_id": "p9_T010",
+      "expected_text": "15°",
+      "anchor_px": [
+        658.0,
+        337.0
+      ]
+    },
+    {
+      "truth_id": "p9_T012",
+      "expected_text": "48",
+      "anchor_px": [
+        679.0,
+        715.0
+      ]
+    }
+  ],
+  "extra_or_fragmented_groups": [
+    {
+      "text": "84",
+      "bbox_px": [
+        656.0,
+        704.0,
+        684.0,
+        728.0
+      ],
+      "bbox_rotated_px": [
+        125.0,
+        338.0,
+        153.0,
+        362.0
+      ],
+      "alternatives": [
+        {
+          "text": "84",
+          "key": "84",
+          "score": 2.73477,
+          "kind": "linear_or_value",
+          "parse_quality": 1.8,
+          "flags": [],
+          "confidence_peak": 0.375,
+          "whole_profiles": [
+            "1060",
+            "1947"
+          ],
+          "profiles": [
+            "1060",
+            "1947"
+          ],
+          "tile_samples": 0,
+          "support_examples": 2,
+          "style_bonus": 0.0
+        }
+      ],
+      "index": 0
+    },
+    {
+      "text": ".0",
+      "bbox_px": [
+        633.0,
+        323.0,
+        670.0,
+        352.0
+      ],
+      "bbox_rotated_px": [
+        139.0,
+        714.0,
+        176.0,
+        743.0
+      ],
+      "alternatives": [
+        {
+          "text": ".0",
+          "key": ".0",
+          "score": 2.70011,
+          "kind": "linear_or_value",
+          "parse_quality": 1.8,
+          "flags": [],
+          "confidence_peak": 0.302,
+          "whole_profiles": [
+            "1060",
+            "1947"
+          ],
+          "profiles": [
+            "1060",
+            "1947"
+          ],
+          "tile_samples": 0,
+          "support_examples": 2,
+          "style_bonus": 0.0
+        }
+      ],
+      "index": 1
+    },
+    {
+      "text": "11",
+      "bbox_px": [
+        370.0,
+        321.0,
+        435.0,
+        346.0
+      ],
+      "bbox_rotated_px": [
+        374.0,
+        720.0,
+        439.0,
+        745.0
+      ],
+      "alternatives": [
+        {
+          "text": "11",
+          "key": "11",
+          "score": 2.42177,
+          "kind": "linear_or_value",
+          "parse_quality": 1.8,
+          "flags": [],
+          "confidence_peak": 0.094,
+          "whole_profiles": [
+            "1060"
+          ],
+          "profiles": [
+            "1060"
+          ],
+          "tile_samples": 0,
+          "support_examples": 1,
+          "style_bonus": 0.0
+        }
+      ],
+      "index": 2
+    },
+    {
+      "text": "14",
+      "bbox_px": [
+        591.0,
+        280.0,
+        617.0,
+        301.0
+      ],
+      "bbox_rotated_px": [
+        192.0,
+        765.0,
+        218.0,
+        786.0
+      ],
+      "alternatives": [
+        {
+          "text": "14",
+          "key": "14",
+          "score": 2.68697,
+          "kind": "linear_or_value",
+          "parse_quality": 1.8,
+          "flags": [],
+          "confidence_peak": 0.274,
+          "whole_profiles": [
+            "1060",
+            "1947"
+          ],
+          "profiles": [
+            "1060",
+            "1947"
+          ],
+          "tile_samples": 0,
+          "support_examples": 2,
+          "style_bonus": 0.0
+        }
+      ],
+      "index": 3
+    },
+    {
+      "text": "020",
+      "bbox_px": [
+        64.0,
+        185.0,
+        89.0,
+        230.0
+      ],
+      "bbox_rotated_px": [
+        720.0,
+        836.0,
+        745.0,
+        881.0
+      ],
+      "alternatives": [
+        {
+          "text": "020",
+          "key": "020",
+          "score": 3.02221,
+          "kind": "linear_or_value",
+          "parse_quality": 1.8,
+          "flags": [],
+          "confidence_peak": 0.984,
+          "whole_profiles": [
+            "1060",
+            "1947"
+          ],
+          "profiles": [
+            "1060",
+            "1947"
+          ],
+          "tile_samples": 0,
+          "support_examples": 2,
+          "style_bonus": 0.0
+        }
+      ],
+      "index": 4
+    },
+    {
+      "text": "1",
+      "bbox_px": [
+        522.0,
+        124.0,
+        563.0,
+        148.0
+      ],
+      "bbox_rotated_px": [
+        246.0,
+        918.0,
+        287.0,
+        942.0
+      ],
+      "alternatives": [
+        {
+          "text": "1",
+          "key": "1",
+          "score": 2.44422,
+          "kind": "linear_or_value",
+          "parse_quality": 1.8,
+          "flags": [],
+          "confidence_peak": 0.141,
+          "whole_profiles": [
+            "1947"
+          ],
+          "profiles": [
+            "1947"
+          ],
+          "tile_samples": 0,
+          "support_examples": 1,
+          "style_bonus": 0.0
+        },
+        {
+          "text": "14",
+          "key": "14",
+          "score": 2.43417,
+          "kind": "linear_or_value",
+          "parse_quality": 1.8,
+          "flags": [],
+          "confidence_peak": 0.12,
+          "whole_profiles": [
+            "1060"
+          ],
+          "profiles": [
+            "1060"
+          ],
+          "tile_samples": 0,
+          "support_examples": 1,
+          "style_bonus": 0.0
+        }
+      ],
+      "index": 5
+    },
+    {
+      "text": "1",
+      "bbox_px": [
+        113.0,
+        94.0,
+        147.0,
+        119.0
+      ],
+      "bbox_rotated_px": [
+        662.0,
+        947.0,
+        696.0,
+        972.0
+      ],
+      "alternatives": [
+        {
+          "text": "1",
+          "key": "1",
+          "score": 2.6529,
+          "kind": "linear_or_value",
+          "parse_quality": 1.8,
+          "flags": [],
+          "confidence_peak": 0.202,
+          "whole_profiles": [
+            "1060",
+            "1947"
+          ],
+          "profiles": [
+            "1060",
+            "1947"
+          ],
+          "tile_samples": 0,
+          "support_examples": 2,
+          "style_bonus": 0.0
+        }
+      ],
+      "index": 6
+    },
+    {
+      "text": "90",
+      "bbox_px": [
+        235.0,
+        14.0,
+        265.0,
+        38.0
+      ],
+      "bbox_rotated_px": [
+        544.0,
+        1028.0,
+        574.0,
+        1052.0
+      ],
+      "alternatives": [
+        {
+          "text": "90",
+          "key": "90",
+          "score": 2.85102,
+          "kind": "linear_or_value",
+          "parse_quality": 1.8,
+          "flags": [],
+          "confidence_peak": 0.621,
+          "whole_profiles": [
+            "1060",
+            "1947"
+          ],
+          "profiles": [
+            "1060",
+            "1947"
+          ],
+          "tile_samples": 0,
+          "support_examples": 2,
+          "style_bonus": 0.0
+        }
+      ],
+      "index": 8
+    },
+    {
+      "text": "82",
+      "bbox_px": [
+        28.33,
+        508.67,
+        51.67,
+        537.33
+      ],
+      "bbox_rotated_px": [
+        757.33,
+        528.67,
+        780.67,
+        557.33
+      ],
+      "alternatives": [
+        {
+          "text": "82",
+          "key": "82",
+          "score": 2.70764,
+          "kind": "linear_or_value",
+          "parse_quality": 1.8,
+          "flags": [],
+          "confidence_peak": 0.699,
+          "whole_profiles": [
+            "1947"
+          ],
+          "profiles": [
+            "1947"
+          ],
+          "tile_samples": 0,
+          "support_examples": 1,
+          "style_bonus": 0.0
+        }
+      ],
+      "index": 9
+    },
+    {
+      "text": "014",
+      "bbox_px": [
+        101.67,
+        184.0,
+        128.33,
+        230.67
+      ],
+      "bbox_rotated_px": [
+        680.67,
+        835.33,
+        707.33,
+        882.0
+      ],
+      "alternatives": [
+        {
+          "text": "014",
+          "key": "014",
+          "score": 2.82367,
+          "kind": "linear_or_value",
+          "parse_quality": 1.8,
+          "flags": [],
+          "confidence_peak": 0.944,
+          "whole_profiles": [
+            "1947"
+          ],
+          "profiles": [
+            "1947"
+          ],
+          "tile_samples": 0,
+          "support_examples": 1,
+          "style_bonus": 0.0
+        }
+      ],
+      "index": 11
+    }
+  ],
+  "matching_instances_diagnostic": [
+    {
+      "truth_id": "p9_T002",
+      "text": "4",
+      "observation_index": 7,
+      "anchor_distance_px": 1.8
+    },
+    {
+      "truth_id": "p9_T011",
+      "text": "117",
+      "observation_index": 10,
+      "anchor_distance_px": 23.1
+    }
+  ],
+  "note": "Inventory counts and annotation matches are PROVISIONAL. No per-glyph spatial truth exists and truth coverage is not independently verified. Counts may cancel swapped or misplaced glyphs."
+}

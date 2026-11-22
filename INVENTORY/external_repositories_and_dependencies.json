@@ -1,0 +1,243 @@
+{
+  "important": "Repo paths and dependency metadata are inventory only; no upstream source or weights included. Omitted patched third-party trees may contain custom deltas; original upstream bases needed to isolate them.",
+  "known_virtualenv_packages_metadata_only": [
+    {
+      "environment": "/mnt/shopai-data-new/ShopAI-Next/projects/cad-research/environments/edocr2",
+      "selected_installed_distribution_folders": [
+        "keras-3.15.1",
+        "numpy-2.5.4",
+        "opencv_python-5.0.0.93",
+        "pillow-13.0.0",
+        "tensorflow-2.21.0"
+      ]
+    },
+    {
+      "environment": "/mnt/shopai-data-new/ShopAI-Next/projects/cad-research/environments/vtracer-standalone-v1",
+      "selected_installed_distribution_folders": [
+        "vtracer-0.6.15"
+      ]
+    },
+    {
+      "environment": "/mnt/shopai-data-new/ShopAI-Next/projects/cad-research/environments/paddleocr",
+      "selected_installed_distribution_folders": [
+        "numpy-2.3.5",
+        "opencv_contrib_python-4.10.0.84",
+        "paddleocr-3.7.0",
+        "paddlepaddle-3.2.0",
+        "paddlex-3.7.2",
+        "pandas-3.0.6",
+        "pillow-13.0.0",
+        "pypdfium2-5.14.0",
+        "shapely-2.2.0"
+      ]
+    },
+    {
+      "environment": "/mnt/shopai-data-new/ShopAI-Next/projects/cad-research/environments/cadquery-2.8.0-isolated-v1",
+      "selected_installed_distribution_folders": [
+        "numpy-2.5.5",
+        "pillow-13.0.0",
+        "scipy-1.18.1"
+      ]
+    },
+    {
+      "environment": "/mnt/shopai-data-new/ShopAI-Next/projects/cad-research/environments/common",
+      "selected_installed_distribution_folders": [
+        "numpy-2.5.4",
+        "onnxruntime-1.31.0",
+        "opencv_python_headless-5.0.0.93",
+        "pillow-13.0.0",
+        "pymupdf-2.0",
+        "pymupdf4llm-2.0",
+        "pymupdf_layout-2.0",
+        "pytesseract-0.3.13",
+        "scikit_image-0.26.0",
+        "scipy-1.18.1",
+        "shapely-2.2.0"
+      ]
+    },
+    {
+      "environment": "/mnt/shopai-data-new/cad-research/environments/edocr2",
+      "selected_installed_distribution_folders": [
+        "keras-3.15.1",
+        "numpy-2.5.4",
+        "opencv_python-5.0.0.93",
+        "pillow-13.0.0",
+        "tensorflow-2.21.0"
+      ]
+    },
+    {
+      "environment": "/mnt/shopai-data-new/cad-research/environments/vtracer-standalone-v1",
+      "selected_installed_distribution_folders": [
+        "vtracer-0.6.15"
+      ]
+    },
+    {
+      "environment": "/mnt/shopai-data-new/cad-research/environments/paddleocr",
+      "selected_installed_distribution_folders": [
+        "numpy-2.3.5",
+        "opencv_contrib_python-4.10.0.84",
+        "paddleocr-3.7.0",
+        "paddlepaddle-3.2.0",
+        "paddlex-3.7.2",
+        "pandas-3.0.6",
+        "pillow-13.0.0",
+        "pypdfium2-5.14.0",
+        "shapely-2.2.0"
+      ]
+    },
+    {
+      "environment": "/mnt/shopai-data-new/cad-research/environments/cadquery-2.8.0-isolated-v1",
+      "selected_installed_distribution_folders": [
+        "numpy-2.5.5",
+        "pillow-13.0.0",
+        "scipy-1.18.1"
+      ]
+    },
+    {
+      "environment": "/mnt/shopai-data-new/cad-research/environments/common",
+      "selected_installed_distribution_folders": [
+        "numpy-2.5.4",
+        "onnxruntime-1.31.0",
+        "opencv_python_headless-5.0.0.93",
+        "pillow-13.0.0",
+        "pymupdf-2.0",
+        "pymupdf4llm-2.0",
+        "pymupdf_layout-2.0",
+        "pytesseract-0.3.13",
+        "scikit_image-0.26.0",
+        "scipy-1.18.1",
+        "shapely-2.2.0"
+      ]
+    },
+    {
+      "environment": "/mnt/shopai-data-new/AI-Models/20-shop-library/.venv",
+      "selected_installed_distribution_folders": [
+        "docling-2.140.0",
+        "docling_core-2.101.1",
+        "docling_ibm_models-4.0.3",
+        "docling_parse-7.22.3",
+        "docling_slim-2.140.0",
+        "numpy-2.5.4",
+        "opencv_python_headless-5.0.0.93",
+        "pandas-3.0.6",
+        "pillow-12.3.0",
+        "pypdfium2-5.14.0",
+        "rapidocr-3.10.0",
+        "scipy-1.18.1",
+        "shapely-2.2.0",
+        "torch-2.14.1",
+        "torchvision-0.29.1",
+        "transformers-5.20.1"
+      ]
+    }
+  ],
+  "ocr_environment_names_only": [
+    {
+      "immediate_subdirectories": [
+        "logs",
+        "models",
+        "sources",
+        "wheels"
+      ],
+      "root": "/mnt/shopai-data-new/cad-research/ocr-next"
+    },
+    {
+      "immediate_subdirectories": [
+        "edocr2",
+        "paddle"
+      ],
+      "root": "/mnt/shopai-data-new/ShopAI-Next/projects/cad-research/ocr-next/models"
+    },
+    {
+      "immediate_subdirectories": [
+        "edocr2",
+        "paddle-v5",
+        "paddle-v6",
+        "tessdata"
+      ],
+      "root": "/mnt/shopai-data-new/ShopAI-Next/projects/cad-research/ShopAI-Tools-and-Capabilities/models"
+    },
+    {
+      "immediate_subdirectories": [
+        ".venv",
+        "models"
+      ],
+      "root": "/mnt/shopai-data-new/AI-Models/20-shop-library"
+    },
+    {
+      "immediate_subdirectories": [
+        "cadquery-2.8.0-isolated-v1",
+        "common",
+        "edocr2",
+        "paddleocr",
+        "vtracer-standalone-v1"
+      ],
+      "root": "/mnt/shopai-data-new/ShopAI-Next/projects/cad-research/environments"
+    }
+  ],
+  "omitted_upstream_adaptations": [
+    "next/projects/cad-research/ShopAI-Tools-and-Capabilities/sources/CADOCR-Paddle3-patched/",
+    "next/projects/cad-research/ShopAI-Tools-and-Capabilities/sources/eDOCr2-native-p5-resize-patched/",
+    "next/projects/cad-research/ShopAI-Tools-and-Capabilities/sources/Drawing-to-DXF/"
+  ],
+  "repositories_paths_only": [
+    "/home/shopai/ShopAI/llama.cpp-rpc",
+    "/mnt/shopai-data-new/ShopAI-Next/agents/legacy-ShopAI/llama.cpp-rpc",
+    "/mnt/shopai-data-new/ShopAI-Next/projects/cad-research/repositories/Agent-CAD",
+    "/mnt/shopai-data-new/ShopAI-Next/projects/cad-research/repositories/CAD-Coder",
+    "/mnt/shopai-data-new/ShopAI-Next/projects/cad-research/repositories/CAD-Drawing-Skill",
+    "/mnt/shopai-data-new/ShopAI-Next/projects/cad-research/repositories/CAD-Image-to-3D",
+    "/mnt/shopai-data-new/ShopAI-Next/projects/cad-research/repositories/CADGenBench",
+    "/mnt/shopai-data-new/ShopAI-Next/projects/cad-research/repositories/CADOCR",
+    "/mnt/shopai-data-new/ShopAI-Next/projects/cad-research/repositories/CadQuery",
+    "/mnt/shopai-data-new/ShopAI-Next/projects/cad-research/repositories/Drawing-to-DXF",
+    "/mnt/shopai-data-new/ShopAI-Next/projects/cad-research/repositories/FreeCAD-Validator",
+    "/mnt/shopai-data-new/ShopAI-Next/projects/cad-research/repositories/Image2CAD-Intwala",
+    "/mnt/shopai-data-new/ShopAI-Next/projects/cad-research/repositories/Image2CAD-Pointer",
+    "/mnt/shopai-data-new/ShopAI-Next/projects/cad-research/repositories/LibreCAD",
+    "/mnt/shopai-data-new/ShopAI-Next/projects/cad-research/repositories/OCCT-Design-Loop",
+    "/mnt/shopai-data-new/ShopAI-Next/projects/cad-research/repositories/OpenCV",
+    "/mnt/shopai-data-new/ShopAI-Next/projects/cad-research/repositories/Ortho2CAD",
+    "/mnt/shopai-data-new/ShopAI-Next/projects/cad-research/repositories/Scan-Vectorizer",
+    "/mnt/shopai-data-new/ShopAI-Next/projects/cad-research/repositories/VTracer",
+    "/mnt/shopai-data-new/ShopAI-Next/projects/cad-research/repositories/build123d",
+    "/mnt/shopai-data-new/ShopAI-Next/projects/cad-research/repositories/cad3dify",
+    "/mnt/shopai-data-new/ShopAI-Next/projects/cad-research/repositories/drawing2cad",
+    "/mnt/shopai-data-new/ShopAI-Next/projects/cad-research/repositories/eDOCr",
+    "/mnt/shopai-data-new/ShopAI-Next/projects/cad-research/repositories/eDOCr2",
+    "/mnt/shopai-data-new/ShopAI-Next/projects/cad-research/repositories/ezdxf",
+    "/mnt/shopai-data-new/ShopAI-Next/projects/cad-research/repositories/pyribs",
+    "/mnt/shopai-data-new/cad-research/repositories/Agent-CAD",
+    "/mnt/shopai-data-new/cad-research/repositories/CAD-Coder",
+    "/mnt/shopai-data-new/cad-research/repositories/CAD-Drawing-Skill",
+    "/mnt/shopai-data-new/cad-research/repositories/CAD-Image-to-3D",
+    "/mnt/shopai-data-new/cad-research/repositories/CADGenBench",
+    "/mnt/shopai-data-new/cad-research/repositories/CADOCR",
+    "/mnt/shopai-data-new/cad-research/repositories/CadQuery",
+    "/mnt/shopai-data-new/cad-research/repositories/Drawing-to-DXF",
+    "/mnt/shopai-data-new/cad-research/repositories/FreeCAD-Validator",
+    "/mnt/shopai-data-new/cad-research/repositories/Image2CAD-Intwala",
+    "/mnt/shopai-data-new/cad-research/repositories/Image2CAD-Pointer",
+    "/mnt/shopai-data-new/cad-research/repositories/LibreCAD",
+    "/mnt/shopai-data-new/cad-research/repositories/OCCT-Design-Loop",
+    "/mnt/shopai-data-new/cad-research/repositories/OpenCV",
+    "/mnt/shopai-data-new/cad-research/repositories/Ortho2CAD",
+    "/mnt/shopai-data-new/cad-research/repositories/Scan-Vectorizer",
+    "/mnt/shopai-data-new/cad-research/repositories/VTracer",
+    "/mnt/shopai-data-new/cad-research/repositories/build123d",
+    "/mnt/shopai-data-new/cad-research/repositories/cad3dify",
+    "/mnt/shopai-data-new/cad-research/repositories/drawing2cad",
+    "/mnt/shopai-data-new/cad-research/repositories/eDOCr",
+    "/mnt/shopai-data-new/cad-research/repositories/eDOCr2",
+    "/mnt/shopai-data-new/cad-research/repositories/ezdxf",
+    "/mnt/shopai-data-new/cad-research/repositories/pyribs"
+  ],
+  "source_archive": "ShopAI_Custom_Frontend_20261121_123005.zip",
+  "system_python_packages_metadata_only": [
+    {
+      "package": "pillow",
+      "scope": "system_python_only",
+      "version": "10.2.0"
+    }
+  ]
+}

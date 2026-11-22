@@ -1,0 +1,877 @@
+{
+  "engine": "PADDLE clahe_cw90 1060+1947",
+  "readings": [
+    {
+      "text": "68",
+      "bbox_px": [
+        160.0,
+        803.0,
+        175.0,
+        818.0
+      ],
+      "bbox_rotated_px": [
+        295.0,
+        160.0,
+        310.0,
+        175.0
+      ],
+      "alternatives": [
+        {
+          "text": "68",
+          "key": "68",
+          "score": 3.02965,
+          "kind": "linear_or_value",
+          "parse_quality": 1.8,
+          "flags": [],
+          "confidence_peak": 0.999,
+          "whole_profiles": [
+            "1060",
+            "1947"
+          ],
+          "profiles": [
+            "1060",
+            "1947"
+          ],
+          "tile_samples": 0,
+          "support_examples": 2,
+          "style_bonus": 0.0
+        }
+      ]
+    },
+    {
+      "text": "Sectiunea A-A",
+      "bbox_px": [
+        415.0,
+        550.0,
+        595.0,
+        580.0
+      ],
+      "bbox_rotated_px": [
+        533.0,
+        415.0,
+        563.0,
+        595.0
+      ],
+      "alternatives": [
+        {
+          "text": "Sectiunea A-A",
+          "key": "SECTIUNEAA-A",
+          "score": 0.9786,
+          "kind": "unclassified",
+          "parse_quality": -0.25,
+          "flags": [],
+          "confidence_peak": 0.997,
+          "whole_profiles": [
+            "1060",
+            "1947"
+          ],
+          "profiles": [
+            "1060",
+            "1947"
+          ],
+          "tile_samples": 0,
+          "support_examples": 2,
+          "style_bonus": 0.0
+        }
+      ]
+    },
+    {
+      "text": "B",
+      "bbox_px": [
+        483.0,
+        600.0,
+        493.0,
+        609.0
+      ],
+      "bbox_rotated_px": [
+        504.0,
+        483.0,
+        513.0,
+        493.0
+      ],
+      "alternatives": [
+        {
+          "text": "B",
+          "key": "B",
+          "score": 1.20618,
+          "kind": "datum_or_letter",
+          "parse_quality": 0.5,
+          "flags": [],
+          "confidence_peak": 0.272,
+          "whole_profiles": [
+            "1060"
+          ],
+          "profiles": [
+            "1060"
+          ],
+          "tile_samples": 0,
+          "support_examples": 1,
+          "style_bonus": 0.0
+        }
+      ]
+    },
+    {
+      "text": "40",
+      "bbox_px": [
+        931.0,
+        161.0,
+        944.0,
+        176.0
+      ],
+      "bbox_rotated_px": [
+        937.0,
+        931.0,
+        952.0,
+        944.0
+      ],
+      "alternatives": [
+        {
+          "text": "40",
+          "key": "40",
+          "score": 3.02931,
+          "kind": "linear_or_value",
+          "parse_quality": 1.8,
+          "flags": [],
+          "confidence_peak": 0.999,
+          "whole_profiles": [
+            "1060",
+            "1947"
+          ],
+          "profiles": [
+            "1060",
+            "1947"
+          ],
+          "tile_samples": 0,
+          "support_examples": 2,
+          "style_bonus": 0.0
+        }
+      ]
+    },
+    {
+      "text": "[",
+      "bbox_px": [
+        949.0,
+        914.0,
+        1114.0,
+        934.0
+      ],
+      "bbox_rotated_px": [
+        179.0,
+        949.0,
+        199.0,
+        1114.0
+      ],
+      "alternatives": [
+        {
+          "text": "[",
+          "key": "[",
+          "score": 0.54403,
+          "kind": "unclassified",
+          "parse_quality": -0.25,
+          "flags": [],
+          "confidence_peak": 0.458,
+          "whole_profiles": [
+            "1060"
+          ],
+          "profiles": [
+            "1060"
+          ],
+          "tile_samples": 0,
+          "support_examples": 1,
+          "style_bonus": 0.0
+        }
+      ]
+    },
+    {
+      "text": "70",
+      "bbox_px": [
+        968.0,
+        219.0,
+        983.0,
+        235.0
+      ],
+      "bbox_rotated_px": [
+        878.0,
+        968.0,
+        894.0,
+        983.0
+      ],
+      "alternatives": [
+        {
+          "text": "70",
+          "key": "70",
+          "score": 3.02981,
+          "kind": "linear_or_value",
+          "parse_quality": 1.8,
+          "flags": [],
+          "confidence_peak": 1.0,
+          "whole_profiles": [
+            "1060",
+            "1947"
+          ],
+          "profiles": [
+            "1060",
+            "1947"
+          ],
+          "tile_samples": 0,
+          "support_examples": 2,
+          "style_bonus": 0.0
+        }
+      ]
+    },
+    {
+      "text": "05/20/2024NeaPi",
+      "bbox_px": [
+        986.0,
+        956.0,
+        1118.0,
+        974.0
+      ],
+      "bbox_rotated_px": [
+        139.0,
+        986.0,
+        157.0,
+        1118.0
+      ],
+      "alternatives": [
+        {
+          "text": "05/20/2024NeaPi",
+          "key": "05/20/2024NEAPI",
+          "score": 0.79518,
+          "kind": "unclassified",
+          "parse_quality": -0.25,
+          "flags": [],
+          "confidence_peak": 0.99,
+          "whole_profiles": [
+            "1060"
+          ],
+          "profiles": [
+            "1060"
+          ],
+          "tile_samples": 0,
+          "support_examples": 1,
+          "style_bonus": 0.0
+        },
+        {
+          "text": "DRAWN 05/20/2024 NeaPi",
+          "key": "DRAWN05/20/2024NEAPI",
+          "score": 0.78517,
+          "kind": "unclassified",
+          "parse_quality": -0.25,
+          "flags": [
+            "PARTIAL_DIMENSION_TOKEN"
+          ],
+          "confidence_peak": 0.969,
+          "whole_profiles": [
+            "1947"
+          ],
+          "profiles": [
+            "1947"
+          ],
+          "tile_samples": 0,
+          "support_examples": 1,
+          "style_bonus": 0.0
+        }
+      ]
+    },
+    {
+      "text": "8",
+      "bbox_px": [
+        986.0,
+        933.0,
+        1010.0,
+        953.0
+      ],
+      "bbox_rotated_px": [
+        160.0,
+        986.0,
+        180.0,
+        1010.0
+      ],
+      "alternatives": [
+        {
+          "text": "8",
+          "key": "8",
+          "score": 2.47188,
+          "kind": "linear_or_value",
+          "parse_quality": 1.8,
+          "flags": [],
+          "confidence_peak": 0.2,
+          "whole_profiles": [
+            "1060"
+          ],
+          "profiles": [
+            "1060"
+          ],
+          "tile_samples": 0,
+          "support_examples": 1,
+          "style_bonus": 0.0
+        }
+      ]
+    },
+    {
+      "text": "Material Bengos",
+      "bbox_px": [
+        1278.0,
+        1024.0,
+        1391.0,
+        1042.0
+      ],
+      "bbox_rotated_px": [
+        71.0,
+        1278.0,
+        89.0,
+        1391.0
+      ],
+      "alternatives": [
+        {
+          "text": "Material Bengos",
+          "key": "MATERIALBENGOS",
+          "score": 1.83929,
+          "kind": "text_note",
+          "parse_quality": 0.8,
+          "flags": [],
+          "confidence_peak": 0.977,
+          "whole_profiles": [
+            "1947"
+          ],
+          "profiles": [
+            "1947"
+          ],
+          "tile_samples": 0,
+          "support_examples": 1,
+          "style_bonus": 0.0
+        },
+        {
+          "text": "Maferial Bengos",
+          "key": "MAFERIALBENGOS",
+          "score": 1.82641,
+          "kind": "text_note",
+          "parse_quality": 0.8,
+          "flags": [],
+          "confidence_peak": 0.95,
+          "whole_profiles": [
+            "1060"
+          ],
+          "profiles": [
+            "1060"
+          ],
+          "tile_samples": 0,
+          "support_examples": 1,
+          "style_bonus": 0.0
+        }
+      ]
+    },
+    {
+      "text": "ActivateWindo",
+      "bbox_px": [
+        1462.0,
+        1087.0,
+        1597.0,
+        1105.0
+      ],
+      "bbox_rotated_px": [
+        8.0,
+        1462.0,
+        26.0,
+        1597.0
+      ],
+      "alternatives": [
+        {
+          "text": "ActivateWindo",
+          "key": "ACTIVATEWINDO",
+          "score": 1.84696,
+          "kind": "text_note",
+          "parse_quality": 0.8,
+          "flags": [],
+          "confidence_peak": 0.994,
+          "whole_profiles": [
+            "1947"
+          ],
+          "profiles": [
+            "1947"
+          ],
+          "tile_samples": 0,
+          "support_examples": 1,
+          "style_bonus": 0.0
+        },
+        {
+          "text": "Activate W4ndo",
+          "key": "ACTIVATEW4NDO",
+          "score": 0.76742,
+          "kind": "unclassified",
+          "parse_quality": -0.25,
+          "flags": [],
+          "confidence_peak": 0.931,
+          "whole_profiles": [
+            "1060"
+          ],
+          "profiles": [
+            "1060"
+          ],
+          "tile_samples": 0,
+          "support_examples": 1,
+          "style_bonus": 0.0
+        }
+      ]
+    },
+    {
+      "text": "A",
+      "bbox_px": [
+        138.0,
+        155.67,
+        158.0,
+        180.33
+      ],
+      "bbox_rotated_px": [
+        932.67,
+        138.0,
+        957.33,
+        158.0
+      ],
+      "alternatives": [
+        {
+          "text": "A",
+          "key": "A",
+          "score": 1.30361,
+          "kind": "datum_or_letter",
+          "parse_quality": 0.5,
+          "flags": [],
+          "confidence_peak": 0.479,
+          "whole_profiles": [
+            "1947"
+          ],
+          "profiles": [
+            "1947"
+          ],
+          "tile_samples": 0,
+          "support_examples": 1,
+          "style_bonus": 0.0
+        }
+      ]
+    },
+    {
+      "text": "12",
+      "bbox_px": [
+        186.67,
+        215.0,
+        201.33,
+        229.67
+      ],
+      "bbox_rotated_px": [
+        883.33,
+        186.67,
+        898.0,
+        201.33
+      ],
+      "alternatives": [
+        {
+          "text": "12",
+          "key": "12",
+          "score": 2.84992,
+          "kind": "linear_or_value",
+          "parse_quality": 1.8,
+          "flags": [],
+          "confidence_peak": 1.0,
+          "whole_profiles": [
+            "1947"
+          ],
+          "profiles": [
+            "1947"
+          ],
+          "tile_samples": 0,
+          "support_examples": 1,
+          "style_bonus": 0.0
+        }
+      ]
+    },
+    {
+      "text": "8",
+      "bbox_px": [
+        204.67,
+        805.0,
+        221.33,
+        818.33
+      ],
+      "bbox_rotated_px": [
+        294.67,
+        204.67,
+        308.0,
+        221.33
+      ],
+      "alternatives": [
+        {
+          "text": "8",
+          "key": "8",
+          "score": 2.84935,
+          "kind": "linear_or_value",
+          "parse_quality": 1.8,
+          "flags": [],
+          "confidence_peak": 0.999,
+          "whole_profiles": [
+            "1947"
+          ],
+          "profiles": [
+            "1947"
+          ],
+          "tile_samples": 0,
+          "support_examples": 1,
+          "style_bonus": 0.0
+        }
+      ]
+    },
+    {
+      "text": "A",
+      "bbox_px": [
+        201.33,
+        703.67,
+        230.0,
+        723.67
+      ],
+      "bbox_rotated_px": [
+        389.33,
+        201.33,
+        409.33,
+        230.0
+      ],
+      "alternatives": [
+        {
+          "text": "A",
+          "key": "A",
+          "score": 1.17105,
+          "kind": "datum_or_letter",
+          "parse_quality": 0.5,
+          "flags": [],
+          "confidence_peak": 0.198,
+          "whole_profiles": [
+            "1947"
+          ],
+          "profiles": [
+            "1947"
+          ],
+          "tile_samples": 0,
+          "support_examples": 1,
+          "style_bonus": 0.0
+        }
+      ]
+    },
+    {
+      "text": "20",
+      "bbox_px": [
+        263.33,
+        120.33,
+        278.0,
+        137.0
+      ],
+      "bbox_rotated_px": [
+        976.0,
+        263.33,
+        992.67,
+        278.0
+      ],
+      "alternatives": [
+        {
+          "text": "20",
+          "key": "20",
+          "score": 2.84994,
+          "kind": "linear_or_value",
+          "parse_quality": 1.8,
+          "flags": [],
+          "confidence_peak": 1.0,
+          "whole_profiles": [
+            "1947"
+          ],
+          "profiles": [
+            "1947"
+          ],
+          "tile_samples": 0,
+          "support_examples": 1,
+          "style_bonus": 0.0
+        }
+      ]
+    },
+    {
+      "text": "058",
+      "bbox_px": [
+        652.67,
+        430.33,
+        678.0,
+        443.67
+      ],
+      "bbox_rotated_px": [
+        669.33,
+        652.67,
+        682.67,
+        678.0
+      ],
+      "alternatives": [
+        {
+          "text": "058",
+          "key": "058",
+          "score": 2.77644,
+          "kind": "linear_or_value",
+          "parse_quality": 1.8,
+          "flags": [],
+          "confidence_peak": 0.844,
+          "whole_profiles": [
+            "1947"
+          ],
+          "profiles": [
+            "1947"
+          ],
+          "tile_samples": 0,
+          "support_examples": 1,
+          "style_bonus": 0.0
+        }
+      ]
+    },
+    {
+      "text": "A",
+      "bbox_px": [
+        886.0,
+        155.67,
+        906.0,
+        180.33
+      ],
+      "bbox_rotated_px": [
+        932.67,
+        886.0,
+        957.33,
+        906.0
+      ],
+      "alternatives": [
+        {
+          "text": "A",
+          "key": "A",
+          "score": 1.2862,
+          "kind": "datum_or_letter",
+          "parse_quality": 0.5,
+          "flags": [],
+          "confidence_peak": 0.442,
+          "whole_profiles": [
+            "1947"
+          ],
+          "profiles": [
+            "1947"
+          ],
+          "tile_samples": 0,
+          "support_examples": 1,
+          "style_bonus": 0.0
+        }
+      ]
+    },
+    {
+      "text": "AP PR.",
+      "bbox_px": [
+        936.0,
+        1001.67,
+        976.0,
+        1028.33
+      ],
+      "bbox_rotated_px": [
+        84.67,
+        936.0,
+        111.33,
+        976.0
+      ],
+      "alternatives": [
+        {
+          "text": "AP PR.",
+          "key": "APPR.",
+          "score": -0.71633,
+          "kind": "unclassified",
+          "parse_quality": -1.65,
+          "flags": [
+            "PARTIAL_DIMENSION_TOKEN",
+            "TRAILING_STRAY_MARK"
+          ],
+          "confidence_peak": 0.754,
+          "whole_profiles": [
+            "1947"
+          ],
+          "profiles": [
+            "1947"
+          ],
+          "tile_samples": 0,
+          "support_examples": 1,
+          "style_bonus": 0.0
+        }
+      ]
+    },
+    {
+      "text": "CONTRALTNO",
+      "bbox_px": [
+        937.33,
+        1074.33,
+        994.67,
+        1098.33
+      ],
+      "bbox_rotated_px": [
+        14.67,
+        937.33,
+        38.67,
+        994.67
+      ],
+      "alternatives": [
+        {
+          "text": "CONTRALTNO",
+          "key": "CONTRALTNO",
+          "score": 1.77274,
+          "kind": "text_note",
+          "parse_quality": 0.8,
+          "flags": [],
+          "confidence_peak": 0.836,
+          "whole_profiles": [
+            "1947"
+          ],
+          "profiles": [
+            "1947"
+          ],
+          "tile_samples": 0,
+          "support_examples": 1,
+          "style_bonus": 0.0
+        }
+      ]
+    },
+    {
+      "text": "R",
+      "bbox_px": [
+        939.33,
+        1050.33,
+        964.0,
+        1071.67
+      ],
+      "bbox_rotated_px": [
+        41.33,
+        939.33,
+        62.67,
+        964.0
+      ],
+      "alternatives": [
+        {
+          "text": "R",
+          "key": "R",
+          "score": 1.24762,
+          "kind": "datum_or_letter",
+          "parse_quality": 0.5,
+          "flags": [],
+          "confidence_peak": 0.36,
+          "whole_profiles": [
+            "1947"
+          ],
+          "profiles": [
+            "1947"
+          ],
+          "tile_samples": 0,
+          "support_examples": 1,
+          "style_bonus": 0.0
+        }
+      ]
+    },
+    {
+      "text": "ISSUED",
+      "bbox_px": [
+        937.33,
+        1027.0,
+        977.33,
+        1047.0
+      ],
+      "bbox_rotated_px": [
+        66.0,
+        937.33,
+        86.0,
+        977.33
+      ],
+      "alternatives": [
+        {
+          "text": "ISSUED",
+          "key": "ISSUED",
+          "score": 1.83847,
+          "kind": "text_note",
+          "parse_quality": 0.8,
+          "flags": [],
+          "confidence_peak": 0.976,
+          "whole_profiles": [
+            "1947"
+          ],
+          "profiles": [
+            "1947"
+          ],
+          "tile_samples": 0,
+          "support_examples": 1,
+          "style_bonus": 0.0
+        }
+      ]
+    },
+    {
+      "text": "FSCMNO",
+      "bbox_px": [
+        1129.33,
+        901.0,
+        1176.0,
+        914.33
+      ],
+      "bbox_rotated_px": [
+        198.67,
+        1129.33,
+        212.0,
+        1176.0
+      ],
+      "alternatives": [
+        {
+          "text": "FSCMNO",
+          "key": "FSCMNO",
+          "score": 1.83714,
+          "kind": "text_note",
+          "parse_quality": 0.8,
+          "flags": [],
+          "confidence_peak": 0.973,
+          "whole_profiles": [
+            "1947"
+          ],
+          "profiles": [
+            "1947"
+          ],
+          "tile_samples": 0,
+          "support_examples": 1,
+          "style_bonus": 0.0
+        }
+      ]
+    },
+    {
+      "text": "SHEET",
+      "bbox_px": [
+        1255.33,
+        901.0,
+        1295.33,
+        914.33
+      ],
+      "bbox_rotated_px": [
+        198.67,
+        1255.33,
+        212.0,
+        1295.33
+      ],
+      "alternatives": [
+        {
+          "text": "SHEET",
+          "key": "SHEET",
+          "score": 1.84533,
+          "kind": "text_note",
+          "parse_quality": 0.8,
+          "flags": [],
+          "confidence_peak": 0.99,
+          "whole_profiles": [
+            "1947"
+          ],
+          "profiles": [
+            "1947"
+          ],
+          "tile_samples": 0,
+          "support_examples": 1,
+          "style_bonus": 0.0
+        }
+      ]
+    }
+  ]
+}

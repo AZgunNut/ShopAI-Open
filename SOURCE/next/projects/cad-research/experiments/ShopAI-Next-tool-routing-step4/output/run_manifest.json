@@ -1,0 +1,16 @@
+{
+  "tool": "cadquery-parametric",
+  "image": "/mnt/shopai-data-new/ShopAI-Next/projects/cad-research/experiments/ShopAI-Next-tool-routing-step4/input.json",
+  "exit_code": 0,
+  "elapsed_s": 4.8,
+  "outputs": [
+    "parametric_plate.step",
+    "result.json",
+    "cache/ezdxf/font_manager_cache.json"
+  ],
+  "command": [
+    "/mnt/shopai-data-new/ShopAI-Next/projects/cad-research/ShopAI-Tools-and-Capabilities/tool-guides/cadquery-parametric/run.sh",
+    "/mnt/shopai-data-new/ShopAI-Next/projects/cad-research/experiments/ShopAI-Next-tool-routing-step4/input.json",
+    "/mnt/shopai-data-new/ShopAI-Next/projects/cad-research/experiments/ShopAI-Next-tool-routing-step4/output"
+  ]
+}

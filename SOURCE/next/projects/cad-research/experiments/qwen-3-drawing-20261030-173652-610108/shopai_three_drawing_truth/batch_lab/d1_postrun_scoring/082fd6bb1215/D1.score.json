@@ -1,0 +1,360 @@
+{
+  "drawing_id": "D1",
+  "checks_total": 11,
+  "checks_passed": 0,
+  "score_pct": 0.0,
+  "passed": false,
+  "human_image_review_required": true,
+  "warnings": [
+    "5 unmatched/extra predictions need human verification"
+  ],
+  "checks": [
+    {
+      "id": "D1_A01",
+      "category": "visible_reading",
+      "pass": false,
+      "expected": {
+        "id": "D1_A01",
+        "text": "1.5",
+        "kind": "linear_dimension",
+        "target": "top_horizontal_edge",
+        "value": 1.5
+      },
+      "actual": [
+        {
+          "text": "1.5",
+          "kind": "linear_dimension",
+          "value": 1.5,
+          "target": null,
+          "evidence": {
+            "bbox_original_px": [
+              467.0,
+              88.0,
+              594.0,
+              158.0
+            ],
+            "ocr_kind": "linear_or_value",
+            "ocr_state": "PLAUSIBLE_UNVERIFIED",
+            "alternatives": [
+              {
+                "text": "1.5",
+                "key": "1.5",
+                "score": 3.19945,
+                "kind": "linear_or_value",
+                "parse_quality": 1.8,
+                "flags": [],
+                "confidence_peak": 0.999,
+                "whole_profiles": [
+                  "1060"
+                ],
+                "profiles": [
+                  "1060"
+                ],
+                "tile_samples": 0,
+                "support_examples": 1,
+                "style_bonus": 0.35
+              }
+            ],
+            "source_profiles": "1060+1947"
+          }
+        }
+      ],
+      "problem": "Missing exact observation, classification, value or association"
+    },
+    {
+      "id": "D1_A02",
+      "category": "visible_reading",
+      "pass": false,
+      "expected": {
+        "id": "D1_A02",
+        "text": "2.0",
+        "kind": "linear_dimension",
+        "target": "overall_height_left",
+        "value": 2.0
+      },
+      "actual": [
+        {
+          "text": "2.0",
+          "kind": "linear_dimension",
+          "value": 2.0,
+          "target": null,
+          "evidence": {
+            "bbox_original_px": [
+              77.0,
+              446.0,
+              205.0,
+              525.0
+            ],
+            "ocr_kind": "linear_or_value",
+            "ocr_state": "PLAUSIBLE_UNVERIFIED",
+            "alternatives": [
+              {
+                "text": "2.0",
+                "key": "2.0",
+                "score": 3.37984,
+                "kind": "linear_or_value",
+                "parse_quality": 1.8,
+                "flags": [],
+                "confidence_peak": 1.0,
+                "whole_profiles": [
+                  "1060",
+                  "1947"
+                ],
+                "profiles": [
+                  "1060",
+                  "1947"
+                ],
+                "tile_samples": 0,
+                "support_examples": 2,
+                "style_bonus": 0.35
+              }
+            ],
+            "source_profiles": "1060+1947"
+          }
+        }
+      ],
+      "problem": "Missing exact observation, classification, value or association"
+    },
+    {
+      "id": "D1_A03",
+      "category": "visible_reading",
+      "pass": false,
+      "expected": {
+        "id": "D1_A03",
+        "text": "3.0",
+        "kind": "linear_dimension",
+        "target": "overall_width_bottom",
+        "value": 3.0
+      },
+      "actual": [
+        {
+          "text": "3.0",
+          "kind": "linear_dimension",
+          "value": 3.0,
+          "target": null,
+          "evidence": {
+            "bbox_original_px": [
+              686.0,
+              833.0,
+              826.0,
+              916.0
+            ],
+            "ocr_kind": "linear_or_value",
+            "ocr_state": "PLAUSIBLE_UNVERIFIED",
+            "alternatives": [
+              {
+                "text": "3.0",
+                "key": "3.0",
+                "score": 3.37952,
+                "kind": "linear_or_value",
+                "parse_quality": 1.8,
+                "flags": [],
+                "confidence_peak": 0.999,
+                "whole_profiles": [
+                  "1060",
+                  "1947"
+                ],
+                "profiles": [
+                  "1060",
+                  "1947"
+                ],
+                "tile_samples": 0,
+                "support_examples": 2,
+                "style_bonus": 0.35
+              }
+            ],
+            "source_profiles": "1060+1947"
+          }
+        }
+      ],
+      "problem": "Missing exact observation, classification, value or association"
+    },
+    {
+      "id": "D1_A04",
+      "category": "visible_reading",
+      "pass": false,
+      "expected": {
+        "id": "D1_A04",
+        "text": "1.0",
+        "kind": "linear_dimension",
+        "target": "right_vertical_edge",
+        "value": 1.0
+      },
+      "actual": [
+        {
+          "text": "1.0",
+          "kind": "linear_dimension",
+          "value": 1.0,
+          "target": null,
+          "evidence": {
+            "bbox_original_px": [
+              1354.0,
+              590.0,
+              1479.0,
+              673.0
+            ],
+            "ocr_kind": "linear_or_value",
+            "ocr_state": "PLAUSIBLE_UNVERIFIED",
+            "alternatives": [
+              {
+                "text": "1.0",
+                "key": "1.0",
+                "score": 3.19826,
+                "kind": "linear_or_value",
+                "parse_quality": 1.8,
+                "flags": [],
+                "confidence_peak": 0.996,
+                "whole_profiles": [
+                  "1060"
+                ],
+                "profiles": [
+                  "1060"
+                ],
+                "tile_samples": 0,
+                "support_examples": 1,
+                "style_bonus": 0.35
+              }
+            ],
+            "source_profiles": "1060+1947"
+          }
+        }
+      ],
+      "problem": "Missing exact observation, classification, value or association"
+    },
+    {
+      "id": "D1_A05",
+      "category": "visible_reading",
+      "pass": false,
+      "expected": {
+        "id": "D1_A05",
+        "text": "R0.5",
+        "kind": "radius_dimension",
+        "target": "central_circle",
+        "value": 0.5
+      },
+      "actual": [
+        {
+          "text": "R0.5",
+          "kind": "radius_dimension",
+          "value": 0.5,
+          "target": null,
+          "evidence": {
+            "bbox_original_px": [
+              1110.0,
+              211.0,
+              1283.0,
+              290.0
+            ],
+            "ocr_kind": "radius",
+            "ocr_state": "PLAUSIBLE_UNVERIFIED",
+            "alternatives": [
+              {
+                "text": "R0.5",
+                "key": "R0.5",
+                "score": 3.77602,
+                "kind": "radius",
+                "parse_quality": 2.2,
+                "flags": [],
+                "confidence_peak": 0.992,
+                "whole_profiles": [
+                  "1060",
+                  "1947"
+                ],
+                "profiles": [
+                  "1060",
+                  "1947"
+                ],
+                "tile_samples": 0,
+                "support_examples": 2,
+                "style_bonus": 0.35
+              }
+            ],
+            "source_profiles": "1060+1947"
+          }
+        }
+      ],
+      "problem": "Missing exact observation, classification, value or association"
+    },
+    {
+      "id": "D1_G01",
+      "category": "geometry",
+      "pass": false,
+      "expected": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1.5,
+          2
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          3,
+          0
+        ]
+      ],
+      "actual": null,
+      "problem": "Missing or unequal geometric assertion"
+    },
+    {
+      "id": "D1_G02",
+      "category": "geometry",
+      "pass": false,
+      "expected": 5,
+      "actual": null,
+      "problem": "Missing or unequal geometric assertion"
+    },
+    {
+      "id": "D1_G03",
+      "category": "geometry",
+      "pass": false,
+      "expected": 1,
+      "actual": null,
+      "problem": "Missing or unequal geometric assertion"
+    },
+    {
+      "id": "D1_G04",
+      "category": "geometry",
+      "pass": false,
+      "expected": [
+        1.5,
+        1.0
+      ],
+      "actual": null,
+      "problem": "Missing or unequal geometric assertion"
+    },
+    {
+      "id": "D1_G05",
+      "category": "geometry",
+      "pass": false,
+      "expected": 0.5,
+      "actual": null,
+      "problem": "Missing or unequal geometric assertion"
+    },
+    {
+      "id": "D1_G06",
+      "category": "geometry",
+      "pass": false,
+      "expected": [
+        [
+          1.5,
+          2.0
+        ],
+        [
+          3.0,
+          1.0
+        ]
+      ],
+      "actual": null,
+      "problem": "Missing or unequal geometric assertion"
+    }
+  ]
+}

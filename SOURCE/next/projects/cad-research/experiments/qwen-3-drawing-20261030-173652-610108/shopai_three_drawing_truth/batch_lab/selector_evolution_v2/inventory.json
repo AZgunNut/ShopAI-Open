@@ -1,0 +1,35 @@
+{
+  "D1": {
+    "image_sha256": "659e705b3ee2315eb8138f2f02c1979b248d5ca6798539f423c1e23b3bcddb66",
+    "ocr_sha256": "e27bc5ef585398ae9786d3d9cbaa9da79451eb5b1e542d4f6c91ca90ddc1859c",
+    "ocr_source": "/mnt/shopai-data-new/cad-research/experiments/qwen-3-drawing-20261030-173652-610108/shopai_three_drawing_truth/batch_lab/scored_loop_baseline_check/7dbe7253-a948-49fb-8a74-c5c3ec71cf5e/intermediates/D1/ocr/selector/selector_v2_results.json",
+    "groups": 5,
+    "multi_candidate_groups": 0,
+    "truth_sha256": "670ed9b04fabe87d2736ba34af1e036848619bdd979d6a30b495f514b64e9fcd",
+    "truth_labels": 5,
+    "physical_units": "mm",
+    "coordinates": "px"
+  },
+  "D2": {
+    "image_sha256": "dc7f75e385be97d7ba6dffff264ce140a3203ca75867dbd97fe37559ab1a08db",
+    "ocr_sha256": "30e54a7216944ac791cd9494a05137c7177466d8e90a22c6aa92322780265ca4",
+    "ocr_source": "/mnt/shopai-data-new/cad-research/experiments/qwen-3-drawing-20261030-173652-610108/shopai_three_drawing_truth/batch_lab/evolution_mm_v1/evidence/D2/paddle/selector/selector_v2_results.json",
+    "groups": 7,
+    "multi_candidate_groups": 1,
+    "truth_sha256": "8d155eb77ffdb52dc3252d4de1927c65fae750cb780735222bc18b774704fc34",
+    "truth_labels": 7,
+    "physical_units": "mm",
+    "coordinates": "px"
+  },
+  "D3": {
+    "image_sha256": "4e6c3dc0cedbc71de9389d8dbaa60cd983eabc415d68aa26a1df69a6d27f6741",
+    "ocr_sha256": "00b56850268affc2841b6c200c2b38265ece55362999112ed11e4e9df2eb1c9d",
+    "ocr_source": "/mnt/shopai-data-new/cad-research/experiments/qwen-3-drawing-20261030-173652-610108/shopai_three_drawing_truth/batch_lab/evolution_mm_v1/evidence/D3/paddle/selector/selector_v2_results.json",
+    "groups": 26,
+    "multi_candidate_groups": 8,
+    "truth_sha256": "3751151bc02fd526ad69e5c43d7e0c94fc679ff371161faf48128758ffd97d34",
+    "truth_labels": 25,
+    "physical_units": "mm",
+    "coordinates": "px"
+  }
+}

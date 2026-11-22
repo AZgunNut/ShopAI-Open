@@ -1,0 +1,203 @@
+{
+  "selector_version": "2.0.0",
+  "generated_utc": "2026-11-08T19:37:24.760645+00:00",
+  "source": "raw_cw90.png",
+  "input_study_version": "blind-drawing-1.0",
+  "rows": [
+    {
+      "profiles": "1060",
+      "plan": "whole",
+      "passes": 1,
+      "seconds": 1.401,
+      "style": {},
+      "baseline_v1_selected": null,
+      "results": [
+        {
+          "id": 0,
+          "anchor": [
+            327.0,
+            0.0,
+            342.0,
+            18.0
+          ],
+          "selected_text": "A",
+          "normalized_text": "A",
+          "kind": "datum_or_letter",
+          "state": "PLAUSIBLE_UNVERIFIED",
+          "margin": 0,
+          "alternatives": [
+            {
+              "text": "A",
+              "key": "A",
+              "score": 1.12998,
+              "kind": "datum_or_letter",
+              "parse_quality": 0.5,
+              "flags": [],
+              "confidence_peak": 0.111,
+              "whole_profiles": [
+                "1060"
+              ],
+              "profiles": [
+                "1060"
+              ],
+              "tile_samples": 0,
+              "support_examples": 1,
+              "style_bonus": 0.0
+            }
+          ],
+          "boundary_fragments": 0,
+          "source_items": [
+            {
+              "bbox_original_px": [
+                327.0,
+                0.0,
+                342.0,
+                18.0
+              ],
+              "bbox_processed_px": [
+                327.0,
+                0.0,
+                342.0,
+                18.0
+              ],
+              "confidence": 0.11106184870004654,
+              "near_tile_boundary": false,
+              "polygon_processed_px": [
+                [
+                  327,
+                  0
+                ],
+                [
+                  342,
+                  0
+                ],
+                [
+                  342,
+                  18
+                ],
+                [
+                  327,
+                  18
+                ]
+              ],
+              "profile": 1060,
+              "source_rect_original_px": [
+                0,
+                0,
+                982,
+                723
+              ],
+              "text": "A",
+              "tile_index": 0,
+              "tile_level": 0
+            }
+          ]
+        }
+      ],
+      "review_count": 0
+    },
+    {
+      "profiles": "1947",
+      "plan": "whole",
+      "passes": 1,
+      "seconds": 1.272,
+      "style": {},
+      "baseline_v1_selected": null,
+      "results": [],
+      "review_count": 0
+    },
+    {
+      "profiles": "1060+1947",
+      "plan": "whole",
+      "passes": 2,
+      "seconds": 2.673,
+      "style": {},
+      "baseline_v1_selected": null,
+      "results": [
+        {
+          "id": 0,
+          "anchor": [
+            327.0,
+            0.0,
+            342.0,
+            18.0
+          ],
+          "selected_text": "A",
+          "normalized_text": "A",
+          "kind": "datum_or_letter",
+          "state": "PLAUSIBLE_UNVERIFIED",
+          "margin": 0,
+          "alternatives": [
+            {
+              "text": "A",
+              "key": "A",
+              "score": 1.12998,
+              "kind": "datum_or_letter",
+              "parse_quality": 0.5,
+              "flags": [],
+              "confidence_peak": 0.111,
+              "whole_profiles": [
+                "1060"
+              ],
+              "profiles": [
+                "1060"
+              ],
+              "tile_samples": 0,
+              "support_examples": 1,
+              "style_bonus": 0.0
+            }
+          ],
+          "boundary_fragments": 0,
+          "source_items": [
+            {
+              "bbox_original_px": [
+                327.0,
+                0.0,
+                342.0,
+                18.0
+              ],
+              "bbox_processed_px": [
+                327.0,
+                0.0,
+                342.0,
+                18.0
+              ],
+              "confidence": 0.11106184870004654,
+              "near_tile_boundary": false,
+              "polygon_processed_px": [
+                [
+                  327,
+                  0
+                ],
+                [
+                  342,
+                  0
+                ],
+                [
+                  342,
+                  18
+                ],
+                [
+                  327,
+                  18
+                ]
+              ],
+              "profile": 1060,
+              "source_rect_original_px": [
+                0,
+                0,
+                982,
+                723
+              ],
+              "text": "A",
+              "tile_index": 0,
+              "tile_level": 0
+            }
+          ]
+        }
+      ],
+      "review_count": 0
+    }
+  ],
+  "reference_isolation": "reference used only after scoring; no tuning during processing"
+}

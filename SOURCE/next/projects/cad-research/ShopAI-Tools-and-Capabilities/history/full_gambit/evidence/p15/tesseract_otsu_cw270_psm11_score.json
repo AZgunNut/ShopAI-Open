@@ -1,0 +1,340 @@
+{
+  "truth_file": "/mnt/shopai-data-new/cad-research/experiments/qwen-3-drawing-20261030-173652-610108/shopai_three_drawing_truth/batch_lab/ocr_outline_eight_v1/truths/p15.truth.json",
+  "prediction_file": "/mnt/shopai-data-new/cad-research/experiments/qwen-3-drawing-20261030-173652-610108/shopai_three_drawing_truth/batch_lab/ocr_outline_eight_v1/results/full_gambit_20261108T191855Z_740546_12852/p15/tesseract_otsu_cw270_psm11_score_readings.json",
+  "truth_coverage_certified": false,
+  "certified_100_percent": false,
+  "truth_gap_count": 1,
+  "ground_truth_pending_review": 12,
+  "expected_provisional_character_instances": 56,
+  "observed_character_instances": 49,
+  "character_inventory_overlap_provisional": 9,
+  "character_inventory_pct_provisional": 16.07,
+  "missing_characters": {
+    ".": 1,
+    "1": 7,
+    "2": 3,
+    "3": 1,
+    "4": 1,
+    "5": 8,
+    "6": 1,
+    "8": 3,
+    ":": 2,
+    "c": 4,
+    "i": 4,
+    "n": 1,
+    "t": 4,
+    "x": 1,
+    "°": 1,
+    "Ø": 5
+  },
+  "extra_characters": {
+    "!": 2,
+    "(": 2,
+    ")": 2,
+    "0": 1,
+    "7": 1,
+    "9": 1,
+    "A": 1,
+    "B": 1,
+    "E": 1,
+    "G": 1,
+    "I": 2,
+    "J": 1,
+    "L": 2,
+    "O": 1,
+    "S": 1,
+    "U": 2,
+    "Y": 1,
+    "]": 1,
+    "a": 2,
+    "e": 1,
+    "f": 1,
+    "g": 2,
+    "l": 1,
+    "o": 1,
+    "s": 2,
+    "y": 3,
+    "|": 2,
+    "}": 1
+  },
+  "provisional_annotation_matches": 0,
+  "provisional_annotation_total": 12,
+  "missing_annotations": [
+    {
+      "truth_id": "p15_T001",
+      "expected_text": "Ø2 conicitate 1:50",
+      "anchor_px": [
+        43.0,
+        228.0
+      ]
+    },
+    {
+      "truth_id": "p15_T002",
+      "expected_text": "Ø5 conicitate 1:50",
+      "anchor_px": [
+        43.0,
+        597.0
+      ]
+    },
+    {
+      "truth_id": "p15_T003",
+      "expected_text": "Ø6",
+      "anchor_px": [
+        423.0,
+        54.0
+      ]
+    },
+    {
+      "truth_id": "p15_T004",
+      "expected_text": "1x45°",
+      "anchor_px": [
+        584.0,
+        73.0
+      ]
+    },
+    {
+      "truth_id": "p15_T005",
+      "expected_text": "5",
+      "anchor_px": [
+        547.0,
+        190.0
+      ]
+    },
+    {
+      "truth_id": "p15_T006",
+      "expected_text": "12",
+      "anchor_px": [
+        683.0,
+        180.0
+      ]
+    },
+    {
+      "truth_id": "p15_T007",
+      "expected_text": "31.5",
+      "anchor_px": [
+        676.0,
+        364.0
+      ]
+    },
+    {
+      "truth_id": "p15_T008",
+      "expected_text": "18",
+      "anchor_px": [
+        625.0,
+        413.0
+      ]
+    },
+    {
+      "truth_id": "p15_T009",
+      "expected_text": "8",
+      "anchor_px": [
+        620.0,
+        480.0
+      ]
+    },
+    {
+      "truth_id": "p15_T010",
+      "expected_text": "Ø15",
+      "anchor_px": [
+        412.0,
+        542.0
+      ]
+    },
+    {
+      "truth_id": "p15_T011",
+      "expected_text": "Ø28",
+      "anchor_px": [
+        412.0,
+        585.0
+      ]
+    },
+    {
+      "truth_id": "p15_T012",
+      "expected_text": "5",
+      "anchor_px": [
+        393.0,
+        918.0
+      ]
+    }
+  ],
+  "extra_or_fragmented_groups": [
+    {
+      "text": "SLE",
+      "confidence": 0.3998,
+      "bbox_px": [
+        673.0,
+        289.0,
+        691.0,
+        333.0
+      ],
+      "index": 0
+    },
+    {
+      "text": "(ay",
+      "confidence": 0.1325,
+      "bbox_px": [
+        612.0,
+        189.0,
+        630.0,
+        212.0
+      ],
+      "index": 1
+    },
+    {
+      "text": "|",
+      "confidence": 0.0,
+      "bbox_px": [
+        581.0,
+        65.0,
+        596.0,
+        131.0
+      ],
+      "index": 2
+    },
+    {
+      "text": "]",
+      "confidence": 0.0,
+      "bbox_px": [
+        524.0,
+        250.0,
+        659.0,
+        302.0
+      ],
+      "index": 3
+    },
+    {
+      "text": "al",
+      "confidence": 0.3647,
+      "bbox_px": [
+        613.0,
+        375.0,
+        631.0,
+        398.0
+      ],
+      "index": 4
+    },
+    {
+      "text": "ef",
+      "confidence": 0.5929,
+      "bbox_px": [
+        388.0,
+        37.0,
+        455.0,
+        76.0
+      ],
+      "index": 5
+    },
+    {
+      "text": "|",
+      "confidence": 0.2989,
+      "bbox_px": [
+        343.0,
+        553.0,
+        523.0,
+        600.0
+      ],
+      "index": 6
+    },
+    {
+      "text": "(on",
+      "confidence": 0.7951,
+      "bbox_px": [
+        365.0,
+        707.0,
+        523.0,
+        1024.0
+      ],
+      "index": 7
+    },
+    {
+      "text": "LAY",
+      "confidence": 0.3679,
+      "bbox_px": [
+        206.0,
+        553.0,
+        373.0,
+        1024.0
+      ],
+      "index": 8
+    },
+    {
+      "text": "a",
+      "confidence": 0.1045,
+      "bbox_px": [
+        69.0,
+        144.0,
+        75.0,
+        235.0
+      ],
+      "index": 9
+    },
+    {
+      "text": "09!)",
+      "confidence": 0.41,
+      "bbox_px": [
+        37.0,
+        477.0,
+        55.0,
+        501.0
+      ],
+      "index": 10
+    },
+    {
+      "text": "a}eyoIU0s",
+      "confidence": 0.0074,
+      "bbox_px": [
+        37.0,
+        513.0,
+        55.0,
+        627.0
+      ],
+      "index": 11
+    },
+    {
+      "text": "gg",
+      "confidence": 0.476,
+      "bbox_px": [
+        37.0,
+        636.0,
+        55.0,
+        665.0
+      ],
+      "index": 12
+    },
+    {
+      "text": "OG!)",
+      "confidence": 0.4687,
+      "bbox_px": [
+        36.0,
+        95.0,
+        54.0,
+        119.0
+      ],
+      "index": 13
+    },
+    {
+      "text": "BJeyoIU0s",
+      "confidence": 0.1039,
+      "bbox_px": [
+        36.0,
+        131.0,
+        54.0,
+        245.0
+      ],
+      "index": 14
+    },
+    {
+      "text": "7",
+      "confidence": 0.8133,
+      "bbox_px": [
+        36.0,
+        254.0,
+        54.0,
+        283.0
+      ],
+      "index": 15
+    }
+  ],
+  "matching_instances_diagnostic": [],
+  "note": "Inventory counts and annotation matches are PROVISIONAL. No per-glyph spatial truth exists and truth coverage is not independently verified. Counts may cancel swapped or misplaced glyphs."
+}

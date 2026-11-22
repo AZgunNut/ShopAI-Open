@@ -1,0 +1,493 @@
+{
+  "selector_version": "2.0.0",
+  "generated_utc": "2026-11-08T19:39:22.876029+00:00",
+  "source": "clahe_cw180.png",
+  "input_study_version": "blind-drawing-1.0",
+  "rows": [
+    {
+      "profiles": "1060",
+      "plan": "whole",
+      "passes": 1,
+      "seconds": 1.405,
+      "style": {},
+      "baseline_v1_selected": null,
+      "results": [
+        {
+          "id": 0,
+          "anchor": [
+            701.0,
+            324.0,
+            723.0,
+            344.0
+          ],
+          "selected_text": "4",
+          "normalized_text": "4",
+          "kind": "linear_or_value",
+          "state": "PLAUSIBLE_UNVERIFIED",
+          "margin": 0,
+          "alternatives": [
+            {
+              "text": "4",
+              "key": "4",
+              "score": 2.47036,
+              "kind": "linear_or_value",
+              "parse_quality": 1.8,
+              "flags": [],
+              "confidence_peak": 0.197,
+              "whole_profiles": [
+                "1060"
+              ],
+              "profiles": [
+                "1060"
+              ],
+              "tile_samples": 0,
+              "support_examples": 1,
+              "style_bonus": 0.0
+            }
+          ],
+          "boundary_fragments": 0,
+          "source_items": [
+            {
+              "bbox_original_px": [
+                701.0,
+                324.0,
+                723.0,
+                344.0
+              ],
+              "bbox_processed_px": [
+                701.0,
+                324.0,
+                723.0,
+                344.0
+              ],
+              "confidence": 0.19653242826461792,
+              "near_tile_boundary": false,
+              "polygon_processed_px": [
+                [
+                  701,
+                  324
+                ],
+                [
+                  723,
+                  324
+                ],
+                [
+                  723,
+                  344
+                ],
+                [
+                  701,
+                  344
+                ]
+              ],
+              "profile": 1060,
+              "source_rect_original_px": [
+                0,
+                0,
+                723,
+                982
+              ],
+              "text": "4",
+              "tile_index": 0,
+              "tile_level": 0
+            }
+          ]
+        }
+      ],
+      "review_count": 0
+    },
+    {
+      "profiles": "1947",
+      "plan": "whole",
+      "passes": 1,
+      "seconds": 1.342,
+      "style": {},
+      "baseline_v1_selected": null,
+      "results": [
+        {
+          "id": 0,
+          "anchor": [
+            699.33,
+            322.0,
+            722.67,
+            346.0
+          ],
+          "selected_text": "4",
+          "normalized_text": "4",
+          "kind": "linear_or_value",
+          "state": "PLAUSIBLE_UNVERIFIED",
+          "margin": 0,
+          "alternatives": [
+            {
+              "text": "4",
+              "key": "4",
+              "score": 2.49179,
+              "kind": "linear_or_value",
+              "parse_quality": 1.8,
+              "flags": [],
+              "confidence_peak": 0.242,
+              "whole_profiles": [
+                "1947"
+              ],
+              "profiles": [
+                "1947"
+              ],
+              "tile_samples": 0,
+              "support_examples": 1,
+              "style_bonus": 0.0
+            }
+          ],
+          "boundary_fragments": 0,
+          "source_items": [
+            {
+              "bbox_original_px": [
+                699.33,
+                322.0,
+                722.67,
+                346.0
+              ],
+              "bbox_processed_px": [
+                1049.0,
+                483.0,
+                1084.0,
+                519.0
+              ],
+              "confidence": 0.24189341068267822,
+              "near_tile_boundary": false,
+              "polygon_processed_px": [
+                [
+                  1049,
+                  483
+                ],
+                [
+                  1084,
+                  483
+                ],
+                [
+                  1084,
+                  519
+                ],
+                [
+                  1049,
+                  519
+                ]
+              ],
+              "profile": 1947,
+              "source_rect_original_px": [
+                0,
+                0,
+                723,
+                982
+              ],
+              "text": "4",
+              "tile_index": 0,
+              "tile_level": 0
+            }
+          ]
+        },
+        {
+          "id": 1,
+          "anchor": [
+            0.0,
+            324.67,
+            722.67,
+            982.0
+          ],
+          "selected_text": "心",
+          "normalized_text": "心",
+          "kind": "unclassified",
+          "state": "REVIEW_UNCERTAIN_TOKEN",
+          "margin": 0,
+          "alternatives": [
+            {
+              "text": "心",
+              "key": "心",
+              "score": 0.36293,
+              "kind": "unclassified",
+              "parse_quality": -0.25,
+              "flags": [],
+              "confidence_peak": 0.075,
+              "whole_profiles": [
+                "1947"
+              ],
+              "profiles": [
+                "1947"
+              ],
+              "tile_samples": 0,
+              "support_examples": 1,
+              "style_bonus": 0.0
+            }
+          ],
+          "boundary_fragments": 0,
+          "source_items": [
+            {
+              "bbox_original_px": [
+                0.0,
+                324.67,
+                722.67,
+                982.0
+              ],
+              "bbox_processed_px": [
+                0.0,
+                487.0,
+                1084.0,
+                1473.0
+              ],
+              "confidence": 0.0749896988272667,
+              "near_tile_boundary": false,
+              "polygon_processed_px": [
+                [
+                  0,
+                  494
+                ],
+                [
+                  1084,
+                  487
+                ],
+                [
+                  1084,
+                  1473
+                ],
+                [
+                  0,
+                  1473
+                ]
+              ],
+              "profile": 1947,
+              "source_rect_original_px": [
+                0,
+                0,
+                723,
+                982
+              ],
+              "text": "心",
+              "tile_index": 0,
+              "tile_level": 0
+            }
+          ]
+        }
+      ],
+      "review_count": 1
+    },
+    {
+      "profiles": "1060+1947",
+      "plan": "whole",
+      "passes": 2,
+      "seconds": 2.747,
+      "style": {},
+      "baseline_v1_selected": null,
+      "results": [
+        {
+          "id": 0,
+          "anchor": [
+            701.0,
+            324.0,
+            723.0,
+            344.0
+          ],
+          "selected_text": "4",
+          "normalized_text": "4",
+          "kind": "linear_or_value",
+          "state": "PLAUSIBLE_UNVERIFIED",
+          "margin": 0,
+          "alternatives": [
+            {
+              "text": "4",
+              "key": "4",
+              "score": 2.67179,
+              "kind": "linear_or_value",
+              "parse_quality": 1.8,
+              "flags": [],
+              "confidence_peak": 0.242,
+              "whole_profiles": [
+                "1060",
+                "1947"
+              ],
+              "profiles": [
+                "1060",
+                "1947"
+              ],
+              "tile_samples": 0,
+              "support_examples": 2,
+              "style_bonus": 0.0
+            }
+          ],
+          "boundary_fragments": 0,
+          "source_items": [
+            {
+              "bbox_original_px": [
+                701.0,
+                324.0,
+                723.0,
+                344.0
+              ],
+              "bbox_processed_px": [
+                701.0,
+                324.0,
+                723.0,
+                344.0
+              ],
+              "confidence": 0.19653242826461792,
+              "near_tile_boundary": false,
+              "polygon_processed_px": [
+                [
+                  701,
+                  324
+                ],
+                [
+                  723,
+                  324
+                ],
+                [
+                  723,
+                  344
+                ],
+                [
+                  701,
+                  344
+                ]
+              ],
+              "profile": 1060,
+              "source_rect_original_px": [
+                0,
+                0,
+                723,
+                982
+              ],
+              "text": "4",
+              "tile_index": 0,
+              "tile_level": 0
+            },
+            {
+              "bbox_original_px": [
+                699.33,
+                322.0,
+                722.67,
+                346.0
+              ],
+              "bbox_processed_px": [
+                1049.0,
+                483.0,
+                1084.0,
+                519.0
+              ],
+              "confidence": 0.24189341068267822,
+              "near_tile_boundary": false,
+              "polygon_processed_px": [
+                [
+                  1049,
+                  483
+                ],
+                [
+                  1084,
+                  483
+                ],
+                [
+                  1084,
+                  519
+                ],
+                [
+                  1049,
+                  519
+                ]
+              ],
+              "profile": 1947,
+              "source_rect_original_px": [
+                0,
+                0,
+                723,
+                982
+              ],
+              "text": "4",
+              "tile_index": 0,
+              "tile_level": 0
+            }
+          ]
+        },
+        {
+          "id": 1,
+          "anchor": [
+            0.0,
+            324.67,
+            722.67,
+            982.0
+          ],
+          "selected_text": "心",
+          "normalized_text": "心",
+          "kind": "unclassified",
+          "state": "REVIEW_UNCERTAIN_TOKEN",
+          "margin": 0,
+          "alternatives": [
+            {
+              "text": "心",
+              "key": "心",
+              "score": 0.36293,
+              "kind": "unclassified",
+              "parse_quality": -0.25,
+              "flags": [],
+              "confidence_peak": 0.075,
+              "whole_profiles": [
+                "1947"
+              ],
+              "profiles": [
+                "1947"
+              ],
+              "tile_samples": 0,
+              "support_examples": 1,
+              "style_bonus": 0.0
+            }
+          ],
+          "boundary_fragments": 0,
+          "source_items": [
+            {
+              "bbox_original_px": [
+                0.0,
+                324.67,
+                722.67,
+                982.0
+              ],
+              "bbox_processed_px": [
+                0.0,
+                487.0,
+                1084.0,
+                1473.0
+              ],
+              "confidence": 0.0749896988272667,
+              "near_tile_boundary": false,
+              "polygon_processed_px": [
+                [
+                  0,
+                  494
+                ],
+                [
+                  1084,
+                  487
+                ],
+                [
+                  1084,
+                  1473
+                ],
+                [
+                  0,
+                  1473
+                ]
+              ],
+              "profile": 1947,
+              "source_rect_original_px": [
+                0,
+                0,
+                723,
+                982
+              ],
+              "text": "心",
+              "tile_index": 0,
+              "tile_level": 0
+            }
+          ]
+        }
+      ],
+      "review_count": 1
+    }
+  ],
+  "reference_isolation": "reference used only after scoring; no tuning during processing"
+}

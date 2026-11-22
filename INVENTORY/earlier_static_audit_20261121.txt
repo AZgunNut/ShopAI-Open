@@ -1,0 +1,91 @@
+SHOPAI INDEPENDENT FRONT-END STATIC AUDIT — 2026-11-21
+Basis: user-supplied ShopAI_Custom_Frontend_20261121_123005.zip
+Review type: OFFLINE STATIC SOURCE/RESULT INSPECTION. No code executed on ShopAI; no model or OCR benchmark rerun.
+
+EXECUTIVE FINDING
+The custom ShopAI OCR/geometry/evaluation experiment code and numerous result records exist. They demonstrate nontrivial engineering work and exploratory testing, but this archive does not establish complete, spatially exact character/symbol recognition or verified dimension-to-feature interpretation on the requested original drawings.
+The originally supplied collector ZIP was NOT strictly custom-source-only: it mistakenly copied third-party llama.cpp-rpc code, installed FreeCAD add-ons, and Python dependency trees. Those are excluded from this curated archive.
+
+ARCHIVE AND CURATION
+Original ZIP: 21,024 entries, 368.1 MiB uncompressed, 82.1 MiB on disk.
+Curated ZIP: 2,118 preserved original-path files, 37.83 MiB uncompressed, 4.90 MiB on disk.
+Curated categories: supporting_shopai_app_code=101, generated_experiment_evidence=1783, custom_tool_integration_candidate=19, custom_selector_candidate=6, custom_benchmark_code_and_results=15, custom_experiment_code_and_results=194
+Repository paths inventoried (contents excluded): 50
+Original collector excluded 42,694 files via its aggregate budget and 23,685 via its known-workstream filter; no completeness guarantee is justified.
+Source-authorship assessment: project-path classification only; Git history or original upstream diff is needed to prove which patched lines were authored locally.
+
+CUSTOM SOURCE OBSERVED (CANDIDATE ORIGINAL / LOCALLY MODIFIED)
+- OCR selector and controlled selector experiments: selector_v2.py, legacy_lab.py, selector_evolve.py, qwen_batch_lab.py, qwen_scored_loop.py, tests, and supplementary scripts.
+- OpenCV adaptive contour/outline optimizer: outline_v5/autotune.py with test_autotune.py and benchmark scripts.
+- Independent scoring/evidence: tools/score.py, qwen_batch_score.py; geometry candidate files, prediction reports and candidate/proposal data.
+- Tool integrations: shopai_tool_runner.py, tool-guides launch scripts and tool registries.
+- Supporting ShopAI runtime: live shopai_agent.py, qwen_agent.py, model lifecycle, tool manager and local bridge; plus older source snapshots.
+- Third-party patched forks (CADOCR, eDOCr2, Drawing-to-DXF) are INVENTORIED BUT THEIR WHOLE SOURCE TREES WERE NOT COPIED into the curated archive. The archive cannot isolate custom changes to those forks reliably without upstream baselines.
+Static syntax test (Python AST parsing only): 96/96 selected .py files parsed; failures: 0. This is not a runtime/import/integration test.
+
+RECORDED EXPERIMENT RESULTS — NOT INDEPENDENTLY RERUN
+1. OCT 31 D1 dimension/geometry scoring:
+   082fd6bb1215: 0/11 checks, passed=False, score_pct=0.0; warnings=['5 unmatched/extra predictions need human verification']
+   271ae9460cd6: 0/11 checks, passed=False, score_pct=0.0; warnings=['5 unmatched/extra predictions need human verification']
+   This scorer requires dimensions to match kind, value AND target association; failing all checks is evidence of unsuccessful evaluated reconstruction, not just OCR transcription.
+2. NOV 1 selector evolution round_00001.json:
+   tests_completed=20000; tests_target=20000
+   Best recorded selected text matches: exact_hits=22/37, false_or_extra=16, combined F1=0.58666667; this is NOT a per-character spatially verified metric.
+   D1: 5/5 exact selected annotations; F1=1.0; spatially_verified=False
+   D2: 7/7 exact selected annotations; F1=1.0; spatially_verified=False
+   D3: 10/25 exact selected annotations; F1=0.392157; spatially_verified=False
+   Full 20,000-test ledger tests_00001.jsonl.gz is referenced in the JSON but was NOT included in the uploaded ZIP, so the run cannot be independently replayed from this archive.
+3. Historical eight-drawing OCR full_gambit:
+   8 drawing summaries; reference_drafts_not_certified=True; score_type=literal character inventory + full annotation; no geometry scoring.
+   p9: baseline provisional character overlap 27/31; full annotation matches 9/12; 91 configurations listed.
+   p15: baseline provisional character overlap 37/56; full annotation matches 3/12; 91 configurations listed.
+   p20: baseline provisional character overlap 55/71; full annotation matches 12/23; 91 configurations listed.
+   p12: baseline provisional character overlap 2/2; full annotation matches 1/1; 87 configurations listed.
+   P1: baseline provisional character overlap 136/214; full annotation matches 38/68; 91 configurations listed.
+   p2: baseline provisional character overlap 107/185; full annotation matches 21/59; 91 configurations listed.
+   p5: baseline provisional character overlap 94/195; full annotation matches 17/56; 91 configurations listed.
+   p27: baseline provisional character overlap 58/95; full annotation matches 12/36; 91 configurations listed.
+   These are provisional character-inventory/annotation scores against uncertified drafts, not independent full-glyph-and-location acceptance proof.
+4. Historical V5 geometry:
+   image-only fitness=98.90403; configurations_tested=1751; units=pixels; fitness_type=image-only geometric-raster heuristic, NOT actual drawing accuracy.
+   Geometry record explicitly states its contours are candidates, labels/dimensions were not verified, and curves were not exact CAD arcs.
+5. Historical native 64-method run:
+   {'output': 48, 'failed': 16} across 64 invocations. Return-code-zero/outputs are execution evidence, not recognition accuracy.
+   CADOCR_paddle: {'failed': 8} (n=8)
+   CADOCR_tesseract: {'output': 8} (n=8)
+   CADOCR_geometry: {'output': 8} (n=8)
+   DRAWING_TO_DXF: {'output': 16} (n=16)
+   VTRACER: {'output': 16} (n=16)
+   EDOCR_native: {'failed': 8} (n=8)
+   IMPORTANT SUBSEQUENT RESULTS: A separate cadocr_paddle_8_of_8/evidence/manifest.json records 8 successful CADOCR-Paddle invocations (plus one unrelated failed eDOCr2 item); this later success does not erase the earlier failed phase.
+   A separate edocr2_7_of_8/evidence/manifest.json records 7/8 eDOCr2 runs successful, with p5 failed; edocr2_p5_1_of_1/evidence/report.json records a subsequent p5 successful completion. These are execution records, not certified OCR correctness.
+   NOT RUN or unavailable in this phase: eDOCr2, Scan-Vectorizer, Ortho2CAD, drawing2cad, CAD-Image-to-3D, Image2CAD-Intwala, Image2CAD-Pointer, Agent-CAD, CAD-Coder, CAD-Drawing-Skill, FreeCAD-Validator, Qwen3-VL, InternVL3.5, SAM3, PDF2CAD, blueprint-tracer
+6. Tool/CADQuery smoke test (outside active front-end scope):
+   ShopAI-Next-tool-routing-step4: recorded status=PASS, roundtrip_valid=True, CADQuery version=2.8.0 (reported result, not independently validated STEP geometry).
+   ShopAI-Next-cadquery-step3: recorded status=PASS, roundtrip_valid=True, CADQuery version=2.8.0 (reported result, not independently validated STEP geometry).
+
+STATIC SCORER OBSERVATIONS
+- tools/score.py compares saved predictions with truth and checks visible-reading text/kind/target and geometric profiles. This is appropriately stricter than text-only OCR, but needs independently reviewed truth and exact original inputs.
+- OCR selector records often explicitly mark spatially_verified=false; a high selector text F1 is not evidence that every glyph is found and placed correctly.
+- V5 geometry fitness is expressly a raster heuristic; it must never be reported as CAD dimensional or feature-association accuracy.
+- The full_gambit summary explicitly disclaims certified references; comparison winners are provisional.
+
+MATERIAL MISSING FROM THE UPLOADED ZIP
+- Original PNG/SVG/PDF engineering drawings: none of these file extensions appeared among entries.
+- Standalone *.truth.json files and independently certified full per-occurrence truth data: none found. Some in-archive manifests reference external truth paths that were not copied.
+- Later named ShopAI-Next Step 8, Step 9, Step 18 and Step 19 scripts/review archives: not found in this collection.
+- The tests_00001.jsonl.gz selector-evolution ledger and other compressed experiment archives: absent.
+- Full upstream baselines and Git commit provenance for locally patched third-party CADOCR/eDOCr2/Drawing-to-DXF code: not present in a form that separates patches from original sources.
+- No live environment, imports, model runtime, connectivity, OCR rerun, or end-to-end tool invocation was tested by this audit.
+
+TECHNICAL AUDIT CONCLUSION
+1) CUSTOM DEVELOPMENT EXISTS: substantive selector, geometry optimization, scoring and orchestration scripts are present.
+2) EXECUTED EXPERIMENT EVIDENCE EXISTS: report/manifest records show measured attempts and numerous failures, not merely a proposed design.
+3) THE ACTIVE FRONT-END SUCCESS CRITERIA ARE NOT DEMONSTRATED: strict D1 scoring fails in the archived samples; selector text matches are incomplete and not spatially verified; eight-drawing OCR references are uncertified.
+4) THIS IS NOT A COMPLETE REPRODUCIBILITY BUNDLE: missing original drawings, full truths, experiment ledgers, and later custom source creates material limits.
+5) FURTHER AUDIT SHOULD START WITH A READ-ONLY, ALLOWLISTED FILE LIST FOR THE MISSING SPECIFIC SOURCE/TRUTH/LOG ASSETS. Do not rerun blanket recursive collection or modify ShopAI.
+
+PRIVACY AND INTEGRITY
+SHA256 manifest of curated original-path entries included. Archive inputs are untrusted; inspect any source before executing it. Curated source may still contain private paths, hostnames or sensitive content. No credential scanning claim is made.
+
+Curation SHA256: 7dce28e89ab139a19560b349a8dfb58a1bd7c4360eb0d35624513008dde080f6

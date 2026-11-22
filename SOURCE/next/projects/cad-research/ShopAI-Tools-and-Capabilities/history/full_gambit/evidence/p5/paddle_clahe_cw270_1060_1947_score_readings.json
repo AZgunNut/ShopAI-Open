@@ -1,0 +1,981 @@
+{
+  "engine": "PADDLE clahe_cw270 1060+1947",
+  "readings": [
+    {
+      "text": "1",
+      "bbox_px": [
+        1490.0,
+        982.0,
+        1500.0,
+        992.0
+      ],
+      "bbox_rotated_px": [
+        982.0,
+        96.0,
+        992.0,
+        106.0
+      ],
+      "alternatives": [
+        {
+          "text": "1",
+          "key": "1",
+          "score": 2.59494,
+          "kind": "linear_or_value",
+          "parse_quality": 1.8,
+          "flags": [],
+          "confidence_peak": 0.46,
+          "whole_profiles": [
+            "1060"
+          ],
+          "profiles": [
+            "1060"
+          ],
+          "tile_samples": 0,
+          "support_examples": 1,
+          "style_bonus": 0.0
+        },
+        {
+          "text": "=",
+          "key": "=",
+          "score": 0.41657,
+          "kind": "unclassified",
+          "parse_quality": -0.25,
+          "flags": [],
+          "confidence_peak": 0.189,
+          "whole_profiles": [
+            "1947"
+          ],
+          "profiles": [
+            "1947"
+          ],
+          "tile_samples": 0,
+          "support_examples": 1,
+          "style_bonus": 0.0
+        }
+      ]
+    },
+    {
+      "text": "ceeree re",
+      "bbox_px": [
+        1377.0,
+        1058.0,
+        1458.0,
+        1070.0
+      ],
+      "bbox_rotated_px": [
+        1058.0,
+        138.0,
+        1070.0,
+        219.0
+      ],
+      "alternatives": [
+        {
+          "text": "ceeree re",
+          "key": "CEEREERE",
+          "score": 1.47863,
+          "kind": "text_note",
+          "parse_quality": 0.8,
+          "flags": [],
+          "confidence_peak": 0.214,
+          "whole_profiles": [
+            "1060"
+          ],
+          "profiles": [
+            "1060"
+          ],
+          "tile_samples": 0,
+          "support_examples": 1,
+          "style_bonus": 0.0
+        }
+      ]
+    },
+    {
+      "text": "e",
+      "bbox_px": [
+        1102.0,
+        133.0,
+        1187.0,
+        153.0
+      ],
+      "bbox_rotated_px": [
+        133.0,
+        409.0,
+        153.0,
+        494.0
+      ],
+      "alternatives": [
+        {
+          "text": "e",
+          "key": "E",
+          "score": 1.22415,
+          "kind": "datum_or_letter",
+          "parse_quality": 0.5,
+          "flags": [],
+          "confidence_peak": 0.31,
+          "whole_profiles": [
+            "1060"
+          ],
+          "profiles": [
+            "1060"
+          ],
+          "tile_samples": 0,
+          "support_examples": 1,
+          "style_bonus": 0.0
+        },
+        {
+          "text": "eee",
+          "key": "EEE",
+          "score": 0.44357,
+          "kind": "unclassified",
+          "parse_quality": -0.25,
+          "flags": [],
+          "confidence_peak": 0.246,
+          "whole_profiles": [
+            "1947"
+          ],
+          "profiles": [
+            "1947"
+          ],
+          "tile_samples": 0,
+          "support_examples": 1,
+          "style_bonus": 0.0
+        }
+      ]
+    },
+    {
+      "text": "000",
+      "bbox_px": [
+        1147.0,
+        456.0,
+        1179.0,
+        476.0
+      ],
+      "bbox_rotated_px": [
+        456.0,
+        417.0,
+        476.0,
+        449.0
+      ],
+      "alternatives": [
+        {
+          "text": "000",
+          "key": "000",
+          "score": 2.56352,
+          "kind": "linear_or_value",
+          "parse_quality": 1.8,
+          "flags": [],
+          "confidence_peak": 0.394,
+          "whole_profiles": [
+            "1060"
+          ],
+          "profiles": [
+            "1060"
+          ],
+          "tile_samples": 0,
+          "support_examples": 1,
+          "style_bonus": 0.0
+        }
+      ]
+    },
+    {
+      "text": "L2",
+      "bbox_px": [
+        1149.0,
+        983.0,
+        1164.0,
+        992.0
+      ],
+      "bbox_rotated_px": [
+        983.0,
+        432.0,
+        992.0,
+        447.0
+      ],
+      "alternatives": [
+        {
+          "text": "L2",
+          "key": "L2",
+          "score": 0.5492,
+          "kind": "unclassified",
+          "parse_quality": -0.25,
+          "flags": [],
+          "confidence_peak": 0.469,
+          "whole_profiles": [
+            "1060"
+          ],
+          "profiles": [
+            "1060"
+          ],
+          "tile_samples": 0,
+          "support_examples": 1,
+          "style_bonus": 0.0
+        }
+      ]
+    },
+    {
+      "text": "100",
+      "bbox_px": [
+        1024.0,
+        215.0,
+        1042.0,
+        246.0
+      ],
+      "bbox_rotated_px": [
+        215.0,
+        554.0,
+        246.0,
+        572.0
+      ],
+      "alternatives": [
+        {
+          "text": "100",
+          "key": "100",
+          "score": 2.52352,
+          "kind": "linear_or_value",
+          "parse_quality": 1.8,
+          "flags": [],
+          "confidence_peak": 0.309,
+          "whole_profiles": [
+            "1947"
+          ],
+          "profiles": [
+            "1947"
+          ],
+          "tile_samples": 0,
+          "support_examples": 1,
+          "style_bonus": 0.0
+        },
+        {
+          "text": "10",
+          "key": "10",
+          "score": 2.4614,
+          "kind": "linear_or_value",
+          "parse_quality": 1.8,
+          "flags": [],
+          "confidence_peak": 0.178,
+          "whole_profiles": [
+            "1060"
+          ],
+          "profiles": [
+            "1060"
+          ],
+          "tile_samples": 0,
+          "support_examples": 1,
+          "style_bonus": 0.0
+        }
+      ]
+    },
+    {
+      "text": "00",
+      "bbox_px": [
+        986.0,
+        461.0,
+        1001.0,
+        477.0
+      ],
+      "bbox_rotated_px": [
+        461.0,
+        595.0,
+        477.0,
+        610.0
+      ],
+      "alternatives": [
+        {
+          "text": "00",
+          "key": "00",
+          "score": 2.55103,
+          "kind": "linear_or_value",
+          "parse_quality": 1.8,
+          "flags": [],
+          "confidence_peak": 0.367,
+          "whole_profiles": [
+            "1060"
+          ],
+          "profiles": [
+            "1060"
+          ],
+          "tile_samples": 0,
+          "support_examples": 1,
+          "style_bonus": 0.0
+        }
+      ]
+    },
+    {
+      "text": "500",
+      "bbox_px": [
+        647.0,
+        477.0,
+        667.0,
+        516.0
+      ],
+      "bbox_rotated_px": [
+        477.0,
+        929.0,
+        516.0,
+        949.0
+      ],
+      "alternatives": [
+        {
+          "text": "500",
+          "key": "500",
+          "score": 2.51632,
+          "kind": "linear_or_value",
+          "parse_quality": 1.8,
+          "flags": [],
+          "confidence_peak": 0.294,
+          "whole_profiles": [
+            "1947"
+          ],
+          "profiles": [
+            "1947"
+          ],
+          "tile_samples": 0,
+          "support_examples": 1,
+          "style_bonus": 0.0
+        },
+        {
+          "text": "440",
+          "key": "440",
+          "score": 2.50189,
+          "kind": "linear_or_value",
+          "parse_quality": 1.8,
+          "flags": [],
+          "confidence_peak": 0.263,
+          "whole_profiles": [
+            "1060"
+          ],
+          "profiles": [
+            "1060"
+          ],
+          "tile_samples": 0,
+          "support_examples": 1,
+          "style_bonus": 0.0
+        }
+      ]
+    },
+    {
+      "text": "820",
+      "bbox_px": [
+        618.0,
+        479.0,
+        638.0,
+        511.0
+      ],
+      "bbox_rotated_px": [
+        479.0,
+        958.0,
+        511.0,
+        978.0
+      ],
+      "alternatives": [
+        {
+          "text": "820",
+          "key": "820",
+          "score": 2.92015,
+          "kind": "linear_or_value",
+          "parse_quality": 1.8,
+          "flags": [],
+          "confidence_peak": 0.768,
+          "whole_profiles": [
+            "1060",
+            "1947"
+          ],
+          "profiles": [
+            "1060",
+            "1947"
+          ],
+          "tile_samples": 0,
+          "support_examples": 2,
+          "style_bonus": 0.0
+        }
+      ]
+    },
+    {
+      "text": "020",
+      "bbox_px": [
+        592.0,
+        481.0,
+        612.0,
+        511.0
+      ],
+      "bbox_rotated_px": [
+        481.0,
+        984.0,
+        511.0,
+        1004.0
+      ],
+      "alternatives": [
+        {
+          "text": "020",
+          "key": "020",
+          "score": 2.94273,
+          "kind": "linear_or_value",
+          "parse_quality": 1.8,
+          "flags": [],
+          "confidence_peak": 0.815,
+          "whole_profiles": [
+            "1060",
+            "1947"
+          ],
+          "profiles": [
+            "1060",
+            "1947"
+          ],
+          "tile_samples": 0,
+          "support_examples": 2,
+          "style_bonus": 0.0
+        }
+      ]
+    },
+    {
+      "text": "R3",
+      "bbox_px": [
+        537.0,
+        403.0,
+        555.0,
+        419.0
+      ],
+      "bbox_rotated_px": [
+        403.0,
+        1041.0,
+        419.0,
+        1059.0
+      ],
+      "alternatives": [
+        {
+          "text": "R3",
+          "key": "R3",
+          "score": 3.11971,
+          "kind": "radius",
+          "parse_quality": 2.2,
+          "flags": [],
+          "confidence_peak": 0.724,
+          "whole_profiles": [
+            "1060"
+          ],
+          "profiles": [
+            "1060"
+          ],
+          "tile_samples": 0,
+          "support_examples": 1,
+          "style_bonus": 0.0
+        },
+        {
+          "text": "S",
+          "key": "S",
+          "score": 1.17951,
+          "kind": "datum_or_letter",
+          "parse_quality": 0.5,
+          "flags": [],
+          "confidence_peak": 0.216,
+          "whole_profiles": [
+            "1947"
+          ],
+          "profiles": [
+            "1947"
+          ],
+          "tile_samples": 0,
+          "support_examples": 1,
+          "style_bonus": 0.0
+        }
+      ]
+    },
+    {
+      "text": "090",
+      "bbox_px": [
+        549.0,
+        482.0,
+        564.0,
+        509.0
+      ],
+      "bbox_rotated_px": [
+        482.0,
+        1032.0,
+        509.0,
+        1047.0
+      ],
+      "alternatives": [
+        {
+          "text": "090",
+          "key": "090",
+          "score": 2.96263,
+          "kind": "linear_or_value",
+          "parse_quality": 1.8,
+          "flags": [],
+          "confidence_peak": 0.857,
+          "whole_profiles": [
+            "1060",
+            "1947"
+          ],
+          "profiles": [
+            "1060",
+            "1947"
+          ],
+          "tile_samples": 0,
+          "support_examples": 2,
+          "style_bonus": 0.0
+        }
+      ]
+    },
+    {
+      "text": "R6",
+      "bbox_px": [
+        517.0,
+        358.0,
+        535.0,
+        371.0
+      ],
+      "bbox_rotated_px": [
+        358.0,
+        1061.0,
+        371.0,
+        1079.0
+      ],
+      "alternatives": [
+        {
+          "text": "R6",
+          "key": "R6",
+          "score": 3.14936,
+          "kind": "radius",
+          "parse_quality": 2.2,
+          "flags": [],
+          "confidence_peak": 0.787,
+          "whole_profiles": [
+            "1060"
+          ],
+          "profiles": [
+            "1060"
+          ],
+          "tile_samples": 0,
+          "support_examples": 1,
+          "style_bonus": 0.0
+        }
+      ]
+    },
+    {
+      "text": "R3",
+      "bbox_px": [
+        519.0,
+        534.0,
+        544.0,
+        554.0
+      ],
+      "bbox_rotated_px": [
+        534.0,
+        1052.0,
+        554.0,
+        1077.0
+      ],
+      "alternatives": [
+        {
+          "text": "R3",
+          "key": "R3",
+          "score": 3.3985,
+          "kind": "radius",
+          "parse_quality": 2.2,
+          "flags": [],
+          "confidence_peak": 0.933,
+          "whole_profiles": [
+            "1060",
+            "1947"
+          ],
+          "profiles": [
+            "1060",
+            "1947"
+          ],
+          "tile_samples": 0,
+          "support_examples": 2,
+          "style_bonus": 0.0
+        }
+      ]
+    },
+    {
+      "text": "35",
+      "bbox_px": [
+        459.0,
+        496.0,
+        477.0,
+        512.0
+      ],
+      "bbox_rotated_px": [
+        496.0,
+        1119.0,
+        512.0,
+        1137.0
+      ],
+      "alternatives": [
+        {
+          "text": "35",
+          "key": "35",
+          "score": 3.02839,
+          "kind": "linear_or_value",
+          "parse_quality": 1.8,
+          "flags": [],
+          "confidence_peak": 0.997,
+          "whole_profiles": [
+            "1060",
+            "1947"
+          ],
+          "profiles": [
+            "1060",
+            "1947"
+          ],
+          "tile_samples": 0,
+          "support_examples": 2,
+          "style_bonus": 0.0
+        }
+      ]
+    },
+    {
+      "text": "090",
+      "bbox_px": [
+        306.0,
+        481.0,
+        326.0,
+        511.0
+      ],
+      "bbox_rotated_px": [
+        481.0,
+        1270.0,
+        511.0,
+        1290.0
+      ],
+      "alternatives": [
+        {
+          "text": "090",
+          "key": "090",
+          "score": 2.80835,
+          "kind": "linear_or_value",
+          "parse_quality": 1.8,
+          "flags": [],
+          "confidence_peak": 0.912,
+          "whole_profiles": [
+            "1060"
+          ],
+          "profiles": [
+            "1060"
+          ],
+          "tile_samples": 0,
+          "support_examples": 1,
+          "style_bonus": 0.0
+        }
+      ]
+    },
+    {
+      "text": "4000",
+      "bbox_px": [
+        259.0,
+        477.0,
+        279.0,
+        516.0
+      ],
+      "bbox_rotated_px": [
+        477.0,
+        1317.0,
+        516.0,
+        1337.0
+      ],
+      "alternatives": [
+        {
+          "text": "4000",
+          "key": "4000",
+          "score": 2.50866,
+          "kind": "linear_or_value",
+          "parse_quality": 1.8,
+          "flags": [],
+          "confidence_peak": 0.278,
+          "whole_profiles": [
+            "1947"
+          ],
+          "profiles": [
+            "1947"
+          ],
+          "tile_samples": 0,
+          "support_examples": 1,
+          "style_bonus": 0.0
+        },
+        {
+          "text": "440",
+          "key": "440",
+          "score": 2.50189,
+          "kind": "linear_or_value",
+          "parse_quality": 1.8,
+          "flags": [],
+          "confidence_peak": 0.263,
+          "whole_profiles": [
+            "1060"
+          ],
+          "profiles": [
+            "1060"
+          ],
+          "tile_samples": 0,
+          "support_examples": 1,
+          "style_bonus": 0.0
+        }
+      ]
+    },
+    {
+      "text": "2000",
+      "bbox_px": [
+        190.0,
+        477.0,
+        209.0,
+        516.0
+      ],
+      "bbox_rotated_px": [
+        477.0,
+        1387.0,
+        516.0,
+        1406.0
+      ],
+      "alternatives": [
+        {
+          "text": "2000",
+          "key": "2000",
+          "score": 2.51695,
+          "kind": "linear_or_value",
+          "parse_quality": 1.8,
+          "flags": [],
+          "confidence_peak": 0.295,
+          "whole_profiles": [
+            "1060"
+          ],
+          "profiles": [
+            "1060"
+          ],
+          "tile_samples": 0,
+          "support_examples": 1,
+          "style_bonus": 0.0
+        },
+        {
+          "text": "2352",
+          "key": "2352",
+          "score": 2.5093,
+          "kind": "linear_or_value",
+          "parse_quality": 1.8,
+          "flags": [],
+          "confidence_peak": 0.279,
+          "whole_profiles": [
+            "1947"
+          ],
+          "profiles": [
+            "1947"
+          ],
+          "tile_samples": 0,
+          "support_examples": 1,
+          "style_bonus": 0.0
+        }
+      ]
+    },
+    {
+      "text": "10",
+      "bbox_px": [
+        1088.67,
+        301.33,
+        1124.0,
+        322.67
+      ],
+      "bbox_rotated_px": [
+        301.33,
+        472.0,
+        322.67,
+        507.33
+      ],
+      "alternatives": [
+        {
+          "text": "10",
+          "key": "10",
+          "score": 2.45603,
+          "kind": "linear_or_value",
+          "parse_quality": 1.8,
+          "flags": [],
+          "confidence_peak": 0.166,
+          "whole_profiles": [
+            "1947"
+          ],
+          "profiles": [
+            "1947"
+          ],
+          "tile_samples": 0,
+          "support_examples": 1,
+          "style_bonus": 0.0
+        }
+      ]
+    },
+    {
+      "text": "5000",
+      "bbox_px": [
+        674.67,
+        477.33,
+        696.67,
+        516.0
+      ],
+      "bbox_rotated_px": [
+        477.33,
+        899.33,
+        516.0,
+        921.33
+      ],
+      "alternatives": [
+        {
+          "text": "5000",
+          "key": "5000",
+          "score": 2.52196,
+          "kind": "linear_or_value",
+          "parse_quality": 1.8,
+          "flags": [],
+          "confidence_peak": 0.306,
+          "whole_profiles": [
+            "1947"
+          ],
+          "profiles": [
+            "1947"
+          ],
+          "tile_samples": 0,
+          "support_examples": 1,
+          "style_bonus": 0.0
+        }
+      ]
+    },
+    {
+      "text": ".00",
+      "bbox_px": [
+        538.67,
+        294.67,
+        562.0,
+        309.33
+      ],
+      "bbox_rotated_px": [
+        294.67,
+        1034.0,
+        309.33,
+        1057.33
+      ],
+      "alternatives": [
+        {
+          "text": ".00",
+          "key": ".00",
+          "score": 2.64304,
+          "kind": "linear_or_value",
+          "parse_quality": 1.8,
+          "flags": [],
+          "confidence_peak": 0.562,
+          "whole_profiles": [
+            "1947"
+          ],
+          "profiles": [
+            "1947"
+          ],
+          "tile_samples": 0,
+          "support_examples": 1,
+          "style_bonus": 0.0
+        }
+      ]
+    },
+    {
+      "text": "40",
+      "bbox_px": [
+        518.67,
+        170.0,
+        538.67,
+        184.67
+      ],
+      "bbox_rotated_px": [
+        170.0,
+        1057.33,
+        184.67,
+        1077.33
+      ],
+      "alternatives": [
+        {
+          "text": "40",
+          "key": "40",
+          "score": 2.79251,
+          "kind": "linear_or_value",
+          "parse_quality": 1.8,
+          "flags": [],
+          "confidence_peak": 0.878,
+          "whole_profiles": [
+            "1947"
+          ],
+          "profiles": [
+            "1947"
+          ],
+          "tile_samples": 0,
+          "support_examples": 1,
+          "style_bonus": 0.0
+        }
+      ]
+    },
+    {
+      "text": "85",
+      "bbox_px": [
+        505.33,
+        862.0,
+        527.33,
+        875.33
+      ],
+      "bbox_rotated_px": [
+        862.0,
+        1068.67,
+        875.33,
+        1090.67
+      ],
+      "alternatives": [
+        {
+          "text": "85",
+          "key": "85",
+          "score": 2.58647,
+          "kind": "linear_or_value",
+          "parse_quality": 1.8,
+          "flags": [],
+          "confidence_peak": 0.442,
+          "whole_profiles": [
+            "1947"
+          ],
+          "profiles": [
+            "1947"
+          ],
+          "tile_samples": 0,
+          "support_examples": 1,
+          "style_bonus": 0.0
+        }
+      ]
+    },
+    {
+      "text": "OL",
+      "bbox_px": [
+        475.33,
+        136.67,
+        495.33,
+        150.0
+      ],
+      "bbox_rotated_px": [
+        136.67,
+        1100.67,
+        150.0,
+        1120.67
+      ],
+      "alternatives": [
+        {
+          "text": "OL",
+          "key": "OL",
+          "score": 0.64203,
+          "kind": "unclassified",
+          "parse_quality": -0.25,
+          "flags": [],
+          "confidence_peak": 0.666,
+          "whole_profiles": [
+            "1947"
+          ],
+          "profiles": [
+            "1947"
+          ],
+          "tile_samples": 0,
+          "support_examples": 1,
+          "style_bonus": 0.0
+        }
+      ]
+    }
+  ]
+}

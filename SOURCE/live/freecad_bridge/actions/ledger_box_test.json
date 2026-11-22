@@ -1,0 +1,24 @@
+{
+  "action": "create_part_from_features",
+  "part_name": "ledger_test_box",
+  "units": "mm",
+  "datums": {
+    "origin": "lower_left_front_corner",
+    "x_axis": "length",
+    "y_axis": "width",
+    "z_axis": "height"
+  },
+  "features": [
+    {
+      "id": "base_block",
+      "type": "box",
+      "length_mm": 60,
+      "width_mm": 40,
+      "height_mm": 20,
+      "origin_mm": [0, 0, 0],
+      "confidence": 1.0,
+      "source": "direct user test"
+    }
+  ],
+  "exports": ["FCStd", "STEP"]
+}

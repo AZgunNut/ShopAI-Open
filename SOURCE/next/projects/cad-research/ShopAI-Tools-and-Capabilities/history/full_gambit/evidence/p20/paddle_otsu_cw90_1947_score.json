@@ -1,0 +1,420 @@
+{
+  "truth_file": "/mnt/shopai-data-new/cad-research/experiments/qwen-3-drawing-20261030-173652-610108/shopai_three_drawing_truth/batch_lab/ocr_outline_eight_v1/truths/p20.truth.json",
+  "prediction_file": "/mnt/shopai-data-new/cad-research/experiments/qwen-3-drawing-20261030-173652-610108/shopai_three_drawing_truth/batch_lab/ocr_outline_eight_v1/results/full_gambit_20261108T191855Z_740546_12852/p20/paddle_otsu_cw90_1947_score_readings.json",
+  "truth_coverage_certified": false,
+  "certified_100_percent": false,
+  "truth_gap_count": 1,
+  "ground_truth_pending_review": 23,
+  "expected_provisional_character_instances": 71,
+  "observed_character_instances": 44,
+  "character_inventory_overlap_provisional": 41,
+  "character_inventory_pct_provisional": 57.75,
+  "missing_characters": {
+    "-": 1,
+    "1": 3,
+    "3": 2,
+    "4": 2,
+    "5": 4,
+    "A": 2,
+    "R": 1,
+    "S": 1,
+    "a": 1,
+    "c": 1,
+    "e": 2,
+    "i": 1,
+    "n": 1,
+    "t": 1,
+    "u": 1,
+    "°": 2,
+    "Ø": 4
+  },
+  "extra_characters": {
+    "0": 2,
+    "G": 1
+  },
+  "provisional_annotation_matches": 12,
+  "provisional_annotation_total": 23,
+  "missing_annotations": [
+    {
+      "truth_id": "p20_T001",
+      "expected_text": "Sectiunea A-A",
+      "anchor_px": [
+        572.0,
+        38.0
+      ]
+    },
+    {
+      "truth_id": "p20_T003",
+      "expected_text": "Ø16",
+      "anchor_px": [
+        274.0,
+        178.0
+      ]
+    },
+    {
+      "truth_id": "p20_T007",
+      "expected_text": "Ø60",
+      "anchor_px": [
+        555.0,
+        72.0
+      ]
+    },
+    {
+      "truth_id": "p20_T008",
+      "expected_text": "Ø40",
+      "anchor_px": [
+        552.0,
+        104.0
+      ]
+    },
+    {
+      "truth_id": "p20_T009",
+      "expected_text": "Ø30",
+      "anchor_px": [
+        549.0,
+        305.0
+      ]
+    },
+    {
+      "truth_id": "p20_T011",
+      "expected_text": "145",
+      "anchor_px": [
+        618.0,
+        403.0
+      ]
+    },
+    {
+      "truth_id": "p20_T017",
+      "expected_text": "R15",
+      "anchor_px": [
+        416.0,
+        469.0
+      ]
+    },
+    {
+      "truth_id": "p20_T019",
+      "expected_text": "50",
+      "anchor_px": [
+        404.0,
+        642.0
+      ]
+    },
+    {
+      "truth_id": "p20_T020",
+      "expected_text": "45",
+      "anchor_px": [
+        615.0,
+        673.0
+      ]
+    },
+    {
+      "truth_id": "p20_T022",
+      "expected_text": "30°",
+      "anchor_px": [
+        684.0,
+        480.0
+      ]
+    },
+    {
+      "truth_id": "p20_T023",
+      "expected_text": "135°",
+      "anchor_px": [
+        726.0,
+        645.0
+      ]
+    }
+  ],
+  "extra_or_fragmented_groups": [
+    {
+      "text": "016",
+      "bbox_px": [
+        261.33,
+        167.67,
+        286.0,
+        179.67
+      ],
+      "bbox_rotated_px": [
+        593.33,
+        261.33,
+        605.33,
+        286.0
+      ],
+      "alternatives": [
+        {
+          "text": "016",
+          "key": "016",
+          "score": 2.80801,
+          "kind": "linear_or_value",
+          "parse_quality": 1.8,
+          "flags": [],
+          "confidence_peak": 0.911,
+          "whole_profiles": [
+            "1947"
+          ],
+          "profiles": [
+            "1947"
+          ],
+          "tile_samples": 0,
+          "support_examples": 1,
+          "style_bonus": 0.0
+        }
+      ],
+      "index": 2
+    },
+    {
+      "text": "G",
+      "bbox_px": [
+        496.67,
+        421.0,
+        512.67,
+        433.0
+      ],
+      "bbox_rotated_px": [
+        340.0,
+        496.67,
+        352.0,
+        512.67
+      ],
+      "alternatives": [
+        {
+          "text": "G",
+          "key": "G",
+          "score": 1.19872,
+          "kind": "datum_or_letter",
+          "parse_quality": 0.5,
+          "flags": [],
+          "confidence_peak": 0.257,
+          "whole_profiles": [
+            "1947"
+          ],
+          "profiles": [
+            "1947"
+          ],
+          "tile_samples": 0,
+          "support_examples": 1,
+          "style_bonus": 0.0
+        }
+      ],
+      "index": 9
+    },
+    {
+      "text": "030",
+      "bbox_px": [
+        550.67,
+        328.33,
+        576.67,
+        339.67
+      ],
+      "bbox_rotated_px": [
+        433.33,
+        550.67,
+        444.67,
+        576.67
+      ],
+      "alternatives": [
+        {
+          "text": "030",
+          "key": "030",
+          "score": 2.83522,
+          "kind": "linear_or_value",
+          "parse_quality": 1.8,
+          "flags": [],
+          "confidence_peak": 0.969,
+          "whole_profiles": [
+            "1947"
+          ],
+          "profiles": [
+            "1947"
+          ],
+          "tile_samples": 0,
+          "support_examples": 1,
+          "style_bonus": 0.0
+        }
+      ],
+      "index": 10
+    },
+    {
+      "text": "040",
+      "bbox_px": [
+        550.0,
+        96.33,
+        577.33,
+        111.0
+      ],
+      "bbox_rotated_px": [
+        662.0,
+        550.0,
+        676.67,
+        577.33
+      ],
+      "alternatives": [
+        {
+          "text": "040",
+          "key": "040",
+          "score": 2.83494,
+          "kind": "linear_or_value",
+          "parse_quality": 1.8,
+          "flags": [],
+          "confidence_peak": 0.968,
+          "whole_profiles": [
+            "1947"
+          ],
+          "profiles": [
+            "1947"
+          ],
+          "tile_samples": 0,
+          "support_examples": 1,
+          "style_bonus": 0.0
+        }
+      ],
+      "index": 11
+    },
+    {
+      "text": "060",
+      "bbox_px": [
+        550.0,
+        65.67,
+        578.67,
+        79.67
+      ],
+      "bbox_rotated_px": [
+        693.33,
+        550.0,
+        707.33,
+        578.67
+      ],
+      "alternatives": [
+        {
+          "text": "060",
+          "key": "060",
+          "score": 2.82294,
+          "kind": "linear_or_value",
+          "parse_quality": 1.8,
+          "flags": [],
+          "confidence_peak": 0.943,
+          "whole_profiles": [
+            "1947"
+          ],
+          "profiles": [
+            "1947"
+          ],
+          "tile_samples": 0,
+          "support_examples": 1,
+          "style_bonus": 0.0
+        }
+      ],
+      "index": 12
+    },
+    {
+      "text": "5",
+      "bbox_px": [
+        610.0,
+        666.33,
+        625.33,
+        679.0
+      ],
+      "bbox_rotated_px": [
+        94.0,
+        610.0,
+        106.67,
+        625.33
+      ],
+      "alternatives": [
+        {
+          "text": "5",
+          "key": "5",
+          "score": 2.47671,
+          "kind": "linear_or_value",
+          "parse_quality": 1.8,
+          "flags": [],
+          "confidence_peak": 0.21,
+          "whole_profiles": [
+            "1947"
+          ],
+          "profiles": [
+            "1947"
+          ],
+          "tile_samples": 0,
+          "support_examples": 1,
+          "style_bonus": 0.0
+        }
+      ],
+      "index": 13
+    }
+  ],
+  "matching_instances_diagnostic": [
+    {
+      "truth_id": "p20_T002",
+      "text": "R15",
+      "observation_index": 1,
+      "anchor_distance_px": 1.4
+    },
+    {
+      "truth_id": "p20_T004",
+      "text": "42",
+      "observation_index": 0,
+      "anchor_distance_px": 13.0
+    },
+    {
+      "truth_id": "p20_T005",
+      "text": "80",
+      "observation_index": 7,
+      "anchor_distance_px": 8.1
+    },
+    {
+      "truth_id": "p20_T006",
+      "text": "16",
+      "observation_index": 8,
+      "anchor_distance_px": 43.0
+    },
+    {
+      "truth_id": "p20_T010",
+      "text": "12",
+      "observation_index": 16,
+      "anchor_distance_px": 7.5
+    },
+    {
+      "truth_id": "p20_T012",
+      "text": "50",
+      "observation_index": 5,
+      "anchor_distance_px": 233.4
+    },
+    {
+      "truth_id": "p20_T013",
+      "text": "R15",
+      "observation_index": 6,
+      "anchor_distance_px": 226.5
+    },
+    {
+      "truth_id": "p20_T014",
+      "text": "R15",
+      "observation_index": 17,
+      "anchor_distance_px": 5.7
+    },
+    {
+      "truth_id": "p20_T015",
+      "text": "R15",
+      "observation_index": 14,
+      "anchor_distance_px": 24.3
+    },
+    {
+      "truth_id": "p20_T016",
+      "text": "R15",
+      "observation_index": 3,
+      "anchor_distance_px": 40.5
+    },
+    {
+      "truth_id": "p20_T018",
+      "text": "100",
+      "observation_index": 4,
+      "anchor_distance_px": 14.2
+    },
+    {
+      "truth_id": "p20_T021",
+      "text": "42",
+      "observation_index": 15,
+      "anchor_distance_px": 51.4
+    }
+  ],
+  "note": "Inventory counts and annotation matches are PROVISIONAL. No per-glyph spatial truth exists and truth coverage is not independently verified. Counts may cancel swapped or misplaced glyphs."
+}

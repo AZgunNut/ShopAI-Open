@@ -1,0 +1,702 @@
+{
+  "truth_file": "/mnt/shopai-data-new/cad-research/experiments/qwen-3-drawing-20261030-173652-610108/shopai_three_drawing_truth/batch_lab/ocr_outline_eight_v1/truths/p15.truth.json",
+  "prediction_file": "/mnt/shopai-data-new/cad-research/experiments/qwen-3-drawing-20261030-173652-610108/shopai_three_drawing_truth/batch_lab/ocr_outline_eight_v1/results/full_gambit_20261108T191855Z_740546_12852/p15/tesseract_clahe_cw0_psm6_score_readings.json",
+  "truth_coverage_certified": false,
+  "certified_100_percent": false,
+  "truth_gap_count": 1,
+  "ground_truth_pending_review": 12,
+  "expected_provisional_character_instances": 56,
+  "observed_character_instances": 85,
+  "character_inventory_overlap_provisional": 27,
+  "character_inventory_pct_provisional": 48.21,
+  "missing_characters": {
+    ".": 1,
+    "0": 2,
+    "1": 4,
+    "5": 5,
+    "8": 1,
+    ":": 2,
+    "c": 3,
+    "e": 1,
+    "n": 1,
+    "t": 4,
+    "Ø": 5
+  },
+  "extra_characters": {
+    "!": 1,
+    "&": 1,
+    "(": 2,
+    ")": 1,
+    "2": 2,
+    "3": 1,
+    "4": 1,
+    "7": 1,
+    "9": 2,
+    "=": 2,
+    "A": 2,
+    "C": 1,
+    "D": 1,
+    "G": 2,
+    "I": 1,
+    "L": 1,
+    "N": 1,
+    "O": 5,
+    "Q": 1,
+    "S": 1,
+    "T": 1,
+    "Z": 4,
+    "]": 1,
+    "_": 1,
+    "a": 1,
+    "g": 1,
+    "i": 1,
+    "m": 1,
+    "o": 3,
+    "q": 1,
+    "y": 2,
+    "|": 4,
+    "}": 1,
+    "©": 1,
+    "°": 2,
+    "»": 1,
+    "—": 2
+  },
+  "provisional_annotation_matches": 3,
+  "provisional_annotation_total": 12,
+  "missing_annotations": [
+    {
+      "truth_id": "p15_T001",
+      "expected_text": "Ø2 conicitate 1:50",
+      "anchor_px": [
+        43.0,
+        228.0
+      ]
+    },
+    {
+      "truth_id": "p15_T002",
+      "expected_text": "Ø5 conicitate 1:50",
+      "anchor_px": [
+        43.0,
+        597.0
+      ]
+    },
+    {
+      "truth_id": "p15_T003",
+      "expected_text": "Ø6",
+      "anchor_px": [
+        423.0,
+        54.0
+      ]
+    },
+    {
+      "truth_id": "p15_T006",
+      "expected_text": "12",
+      "anchor_px": [
+        683.0,
+        180.0
+      ]
+    },
+    {
+      "truth_id": "p15_T007",
+      "expected_text": "31.5",
+      "anchor_px": [
+        676.0,
+        364.0
+      ]
+    },
+    {
+      "truth_id": "p15_T008",
+      "expected_text": "18",
+      "anchor_px": [
+        625.0,
+        413.0
+      ]
+    },
+    {
+      "truth_id": "p15_T010",
+      "expected_text": "Ø15",
+      "anchor_px": [
+        412.0,
+        542.0
+      ]
+    },
+    {
+      "truth_id": "p15_T011",
+      "expected_text": "Ø28",
+      "anchor_px": [
+        412.0,
+        585.0
+      ]
+    },
+    {
+      "truth_id": "p15_T012",
+      "expected_text": "5",
+      "anchor_px": [
+        393.0,
+        918.0
+      ]
+    }
+  ],
+  "extra_or_fragmented_groups": [
+    {
+      "text": "G6",
+      "confidence": 0.1008,
+      "bbox_px": [
+        408.0,
+        37.0,
+        438.0,
+        56.0
+      ],
+      "index": 0
+    },
+    {
+      "text": "oD",
+      "confidence": 0.0,
+      "bbox_px": [
+        32.0,
+        91.0,
+        54.0,
+        123.0
+      ],
+      "index": 2
+    },
+    {
+      "text": "|",
+      "confidence": 0.7084,
+      "bbox_px": [
+        584.0,
+        98.0,
+        585.0,
+        114.0
+      ],
+      "index": 3
+    },
+    {
+      "text": "2",
+      "confidence": 0.7042,
+      "bbox_px": [
+        36.0,
+        108.0,
+        54.0,
+        125.0
+      ],
+      "index": 4
+    },
+    {
+      "text": "!",
+      "confidence": 0.5016,
+      "bbox_px": [
+        581.0,
+        115.0,
+        587.0,
+        131.0
+      ],
+      "index": 5
+    },
+    {
+      "text": "g",
+      "confidence": 0.5987,
+      "bbox_px": [
+        36.0,
+        146.0,
+        54.0,
+        166.0
+      ],
+      "index": 6
+    },
+    {
+      "text": "(AZ",
+      "confidence": 0.2152,
+      "bbox_px": [
+        204.0,
+        129.0,
+        309.0,
+        195.0
+      ],
+      "index": 7
+    },
+    {
+      "text": "AT]",
+      "confidence": 0.2152,
+      "bbox_px": [
+        336.0,
+        129.0,
+        424.0,
+        195.0
+      ],
+      "index": 8
+    },
+    {
+      "text": "4»",
+      "confidence": 0.2886,
+      "bbox_px": [
+        456.0,
+        133.0,
+        566.0,
+        177.0
+      ],
+      "index": 9
+    },
+    {
+      "text": "3",
+      "confidence": 0.4989,
+      "bbox_px": [
+        36.0,
+        167.0,
+        54.0,
+        190.0
+      ],
+      "index": 10
+    },
+    {
+      "text": "—",
+      "confidence": 0.4234,
+      "bbox_px": [
+        208.0,
+        178.0,
+        388.0,
+        200.0
+      ],
+      "index": 11
+    },
+    {
+      "text": "2",
+      "confidence": 0.6602,
+      "bbox_px": [
+        36.0,
+        192.0,
+        54.0,
+        207.0
+      ],
+      "index": 12
+    },
+    {
+      "text": "|",
+      "confidence": 0.0,
+      "bbox_px": [
+        455.0,
+        190.0,
+        522.0,
+        200.0
+      ],
+      "index": 13
+    },
+    {
+      "text": "nN",
+      "confidence": 0.374,
+      "bbox_px": [
+        612.0,
+        189.0,
+        630.0,
+        200.0
+      ],
+      "index": 14
+    },
+    {
+      "text": "3",
+      "confidence": 0.5406,
+      "bbox_px": [
+        40.0,
+        209.0,
+        54.0,
+        220.0
+      ],
+      "index": 15
+    },
+    {
+      "text": "a",
+      "confidence": 0.6498,
+      "bbox_px": [
+        612.0,
+        205.0,
+        630.0,
+        212.0
+      ],
+      "index": 16
+    },
+    {
+      "text": "9",
+      "confidence": 0.3026,
+      "bbox_px": [
+        40.0,
+        221.0,
+        51.0,
+        233.0
+      ],
+      "index": 17
+    },
+    {
+      "text": "|",
+      "confidence": 0.8579,
+      "bbox_px": [
+        72.0,
+        219.0,
+        73.0,
+        235.0
+      ],
+      "index": 18
+    },
+    {
+      "text": "oO",
+      "confidence": 0.613,
+      "bbox_px": [
+        40.0,
+        235.0,
+        54.0,
+        245.0
+      ],
+      "index": 19
+    },
+    {
+      "text": "ZI",
+      "confidence": 0.1148,
+      "bbox_px": [
+        284.0,
+        237.0,
+        445.0,
+        284.0
+      ],
+      "index": 21
+    },
+    {
+      "text": "iS}",
+      "confidence": 0.7091,
+      "bbox_px": [
+        32.0,
+        262.0,
+        58.0,
+        293.0
+      ],
+      "index": 22
+    },
+    {
+      "text": "=",
+      "confidence": 0.5406,
+      "bbox_px": [
+        649.0,
+        284.0,
+        659.0,
+        285.0
+      ],
+      "index": 23
+    },
+    {
+      "text": "iQ",
+      "confidence": 0.1761,
+      "bbox_px": [
+        673.0,
+        289.0,
+        691.0,
+        305.0
+      ],
+      "index": 24
+    },
+    {
+      "text": "(mia)",
+      "confidence": 0.3427,
+      "bbox_px": [
+        204.0,
+        366.0,
+        285.0,
+        410.0
+      ],
+      "index": 26
+    },
+    {
+      "text": "ie",
+      "confidence": 0.1357,
+      "bbox_px": [
+        448.0,
+        366.0,
+        525.0,
+        410.0
+      ],
+      "index": 27
+    },
+    {
+      "text": "2",
+      "confidence": 0.5872,
+      "bbox_px": [
+        613.0,
+        375.0,
+        631.0,
+        398.0
+      ],
+      "index": 28
+    },
+    {
+      "text": "yy",
+      "confidence": 0.5603,
+      "bbox_px": [
+        208.0,
+        398.0,
+        282.0,
+        425.0
+      ],
+      "index": 29
+    },
+    {
+      "text": "7",
+      "confidence": 0.2844,
+      "bbox_px": [
+        348.0,
+        394.0,
+        381.0,
+        427.0
+      ],
+      "index": 30
+    },
+    {
+      "text": "1a",
+      "confidence": 0.2213,
+      "bbox_px": [
+        448.0,
+        398.0,
+        522.0,
+        425.0
+      ],
+      "index": 31
+    },
+    {
+      "text": "ZG",
+      "confidence": 0.5063,
+      "bbox_px": [
+        204.0,
+        423.0,
+        280.0,
+        495.0
+      ],
+      "index": 32
+    },
+    {
+      "text": "Z",
+      "confidence": 0.5296,
+      "bbox_px": [
+        450.0,
+        427.0,
+        522.0,
+        487.0
+      ],
+      "index": 33
+    },
+    {
+      "text": "i",
+      "confidence": 0.0863,
+      "bbox_px": [
+        551.0,
+        437.0,
+        569.0,
+        448.0
+      ],
+      "index": 34
+    },
+    {
+      "text": "Oo",
+      "confidence": 0.4143,
+      "bbox_px": [
+        37.0,
+        477.0,
+        55.0,
+        488.0
+      ],
+      "index": 35
+    },
+    {
+      "text": "©",
+      "confidence": 0.5221,
+      "bbox_px": [
+        37.0,
+        490.0,
+        55.0,
+        506.0
+      ],
+      "index": 36
+    },
+    {
+      "text": "_",
+      "confidence": 0.0,
+      "bbox_px": [
+        37.0,
+        513.0,
+        55.0,
+        520.0
+      ],
+      "index": 37
+    },
+    {
+      "text": "O15",
+      "confidence": 0.5376,
+      "bbox_px": [
+        383.0,
+        506.0,
+        427.0,
+        525.0
+      ],
+      "index": 38
+    },
+    {
+      "text": "2",
+      "confidence": 0.4686,
+      "bbox_px": [
+        37.0,
+        528.0,
+        55.0,
+        548.0
+      ],
+      "index": 39
+    },
+    {
+      "text": "L",
+      "confidence": 0.6635,
+      "bbox_px": [
+        276.0,
+        495.0,
+        308.0,
+        557.0
+      ],
+      "index": 40
+    },
+    {
+      "text": "9",
+      "confidence": 0.0,
+      "bbox_px": [
+        369.0,
+        499.0,
+        426.0,
+        553.0
+      ],
+      "index": 41
+    },
+    {
+      "text": "|",
+      "confidence": 0.7976,
+      "bbox_px": [
+        436.0,
+        495.0,
+        452.0,
+        557.0
+      ],
+      "index": 42
+    },
+    {
+      "text": "=",
+      "confidence": 0.6677,
+      "bbox_px": [
+        37.0,
+        549.0,
+        55.0,
+        572.0
+      ],
+      "index": 43
+    },
+    {
+      "text": "28",
+      "confidence": 0.6422,
+      "bbox_px": [
+        343.0,
+        553.0,
+        386.0,
+        572.0
+      ],
+      "index": 44
+    },
+    {
+      "text": "—",
+      "confidence": 0.3475,
+      "bbox_px": [
+        37.0,
+        574.0,
+        55.0,
+        589.0
+      ],
+      "index": 45
+    },
+    {
+      "text": "Cc",
+      "confidence": 0.4422,
+      "bbox_px": [
+        37.0,
+        587.0,
+        55.0,
+        610.0
+      ],
+      "index": 46
+    },
+    {
+      "text": "q",
+      "confidence": 0.5535,
+      "bbox_px": [
+        206.0,
+        590.0,
+        207.0,
+        600.0
+      ],
+      "index": 47
+    },
+    {
+      "text": "°°",
+      "confidence": 0.0528,
+      "bbox_px": [
+        41.0,
+        603.0,
+        55.0,
+        615.0
+      ],
+      "index": 48
+    },
+    {
+      "text": "oO",
+      "confidence": 0.6361,
+      "bbox_px": [
+        41.0,
+        617.0,
+        55.0,
+        627.0
+      ],
+      "index": 49
+    },
+    {
+      "text": "oO",
+      "confidence": 0.5164,
+      "bbox_px": [
+        37.0,
+        636.0,
+        55.0,
+        647.0
+      ],
+      "index": 50
+    },
+    {
+      "text": "&",
+      "confidence": 0.6947,
+      "bbox_px": [
+        37.0,
+        648.0,
+        55.0,
+        665.0
+      ],
+      "index": 51
+    }
+  ],
+  "matching_instances_diagnostic": [
+    {
+      "truth_id": "p15_T004",
+      "text": "1x45°",
+      "observation_index": 1,
+      "anchor_distance_px": 5.5
+    },
+    {
+      "truth_id": "p15_T005",
+      "text": "5",
+      "observation_index": 25,
+      "anchor_distance_px": 189.2
+    },
+    {
+      "truth_id": "p15_T009",
+      "text": "8",
+      "observation_index": 20,
+      "anchor_distance_px": 615.8
+    }
+  ],
+  "note": "Inventory counts and annotation matches are PROVISIONAL. No per-glyph spatial truth exists and truth coverage is not independently verified. Counts may cancel swapped or misplaced glyphs."
+}

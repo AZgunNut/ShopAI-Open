@@ -1,0 +1,301 @@
+{
+  "version": "blind-drawing-1.0",
+  "source_image": "otsu_cw270.png",
+  "source_size": [
+    982,
+    723
+  ],
+  "rows": [
+    {
+      "profiles": "1060",
+      "plan": "whole",
+      "groups": [
+        {
+          "anchor": [
+            638.0,
+            701.0,
+            655.0,
+            723.0
+          ],
+          "items": [
+            {
+              "bbox_original_px": [
+                638.0,
+                701.0,
+                655.0,
+                723.0
+              ],
+              "bbox_processed_px": [
+                638.0,
+                701.0,
+                655.0,
+                723.0
+              ],
+              "confidence": 0.5780783891677856,
+              "near_tile_boundary": false,
+              "polygon_processed_px": [
+                [
+                  638,
+                  701
+                ],
+                [
+                  655,
+                  701
+                ],
+                [
+                  655,
+                  723
+                ],
+                [
+                  638,
+                  723
+                ]
+              ],
+              "profile": 1060,
+              "source_rect_original_px": [
+                0,
+                0,
+                982,
+                723
+              ],
+              "text": "R4",
+              "tile_index": 0,
+              "tile_level": 0
+            }
+          ],
+          "id": 0,
+          "selected_text": "R4",
+          "alternatives": [
+            {
+              "text": "R4",
+              "evidence_score": 1.039,
+              "sources": 1,
+              "examples": 1
+            }
+          ],
+          "boundary_fragments": 0,
+          "supporting_sources": 1
+        }
+      ],
+      "unique_view_passes": 1,
+      "raw_detections": 1,
+      "distinct_location_groups": 1,
+      "measured_or_partial_inference_seconds": 1.434,
+      "provisional_evaluation": {}
+    },
+    {
+      "profiles": "1947",
+      "plan": "whole",
+      "groups": [
+        {
+          "anchor": [
+            638.0,
+            701.33,
+            654.67,
+            722.67
+          ],
+          "items": [
+            {
+              "bbox_original_px": [
+                638.0,
+                701.33,
+                654.67,
+                722.67
+              ],
+              "bbox_processed_px": [
+                957.0,
+                1052.0,
+                982.0,
+                1084.0
+              ],
+              "confidence": 0.6703857779502869,
+              "near_tile_boundary": false,
+              "polygon_processed_px": [
+                [
+                  957,
+                  1052
+                ],
+                [
+                  982,
+                  1052
+                ],
+                [
+                  982,
+                  1084
+                ],
+                [
+                  957,
+                  1084
+                ]
+              ],
+              "profile": 1947,
+              "source_rect_original_px": [
+                0,
+                0,
+                982,
+                723
+              ],
+              "text": "4",
+              "tile_index": 0,
+              "tile_level": 0
+            }
+          ],
+          "id": 0,
+          "selected_text": "4",
+          "alternatives": [
+            {
+              "text": "4",
+              "evidence_score": 1.085,
+              "sources": 1,
+              "examples": 1
+            }
+          ],
+          "boundary_fragments": 0,
+          "supporting_sources": 1
+        }
+      ],
+      "unique_view_passes": 1,
+      "raw_detections": 1,
+      "distinct_location_groups": 1,
+      "measured_or_partial_inference_seconds": 1.363,
+      "provisional_evaluation": {}
+    },
+    {
+      "profiles": "1060+1947",
+      "plan": "whole",
+      "groups": [
+        {
+          "anchor": [
+            638.0,
+            701.0,
+            655.0,
+            723.0
+          ],
+          "items": [
+            {
+              "bbox_original_px": [
+                638.0,
+                701.0,
+                655.0,
+                723.0
+              ],
+              "bbox_processed_px": [
+                638.0,
+                701.0,
+                655.0,
+                723.0
+              ],
+              "confidence": 0.5780783891677856,
+              "near_tile_boundary": false,
+              "polygon_processed_px": [
+                [
+                  638,
+                  701
+                ],
+                [
+                  655,
+                  701
+                ],
+                [
+                  655,
+                  723
+                ],
+                [
+                  638,
+                  723
+                ]
+              ],
+              "profile": 1060,
+              "source_rect_original_px": [
+                0,
+                0,
+                982,
+                723
+              ],
+              "text": "R4",
+              "tile_index": 0,
+              "tile_level": 0
+            },
+            {
+              "bbox_original_px": [
+                638.0,
+                701.33,
+                654.67,
+                722.67
+              ],
+              "bbox_processed_px": [
+                957.0,
+                1052.0,
+                982.0,
+                1084.0
+              ],
+              "confidence": 0.6703857779502869,
+              "near_tile_boundary": false,
+              "polygon_processed_px": [
+                [
+                  957,
+                  1052
+                ],
+                [
+                  982,
+                  1052
+                ],
+                [
+                  982,
+                  1084
+                ],
+                [
+                  957,
+                  1084
+                ]
+              ],
+              "profile": 1947,
+              "source_rect_original_px": [
+                0,
+                0,
+                982,
+                723
+              ],
+              "text": "4",
+              "tile_index": 0,
+              "tile_level": 0
+            }
+          ],
+          "id": 0,
+          "selected_text": "4",
+          "alternatives": [
+            {
+              "text": "4",
+              "evidence_score": 1.085,
+              "sources": 1,
+              "examples": 1
+            },
+            {
+              "text": "R4",
+              "evidence_score": 1.039,
+              "sources": 1,
+              "examples": 1
+            }
+          ],
+          "boundary_fragments": 0,
+          "supporting_sources": 2
+        }
+      ],
+      "unique_view_passes": 2,
+      "raw_detections": 2,
+      "distinct_location_groups": 1,
+      "measured_or_partial_inference_seconds": 2.797,
+      "provisional_evaluation": {}
+    }
+  ],
+  "plans": [
+    "whole",
+    "whole+4",
+    "whole+8",
+    "whole+16",
+    "whole+4+16",
+    "whole+4+8",
+    "whole+4+8+16"
+  ],
+  "reference_data": "NONE; held-out image; no answer key"
+}

@@ -1,0 +1,83 @@
+{
+  "action": "create_part_from_features",
+  "part_name": "ledger_grooves_slots_test",
+  "units": "mm",
+  "datums": {
+    "origin": "lower_left_front_corner",
+    "x_axis": "length",
+    "y_axis": "width",
+    "z_axis": "height"
+  },
+  "features": [
+    {
+      "id": "base_block",
+      "type": "box",
+      "length_mm": 160,
+      "width_mm": 90,
+      "height_mm": 16,
+      "origin_mm": [0, 0, 0],
+      "confidence": 1.0,
+      "source": "direct user test"
+    },
+    {
+      "id": "straight_groove",
+      "type": "straight_groove_z",
+      "center_mm": [40, 25],
+      "length_mm": 55,
+      "width_mm": 8,
+      "depth_mm": 4,
+      "base_z_mm": 16,
+      "angle_deg": 0,
+      "confidence": 1.0,
+      "source": "straight milled groove"
+    },
+    {
+      "id": "shaft_keyway",
+      "type": "keyway_slot_z",
+      "center_mm": [115, 25],
+      "length_mm": 45,
+      "width_mm": 6,
+      "depth_mm": 3,
+      "base_z_mm": 16,
+      "angle_deg": 12,
+      "confidence": 1.0,
+      "source": "keyway slot"
+    },
+    {
+      "id": "v_groove",
+      "type": "v_groove_z",
+      "center_mm": [40, 65],
+      "length_mm": 55,
+      "top_width_mm": 14,
+      "depth_mm": 6,
+      "base_z_mm": 16,
+      "angle_deg": 0,
+      "included_angle_deg": 90,
+      "confidence": 1.0,
+      "source": "vee groove"
+    },
+    {
+      "id": "dovetail_slot",
+      "type": "dovetail_slot_z",
+      "center_mm": [115, 65],
+      "length_mm": 45,
+      "top_width_mm": 10,
+      "bottom_width_mm": 20,
+      "depth_mm": 7,
+      "base_z_mm": 16,
+      "angle_deg": -8,
+      "confidence": 1.0,
+      "source": "dovetail slot"
+    }
+  ],
+  "exports": [
+    "FCStd",
+    "STEP",
+    "SVG_TOP",
+    "SVG_FRONT",
+    "SVG_RIGHT",
+    "DXF_TOP",
+    "DXF_FRONT",
+    "DXF_RIGHT"
+  ]
+}

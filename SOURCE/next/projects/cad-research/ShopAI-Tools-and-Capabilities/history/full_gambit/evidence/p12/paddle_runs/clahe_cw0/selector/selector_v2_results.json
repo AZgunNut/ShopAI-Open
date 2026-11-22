@@ -1,0 +1,361 @@
+{
+  "selector_version": "2.0.0",
+  "generated_utc": "2026-11-08T19:38:35.673572+00:00",
+  "source": "clahe_cw0.png",
+  "input_study_version": "blind-drawing-1.0",
+  "rows": [
+    {
+      "profiles": "1060",
+      "plan": "whole",
+      "passes": 1,
+      "seconds": 1.386,
+      "style": {
+        "radius_order": {
+          "preferred": null,
+          "supporting_locations": 1,
+          "share": 1.0,
+          "alternatives": {
+            "prefix": 0.98
+          },
+          "strength": 0
+        }
+      },
+      "baseline_v1_selected": null,
+      "results": [
+        {
+          "id": 0,
+          "anchor": [
+            0.0,
+            637.0,
+            21.0,
+            656.0
+          ],
+          "selected_text": "R4",
+          "normalized_text": "R4",
+          "kind": "radius",
+          "state": "PLAUSIBLE_UNVERIFIED",
+          "margin": 0,
+          "alternatives": [
+            {
+              "text": "R4",
+              "key": "R4",
+              "score": 3.24205,
+              "kind": "radius",
+              "parse_quality": 2.2,
+              "flags": [],
+              "confidence_peak": 0.983,
+              "whole_profiles": [
+                "1060"
+              ],
+              "profiles": [
+                "1060"
+              ],
+              "tile_samples": 0,
+              "support_examples": 1,
+              "style_bonus": 0.0
+            }
+          ],
+          "boundary_fragments": 0,
+          "source_items": [
+            {
+              "bbox_original_px": [
+                0.0,
+                637.0,
+                21.0,
+                656.0
+              ],
+              "bbox_processed_px": [
+                0.0,
+                637.0,
+                21.0,
+                656.0
+              ],
+              "confidence": 0.9831840991973877,
+              "near_tile_boundary": false,
+              "polygon_processed_px": [
+                [
+                  0,
+                  637
+                ],
+                [
+                  21,
+                  637
+                ],
+                [
+                  21,
+                  656
+                ],
+                [
+                  0,
+                  656
+                ]
+              ],
+              "profile": 1060,
+              "source_rect_original_px": [
+                0,
+                0,
+                723,
+                982
+              ],
+              "text": "R4",
+              "tile_index": 0,
+              "tile_level": 0
+            }
+          ]
+        }
+      ],
+      "review_count": 0
+    },
+    {
+      "profiles": "1947",
+      "plan": "whole",
+      "passes": 1,
+      "seconds": 1.379,
+      "style": {
+        "radius_order": {
+          "preferred": null,
+          "supporting_locations": 1,
+          "share": 1.0,
+          "alternatives": {
+            "prefix": 1.0
+          },
+          "strength": 0
+        }
+      },
+      "baseline_v1_selected": null,
+      "results": [
+        {
+          "id": 0,
+          "anchor": [
+            0.0,
+            636.0,
+            20.67,
+            656.67
+          ],
+          "selected_text": "R4",
+          "normalized_text": "R4",
+          "kind": "radius",
+          "state": "PLAUSIBLE_UNVERIFIED",
+          "margin": 0,
+          "alternatives": [
+            {
+              "text": "R4",
+              "key": "R4",
+              "score": 3.24862,
+              "kind": "radius",
+              "parse_quality": 2.2,
+              "flags": [],
+              "confidence_peak": 0.997,
+              "whole_profiles": [
+                "1947"
+              ],
+              "profiles": [
+                "1947"
+              ],
+              "tile_samples": 0,
+              "support_examples": 1,
+              "style_bonus": 0.0
+            }
+          ],
+          "boundary_fragments": 0,
+          "source_items": [
+            {
+              "bbox_original_px": [
+                0.0,
+                636.0,
+                20.67,
+                656.67
+              ],
+              "bbox_processed_px": [
+                0.0,
+                954.0,
+                31.0,
+                985.0
+              ],
+              "confidence": 0.9970771074295044,
+              "near_tile_boundary": false,
+              "polygon_processed_px": [
+                [
+                  0,
+                  954
+                ],
+                [
+                  31,
+                  954
+                ],
+                [
+                  31,
+                  985
+                ],
+                [
+                  0,
+                  985
+                ]
+              ],
+              "profile": 1947,
+              "source_rect_original_px": [
+                0,
+                0,
+                723,
+                982
+              ],
+              "text": "R4",
+              "tile_index": 0,
+              "tile_level": 0
+            }
+          ]
+        }
+      ],
+      "review_count": 0
+    },
+    {
+      "profiles": "1060+1947",
+      "plan": "whole",
+      "passes": 2,
+      "seconds": 2.765,
+      "style": {
+        "radius_order": {
+          "preferred": null,
+          "supporting_locations": 1,
+          "share": 1.0,
+          "alternatives": {
+            "prefix": 1.0
+          },
+          "strength": 0
+        }
+      },
+      "baseline_v1_selected": null,
+      "results": [
+        {
+          "id": 0,
+          "anchor": [
+            0.0,
+            637.0,
+            21.0,
+            656.0
+          ],
+          "selected_text": "R4",
+          "normalized_text": "R4",
+          "kind": "radius",
+          "state": "PLAUSIBLE_UNVERIFIED",
+          "margin": 0,
+          "alternatives": [
+            {
+              "text": "R4",
+              "key": "R4",
+              "score": 3.42862,
+              "kind": "radius",
+              "parse_quality": 2.2,
+              "flags": [],
+              "confidence_peak": 0.997,
+              "whole_profiles": [
+                "1060",
+                "1947"
+              ],
+              "profiles": [
+                "1060",
+                "1947"
+              ],
+              "tile_samples": 0,
+              "support_examples": 2,
+              "style_bonus": 0.0
+            }
+          ],
+          "boundary_fragments": 0,
+          "source_items": [
+            {
+              "bbox_original_px": [
+                0.0,
+                637.0,
+                21.0,
+                656.0
+              ],
+              "bbox_processed_px": [
+                0.0,
+                637.0,
+                21.0,
+                656.0
+              ],
+              "confidence": 0.9831840991973877,
+              "near_tile_boundary": false,
+              "polygon_processed_px": [
+                [
+                  0,
+                  637
+                ],
+                [
+                  21,
+                  637
+                ],
+                [
+                  21,
+                  656
+                ],
+                [
+                  0,
+                  656
+                ]
+              ],
+              "profile": 1060,
+              "source_rect_original_px": [
+                0,
+                0,
+                723,
+                982
+              ],
+              "text": "R4",
+              "tile_index": 0,
+              "tile_level": 0
+            },
+            {
+              "bbox_original_px": [
+                0.0,
+                636.0,
+                20.67,
+                656.67
+              ],
+              "bbox_processed_px": [
+                0.0,
+                954.0,
+                31.0,
+                985.0
+              ],
+              "confidence": 0.9970771074295044,
+              "near_tile_boundary": false,
+              "polygon_processed_px": [
+                [
+                  0,
+                  954
+                ],
+                [
+                  31,
+                  954
+                ],
+                [
+                  31,
+                  985
+                ],
+                [
+                  0,
+                  985
+                ]
+              ],
+              "profile": 1947,
+              "source_rect_original_px": [
+                0,
+                0,
+                723,
+                982
+              ],
+              "text": "R4",
+              "tile_index": 0,
+              "tile_level": 0
+            }
+          ]
+        }
+      ],
+      "review_count": 0
+    }
+  ],
+  "reference_isolation": "reference used only after scoring; no tuning during processing"
+}

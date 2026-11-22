@@ -1,0 +1,22 @@
+# Guard against accidental future model/dependency uploads to this archive.
+*.gguf
+*.safetensors
+*.pth
+*.pt
+*.onnx
+*.h5
+*.keras
+*.bin
+*.wheel
+*.whl
+__pycache__/
+*.pyc
+.venv/
+venv/
+node_modules/
+.env
+.env.*
+**/id_rsa
+**/id_ed25519
+*.pem
+*.key

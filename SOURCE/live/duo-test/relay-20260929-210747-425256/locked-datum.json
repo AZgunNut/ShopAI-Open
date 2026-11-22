@@ -1,0 +1,41 @@
+{
+  "source": "chosen",
+  "origin_feature": "Bottom‑left corner of the part (the intersection of the bottom edge and the left edge)",
+  "units": "mm",
+  "common_zero": [
+    0,
+    0,
+    0
+  ],
+  "uncertainty": "The drawing does not specify units; the assumed mm is a reasonable default, but the actual units may differ.",
+  "views": [
+    {
+      "id": "Front (upper view)",
+      "plane": [
+        "X",
+        "Z"
+      ],
+      "horizontal_axis": "X",
+      "vertical_axis": "Z",
+      "horizontal_sign": 1,
+      "vertical_sign": 1,
+      "origin_pixel": null,
+      "origin_evidence": "The bottom‑left corner of the part corresponds to (0, 0) in the front view; the X axis increases to the right, the Z axis increases upward."
+    },
+    {
+      "id": "Side (lower view)",
+      "plane": [
+        "Y",
+        "Z"
+      ],
+      "horizontal_axis": "Y",
+      "vertical_axis": "Z",
+      "horizontal_sign": 1,
+      "vertical_sign": 1,
+      "origin_pixel": null,
+      "origin_evidence": "The bottom‑left corner of the part corresponds to (0, 0) in the side view; the Y axis increases upward, the Z axis increases toward the observer."
+    }
+  ],
+  "locked": true,
+  "verification": "model_proposed_requires_geometric_check"
+}

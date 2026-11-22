@@ -1,0 +1,42 @@
+{
+  "round": 1,
+  "expression": "dist + angle_weight * abs(dy) + area_weight / (1 + area) + confidence_weight * (1 - confidence)",
+  "best_params": {
+    "angle_weight": 0.0,
+    "area_weight": 0.0,
+    "confidence_weight": 0.0
+  },
+  "score_key": [
+    0,
+    34
+  ],
+  "full_pct": 0.0,
+  "by_drawing": {
+    "D1": {
+      "checks_passed": 0,
+      "checks_total": 11,
+      "full_pct": 0.0,
+      "text_hits": 5,
+      "text_total": 5,
+      "passed": false
+    },
+    "D2": {
+      "checks_passed": 0,
+      "checks_total": 12,
+      "full_pct": 0.0,
+      "text_hits": 7,
+      "text_total": 7,
+      "passed": false
+    },
+    "D3": {
+      "checks_passed": 0,
+      "checks_total": 35,
+      "full_pct": 0.0,
+      "text_hits": 22,
+      "text_total": 25,
+      "passed": false
+    }
+  },
+  "trials": 10000,
+  "utc": "2026-11-01T01:14:23+00:00"
+}

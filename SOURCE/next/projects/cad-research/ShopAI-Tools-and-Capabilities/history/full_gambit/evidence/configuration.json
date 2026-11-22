@@ -1,0 +1,40 @@
+{
+  "run": "/mnt/shopai-data-new/cad-research/experiments/qwen-3-drawing-20261030-173652-610108/shopai_three_drawing_truth/batch_lab/ocr_outline_eight_v1/results/full_gambit_20261108T191855Z_740546_12852",
+  "baseline": "/mnt/shopai-data-new/cad-research/experiments/qwen-3-drawing-20261030-173652-610108/shopai_three_drawing_truth/batch_lab/ocr_outline_eight_v1/results/20261108T114456_2545669",
+  "order": [
+    "p9",
+    "p15",
+    "p20",
+    "p12",
+    "P1",
+    "p2",
+    "p5",
+    "p27"
+  ],
+  "paddle_rotations": [
+    0,
+    90,
+    180,
+    270
+  ],
+  "paddle_preprocessing": [
+    "raw",
+    "clahe",
+    "otsu"
+  ],
+  "tesseract_psm": [
+    3,
+    6,
+    11,
+    12
+  ],
+  "tesseract_preprocessing": [
+    "raw",
+    "clahe",
+    "otsu"
+  ],
+  "optional_engines": {},
+  "truth_blind_inference": true,
+  "edocr2_inference": "installed weights; Paddle-detected crops (not independent detection)",
+  "outline": "legacy and overlay plus Canny; no geometry score"
+}

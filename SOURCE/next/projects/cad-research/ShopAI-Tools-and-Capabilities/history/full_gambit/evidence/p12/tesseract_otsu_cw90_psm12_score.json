@@ -1,0 +1,179 @@
+{
+  "truth_file": "/mnt/shopai-data-new/cad-research/experiments/qwen-3-drawing-20261030-173652-610108/shopai_three_drawing_truth/batch_lab/ocr_outline_eight_v1/truths/p12.truth.json",
+  "prediction_file": "/mnt/shopai-data-new/cad-research/experiments/qwen-3-drawing-20261030-173652-610108/shopai_three_drawing_truth/batch_lab/ocr_outline_eight_v1/results/full_gambit_20261108T191855Z_740546_12852/p12/tesseract_otsu_cw90_psm12_score_readings.json",
+  "truth_coverage_certified": false,
+  "certified_100_percent": false,
+  "truth_gap_count": 1,
+  "ground_truth_pending_review": 1,
+  "expected_provisional_character_instances": 2,
+  "observed_character_instances": 22,
+  "character_inventory_overlap_provisional": 0,
+  "character_inventory_pct_provisional": 0.0,
+  "missing_characters": {
+    "4": 1,
+    "R": 1
+  },
+  "extra_characters": {
+    "-": 3,
+    "=": 5,
+    "A": 1,
+    "N": 1,
+    "S": 1,
+    "_": 1,
+    "d": 1,
+    "e": 1,
+    "n": 1,
+    "r": 1,
+    "{": 1,
+    "|": 1,
+    "—": 4
+  },
+  "provisional_annotation_matches": 0,
+  "provisional_annotation_total": 1,
+  "missing_annotations": [
+    {
+      "truth_id": "p12_T001",
+      "expected_text": "R4",
+      "anchor_px": [
+        10.0,
+        651.0
+      ]
+    }
+  ],
+  "extra_or_fragmented_groups": [
+    {
+      "text": "nd",
+      "confidence": 0.1282,
+      "bbox_px": [
+        0.0,
+        658.0,
+        60.0,
+        933.0
+      ],
+      "index": 0
+    },
+    {
+      "text": "SN",
+      "confidence": 0.4763,
+      "bbox_px": [
+        201.0,
+        197.0,
+        368.0,
+        525.0
+      ],
+      "index": 1
+    },
+    {
+      "text": "=",
+      "confidence": 0.4102,
+      "bbox_px": [
+        368.0,
+        471.0,
+        369.0,
+        482.0
+      ],
+      "index": 2
+    },
+    {
+      "text": "=",
+      "confidence": 0.4102,
+      "bbox_px": [
+        368.0,
+        405.0,
+        369.0,
+        416.0
+      ],
+      "index": 3
+    },
+    {
+      "text": "=",
+      "confidence": 0.4102,
+      "bbox_px": [
+        368.0,
+        338.0,
+        369.0,
+        349.0
+      ],
+      "index": 4
+    },
+    {
+      "text": "=",
+      "confidence": 0.4102,
+      "bbox_px": [
+        368.0,
+        271.0,
+        369.0,
+        282.0
+      ],
+      "index": 5
+    },
+    {
+      "text": "_",
+      "confidence": 0.1695,
+      "bbox_px": [
+        368.0,
+        204.0,
+        369.0,
+        216.0
+      ],
+      "index": 6
+    },
+    {
+      "text": "-",
+      "confidence": 0.0,
+      "bbox_px": [
+        368.0,
+        138.0,
+        369.0,
+        149.0
+      ],
+      "index": 7
+    },
+    {
+      "text": "=",
+      "confidence": 0.4102,
+      "bbox_px": [
+        368.0,
+        71.0,
+        369.0,
+        82.0
+      ],
+      "index": 8
+    },
+    {
+      "text": "Are",
+      "confidence": 0.4269,
+      "bbox_px": [
+        369.0,
+        133.0,
+        688.0,
+        907.0
+      ],
+      "index": 9
+    },
+    {
+      "text": "{-—-———",
+      "confidence": 0.2761,
+      "bbox_px": [
+        598.0,
+        754.0,
+        620.0,
+        874.0
+      ],
+      "index": 10
+    },
+    {
+      "text": "|",
+      "confidence": 0.7295,
+      "bbox_px": [
+        591.0,
+        751.0,
+        624.0,
+        763.0
+      ],
+      "index": 11
+    }
+  ],
+  "matching_instances_diagnostic": [],
+  "note": "Inventory counts and annotation matches are PROVISIONAL. No per-glyph spatial truth exists and truth coverage is not independently verified. Counts may cancel swapped or misplaced glyphs."
+}

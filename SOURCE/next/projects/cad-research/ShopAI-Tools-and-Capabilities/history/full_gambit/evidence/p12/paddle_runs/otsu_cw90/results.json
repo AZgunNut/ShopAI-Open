@@ -1,0 +1,184 @@
+{
+  "version": "blind-drawing-1.0",
+  "source_image": "otsu_cw90.png",
+  "source_size": [
+    982,
+    723
+  ],
+  "rows": [
+    {
+      "profiles": "1060",
+      "plan": "whole",
+      "groups": [
+        {
+          "anchor": [
+            327.0,
+            0.0,
+            342.0,
+            18.0
+          ],
+          "items": [
+            {
+              "bbox_original_px": [
+                327.0,
+                0.0,
+                342.0,
+                18.0
+              ],
+              "bbox_processed_px": [
+                327.0,
+                0.0,
+                342.0,
+                18.0
+              ],
+              "confidence": 0.11106184870004654,
+              "near_tile_boundary": false,
+              "polygon_processed_px": [
+                [
+                  327,
+                  0
+                ],
+                [
+                  342,
+                  0
+                ],
+                [
+                  342,
+                  18
+                ],
+                [
+                  327,
+                  18
+                ]
+              ],
+              "profile": 1060,
+              "source_rect_original_px": [
+                0,
+                0,
+                982,
+                723
+              ],
+              "text": "A",
+              "tile_index": 0,
+              "tile_level": 0
+            }
+          ],
+          "id": 0,
+          "selected_text": "A",
+          "alternatives": [
+            {
+              "text": "A",
+              "evidence_score": 0.806,
+              "sources": 1,
+              "examples": 1
+            }
+          ],
+          "boundary_fragments": 0,
+          "supporting_sources": 1
+        }
+      ],
+      "unique_view_passes": 1,
+      "raw_detections": 1,
+      "distinct_location_groups": 1,
+      "measured_or_partial_inference_seconds": 1.435,
+      "provisional_evaluation": {}
+    },
+    {
+      "profiles": "1947",
+      "plan": "whole",
+      "groups": [],
+      "unique_view_passes": 1,
+      "raw_detections": 0,
+      "distinct_location_groups": 0,
+      "measured_or_partial_inference_seconds": 1.232,
+      "provisional_evaluation": {}
+    },
+    {
+      "profiles": "1060+1947",
+      "plan": "whole",
+      "groups": [
+        {
+          "anchor": [
+            327.0,
+            0.0,
+            342.0,
+            18.0
+          ],
+          "items": [
+            {
+              "bbox_original_px": [
+                327.0,
+                0.0,
+                342.0,
+                18.0
+              ],
+              "bbox_processed_px": [
+                327.0,
+                0.0,
+                342.0,
+                18.0
+              ],
+              "confidence": 0.11106184870004654,
+              "near_tile_boundary": false,
+              "polygon_processed_px": [
+                [
+                  327,
+                  0
+                ],
+                [
+                  342,
+                  0
+                ],
+                [
+                  342,
+                  18
+                ],
+                [
+                  327,
+                  18
+                ]
+              ],
+              "profile": 1060,
+              "source_rect_original_px": [
+                0,
+                0,
+                982,
+                723
+              ],
+              "text": "A",
+              "tile_index": 0,
+              "tile_level": 0
+            }
+          ],
+          "id": 0,
+          "selected_text": "A",
+          "alternatives": [
+            {
+              "text": "A",
+              "evidence_score": 0.806,
+              "sources": 1,
+              "examples": 1
+            }
+          ],
+          "boundary_fragments": 0,
+          "supporting_sources": 1
+        }
+      ],
+      "unique_view_passes": 2,
+      "raw_detections": 1,
+      "distinct_location_groups": 1,
+      "measured_or_partial_inference_seconds": 2.667,
+      "provisional_evaluation": {}
+    }
+  ],
+  "plans": [
+    "whole",
+    "whole+4",
+    "whole+8",
+    "whole+16",
+    "whole+4+16",
+    "whole+4+8",
+    "whole+4+8+16"
+  ],
+  "reference_data": "NONE; held-out image; no answer key"
+}

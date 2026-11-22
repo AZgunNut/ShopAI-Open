@@ -1,0 +1,40 @@
+{
+  "engine": "PADDLE raw_cw270 1060",
+  "readings": [
+    {
+      "text": "R4",
+      "bbox_px": [
+        0.0,
+        638.0,
+        22.0,
+        655.0
+      ],
+      "bbox_rotated_px": [
+        638.0,
+        701.0,
+        655.0,
+        723.0
+      ],
+      "alternatives": [
+        {
+          "text": "R4",
+          "key": "R4",
+          "score": 3.05064,
+          "kind": "radius",
+          "parse_quality": 2.2,
+          "flags": [],
+          "confidence_peak": 0.578,
+          "whole_profiles": [
+            "1060"
+          ],
+          "profiles": [
+            "1060"
+          ],
+          "tile_samples": 0,
+          "support_examples": 1,
+          "style_bonus": 0.0
+        }
+      ]
+    }
+  ]
+}

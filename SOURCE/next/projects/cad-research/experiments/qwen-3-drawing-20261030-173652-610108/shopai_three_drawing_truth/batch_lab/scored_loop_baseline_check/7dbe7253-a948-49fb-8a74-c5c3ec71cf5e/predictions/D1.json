@@ -1,0 +1,576 @@
+{
+  "drawing_id": "D1",
+  "readings": [
+    {
+      "text": "1.5",
+      "kind": "linear_dimension",
+      "value": 1.5,
+      "target": null,
+      "evidence": {
+        "bbox_original_px": [
+          467.0,
+          88.0,
+          594.0,
+          158.0
+        ],
+        "ocr_kind": "linear_or_value",
+        "ocr_state": "PLAUSIBLE_UNVERIFIED",
+        "source_profiles": "1060+1947"
+      }
+    },
+    {
+      "text": "R0.5",
+      "kind": "radius_dimension",
+      "value": 0.5,
+      "target": null,
+      "evidence": {
+        "bbox_original_px": [
+          1110.0,
+          211.0,
+          1283.0,
+          290.0
+        ],
+        "ocr_kind": "radius",
+        "ocr_state": "PLAUSIBLE_UNVERIFIED",
+        "source_profiles": "1060+1947"
+      }
+    },
+    {
+      "text": "2.0",
+      "kind": "linear_dimension",
+      "value": 2.0,
+      "target": null,
+      "evidence": {
+        "bbox_original_px": [
+          77.0,
+          446.0,
+          205.0,
+          525.0
+        ],
+        "ocr_kind": "linear_or_value",
+        "ocr_state": "PLAUSIBLE_UNVERIFIED",
+        "source_profiles": "1060+1947"
+      }
+    },
+    {
+      "text": "1.0",
+      "kind": "linear_dimension",
+      "value": 1.0,
+      "target": null,
+      "evidence": {
+        "bbox_original_px": [
+          1354.0,
+          590.0,
+          1479.0,
+          673.0
+        ],
+        "ocr_kind": "linear_or_value",
+        "ocr_state": "PLAUSIBLE_UNVERIFIED",
+        "source_profiles": "1060+1947"
+      }
+    },
+    {
+      "text": "3.0",
+      "kind": "linear_dimension",
+      "value": 3.0,
+      "target": null,
+      "evidence": {
+        "bbox_original_px": [
+          686.0,
+          833.0,
+          826.0,
+          916.0
+        ],
+        "ocr_kind": "linear_or_value",
+        "ocr_state": "PLAUSIBLE_UNVERIFIED",
+        "source_profiles": "1060+1947"
+      }
+    }
+  ],
+  "geometry": {},
+  "raw_geometry_evidence": {
+    "sha256": "659e705b3ee2315eb8138f2f02c1979b248d5ca6798539f423c1e23b3bcddb66",
+    "source": "drawing_01.png",
+    "fitness": 98.90403,
+    "fitness_type": "image-only geometric-raster heuristic, NOT actual drawing accuracy",
+    "parameters": {
+      "mask_id": "gray_t95",
+      "blur": 0,
+      "morph": "none",
+      "epsilon": 0.0007,
+      "min_hole_area": 75,
+      "circularity": 0.9,
+      "snap": 2.0,
+      "collinear_tol": 1.0
+    },
+    "stability_iou": 0.9939,
+    "geometry": {
+      "outline_vertices_px": [
+        [
+          262.5,
+          219.0
+        ],
+        [
+          262.5,
+          766.5
+        ],
+        [
+          1251.0,
+          766.5
+        ],
+        [
+          1251.0,
+          500.0
+        ],
+        [
+          965.0,
+          319.0
+        ],
+        [
+          1026.0,
+          255.0
+        ],
+        [
+          1105.0,
+          255.0
+        ],
+        [
+          1106.0,
+          252.0
+        ],
+        [
+          1025.0,
+          252.0
+        ],
+        [
+          962.0,
+          318.0
+        ],
+        [
+          806.0,
+          219.0
+        ]
+      ],
+      "simplified_outline_vertices_px": [
+        [
+          262.5,
+          219.0
+        ],
+        [
+          262.5,
+          766.5
+        ],
+        [
+          1251.0,
+          766.5
+        ],
+        [
+          1251.0,
+          500.0
+        ],
+        [
+          965.0,
+          319.0
+        ],
+        [
+          1026.0,
+          255.0
+        ],
+        [
+          1105.0,
+          255.0
+        ],
+        [
+          1106.0,
+          252.0
+        ],
+        [
+          1025.0,
+          252.0
+        ],
+        [
+          962.0,
+          318.0
+        ],
+        [
+          806.0,
+          219.0
+        ]
+      ],
+      "simplified_outline_f1": 1.0,
+      "internal_contours": [
+        {
+          "area_px": 63638.0,
+          "circularity": 0.2697,
+          "aspect": 0.983,
+          "center_px": [
+            805.5,
+            503.0
+          ],
+          "classification": "closed_internal_contour",
+          "contour_px": [
+            [
+              798,
+              358
+            ],
+            [
+              803,
+              359
+            ],
+            [
+              804,
+              365
+            ],
+            [
+              805,
+              359
+            ],
+            [
+              808,
+              358
+            ],
+            [
+              829,
+              360
+            ],
+            [
+              854,
+              367
+            ],
+            [
+              880,
+              380
+            ],
+            [
+              900,
+              395
+            ],
+            [
+              919,
+              416
+            ],
+            [
+              937,
+              448
+            ],
+            [
+              944,
+              470
+            ],
+            [
+              947,
+              490
+            ],
+            [
+              946,
+              500
+            ],
+            [
+              806,
+              500
+            ],
+            [
+              804,
+              424
+            ],
+            [
+              803,
+              499
+            ],
+            [
+              734,
+              501
+            ],
+            [
+              802,
+              502
+            ],
+            [
+              804,
+              557
+            ],
+            [
+              805,
+              504
+            ],
+            [
+              807,
+              502
+            ],
+            [
+              947,
+              503
+            ],
+            [
+              945,
+              529
+            ],
+            [
+              937,
+              557
+            ],
+            [
+              927,
+              577
+            ],
+            [
+              908,
+              602
+            ],
+            [
+              889,
+              619
+            ],
+            [
+              866,
+              633
+            ],
+            [
+              839,
+              643
+            ],
+            [
+              814,
+              647
+            ],
+            [
+              807,
+              647
+            ],
+            [
+              805,
+              645
+            ],
+            [
+              805,
+              616
+            ],
+            [
+              803,
+              617
+            ],
+            [
+              803,
+              646
+            ],
+            [
+              797,
+              647
+            ],
+            [
+              771,
+              643
+            ],
+            [
+              748,
+              635
+            ],
+            [
+              726,
+              623
+            ],
+            [
+              713,
+              613
+            ],
+            [
+              693,
+              592
+            ],
+            [
+              681,
+              574
+            ],
+            [
+              668,
+              544
+            ],
+            [
+              663,
+              519
+            ],
+            [
+              663,
+              503
+            ],
+            [
+              672,
+              502
+            ],
+            [
+              671,
+              500
+            ],
+            [
+              663,
+              500
+            ],
+            [
+              663,
+              485
+            ],
+            [
+              668,
+              461
+            ],
+            [
+              681,
+              430
+            ],
+            [
+              695,
+              410
+            ],
+            [
+              715,
+              390
+            ],
+            [
+              734,
+              377
+            ],
+            [
+              767,
+              363
+            ]
+          ]
+        },
+        {
+          "area_px": 324.0,
+          "circularity": 0.0379,
+          "aspect": 54.667,
+          "center_px": [
+            1145.0,
+            501.5
+          ],
+          "classification": "closed_internal_contour",
+          "contour_px": [
+            [
+              1063,
+              501
+            ],
+            [
+              1064,
+              502
+            ],
+            [
+              1225,
+              502
+            ],
+            [
+              1226,
+              501
+            ],
+            [
+              1225,
+              500
+            ],
+            [
+              1064,
+              500
+            ]
+          ]
+        },
+        {
+          "area_px": 90.0,
+          "circularity": 0.2624,
+          "aspect": 8.0,
+          "center_px": [
+            703.0,
+            502.0
+          ],
+          "classification": "closed_internal_contour",
+          "contour_px": [
+            [
+              687,
+              502
+            ],
+            [
+              688,
+              503
+            ],
+            [
+              717,
+              503
+            ],
+            [
+              718,
+              501
+            ],
+            [
+              717,
+              500
+            ],
+            [
+              688,
+              500
+            ]
+          ]
+        }
+      ],
+      "units": "pixels",
+      "primitive_fit": "contour approximation; curves NOT yet exact CAD arcs"
+    },
+    "review_required": true,
+    "limitations": [
+      "different_segmentations_may_produce_different_valid_interpretations",
+      "dimension_labels_not_read_or_verified",
+      "internal_contours_are_candidates_not_verified_holes"
+    ],
+    "configurations_tested": 1751,
+    "seconds": 5.64,
+    "analysis_scale": 1.0,
+    "original_image_outline_vertices_px": [
+      [
+        262.5,
+        219.0
+      ],
+      [
+        262.5,
+        766.5
+      ],
+      [
+        1251.0,
+        766.5
+      ],
+      [
+        1251.0,
+        500.0
+      ],
+      [
+        965.0,
+        319.0
+      ],
+      [
+        1026.0,
+        255.0
+      ],
+      [
+        1105.0,
+        255.0
+      ],
+      [
+        1106.0,
+        252.0
+      ],
+      [
+        1025.0,
+        252.0
+      ],
+      [
+        962.0,
+        318.0
+      ],
+      [
+        806.0,
+        219.0
+      ]
+    ]
+  },
+  "provenance": {
+    "ocr_sha256": "e27bc5ef585398ae9786d3d9cbaa9da79451eb5b1e542d4f6c91ca90ddc1859c",
+    "geometry_sha256": "24a0e5d6b49cd4e9179d8c987fe7bd75fa3a5513acde5d6521f4f5e1d3e40789",
+    "image_sha256": "659e705b3ee2315eb8138f2f02c1979b248d5ca6798539f423c1e23b3bcddb66",
+    "truth_blind": true
+  }
+}

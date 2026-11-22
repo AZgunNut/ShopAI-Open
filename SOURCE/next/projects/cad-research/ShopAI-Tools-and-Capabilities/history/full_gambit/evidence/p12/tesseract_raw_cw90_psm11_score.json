@@ -1,0 +1,356 @@
+{
+  "truth_file": "/mnt/shopai-data-new/cad-research/experiments/qwen-3-drawing-20261030-173652-610108/shopai_three_drawing_truth/batch_lab/ocr_outline_eight_v1/truths/p12.truth.json",
+  "prediction_file": "/mnt/shopai-data-new/cad-research/experiments/qwen-3-drawing-20261030-173652-610108/shopai_three_drawing_truth/batch_lab/ocr_outline_eight_v1/results/full_gambit_20261108T191855Z_740546_12852/p12/tesseract_raw_cw90_psm11_score_readings.json",
+  "truth_coverage_certified": false,
+  "certified_100_percent": false,
+  "truth_gap_count": 1,
+  "ground_truth_pending_review": 1,
+  "expected_provisional_character_instances": 2,
+  "observed_character_instances": 48,
+  "character_inventory_overlap_provisional": 1,
+  "character_inventory_pct_provisional": 50.0,
+  "missing_characters": {
+    "R": 1
+  },
+  "extra_characters": {
+    "(": 1,
+    "-": 5,
+    ".": 2,
+    "2": 1,
+    "4": 1,
+    "=": 3,
+    "C": 1,
+    "F": 1,
+    "I": 1,
+    "J": 1,
+    "L": 1,
+    "N": 1,
+    "S": 3,
+    "_": 3,
+    "a": 4,
+    "d": 1,
+    "e": 4,
+    "f": 1,
+    "o": 3,
+    "p": 1,
+    "r": 1,
+    "t": 1,
+    "y": 1,
+    "|": 2,
+    "}": 1,
+    "—": 2
+  },
+  "provisional_annotation_matches": 0,
+  "provisional_annotation_total": 1,
+  "missing_annotations": [
+    {
+      "truth_id": "p12_T001",
+      "expected_text": "R4",
+      "anchor_px": [
+        10.0,
+        651.0
+      ]
+    }
+  ],
+  "extra_or_fragmented_groups": [
+    {
+      "text": "Sy",
+      "confidence": 0.2017,
+      "bbox_px": [
+        0.0,
+        658.0,
+        60.0,
+        933.0
+      ],
+      "index": 0
+    },
+    {
+      "text": "—",
+      "confidence": 0.7134,
+      "bbox_px": [
+        149.0,
+        467.0,
+        150.0,
+        525.0
+      ],
+      "index": 1
+    },
+    {
+      "text": "—|",
+      "confidence": 0.4618,
+      "bbox_px": [
+        104.0,
+        467.0,
+        106.0,
+        525.0
+      ],
+      "index": 2
+    },
+    {
+      "text": "a",
+      "confidence": 0.1808,
+      "bbox_px": [
+        298.0,
+        880.0,
+        300.0,
+        943.0
+      ],
+      "index": 3
+    },
+    {
+      "text": "4}",
+      "confidence": 0.2964,
+      "bbox_px": [
+        298.0,
+        685.0,
+        300.0,
+        789.0
+      ],
+      "index": 4
+    },
+    {
+      "text": "fo",
+      "confidence": 0.0,
+      "bbox_px": [
+        239.0,
+        919.0,
+        241.0,
+        943.0
+      ],
+      "index": 5
+    },
+    {
+      "text": "---",
+      "confidence": 0.0,
+      "bbox_px": [
+        239.0,
+        864.0,
+        241.0,
+        899.0
+      ],
+      "index": 6
+    },
+    {
+      "text": "=I",
+      "confidence": 0.0134,
+      "bbox_px": [
+        239.0,
+        822.0,
+        241.0,
+        828.0
+      ],
+      "index": 7
+    },
+    {
+      "text": "Jd",
+      "confidence": 0.3918,
+      "bbox_px": [
+        239.0,
+        685.0,
+        250.0,
+        791.0
+      ],
+      "index": 8
+    },
+    {
+      "text": "po",
+      "confidence": 0.0029,
+      "bbox_px": [
+        436.0,
+        922.0,
+        438.0,
+        943.0
+      ],
+      "index": 9
+    },
+    {
+      "text": "L_.",
+      "confidence": 0.0,
+      "bbox_px": [
+        436.0,
+        839.0,
+        438.0,
+        903.0
+      ],
+      "index": 10
+    },
+    {
+      "text": "ot",
+      "confidence": 0.2303,
+      "bbox_px": [
+        436.0,
+        685.0,
+        438.0,
+        789.0
+      ],
+      "index": 11
+    },
+    {
+      "text": "SN",
+      "confidence": 0.6412,
+      "bbox_px": [
+        201.0,
+        197.0,
+        368.0,
+        525.0
+      ],
+      "index": 12
+    },
+    {
+      "text": "=",
+      "confidence": 0.6994,
+      "bbox_px": [
+        368.0,
+        471.0,
+        369.0,
+        482.0
+      ],
+      "index": 13
+    },
+    {
+      "text": "-",
+      "confidence": 0.0,
+      "bbox_px": [
+        368.0,
+        405.0,
+        369.0,
+        416.0
+      ],
+      "index": 14
+    },
+    {
+      "text": "2.",
+      "confidence": 0.0,
+      "bbox_px": [
+        367.0,
+        338.0,
+        369.0,
+        349.0
+      ],
+      "index": 15
+    },
+    {
+      "text": "_",
+      "confidence": 0.1038,
+      "bbox_px": [
+        367.0,
+        271.0,
+        369.0,
+        282.0
+      ],
+      "index": 16
+    },
+    {
+      "text": "=",
+      "confidence": 0.6858,
+      "bbox_px": [
+        368.0,
+        204.0,
+        369.0,
+        216.0
+      ],
+      "index": 17
+    },
+    {
+      "text": "_",
+      "confidence": 0.0,
+      "bbox_px": [
+        368.0,
+        138.0,
+        369.0,
+        149.0
+      ],
+      "index": 18
+    },
+    {
+      "text": "-",
+      "confidence": 0.0,
+      "bbox_px": [
+        368.0,
+        71.0,
+        369.0,
+        82.0
+      ],
+      "index": 19
+    },
+    {
+      "text": "re",
+      "confidence": 0.1282,
+      "bbox_px": [
+        496.0,
+        907.0,
+        497.0,
+        943.0
+      ],
+      "index": 20
+    },
+    {
+      "text": "eae",
+      "confidence": 0.2444,
+      "bbox_px": [
+        478.0,
+        870.0,
+        506.0,
+        896.0
+      ],
+      "index": 21
+    },
+    {
+      "text": "ae",
+      "confidence": 0.2374,
+      "bbox_px": [
+        486.0,
+        685.0,
+        497.0,
+        791.0
+      ],
+      "index": 22
+    },
+    {
+      "text": "a",
+      "confidence": 0.1747,
+      "bbox_px": [
+        478.0,
+        722.0,
+        506.0,
+        742.0
+      ],
+      "index": 23
+    },
+    {
+      "text": "|",
+      "confidence": 0.191,
+      "bbox_px": [
+        478.0,
+        680.0,
+        506.0,
+        697.0
+      ],
+      "index": 24
+    },
+    {
+      "text": "4S",
+      "confidence": 0.2488,
+      "bbox_px": [
+        575.0,
+        693.0,
+        688.0,
+        934.0
+      ],
+      "index": 25
+    },
+    {
+      "text": "(CF",
+      "confidence": 0.49,
+      "bbox_px": [
+        369.0,
+        133.0,
+        688.0,
+        527.0
+      ],
+      "index": 26
+    }
+  ],
+  "matching_instances_diagnostic": [],
+  "note": "Inventory counts and annotation matches are PROVISIONAL. No per-glyph spatial truth exists and truth coverage is not independently verified. Counts may cancel swapped or misplaced glyphs."
+}

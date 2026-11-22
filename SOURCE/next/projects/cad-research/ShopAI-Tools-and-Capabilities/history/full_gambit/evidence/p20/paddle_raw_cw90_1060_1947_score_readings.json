@@ -1,0 +1,908 @@
+{
+  "engine": "PADDLE raw_cw90 1060+1947",
+  "readings": [
+    {
+      "text": "R15",
+      "bbox_px": [
+        65.0,
+        175.0,
+        93.0,
+        193.0
+      ],
+      "bbox_rotated_px": [
+        580.0,
+        65.0,
+        598.0,
+        93.0
+      ],
+      "alternatives": [
+        {
+          "text": "R15",
+          "key": "R15",
+          "score": 3.77934,
+          "kind": "radius",
+          "parse_quality": 2.2,
+          "flags": [],
+          "confidence_peak": 0.999,
+          "whole_profiles": [
+            "1060",
+            "1947"
+          ],
+          "profiles": [
+            "1060",
+            "1947"
+          ],
+          "tile_samples": 0,
+          "support_examples": 2,
+          "style_bonus": 0.35
+        }
+      ]
+    },
+    {
+      "text": "ø16",
+      "bbox_px": [
+        261.0,
+        168.0,
+        286.0,
+        179.0
+      ],
+      "bbox_rotated_px": [
+        594.0,
+        261.0,
+        605.0,
+        286.0
+      ],
+      "alternatives": [
+        {
+          "text": "ø16",
+          "key": "Ø16",
+          "score": 3.15634,
+          "kind": "diameter",
+          "parse_quality": 2.2,
+          "flags": [],
+          "confidence_peak": 0.802,
+          "whole_profiles": [
+            "1947"
+          ],
+          "profiles": [
+            "1947"
+          ],
+          "tile_samples": 0,
+          "support_examples": 1,
+          "style_bonus": 0.0
+        },
+        {
+          "text": "016",
+          "key": "016",
+          "score": 2.77111,
+          "kind": "linear_or_value",
+          "parse_quality": 1.8,
+          "flags": [],
+          "confidence_peak": 0.833,
+          "whole_profiles": [
+            "1060"
+          ],
+          "profiles": [
+            "1060"
+          ],
+          "tile_samples": 0,
+          "support_examples": 1,
+          "style_bonus": 0.0
+        }
+      ]
+    },
+    {
+      "text": "R15",
+      "bbox_px": [
+        366.0,
+        719.0,
+        395.0,
+        739.0
+      ],
+      "bbox_rotated_px": [
+        34.0,
+        366.0,
+        54.0,
+        395.0
+      ],
+      "alternatives": [
+        {
+          "text": "R15",
+          "key": "R15",
+          "score": 3.77962,
+          "kind": "radius",
+          "parse_quality": 2.2,
+          "flags": [],
+          "confidence_peak": 0.999,
+          "whole_profiles": [
+            "1060",
+            "1947"
+          ],
+          "profiles": [
+            "1060",
+            "1947"
+          ],
+          "tile_samples": 0,
+          "support_examples": 2,
+          "style_bonus": 0.35
+        }
+      ]
+    },
+    {
+      "text": "100",
+      "bbox_px": [
+        365.0,
+        570.0,
+        382.0,
+        595.0
+      ],
+      "bbox_rotated_px": [
+        178.0,
+        365.0,
+        203.0,
+        382.0
+      ],
+      "alternatives": [
+        {
+          "text": "100",
+          "key": "100",
+          "score": 3.0299,
+          "kind": "linear_or_value",
+          "parse_quality": 1.8,
+          "flags": [],
+          "confidence_peak": 1.0,
+          "whole_profiles": [
+            "1060",
+            "1947"
+          ],
+          "profiles": [
+            "1060",
+            "1947"
+          ],
+          "tile_samples": 0,
+          "support_examples": 2,
+          "style_bonus": 0.0
+        }
+      ]
+    },
+    {
+      "text": "50",
+      "bbox_px": [
+        397.0,
+        633.0,
+        412.0,
+        648.0
+      ],
+      "bbox_rotated_px": [
+        125.0,
+        397.0,
+        140.0,
+        412.0
+      ],
+      "alternatives": [
+        {
+          "text": "50",
+          "key": "50",
+          "score": 3.0297,
+          "kind": "linear_or_value",
+          "parse_quality": 1.8,
+          "flags": [],
+          "confidence_peak": 0.999,
+          "whole_profiles": [
+            "1060",
+            "1947"
+          ],
+          "profiles": [
+            "1060",
+            "1947"
+          ],
+          "tile_samples": 0,
+          "support_examples": 2,
+          "style_bonus": 0.0
+        }
+      ]
+    },
+    {
+      "text": "80",
+      "bbox_px": [
+        401.0,
+        213.0,
+        416.0,
+        229.0
+      ],
+      "bbox_rotated_px": [
+        544.0,
+        401.0,
+        560.0,
+        416.0
+      ],
+      "alternatives": [
+        {
+          "text": "80",
+          "key": "80",
+          "score": 2.84964,
+          "kind": "linear_or_value",
+          "parse_quality": 1.8,
+          "flags": [],
+          "confidence_peak": 0.999,
+          "whole_profiles": [
+            "1947"
+          ],
+          "profiles": [
+            "1947"
+          ],
+          "tile_samples": 0,
+          "support_examples": 1,
+          "style_bonus": 0.0
+        },
+        {
+          "text": "8",
+          "key": "8",
+          "score": 2.79693,
+          "kind": "linear_or_value",
+          "parse_quality": 1.8,
+          "flags": [],
+          "confidence_peak": 0.888,
+          "whole_profiles": [
+            "1060"
+          ],
+          "profiles": [
+            "1060"
+          ],
+          "tile_samples": 0,
+          "support_examples": 1,
+          "style_bonus": 0.0
+        }
+      ]
+    },
+    {
+      "text": "16",
+      "bbox_px": [
+        449.0,
+        138.0,
+        463.0,
+        155.0
+      ],
+      "bbox_rotated_px": [
+        618.0,
+        449.0,
+        635.0,
+        463.0
+      ],
+      "alternatives": [
+        {
+          "text": "16",
+          "key": "16",
+          "score": 3.02994,
+          "kind": "linear_or_value",
+          "parse_quality": 1.8,
+          "flags": [],
+          "confidence_peak": 1.0,
+          "whole_profiles": [
+            "1060",
+            "1947"
+          ],
+          "profiles": [
+            "1060",
+            "1947"
+          ],
+          "tile_samples": 0,
+          "support_examples": 2,
+          "style_bonus": 0.0
+        }
+      ]
+    },
+    {
+      "text": "G",
+      "bbox_px": [
+        497.0,
+        421.0,
+        513.0,
+        434.0
+      ],
+      "bbox_rotated_px": [
+        339.0,
+        497.0,
+        352.0,
+        513.0
+      ],
+      "alternatives": [
+        {
+          "text": "G",
+          "key": "G",
+          "score": 1.70056,
+          "kind": "datum_or_letter",
+          "parse_quality": 0.5,
+          "flags": [],
+          "confidence_peak": 0.938,
+          "whole_profiles": [
+            "1060",
+            "1947"
+          ],
+          "profiles": [
+            "1060",
+            "1947"
+          ],
+          "tile_samples": 0,
+          "support_examples": 2,
+          "style_bonus": 0.0
+        }
+      ]
+    },
+    {
+      "text": "Sectiunea AA",
+      "bbox_px": [
+        537.0,
+        35.0,
+        590.0,
+        42.0
+      ],
+      "bbox_rotated_px": [
+        731.0,
+        537.0,
+        738.0,
+        590.0
+      ],
+      "alternatives": [
+        {
+          "text": "Sectiunea AA",
+          "key": "SECTIUNEAAA",
+          "score": 1.78132,
+          "kind": "text_note",
+          "parse_quality": 0.8,
+          "flags": [],
+          "confidence_peak": 0.855,
+          "whole_profiles": [
+            "1947"
+          ],
+          "profiles": [
+            "1947"
+          ],
+          "tile_samples": 0,
+          "support_examples": 1,
+          "style_bonus": 0.0
+        },
+        {
+          "text": "SociuroaAA",
+          "key": "SOCIUROAAA",
+          "score": 1.73472,
+          "kind": "text_note",
+          "parse_quality": 0.8,
+          "flags": [],
+          "confidence_peak": 0.756,
+          "whole_profiles": [
+            "1060"
+          ],
+          "profiles": [
+            "1060"
+          ],
+          "tile_samples": 0,
+          "support_examples": 1,
+          "style_bonus": 0.0
+        }
+      ]
+    },
+    {
+      "text": "030",
+      "bbox_px": [
+        552.0,
+        328.0,
+        576.0,
+        340.0
+      ],
+      "bbox_rotated_px": [
+        433.0,
+        552.0,
+        445.0,
+        576.0
+      ],
+      "alternatives": [
+        {
+          "text": "030",
+          "key": "030",
+          "score": 3.02201,
+          "kind": "linear_or_value",
+          "parse_quality": 1.8,
+          "flags": [],
+          "confidence_peak": 0.983,
+          "whole_profiles": [
+            "1060",
+            "1947"
+          ],
+          "profiles": [
+            "1060",
+            "1947"
+          ],
+          "tile_samples": 0,
+          "support_examples": 2,
+          "style_bonus": 0.0
+        }
+      ]
+    },
+    {
+      "text": "040",
+      "bbox_px": [
+        552.0,
+        98.0,
+        577.0,
+        110.0
+      ],
+      "bbox_rotated_px": [
+        663.0,
+        552.0,
+        675.0,
+        577.0
+      ],
+      "alternatives": [
+        {
+          "text": "040",
+          "key": "040",
+          "score": 3.01572,
+          "kind": "linear_or_value",
+          "parse_quality": 1.8,
+          "flags": [],
+          "confidence_peak": 0.97,
+          "whole_profiles": [
+            "1060",
+            "1947"
+          ],
+          "profiles": [
+            "1060",
+            "1947"
+          ],
+          "tile_samples": 0,
+          "support_examples": 2,
+          "style_bonus": 0.0
+        }
+      ]
+    },
+    {
+      "text": "060",
+      "bbox_px": [
+        551.0,
+        65.0,
+        578.0,
+        81.0
+      ],
+      "bbox_rotated_px": [
+        692.0,
+        551.0,
+        708.0,
+        578.0
+      ],
+      "alternatives": [
+        {
+          "text": "060",
+          "key": "060",
+          "score": 3.01496,
+          "kind": "linear_or_value",
+          "parse_quality": 1.8,
+          "flags": [],
+          "confidence_peak": 0.968,
+          "whole_profiles": [
+            "1060",
+            "1947"
+          ],
+          "profiles": [
+            "1060",
+            "1947"
+          ],
+          "tile_samples": 0,
+          "support_examples": 2,
+          "style_bonus": 0.0
+        }
+      ]
+    },
+    {
+      "text": "5",
+      "bbox_px": [
+        610.0,
+        667.0,
+        626.0,
+        679.0
+      ],
+      "bbox_rotated_px": [
+        94.0,
+        610.0,
+        106.0,
+        626.0
+      ],
+      "alternatives": [
+        {
+          "text": "5",
+          "key": "5",
+          "score": 2.4562,
+          "kind": "linear_or_value",
+          "parse_quality": 1.8,
+          "flags": [],
+          "confidence_peak": 0.167,
+          "whole_profiles": [
+            "1060"
+          ],
+          "profiles": [
+            "1060"
+          ],
+          "tile_samples": 0,
+          "support_examples": 1,
+          "style_bonus": 0.0
+        },
+        {
+          "text": "G",
+          "key": "G",
+          "score": 1.31616,
+          "kind": "datum_or_letter",
+          "parse_quality": 0.5,
+          "flags": [],
+          "confidence_peak": 0.505,
+          "whole_profiles": [
+            "1947"
+          ],
+          "profiles": [
+            "1947"
+          ],
+          "tile_samples": 0,
+          "support_examples": 1,
+          "style_bonus": 0.0
+        }
+      ]
+    },
+    {
+      "text": "30°",
+      "bbox_px": [
+        683.0,
+        471.0,
+        704.0,
+        498.0
+      ],
+      "bbox_rotated_px": [
+        275.0,
+        683.0,
+        302.0,
+        704.0
+      ],
+      "alternatives": [
+        {
+          "text": "30°",
+          "key": "30°",
+          "score": 3.09451,
+          "kind": "angle",
+          "parse_quality": 2.1,
+          "flags": [],
+          "confidence_peak": 0.883,
+          "whole_profiles": [
+            "1060"
+          ],
+          "profiles": [
+            "1060"
+          ],
+          "tile_samples": 0,
+          "support_examples": 1,
+          "style_bonus": 0.0
+        }
+      ]
+    },
+    {
+      "text": "R15",
+      "bbox_px": [
+        740.0,
+        717.0,
+        767.0,
+        734.0
+      ],
+      "bbox_rotated_px": [
+        39.0,
+        740.0,
+        56.0,
+        767.0
+      ],
+      "alternatives": [
+        {
+          "text": "R15",
+          "key": "R15",
+          "score": 3.77983,
+          "kind": "radius",
+          "parse_quality": 2.2,
+          "flags": [],
+          "confidence_peak": 1.0,
+          "whole_profiles": [
+            "1060",
+            "1947"
+          ],
+          "profiles": [
+            "1060",
+            "1947"
+          ],
+          "tile_samples": 0,
+          "support_examples": 2,
+          "style_bonus": 0.35
+        }
+      ]
+    },
+    {
+      "text": "42",
+      "bbox_px": [
+        851.0,
+        641.0,
+        864.0,
+        657.0
+      ],
+      "bbox_rotated_px": [
+        116.0,
+        851.0,
+        132.0,
+        864.0
+      ],
+      "alternatives": [
+        {
+          "text": "42",
+          "key": "42",
+          "score": 3.02971,
+          "kind": "linear_or_value",
+          "parse_quality": 1.8,
+          "flags": [],
+          "confidence_peak": 0.999,
+          "whole_profiles": [
+            "1060",
+            "1947"
+          ],
+          "profiles": [
+            "1060",
+            "1947"
+          ],
+          "tile_samples": 0,
+          "support_examples": 2,
+          "style_bonus": 0.0
+        }
+      ]
+    },
+    {
+      "text": "12",
+      "bbox_px": [
+        854.0,
+        293.0,
+        871.0,
+        313.0
+      ],
+      "bbox_rotated_px": [
+        460.0,
+        854.0,
+        480.0,
+        871.0
+      ],
+      "alternatives": [
+        {
+          "text": "12",
+          "key": "12",
+          "score": 2.82288,
+          "kind": "linear_or_value",
+          "parse_quality": 1.8,
+          "flags": [],
+          "confidence_peak": 0.943,
+          "whole_profiles": [
+            "1060"
+          ],
+          "profiles": [
+            "1060"
+          ],
+          "tile_samples": 0,
+          "support_examples": 1,
+          "style_bonus": 0.0
+        }
+      ]
+    },
+    {
+      "text": "R15",
+      "bbox_px": [
+        874.0,
+        536.0,
+        897.0,
+        550.0
+      ],
+      "bbox_rotated_px": [
+        223.0,
+        874.0,
+        237.0,
+        897.0
+      ],
+      "alternatives": [
+        {
+          "text": "R15",
+          "key": "R15",
+          "score": 3.77956,
+          "kind": "radius",
+          "parse_quality": 2.2,
+          "flags": [],
+          "confidence_peak": 0.999,
+          "whole_profiles": [
+            "1060",
+            "1947"
+          ],
+          "profiles": [
+            "1060",
+            "1947"
+          ],
+          "tile_samples": 0,
+          "support_examples": 2,
+          "style_bonus": 0.35
+        }
+      ]
+    },
+    {
+      "text": "42",
+      "bbox_px": [
+        19.33,
+        259.67,
+        33.33,
+        275.0
+      ],
+      "bbox_rotated_px": [
+        498.0,
+        19.33,
+        513.33,
+        33.33
+      ],
+      "alternatives": [
+        {
+          "text": "42",
+          "key": "42",
+          "score": 2.84983,
+          "kind": "linear_or_value",
+          "parse_quality": 1.8,
+          "flags": [],
+          "confidence_peak": 1.0,
+          "whole_profiles": [
+            "1947"
+          ],
+          "profiles": [
+            "1947"
+          ],
+          "tile_samples": 0,
+          "support_examples": 1,
+          "style_bonus": 0.0
+        }
+      ]
+    },
+    {
+      "text": "R15",
+      "bbox_px": [
+        404.67,
+        442.33,
+        432.0,
+        457.67
+      ],
+      "bbox_rotated_px": [
+        315.33,
+        404.67,
+        330.67,
+        432.0
+      ],
+      "alternatives": [
+        {
+          "text": "R15",
+          "key": "R15",
+          "score": 3.59988,
+          "kind": "radius",
+          "parse_quality": 2.2,
+          "flags": [],
+          "confidence_peak": 1.0,
+          "whole_profiles": [
+            "1947"
+          ],
+          "profiles": [
+            "1947"
+          ],
+          "tile_samples": 0,
+          "support_examples": 1,
+          "style_bonus": 0.35
+        }
+      ]
+    },
+    {
+      "text": "G",
+      "bbox_px": [
+        606.0,
+        395.67,
+        629.33,
+        412.33
+      ],
+      "bbox_rotated_px": [
+        360.67,
+        606.0,
+        377.33,
+        629.33
+      ],
+      "alternatives": [
+        {
+          "text": "G",
+          "key": "G",
+          "score": 1.26062,
+          "kind": "datum_or_letter",
+          "parse_quality": 0.5,
+          "flags": [],
+          "confidence_peak": 0.388,
+          "whole_profiles": [
+            "1947"
+          ],
+          "profiles": [
+            "1947"
+          ],
+          "tile_samples": 0,
+          "support_examples": 1,
+          "style_bonus": 0.0
+        }
+      ]
+    },
+    {
+      "text": "SR",
+      "bbox_px": [
+        628.67,
+        427.0,
+        654.67,
+        445.0
+      ],
+      "bbox_rotated_px": [
+        328.0,
+        628.67,
+        346.0,
+        654.67
+      ],
+      "alternatives": [
+        {
+          "text": "SR",
+          "key": "SR",
+          "score": 0.49955,
+          "kind": "unclassified",
+          "parse_quality": -0.25,
+          "flags": [
+            "PARTIAL_DIMENSION_TOKEN"
+          ],
+          "confidence_peak": 0.364,
+          "whole_profiles": [
+            "1947"
+          ],
+          "profiles": [
+            "1947"
+          ],
+          "tile_samples": 0,
+          "support_examples": 1,
+          "style_bonus": 0.0
+        }
+      ]
+    },
+    {
+      "text": "135",
+      "bbox_px": [
+        706.0,
+        641.67,
+        734.0,
+        665.0
+      ],
+      "bbox_rotated_px": [
+        108.0,
+        706.0,
+        131.33,
+        734.0
+      ],
+      "alternatives": [
+        {
+          "text": "135",
+          "key": "135",
+          "score": 2.84821,
+          "kind": "linear_or_value",
+          "parse_quality": 1.8,
+          "flags": [],
+          "confidence_peak": 0.996,
+          "whole_profiles": [
+            "1947"
+          ],
+          "profiles": [
+            "1947"
+          ],
+          "tile_samples": 0,
+          "support_examples": 1,
+          "style_bonus": 0.0
+        }
+      ]
+    }
+  ]
+}

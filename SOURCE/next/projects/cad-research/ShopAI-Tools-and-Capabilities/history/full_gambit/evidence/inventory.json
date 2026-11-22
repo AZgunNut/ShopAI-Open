@@ -1,0 +1,471 @@
+{
+  "python_environments": [
+    {
+      "python": "/usr/bin/python3",
+      "modules": {
+        "paddleocr": false,
+        "pytesseract": false,
+        "easyocr": false,
+        "rapidocr": false,
+        "rapidocr_onnxruntime": false,
+        "surya": false,
+        "doctr": false,
+        "mmocr": false,
+        "keras_ocr": false,
+        "tensorflow": false,
+        "transformers": false,
+        "cv2": false,
+        "torch": false
+      }
+    },
+    {
+      "python": "/mnt/shopai-data-new/cad-research/environments/common/bin/python",
+      "modules": {
+        "paddleocr": false,
+        "pytesseract": true,
+        "easyocr": false,
+        "rapidocr": false,
+        "rapidocr_onnxruntime": false,
+        "surya": false,
+        "doctr": false,
+        "mmocr": false,
+        "keras_ocr": false,
+        "tensorflow": false,
+        "transformers": false,
+        "cv2": true,
+        "torch": false
+      }
+    },
+    {
+      "python": "/mnt/shopai-data-new/cad-research/environments/edocr2/bin/python",
+      "modules": {
+        "paddleocr": false,
+        "pytesseract": false,
+        "easyocr": false,
+        "rapidocr": false,
+        "rapidocr_onnxruntime": false,
+        "surya": false,
+        "doctr": false,
+        "mmocr": false,
+        "keras_ocr": false,
+        "tensorflow": true,
+        "transformers": false,
+        "cv2": true,
+        "torch": false
+      }
+    },
+    {
+      "python": "/mnt/shopai-data-new/cad-research/environments/paddleocr/bin/python",
+      "modules": {
+        "paddleocr": true,
+        "pytesseract": false,
+        "easyocr": false,
+        "rapidocr": false,
+        "rapidocr_onnxruntime": false,
+        "surya": false,
+        "doctr": false,
+        "mmocr": false,
+        "keras_ocr": false,
+        "tensorflow": false,
+        "transformers": false,
+        "cv2": true,
+        "torch": false
+      }
+    },
+    {
+      "python": "/mnt/shopai-data-new/cad-research/environments/vtracer-standalone-v1/bin/python",
+      "modules": {
+        "paddleocr": false,
+        "pytesseract": false,
+        "easyocr": false,
+        "rapidocr": false,
+        "rapidocr_onnxruntime": false,
+        "surya": false,
+        "doctr": false,
+        "mmocr": false,
+        "keras_ocr": false,
+        "tensorflow": false,
+        "transformers": false,
+        "cv2": false,
+        "torch": false
+      }
+    }
+  ],
+  "assets": {
+    "edocr2_models": [
+      {
+        "name": "craft_mlt_25k.h5",
+        "size": 83312696
+      },
+      {
+        "name": "recognizer_dimensions_2.keras",
+        "size": 70501938
+      },
+      {
+        "name": "recognizer_dimensions_2.txt",
+        "size": 42
+      },
+      {
+        "name": "recognizer_gdts.keras",
+        "size": 70503578
+      },
+      {
+        "name": "recognizer_gdts.txt",
+        "size": 85
+      }
+    ],
+    "ocr_next_models": [
+      {
+        "name": "edocr2",
+        "size": null
+      },
+      {
+        "name": "paddle",
+        "size": null
+      }
+    ],
+    "ocr_next_sources": [
+      {
+        "name": "edocr2-f6f96517a531",
+        "size": null
+      }
+    ]
+  },
+  "tesseract": "/usr/bin/tesseract",
+  "paddle_baseline": "/mnt/shopai-data-new/cad-research/experiments/qwen-3-drawing-20261030-173652-610108/shopai_three_drawing_truth/batch_lab/baseline/ocr_selector/blind_test.py",
+  "edocr2_weights": "/mnt/shopai-data-new/cad-research/ocr-next/models/edocr2/recognizer_dimensions_2.keras",
+  "other_local_model_files": [
+    {
+      "path": "/mnt/shopai-data-new/cad-research/ocr-next/models/edocr2/craft_mlt_25k.h5",
+      "size_bytes": 83312696
+    },
+    {
+      "path": "/mnt/shopai-data-new/cad-research/ocr-next/models/edocr2/recognizer_dimensions_2.keras",
+      "size_bytes": 70501938
+    },
+    {
+      "path": "/mnt/shopai-data-new/cad-research/ocr-next/models/edocr2/recognizer_gdts.keras",
+      "size_bytes": 70503578
+    },
+    {
+      "path": "/mnt/shopai-data-new/AI-Models/10-magistral-small-24b/Magistral-Small-2509-Q4_K_M.gguf",
+      "size_bytes": 14334432256
+    },
+    {
+      "path": "/mnt/shopai-data-new/AI-Models/13-glm47-flash/GLM-4.7-Flash-64x2.6B-Q4_K_M.gguf",
+      "size_bytes": 18132721344
+    },
+    {
+      "path": "/mnt/shopai-data-new/AI-Models/11-qwen3-coder-30b/Qwen3-Coder-30B-A3B-Instruct-Q4_K_M.gguf",
+      "size_bytes": 18556688288
+    },
+    {
+      "path": "/mnt/shopai-data-new/AI-Models/12-qwen25-coder-7b/qwen2.5-coder-7b-instruct-q8_0.gguf",
+      "size_bytes": 8098525696
+    },
+    {
+      "path": "/mnt/shopai-data-new/AI-Models/02-qwen3.6-35b/Qwen3.6-35B-A3B-Q4_K_M.gguf",
+      "size_bytes": 20419565568
+    },
+    {
+      "path": "/mnt/shopai-data-new/AI-Models/05-k2-think-32b-official/model-00009-of-00014.safetensors",
+      "size_bytes": 4876059416
+    },
+    {
+      "path": "/mnt/shopai-data-new/AI-Models/05-k2-think-32b-official/model-00005-of-00014.safetensors",
+      "size_bytes": 4876059416
+    },
+    {
+      "path": "/mnt/shopai-data-new/AI-Models/05-k2-think-32b-official/model-00013-of-00014.safetensors",
+      "size_bytes": 4876059416
+    },
+    {
+      "path": "/mnt/shopai-data-new/AI-Models/05-k2-think-32b-official/model-00002-of-00014.safetensors",
+      "size_bytes": 4876059352
+    },
+    {
+      "path": "/mnt/shopai-data-new/AI-Models/05-k2-think-32b-official/model-00008-of-00014.safetensors",
+      "size_bytes": 4876059416
+    },
+    {
+      "path": "/mnt/shopai-data-new/AI-Models/05-k2-think-32b-official/model-00001-of-00014.safetensors",
+      "size_bytes": 4891730992
+    },
+    {
+      "path": "/mnt/shopai-data-new/AI-Models/05-k2-think-32b-official/model-00012-of-00014.safetensors",
+      "size_bytes": 4876059416
+    },
+    {
+      "path": "/mnt/shopai-data-new/AI-Models/05-k2-think-32b-official/model-00011-of-00014.safetensors",
+      "size_bytes": 4876059416
+    },
+    {
+      "path": "/mnt/shopai-data-new/AI-Models/05-k2-think-32b-official/model-00006-of-00014.safetensors",
+      "size_bytes": 4876059416
+    },
+    {
+      "path": "/mnt/shopai-data-new/AI-Models/05-k2-think-32b-official/model-00007-of-00014.safetensors",
+      "size_bytes": 4876059416
+    },
+    {
+      "path": "/mnt/shopai-data-new/AI-Models/05-k2-think-32b-official/model-00014-of-00014.safetensors",
+      "size_bytes": 2123397800
+    },
+    {
+      "path": "/mnt/shopai-data-new/AI-Models/05-k2-think-32b-official/model-00004-of-00014.safetensors",
+      "size_bytes": 4876059416
+    },
+    {
+      "path": "/mnt/shopai-data-new/AI-Models/05-k2-think-32b-official/model-00003-of-00014.safetensors",
+      "size_bytes": 4876059384
+    },
+    {
+      "path": "/mnt/shopai-data-new/AI-Models/05-k2-think-32b-official/model-00010-of-00014.safetensors",
+      "size_bytes": 4876059416
+    },
+    {
+      "path": "/mnt/shopai-data-new/AI-Models/Qwen3-VL-30B-A3B-Instruct-Q4_K_M/mmproj-Qwen3VL-30B-A3B-Instruct-F16.gguf",
+      "size_bytes": 1083499584
+    },
+    {
+      "path": "/mnt/shopai-data-new/AI-Models/Qwen3-VL-30B-A3B-Instruct-Q4_K_M/Qwen3VL-30B-A3B-Instruct-Q4_K_M.gguf",
+      "size_bytes": 18556687168
+    },
+    {
+      "path": "/mnt/shopai-data-new/AI-Models/GLM-4.1V-9B-Thinking-Q4_K_M/GLM-4.1V-9B-Thinking.Q4_K_M.gguf",
+      "size_bytes": 6166574880
+    },
+    {
+      "path": "/mnt/shopai-data-new/AI-Models/08-qwen3-thinking-30b/Qwen3-30B-A3B-Thinking-2507-Q4_K_M.gguf",
+      "size_bytes": 18556686048
+    },
+    {
+      "path": "/mnt/shopai-data-new/AI-Models/InternVL3_5-30B-A3B-Q4_K_M/InternVL3_5-30B-A3B-Q4_K_M.gguf",
+      "size_bytes": 18632180352
+    },
+    {
+      "path": "/mnt/shopai-data-new/AI-Models/InternVL3_5-30B-A3B-Q4_K_M/mmproj-model-f16.gguf",
+      "size_bytes": 636106144
+    },
+    {
+      "path": "/mnt/shopai-data-new/AI-Models/09-deepseek-r1-32b/DeepSeek-R1-Distill-Qwen-32B-Q4_K_M.gguf",
+      "size_bytes": 19851335840
+    },
+    {
+      "path": "/mnt/shopai-data-new/AI-Models/MechVL-4B-RL-Q8/MechVL-4B-RL.mmproj-f16.gguf",
+      "size_bytes": 836180704
+    },
+    {
+      "path": "/mnt/shopai-data-new/AI-Models/MechVL-4B-RL-Q8/MechVL-4B-RL.Q8_0.gguf",
+      "size_bytes": 4693673024
+    },
+    {
+      "path": "/mnt/shopai-data-new/AI-Models/07-skywork-or1-32b/Skywork_Skywork-OR1-32B-Q4_K_M.gguf",
+      "size_bytes": 19851336352
+    },
+    {
+      "path": "/mnt/shopai-data-new/AI-Models/03-qwen3.8-27b/mmproj-Qwen3.8-27B-f16.gguf",
+      "size_bytes": 927607008
+    },
+    {
+      "path": "/mnt/shopai-data-new/AI-Models/03-qwen3.8-27b/Qwen3.8-27B-Q4_K_M.gguf",
+      "size_bytes": 17772537440
+    },
+    {
+      "path": "/mnt/shopai-data-new/AI-Models/06-am-thinking-32b/AM-Thinking-v1.Q4_K_M.gguf",
+      "size_bytes": 19851336320
+    },
+    {
+      "path": "/mnt/shopai-data-new/AI-Models/01-nemotron-30b/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-text-only.Q4_K_M.gguf",
+      "size_bytes": 24515129568
+    },
+    {
+      "path": "/mnt/shopai-data-new/AI-Models/04-gpt-oss-20b-official/model-00000-of-00002.safetensors",
+      "size_bytes": 4792272488
+    },
+    {
+      "path": "/mnt/shopai-data-new/AI-Models/04-gpt-oss-20b-official/model-00001-of-00002.safetensors",
+      "size_bytes": 4798702184
+    },
+    {
+      "path": "/mnt/shopai-data-new/AI-Models/04-gpt-oss-20b-official/model-00002-of-00002.safetensors",
+      "size_bytes": 4170342232
+    },
+    {
+      "path": "/mnt/shopai-data-new/AI-Models/21-future-agentic/Qwen2.5-VL-7B/mmproj-F16.gguf",
+      "size_bytes": 1354163040
+    },
+    {
+      "path": "/mnt/shopai-data-new/AI-Models/21-future-agentic/Qwen2.5-VL-7B/Qwen2.5-VL-7B-Instruct-Q4_K_M.gguf",
+      "size_bytes": 4683072384
+    },
+    {
+      "path": "/mnt/shopai-data-new/AI-Models/21-future-agentic/Qwen2.5-Coder-32B/Qwen2.5-Coder-32B-Instruct-Q4_K_M.gguf",
+      "size_bytes": 19851336672
+    },
+    {
+      "path": "/mnt/shopai-data-new/AI-Models/21-future-agentic/Llama-3.2-Vision-11B/Llama-3.2-11B-Vision-Instruct-mmproj.f16.gguf",
+      "size_bytes": 1938763584
+    },
+    {
+      "path": "/mnt/shopai-data-new/AI-Models/21-future-agentic/Llama-3.2-Vision-11B/Llama-3.2-11B-Vision-Instruct.Q4_K_M.gguf",
+      "size_bytes": 5963057216
+    },
+    {
+      "path": "/mnt/shopai-data-new/AI-Models/23-resilient-zoo-additions/07-dolphin-venice-24b/cognitivecomputations_Dolphin-Mistral-24B-Venice-Edition-Q5_K_M.gguf",
+      "size_bytes": 16763984256
+    },
+    {
+      "path": "/mnt/shopai-data-new/AI-Models/23-resilient-zoo-additions/05-dolphin3-8b/Dolphin3.0-Llama3.1-8B-Q6_K.gguf",
+      "size_bytes": 6596023776
+    },
+    {
+      "path": "/mnt/shopai-data-new/AI-Models/23-resilient-zoo-additions/03-qwen3-vl-4b-thinking/Qwen3VL-4B-Thinking-Q8_0.gguf",
+      "size_bytes": 4280405952
+    },
+    {
+      "path": "/mnt/shopai-data-new/AI-Models/23-resilient-zoo-additions/03-qwen3-vl-4b-thinking/mmproj-Qwen3VL-4B-Thinking-Q8_0.gguf",
+      "size_bytes": 453974176
+    },
+    {
+      "path": "/mnt/shopai-data-new/AI-Models/23-resilient-zoo-additions/01-qwen25-coder-3b/qwen2.5-coder-3b-instruct-q8_0.gguf",
+      "size_bytes": 3616088512
+    },
+    {
+      "path": "/mnt/shopai-data-new/AI-Models/23-resilient-zoo-additions/04-candor-qwen35-9b/Qwen3.5-9B-Candor-Uncensored-Q4_K_M.gguf",
+      "size_bytes": 5780090304
+    },
+    {
+      "path": "/mnt/shopai-data-new/AI-Models/23-resilient-zoo-additions/08-candor-qwen38-27b/Qwen3.8-27B-Candor-Uncensored-Q4_K_M.gguf",
+      "size_bytes": 16810714464
+    },
+    {
+      "path": "/mnt/shopai-data-new/AI-Models/23-resilient-zoo-additions/06-rootmonster-qwen3-14b/qwen3-14b-abliterated-Q5_K_M.gguf",
+      "size_bytes": 10514570432
+    },
+    {
+      "path": "/mnt/shopai-data-new/AI-Models/23-resilient-zoo-additions/02-qwen35-4b-uncensored/mmproj-Qwen3.5-4B-Uncensored-HauhauCS-Aggressive-BF16.gguf",
+      "size_bytes": 675568768
+    },
+    {
+      "path": "/mnt/shopai-data-new/AI-Models/23-resilient-zoo-additions/02-qwen35-4b-uncensored/Qwen3.5-4B-Uncensored-HauhauCS-Aggressive-Q8_0.gguf",
+      "size_bytes": 4482402656
+    },
+    {
+      "path": "/mnt/shopai-data-new/AI-Models/14-gpt-oss-120b/openai_gpt-oss-120b-Q4_K_M/openai_gpt-oss-120b-Q4_K_M-00001-of-00002.gguf",
+      "size_bytes": 39954683808
+    },
+    {
+      "path": "/mnt/shopai-data-new/AI-Models/14-gpt-oss-120b/openai_gpt-oss-120b-Q4_K_M/openai_gpt-oss-120b-Q4_K_M-00002-of-00002.gguf",
+      "size_bytes": 22887029536
+    },
+    {
+      "path": "/mnt/shopai-data-new/AI-Models/20-shop-library/models/bge-reranker-v2-m3/model.safetensors",
+      "size_bytes": 2271071852
+    },
+    {
+      "path": "/mnt/shopai-data-new/AI-Models/20-shop-library/models/bge-m3/sparse_linear.pt",
+      "size_bytes": 3516
+    },
+    {
+      "path": "/mnt/shopai-data-new/AI-Models/20-shop-library/models/bge-m3/colbert_linear.pt",
+      "size_bytes": 2100674
+    },
+    {
+      "path": "/mnt/shopai-data-new/AI-Models/20-shop-library/models/bge-m3/onnx/model.onnx",
+      "size_bytes": 724923
+    },
+    {
+      "path": "/mnt/shopai-data-new/AI-Models/20-shop-library/models/docling/RapidOcr/PP-OCRv6_rec_small.onnx",
+      "size_bytes": 21234383
+    },
+    {
+      "path": "/mnt/shopai-data-new/AI-Models/20-shop-library/models/docling/RapidOcr/PP-OCRv6_det_small.onnx",
+      "size_bytes": 9929594
+    },
+    {
+      "path": "/mnt/shopai-data-new/AI-Models/20-shop-library/models/docling/RapidOcr/PP-OCRv6_rec_small.pth",
+      "size_bytes": 21326017
+    },
+    {
+      "path": "/mnt/shopai-data-new/AI-Models/20-shop-library/models/docling/RapidOcr/PP-OCRv6_det_small.pth",
+      "size_bytes": 10248727
+    },
+    {
+      "path": "/mnt/shopai-data-new/AI-Models/20-shop-library/models/docling/RapidOcr/ch_ppocr_mobile_v2.0_cls_mobile.pth",
+      "size_bytes": 588638
+    },
+    {
+      "path": "/mnt/shopai-data-new/AI-Models/20-shop-library/models/docling/RapidOcr/ch_ppocr_mobile_v2.0_cls_mobile.onnx",
+      "size_bytes": 585532
+    },
+    {
+      "path": "/mnt/shopai-data-new/AI-Models/20-shop-library/models/docling/docling-project--DocumentFigureClassifier-v2.5/model.onnx",
+      "size_bytes": 16940439
+    },
+    {
+      "path": "/mnt/shopai-data-new/AI-Models/20-shop-library/models/docling/docling-project--DocumentFigureClassifier-v2.5/model.safetensors",
+      "size_bytes": 16378200
+    },
+    {
+      "path": "/mnt/shopai-data-new/AI-Models/20-shop-library/models/docling/docling-project--CodeFormulaV2/model.safetensors",
+      "size_bytes": 630993616
+    },
+    {
+      "path": "/mnt/shopai-data-new/AI-Models/20-shop-library/models/docling/docling-project--docling-layout-heron-onnx/model.onnx",
+      "size_bytes": 171220471
+    },
+    {
+      "path": "/mnt/shopai-data-new/AI-Models/20-shop-library/models/docling/docling-project--docling-layout-heron/model.safetensors",
+      "size_bytes": 171658996
+    },
+    {
+      "path": "/mnt/shopai-data-new/AI-Models/20-shop-library/models/docling/docling-project--docling-models/model_artifacts/tableformer/accurate/tableformer_accurate.safetensors",
+      "size_bytes": 212758388
+    },
+    {
+      "path": "/mnt/shopai-data-new/AI-Models/20-shop-library/models/docling/docling-project--docling-models/model_artifacts/tableformer/fast/tableformer_fast.safetensors",
+      "size_bytes": 145453276
+    },
+    {
+      "path": "/mnt/shopai-data-new/AI-Models/20-shop-library/.venv/lib/python3.12/site-packages/distutils-precedence.pth",
+      "size_bytes": 151
+    },
+    {
+      "path": "/mnt/shopai-data-new/AI-Models/20-shop-library/.venv/lib/python3.12/site-packages/rapidocr/models/PP-OCRv6_rec_small.onnx",
+      "size_bytes": 21234383
+    },
+    {
+      "path": "/mnt/shopai-data-new/AI-Models/20-shop-library/.venv/lib/python3.12/site-packages/rapidocr/models/PP-OCRv6_det_small.onnx",
+      "size_bytes": 9929594
+    },
+    {
+      "path": "/mnt/shopai-data-new/AI-Models/20-shop-library/.venv/lib/python3.12/site-packages/rapidocr/models/ch_ppocr_mobile_v2.0_cls_mobile.onnx",
+      "size_bytes": 585532
+    },
+    {
+      "path": "/mnt/shopai-data-new/AI-Models/04-gpt-oss-20b-official/original/model.safetensors",
+      "size_bytes": 13761300984
+    },
+    {
+      "path": "/mnt/shopai-data-new/AI-Models/22-small-coder-tests/spark-x2.6-4b/Spark-X2.6-4B-Q8_0.gguf",
+      "size_bytes": 4375022208
+    },
+    {
+      "path": "/mnt/shopai-data-new/AI-Models/22-small-coder-tests/qwen3.5-2b/qwen3.5-2b-Q8_0.gguf",
+      "size_bytes": 2076674560
+    },
+    {
+      "path": "/mnt/shopai-data-new/AI-Models/22-small-coder-tests/qwen3.5-2b/mmproj-qwen3.5-2b-F16.gguf",
+      "size_bytes": 668226656
+    },
+    {
+      "path": "/mnt/shopai-data-new/AI-Models/22-small-coder-tests/lfm2.5-8b-a1b/LFM2.5-8B-A1B-Q8_0.gguf",
+      "size_bytes": 9010195680
+    },
+    {
+      "path": "/mnt/shopai-data-new/AI-Models/22-small-coder-tests/phi-4-mini/microsoft_Phi-4-mini-instruct-Q8_0.gguf",
+      "size_bytes": 4084611456
+    }
+  ]
+}

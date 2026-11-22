@@ -1,0 +1,749 @@
+{
+  "model": "/mnt/shopai-data-new/cad-research/ocr-next/models/edocr2/recognizer_dimensions_2.keras",
+  "drawing": "/mnt/shopai-data-new/cad-research/experiments/qwen-3-drawing-20261030-173652-610108/shopai_three_drawing_truth/images/drawing_03.jpg",
+  "preprocessing": "Upstream read_and_fit, black padding, grayscale /255",
+  "decoder": "TensorFlow CTC greedy, blank last",
+  "notes": "Synthetic downsampling is diagnostic, not a D3 accuracy measure. Reference labels are used only for scoring.",
+  "results": [
+    {
+      "kind": "synthetic",
+      "reference_label": "35°",
+      "variant": "Cardo-Regular_full",
+      "source": "/mnt/shopai-data-new/cad-research/ocr-next/sources/edocr2-f6f96517a531/edocr2/tools/dimension_fonts/Cardo-Regular.ttf",
+      "prediction": "35°",
+      "degree_peak": 0.999995,
+      "exact_match": true
+    },
+    {
+      "kind": "synthetic",
+      "reference_label": "35°",
+      "variant": "Cardo-Regular_8px_high",
+      "source": "/mnt/shopai-data-new/cad-research/ocr-next/sources/edocr2-f6f96517a531/edocr2/tools/dimension_fonts/Cardo-Regular.ttf",
+      "prediction": "35:",
+      "degree_peak": 0.011619,
+      "exact_match": false
+    },
+    {
+      "kind": "synthetic",
+      "reference_label": "35°",
+      "variant": "Cardo-Regular_10px_high",
+      "source": "/mnt/shopai-data-new/cad-research/ocr-next/sources/edocr2-f6f96517a531/edocr2/tools/dimension_fonts/Cardo-Regular.ttf",
+      "prediction": "35°",
+      "degree_peak": 0.999984,
+      "exact_match": true
+    },
+    {
+      "kind": "synthetic",
+      "reference_label": "35°",
+      "variant": "Cardo-Regular_12px_high",
+      "source": "/mnt/shopai-data-new/cad-research/ocr-next/sources/edocr2-f6f96517a531/edocr2/tools/dimension_fonts/Cardo-Regular.ttf",
+      "prediction": "35°",
+      "degree_peak": 0.999991,
+      "exact_match": true
+    },
+    {
+      "kind": "synthetic",
+      "reference_label": "35°",
+      "variant": "Cardo-Regular_16px_high",
+      "source": "/mnt/shopai-data-new/cad-research/ocr-next/sources/edocr2-f6f96517a531/edocr2/tools/dimension_fonts/Cardo-Regular.ttf",
+      "prediction": "35°",
+      "degree_peak": 0.999993,
+      "exact_match": true
+    },
+    {
+      "kind": "synthetic",
+      "reference_label": "40°",
+      "variant": "Cardo-Regular_full",
+      "source": "/mnt/shopai-data-new/cad-research/ocr-next/sources/edocr2-f6f96517a531/edocr2/tools/dimension_fonts/Cardo-Regular.ttf",
+      "prediction": "40°",
+      "degree_peak": 0.999996,
+      "exact_match": true
+    },
+    {
+      "kind": "synthetic",
+      "reference_label": "40°",
+      "variant": "Cardo-Regular_8px_high",
+      "source": "/mnt/shopai-data-new/cad-research/ocr-next/sources/edocr2-f6f96517a531/edocr2/tools/dimension_fonts/Cardo-Regular.ttf",
+      "prediction": "0",
+      "degree_peak": 0.011677,
+      "exact_match": false
+    },
+    {
+      "kind": "synthetic",
+      "reference_label": "40°",
+      "variant": "Cardo-Regular_10px_high",
+      "source": "/mnt/shopai-data-new/cad-research/ocr-next/sources/edocr2-f6f96517a531/edocr2/tools/dimension_fonts/Cardo-Regular.ttf",
+      "prediction": "0°",
+      "degree_peak": 0.999982,
+      "exact_match": false
+    },
+    {
+      "kind": "synthetic",
+      "reference_label": "40°",
+      "variant": "Cardo-Regular_12px_high",
+      "source": "/mnt/shopai-data-new/cad-research/ocr-next/sources/edocr2-f6f96517a531/edocr2/tools/dimension_fonts/Cardo-Regular.ttf",
+      "prediction": "40°",
+      "degree_peak": 0.999993,
+      "exact_match": true
+    },
+    {
+      "kind": "synthetic",
+      "reference_label": "40°",
+      "variant": "Cardo-Regular_16px_high",
+      "source": "/mnt/shopai-data-new/cad-research/ocr-next/sources/edocr2-f6f96517a531/edocr2/tools/dimension_fonts/Cardo-Regular.ttf",
+      "prediction": "40°",
+      "degree_peak": 0.999995,
+      "exact_match": true
+    },
+    {
+      "kind": "synthetic",
+      "reference_label": "35°",
+      "variant": "Mplus1p-Regular_full",
+      "source": "/mnt/shopai-data-new/cad-research/ocr-next/sources/edocr2-f6f96517a531/edocr2/tools/dimension_fonts/Mplus1p-Regular.ttf",
+      "prediction": "35°",
+      "degree_peak": 0.999995,
+      "exact_match": true
+    },
+    {
+      "kind": "synthetic",
+      "reference_label": "35°",
+      "variant": "Mplus1p-Regular_8px_high",
+      "source": "/mnt/shopai-data-new/cad-research/ocr-next/sources/edocr2-f6f96517a531/edocr2/tools/dimension_fonts/Mplus1p-Regular.ttf",
+      "prediction": "35°",
+      "degree_peak": 0.973384,
+      "exact_match": true
+    },
+    {
+      "kind": "synthetic",
+      "reference_label": "35°",
+      "variant": "Mplus1p-Regular_10px_high",
+      "source": "/mnt/shopai-data-new/cad-research/ocr-next/sources/edocr2-f6f96517a531/edocr2/tools/dimension_fonts/Mplus1p-Regular.ttf",
+      "prediction": "35°",
+      "degree_peak": 0.997959,
+      "exact_match": true
+    },
+    {
+      "kind": "synthetic",
+      "reference_label": "35°",
+      "variant": "Mplus1p-Regular_12px_high",
+      "source": "/mnt/shopai-data-new/cad-research/ocr-next/sources/edocr2-f6f96517a531/edocr2/tools/dimension_fonts/Mplus1p-Regular.ttf",
+      "prediction": "35°",
+      "degree_peak": 0.999959,
+      "exact_match": true
+    },
+    {
+      "kind": "synthetic",
+      "reference_label": "35°",
+      "variant": "Mplus1p-Regular_16px_high",
+      "source": "/mnt/shopai-data-new/cad-research/ocr-next/sources/edocr2-f6f96517a531/edocr2/tools/dimension_fonts/Mplus1p-Regular.ttf",
+      "prediction": "35°",
+      "degree_peak": 0.999996,
+      "exact_match": true
+    },
+    {
+      "kind": "synthetic",
+      "reference_label": "40°",
+      "variant": "Mplus1p-Regular_full",
+      "source": "/mnt/shopai-data-new/cad-research/ocr-next/sources/edocr2-f6f96517a531/edocr2/tools/dimension_fonts/Mplus1p-Regular.ttf",
+      "prediction": "40°",
+      "degree_peak": 0.999994,
+      "exact_match": true
+    },
+    {
+      "kind": "synthetic",
+      "reference_label": "40°",
+      "variant": "Mplus1p-Regular_8px_high",
+      "source": "/mnt/shopai-data-new/cad-research/ocr-next/sources/edocr2-f6f96517a531/edocr2/tools/dimension_fonts/Mplus1p-Regular.ttf",
+      "prediction": "4C°",
+      "degree_peak": 0.505545,
+      "exact_match": false
+    },
+    {
+      "kind": "synthetic",
+      "reference_label": "40°",
+      "variant": "Mplus1p-Regular_10px_high",
+      "source": "/mnt/shopai-data-new/cad-research/ocr-next/sources/edocr2-f6f96517a531/edocr2/tools/dimension_fonts/Mplus1p-Regular.ttf",
+      "prediction": "4°",
+      "degree_peak": 0.984037,
+      "exact_match": false
+    },
+    {
+      "kind": "synthetic",
+      "reference_label": "40°",
+      "variant": "Mplus1p-Regular_12px_high",
+      "source": "/mnt/shopai-data-new/cad-research/ocr-next/sources/edocr2-f6f96517a531/edocr2/tools/dimension_fonts/Mplus1p-Regular.ttf",
+      "prediction": "40°",
+      "degree_peak": 0.999981,
+      "exact_match": true
+    },
+    {
+      "kind": "synthetic",
+      "reference_label": "40°",
+      "variant": "Mplus1p-Regular_16px_high",
+      "source": "/mnt/shopai-data-new/cad-research/ocr-next/sources/edocr2-f6f96517a531/edocr2/tools/dimension_fonts/Mplus1p-Regular.ttf",
+      "prediction": "40°",
+      "degree_peak": 0.999999,
+      "exact_match": true
+    },
+    {
+      "kind": "D3",
+      "reference_label": "35°",
+      "variant": "paddle_box_raw",
+      "source": [
+        259,
+        194,
+        276,
+        208
+      ],
+      "prediction": "x5",
+      "degree_peak": 0.000242,
+      "exact_match": false
+    },
+    {
+      "kind": "D3",
+      "reference_label": "35°",
+      "variant": "paddle_box_threshold160",
+      "source": [
+        259,
+        194,
+        276,
+        208
+      ],
+      "prediction": "x5",
+      "degree_peak": 0.000202,
+      "exact_match": false
+    },
+    {
+      "kind": "D3",
+      "reference_label": "35°",
+      "variant": "paddle_box_threshold210",
+      "source": [
+        259,
+        194,
+        276,
+        208
+      ],
+      "prediction": "::",
+      "degree_peak": 0.003999,
+      "exact_match": false
+    },
+    {
+      "kind": "D3",
+      "reference_label": "35°",
+      "variant": "paddle_box_otsu",
+      "source": [
+        259,
+        194,
+        276,
+        208
+      ],
+      "prediction": "x5",
+      "degree_peak": 0.000318,
+      "exact_match": false
+    },
+    {
+      "kind": "D3",
+      "reference_label": "35°",
+      "variant": "digit_band_raw",
+      "source": [
+        259,
+        197,
+        279,
+        208
+      ],
+      "prediction": "35",
+      "degree_peak": 0.000366,
+      "exact_match": false
+    },
+    {
+      "kind": "D3",
+      "reference_label": "35°",
+      "variant": "digit_band_threshold160",
+      "source": [
+        259,
+        197,
+        279,
+        208
+      ],
+      "prediction": "35",
+      "degree_peak": 0.004424,
+      "exact_match": false
+    },
+    {
+      "kind": "D3",
+      "reference_label": "35°",
+      "variant": "digit_band_threshold210",
+      "source": [
+        259,
+        197,
+        279,
+        208
+      ],
+      "prediction": ":",
+      "degree_peak": 0.000243,
+      "exact_match": false
+    },
+    {
+      "kind": "D3",
+      "reference_label": "35°",
+      "variant": "digit_band_otsu",
+      "source": [
+        259,
+        197,
+        279,
+        208
+      ],
+      "prediction": "35",
+      "degree_peak": 0.003159,
+      "exact_match": false
+    },
+    {
+      "kind": "D3",
+      "reference_label": "35°",
+      "variant": "top_and_right_raw",
+      "source": [
+        258,
+        190,
+        283,
+        210
+      ],
+      "prediction": ":-",
+      "degree_peak": 0.000932,
+      "exact_match": false
+    },
+    {
+      "kind": "D3",
+      "reference_label": "35°",
+      "variant": "top_and_right_threshold160",
+      "source": [
+        258,
+        190,
+        283,
+        210
+      ],
+      "prediction": ":,",
+      "degree_peak": 0.000516,
+      "exact_match": false
+    },
+    {
+      "kind": "D3",
+      "reference_label": "35°",
+      "variant": "top_and_right_threshold210",
+      "source": [
+        258,
+        190,
+        283,
+        210
+      ],
+      "prediction": ":,",
+      "degree_peak": 0.000931,
+      "exact_match": false
+    },
+    {
+      "kind": "D3",
+      "reference_label": "35°",
+      "variant": "top_and_right_otsu",
+      "source": [
+        258,
+        190,
+        283,
+        210
+      ],
+      "prediction": "x-",
+      "degree_peak": 0.001712,
+      "exact_match": false
+    },
+    {
+      "kind": "D3",
+      "reference_label": "35°",
+      "variant": "wide_context_raw",
+      "source": [
+        254,
+        186,
+        284,
+        215
+      ],
+      "prediction": "",
+      "degree_peak": 0.000548,
+      "exact_match": false
+    },
+    {
+      "kind": "D3",
+      "reference_label": "35°",
+      "variant": "wide_context_threshold160",
+      "source": [
+        254,
+        186,
+        284,
+        215
+      ],
+      "prediction": ":,",
+      "degree_peak": 0.001141,
+      "exact_match": false
+    },
+    {
+      "kind": "D3",
+      "reference_label": "35°",
+      "variant": "wide_context_threshold210",
+      "source": [
+        254,
+        186,
+        284,
+        215
+      ],
+      "prediction": ":",
+      "degree_peak": 0.0002,
+      "exact_match": false
+    },
+    {
+      "kind": "D3",
+      "reference_label": "35°",
+      "variant": "wide_context_otsu",
+      "source": [
+        254,
+        186,
+        284,
+        215
+      ],
+      "prediction": ":",
+      "degree_peak": 0.000816,
+      "exact_match": false
+    },
+    {
+      "kind": "D3",
+      "reference_label": "35°",
+      "variant": "digit_tight_raw",
+      "source": [
+        261,
+        197,
+        279,
+        207
+      ],
+      "prediction": "5",
+      "degree_peak": 0.000487,
+      "exact_match": false
+    },
+    {
+      "kind": "D3",
+      "reference_label": "35°",
+      "variant": "digit_tight_threshold160",
+      "source": [
+        261,
+        197,
+        279,
+        207
+      ],
+      "prediction": "35",
+      "degree_peak": 0.000458,
+      "exact_match": false
+    },
+    {
+      "kind": "D3",
+      "reference_label": "35°",
+      "variant": "digit_tight_threshold210",
+      "source": [
+        261,
+        197,
+        279,
+        207
+      ],
+      "prediction": "1:",
+      "degree_peak": 0.000285,
+      "exact_match": false
+    },
+    {
+      "kind": "D3",
+      "reference_label": "35°",
+      "variant": "digit_tight_otsu",
+      "source": [
+        261,
+        197,
+        279,
+        207
+      ],
+      "prediction": "5",
+      "degree_peak": 0.001078,
+      "exact_match": false
+    },
+    {
+      "kind": "D3",
+      "reference_label": "40°",
+      "variant": "paddle_box_raw",
+      "source": [
+        258,
+        239,
+        276,
+        251
+      ],
+      "prediction": "4t",
+      "degree_peak": 8e-06,
+      "exact_match": false
+    },
+    {
+      "kind": "D3",
+      "reference_label": "40°",
+      "variant": "paddle_box_threshold160",
+      "source": [
+        258,
+        239,
+        276,
+        251
+      ],
+      "prediction": "4t",
+      "degree_peak": 5e-06,
+      "exact_match": false
+    },
+    {
+      "kind": "D3",
+      "reference_label": "40°",
+      "variant": "paddle_box_threshold210",
+      "source": [
+        258,
+        239,
+        276,
+        251
+      ],
+      "prediction": "/,",
+      "degree_peak": 0.003114,
+      "exact_match": false
+    },
+    {
+      "kind": "D3",
+      "reference_label": "40°",
+      "variant": "paddle_box_otsu",
+      "source": [
+        258,
+        239,
+        276,
+        251
+      ],
+      "prediction": "4t",
+      "degree_peak": 1.3e-05,
+      "exact_match": false
+    },
+    {
+      "kind": "D3",
+      "reference_label": "40°",
+      "variant": "digit_band_raw",
+      "source": [
+        259,
+        242,
+        282,
+        251
+      ],
+      "prediction": "4DG",
+      "degree_peak": 0.000352,
+      "exact_match": false
+    },
+    {
+      "kind": "D3",
+      "reference_label": "40°",
+      "variant": "digit_band_threshold160",
+      "source": [
+        259,
+        242,
+        282,
+        251
+      ],
+      "prediction": "4C",
+      "degree_peak": 0.000676,
+      "exact_match": false
+    },
+    {
+      "kind": "D3",
+      "reference_label": "40°",
+      "variant": "digit_band_threshold210",
+      "source": [
+        259,
+        242,
+        282,
+        251
+      ],
+      "prediction": "C",
+      "degree_peak": 0.00072,
+      "exact_match": false
+    },
+    {
+      "kind": "D3",
+      "reference_label": "40°",
+      "variant": "digit_band_otsu",
+      "source": [
+        259,
+        242,
+        282,
+        251
+      ],
+      "prediction": "4:",
+      "degree_peak": 0.000338,
+      "exact_match": false
+    },
+    {
+      "kind": "D3",
+      "reference_label": "40°",
+      "variant": "top_and_right_raw",
+      "source": [
+        258,
+        239,
+        284,
+        252
+      ],
+      "prediction": "4",
+      "degree_peak": 5e-05,
+      "exact_match": false
+    },
+    {
+      "kind": "D3",
+      "reference_label": "40°",
+      "variant": "top_and_right_threshold160",
+      "source": [
+        258,
+        239,
+        284,
+        252
+      ],
+      "prediction": "4",
+      "degree_peak": 2.6e-05,
+      "exact_match": false
+    },
+    {
+      "kind": "D3",
+      "reference_label": "40°",
+      "variant": "top_and_right_threshold210",
+      "source": [
+        258,
+        239,
+        284,
+        252
+      ],
+      "prediction": "4-",
+      "degree_peak": 0.006462,
+      "exact_match": false
+    },
+    {
+      "kind": "D3",
+      "reference_label": "40°",
+      "variant": "top_and_right_otsu",
+      "source": [
+        258,
+        239,
+        284,
+        252
+      ],
+      "prediction": "4",
+      "degree_peak": 2.3e-05,
+      "exact_match": false
+    },
+    {
+      "kind": "D3",
+      "reference_label": "40°",
+      "variant": "wide_context_raw",
+      "source": [
+        253,
+        233,
+        286,
+        257
+      ],
+      "prediction": "(-",
+      "degree_peak": 0.000242,
+      "exact_match": false
+    },
+    {
+      "kind": "D3",
+      "reference_label": "40°",
+      "variant": "wide_context_threshold160",
+      "source": [
+        253,
+        233,
+        286,
+        257
+      ],
+      "prediction": ":(-",
+      "degree_peak": 0.000129,
+      "exact_match": false
+    },
+    {
+      "kind": "D3",
+      "reference_label": "40°",
+      "variant": "wide_context_threshold210",
+      "source": [
+        253,
+        233,
+        286,
+        257
+      ],
+      "prediction": "t-",
+      "degree_peak": 0.000162,
+      "exact_match": false
+    },
+    {
+      "kind": "D3",
+      "reference_label": "40°",
+      "variant": "wide_context_otsu",
+      "source": [
+        253,
+        233,
+        286,
+        257
+      ],
+      "prediction": "(-",
+      "degree_peak": 0.000117,
+      "exact_match": false
+    },
+    {
+      "kind": "D3",
+      "reference_label": "40°",
+      "variant": "digit_tight_raw",
+      "source": [
+        260,
+        241,
+        282,
+        251
+      ],
+      "prediction": "4t",
+      "degree_peak": 5e-06,
+      "exact_match": false
+    },
+    {
+      "kind": "D3",
+      "reference_label": "40°",
+      "variant": "digit_tight_threshold160",
+      "source": [
+        260,
+        241,
+        282,
+        251
+      ],
+      "prediction": "4t",
+      "degree_peak": 1.4e-05,
+      "exact_match": false
+    },
+    {
+      "kind": "D3",
+      "reference_label": "40°",
+      "variant": "digit_tight_threshold210",
+      "source": [
+        260,
+        241,
+        282,
+        251
+      ],
+      "prediction": "3",
+      "degree_peak": 0.002557,
+      "exact_match": false
+    },
+    {
+      "kind": "D3",
+      "reference_label": "40°",
+      "variant": "digit_tight_otsu",
+      "source": [
+        260,
+        241,
+        282,
+        251
+      ],
+      "prediction": "4t",
+      "degree_peak": 1.2e-05,
+      "exact_match": false
+    }
+  ]
+}

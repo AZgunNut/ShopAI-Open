@@ -1,0 +1,79 @@
+{
+  "drawing_id": "D1",
+  "readings": [
+    {
+      "text": "1.5",
+      "kind": "linear_dimension",
+      "target": "top_horizontal_edge",
+      "value": 1.5
+    },
+    {
+      "text": "2.0",
+      "kind": "linear_dimension",
+      "target": "overall_height_left",
+      "value": 2.0
+    },
+    {
+      "text": "3.0",
+      "kind": "linear_dimension",
+      "target": "overall_width_bottom",
+      "value": 3.0
+    },
+    {
+      "text": "1.0",
+      "kind": "linear_dimension",
+      "target": "right_vertical_edge",
+      "value": 1.0
+    },
+    {
+      "text": "R0.5",
+      "kind": "radius_dimension",
+      "target": "central_circle",
+      "value": 0.5
+    }
+  ],
+  "geometry": {
+    "outer_profile_vertices": [
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1.5,
+        2
+      ],
+      [
+        3,
+        1
+      ],
+      [
+        3,
+        0
+      ]
+    ],
+    "outer_edge_count": 5,
+    "circle_count": 1,
+    "circle_center": [
+      1.5,
+      1.0
+    ],
+    "circle_radius": 0.5,
+    "sloping_edge_endpoints": [
+      [
+        1.5,
+        2
+      ],
+      [
+        3,
+        1
+      ]
+    ]
+  },
+  "metadata": {
+    "note": "EXAMPLE SCHEMA WITH KNOWN ANSWERS. Do not present as a prediction or allow extractor to load this file."
+  }
+}

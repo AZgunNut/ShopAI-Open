@@ -1,0 +1,909 @@
+{
+  "engine": "EXISTING BASELINE Paddle",
+  "readings": [
+    {
+      "text": "20",
+      "bbox_px": [
+        263.0,
+        119.0,
+        280.0,
+        136.0
+      ],
+      "alternatives": [
+        {
+          "text": "20",
+          "key": "20",
+          "score": 2.74279,
+          "kind": "linear_or_value",
+          "parse_quality": 1.8,
+          "flags": [],
+          "confidence_peak": 0.773,
+          "whole_profiles": [
+            "1060"
+          ],
+          "profiles": [
+            "1060"
+          ],
+          "tile_samples": 0,
+          "support_examples": 1,
+          "style_bonus": 0.0
+        }
+      ]
+    },
+    {
+      "text": "导",
+      "bbox_px": [
+        934.0,
+        161.0,
+        943.0,
+        171.0
+      ],
+      "alternatives": [
+        {
+          "text": "导",
+          "key": "导",
+          "score": 0.67345,
+          "kind": "unclassified",
+          "parse_quality": -0.25,
+          "flags": [],
+          "confidence_peak": 0.732,
+          "whole_profiles": [
+            "1947"
+          ],
+          "profiles": [
+            "1947"
+          ],
+          "tile_samples": 0,
+          "support_examples": 1,
+          "style_bonus": 0.0
+        },
+        {
+          "text": "品",
+          "key": "品",
+          "score": 0.46961,
+          "kind": "unclassified",
+          "parse_quality": -0.25,
+          "flags": [],
+          "confidence_peak": 0.301,
+          "whole_profiles": [
+            "1060"
+          ],
+          "profiles": [
+            "1060"
+          ],
+          "tile_samples": 0,
+          "support_examples": 1,
+          "style_bonus": 0.0
+        }
+      ]
+    },
+    {
+      "text": "2x45°",
+      "bbox_px": [
+        495.0,
+        333.0,
+        525.0,
+        344.0
+      ],
+      "alternatives": [
+        {
+          "text": "2x45°",
+          "key": "2X45°",
+          "score": 2.87511,
+          "kind": "quantity_dimension",
+          "parse_quality": 1.7,
+          "flags": [],
+          "confidence_peak": 0.884,
+          "whole_profiles": [
+            "1060",
+            "1947"
+          ],
+          "profiles": [
+            "1060",
+            "1947"
+          ],
+          "tile_samples": 0,
+          "support_examples": 2,
+          "style_bonus": 0.0
+        }
+      ]
+    },
+    {
+      "text": "058",
+      "bbox_px": [
+        655.0,
+        429.0,
+        678.0,
+        442.0
+      ],
+      "alternatives": [
+        {
+          "text": "058",
+          "key": "058",
+          "score": 2.98878,
+          "kind": "linear_or_value",
+          "parse_quality": 1.8,
+          "flags": [],
+          "confidence_peak": 0.913,
+          "whole_profiles": [
+            "1060",
+            "1947"
+          ],
+          "profiles": [
+            "1060",
+            "1947"
+          ],
+          "tile_samples": 0,
+          "support_examples": 2,
+          "style_bonus": 0.0
+        }
+      ]
+    },
+    {
+      "text": "Sectiunea A-A",
+      "bbox_px": [
+        418.0,
+        548.0,
+        596.0,
+        578.0
+      ],
+      "alternatives": [
+        {
+          "text": "Sectiunea A-A",
+          "key": "SECTIUNEAA-A",
+          "score": 0.97963,
+          "kind": "unclassified",
+          "parse_quality": -0.25,
+          "flags": [],
+          "confidence_peak": 0.999,
+          "whole_profiles": [
+            "1060",
+            "1947"
+          ],
+          "profiles": [
+            "1060",
+            "1947"
+          ],
+          "tile_samples": 0,
+          "support_examples": 2,
+          "style_bonus": 0.0
+        }
+      ]
+    },
+    {
+      "text": "80",
+      "bbox_px": [
+        501.0,
+        626.0,
+        516.0,
+        639.0
+      ],
+      "alternatives": [
+        {
+          "text": "80",
+          "key": "80",
+          "score": 3.02993,
+          "kind": "linear_or_value",
+          "parse_quality": 1.8,
+          "flags": [],
+          "confidence_peak": 1.0,
+          "whole_profiles": [
+            "1060",
+            "1947"
+          ],
+          "profiles": [
+            "1060",
+            "1947"
+          ],
+          "tile_samples": 0,
+          "support_examples": 2,
+          "style_bonus": 0.0
+        }
+      ]
+    },
+    {
+      "text": "R15",
+      "bbox_px": [
+        202.0,
+        704.0,
+        228.0,
+        719.0
+      ],
+      "alternatives": [
+        {
+          "text": "R15",
+          "key": "R15",
+          "score": 3.24907,
+          "kind": "radius",
+          "parse_quality": 2.2,
+          "flags": [],
+          "confidence_peak": 0.998,
+          "whole_profiles": [
+            "1060"
+          ],
+          "profiles": [
+            "1060"
+          ],
+          "tile_samples": 0,
+          "support_examples": 1,
+          "style_bonus": 0.0
+        }
+      ]
+    },
+    {
+      "text": "ry",
+      "bbox_px": [
+        949.0,
+        913.0,
+        1114.0,
+        931.0
+      ],
+      "alternatives": [
+        {
+          "text": "ry",
+          "key": "RY",
+          "score": 0.48519,
+          "kind": "unclassified",
+          "parse_quality": -0.25,
+          "flags": [
+            "PARTIAL_DIMENSION_TOKEN"
+          ],
+          "confidence_peak": 0.334,
+          "whole_profiles": [
+            "1060"
+          ],
+          "profiles": [
+            "1060"
+          ],
+          "tile_samples": 0,
+          "support_examples": 1,
+          "style_bonus": 0.0
+        }
+      ]
+    },
+    {
+      "text": "1:1",
+      "bbox_px": [
+        1436.0,
+        914.0,
+        1451.0,
+        929.0
+      ],
+      "alternatives": [
+        {
+          "text": "1:1",
+          "key": "1:1",
+          "score": 0.96787,
+          "kind": "unclassified",
+          "parse_quality": -0.25,
+          "flags": [],
+          "confidence_peak": 0.974,
+          "whole_profiles": [
+            "1060",
+            "1947"
+          ],
+          "profiles": [
+            "1060",
+            "1947"
+          ],
+          "tile_samples": 0,
+          "support_examples": 2,
+          "style_bonus": 0.0
+        }
+      ]
+    },
+    {
+      "text": "A3",
+      "bbox_px": [
+        986.0,
+        931.0,
+        1011.0,
+        951.0
+      ],
+      "alternatives": [
+        {
+          "text": "A3",
+          "key": "A3",
+          "score": 0.97922,
+          "kind": "unclassified",
+          "parse_quality": -0.25,
+          "flags": [],
+          "confidence_peak": 0.998,
+          "whole_profiles": [
+            "1060",
+            "1947"
+          ],
+          "profiles": [
+            "1060",
+            "1947"
+          ],
+          "tile_samples": 0,
+          "support_examples": 2,
+          "style_bonus": 0.0
+        }
+      ]
+    },
+    {
+      "text": "12",
+      "bbox_px": [
+        483.0,
+        961.0,
+        508.0,
+        976.0
+      ],
+      "alternatives": [
+        {
+          "text": "12",
+          "key": "12",
+          "score": 2.84906,
+          "kind": "linear_or_value",
+          "parse_quality": 1.8,
+          "flags": [],
+          "confidence_peak": 0.998,
+          "whole_profiles": [
+            "1060"
+          ],
+          "profiles": [
+            "1060"
+          ],
+          "tile_samples": 0,
+          "support_examples": 1,
+          "style_bonus": 0.0
+        },
+        {
+          "text": "012",
+          "key": "012",
+          "score": 2.83013,
+          "kind": "linear_or_value",
+          "parse_quality": 1.8,
+          "flags": [],
+          "confidence_peak": 0.958,
+          "whole_profiles": [
+            "1947"
+          ],
+          "profiles": [
+            "1947"
+          ],
+          "tile_samples": 0,
+          "support_examples": 1,
+          "style_bonus": 0.0
+        }
+      ]
+    },
+    {
+      "text": "05/20/2024 NeaPi",
+      "bbox_px": [
+        988.0,
+        954.0,
+        1119.0,
+        972.0
+      ],
+      "alternatives": [
+        {
+          "text": "05/20/2024 NeaPi",
+          "key": "05/20/2024NEAPI",
+          "score": 0.79077,
+          "kind": "unclassified",
+          "parse_quality": -0.25,
+          "flags": [],
+          "confidence_peak": 0.98,
+          "whole_profiles": [
+            "1060"
+          ],
+          "profiles": [
+            "1060"
+          ],
+          "tile_samples": 0,
+          "support_examples": 1,
+          "style_bonus": 0.0
+        },
+        {
+          "text": "DRAWN 05/20/2024NeaPi",
+          "key": "DRAWN05/20/2024NEAPI",
+          "score": 0.78577,
+          "kind": "unclassified",
+          "parse_quality": -0.25,
+          "flags": [
+            "PARTIAL_DIMENSION_TOKEN"
+          ],
+          "confidence_peak": 0.97,
+          "whole_profiles": [
+            "1947"
+          ],
+          "profiles": [
+            "1947"
+          ],
+          "tile_samples": 0,
+          "support_examples": 1,
+          "style_bonus": 0.0
+        }
+      ]
+    },
+    {
+      "text": "20",
+      "bbox_px": [
+        355.0,
+        1002.0,
+        381.0,
+        1015.0
+      ],
+      "alternatives": [
+        {
+          "text": "20",
+          "key": "20",
+          "score": 2.84918,
+          "kind": "linear_or_value",
+          "parse_quality": 1.8,
+          "flags": [],
+          "confidence_peak": 0.998,
+          "whole_profiles": [
+            "1060"
+          ],
+          "profiles": [
+            "1060"
+          ],
+          "tile_samples": 0,
+          "support_examples": 1,
+          "style_bonus": 0.0
+        }
+      ]
+    },
+    {
+      "text": "Material Bengos",
+      "bbox_px": [
+        1274.0,
+        1015.0,
+        1394.0,
+        1038.0
+      ],
+      "alternatives": [
+        {
+          "text": "Material Bengos",
+          "key": "MATERIALBENGOS",
+          "score": 1.8357,
+          "kind": "text_note",
+          "parse_quality": 0.8,
+          "flags": [],
+          "confidence_peak": 0.97,
+          "whole_profiles": [
+            "1947"
+          ],
+          "profiles": [
+            "1947"
+          ],
+          "tile_samples": 0,
+          "support_examples": 1,
+          "style_bonus": 0.0
+        },
+        {
+          "text": "Material Benqo5",
+          "key": "MATERIALBENQO5",
+          "score": 0.77032,
+          "kind": "unclassified",
+          "parse_quality": -0.25,
+          "flags": [
+            "PARTIAL_DIMENSION_TOKEN"
+          ],
+          "confidence_peak": 0.937,
+          "whole_profiles": [
+            "1060"
+          ],
+          "profiles": [
+            "1060"
+          ],
+          "tile_samples": 0,
+          "support_examples": 1,
+          "style_bonus": 0.0
+        }
+      ]
+    },
+    {
+      "text": "60",
+      "bbox_px": [
+        540.0,
+        1029.0,
+        556.0,
+        1043.0
+      ],
+      "alternatives": [
+        {
+          "text": "60",
+          "key": "60",
+          "score": 2.84923,
+          "kind": "linear_or_value",
+          "parse_quality": 1.8,
+          "flags": [],
+          "confidence_peak": 0.998,
+          "whole_profiles": [
+            "1060"
+          ],
+          "profiles": [
+            "1060"
+          ],
+          "tile_samples": 0,
+          "support_examples": 1,
+          "style_bonus": 0.0
+        }
+      ]
+    },
+    {
+      "text": "Activate Windo",
+      "bbox_px": [
+        1461.0,
+        1080.0,
+        1599.0,
+        1103.0
+      ],
+      "alternatives": [
+        {
+          "text": "Activate Windo",
+          "key": "ACTIVATEWINDO",
+          "score": 1.84887,
+          "kind": "text_note",
+          "parse_quality": 0.8,
+          "flags": [],
+          "confidence_peak": 0.998,
+          "whole_profiles": [
+            "1060"
+          ],
+          "profiles": [
+            "1060"
+          ],
+          "tile_samples": 0,
+          "support_examples": 1,
+          "style_bonus": 0.0
+        }
+      ]
+    },
+    {
+      "text": "A",
+      "bbox_px": [
+        882.67,
+        149.33,
+        910.67,
+        182.0
+      ],
+      "alternatives": [
+        {
+          "text": "A",
+          "key": "A",
+          "score": 1.43135,
+          "kind": "datum_or_letter",
+          "parse_quality": 0.5,
+          "flags": [],
+          "confidence_peak": 0.749,
+          "whole_profiles": [
+            "1947"
+          ],
+          "profiles": [
+            "1947"
+          ],
+          "tile_samples": 0,
+          "support_examples": 1,
+          "style_bonus": 0.0
+        }
+      ]
+    },
+    {
+      "text": "A",
+      "bbox_px": [
+        141.33,
+        156.0,
+        156.67,
+        177.33
+      ],
+      "alternatives": [
+        {
+          "text": "A",
+          "key": "A",
+          "score": 1.54569,
+          "kind": "datum_or_letter",
+          "parse_quality": 0.5,
+          "flags": [],
+          "confidence_peak": 0.991,
+          "whole_profiles": [
+            "1947"
+          ],
+          "profiles": [
+            "1947"
+          ],
+          "tile_samples": 0,
+          "support_examples": 1,
+          "style_bonus": 0.0
+        }
+      ]
+    },
+    {
+      "text": "7",
+      "bbox_px": [
+        967.33,
+        217.33,
+        982.67,
+        232.0
+      ],
+      "alternatives": [
+        {
+          "text": "7",
+          "key": "7",
+          "score": 2.71074,
+          "kind": "linear_or_value",
+          "parse_quality": 1.8,
+          "flags": [],
+          "confidence_peak": 0.705,
+          "whole_profiles": [
+            "1947"
+          ],
+          "profiles": [
+            "1947"
+          ],
+          "tile_samples": 0,
+          "support_examples": 1,
+          "style_bonus": 0.0
+        }
+      ]
+    },
+    {
+      "text": "91",
+      "bbox_px": [
+        481.33,
+        596.67,
+        496.0,
+        611.33
+      ],
+      "alternatives": [
+        {
+          "text": "91",
+          "key": "91",
+          "score": 2.84984,
+          "kind": "linear_or_value",
+          "parse_quality": 1.8,
+          "flags": [],
+          "confidence_peak": 1.0,
+          "whole_profiles": [
+            "1947"
+          ],
+          "profiles": [
+            "1947"
+          ],
+          "tile_samples": 0,
+          "support_examples": 1,
+          "style_bonus": 0.0
+        }
+      ]
+    },
+    {
+      "text": "8",
+      "bbox_px": [
+        161.33,
+        802.0,
+        176.67,
+        816.67
+      ],
+      "alternatives": [
+        {
+          "text": "8",
+          "key": "8",
+          "score": 2.83557,
+          "kind": "linear_or_value",
+          "parse_quality": 1.8,
+          "flags": [],
+          "confidence_peak": 0.969,
+          "whole_profiles": [
+            "1947"
+          ],
+          "profiles": [
+            "1947"
+          ],
+          "tile_samples": 0,
+          "support_examples": 1,
+          "style_bonus": 0.0
+        }
+      ]
+    },
+    {
+      "text": "B",
+      "bbox_px": [
+        293.33,
+        918.0,
+        301.33,
+        926.0
+      ],
+      "alternatives": [
+        {
+          "text": "B",
+          "key": "B",
+          "score": 1.44729,
+          "kind": "datum_or_letter",
+          "parse_quality": 0.5,
+          "flags": [],
+          "confidence_peak": 0.783,
+          "whole_profiles": [
+            "1947"
+          ],
+          "profiles": [
+            "1947"
+          ],
+          "tile_samples": 0,
+          "support_examples": 1,
+          "style_bonus": 0.0
+        }
+      ]
+    },
+    {
+      "text": "SIZE",
+      "bbox_px": [
+        939.33,
+        931.33,
+        966.0,
+        950.67
+      ],
+      "alternatives": [
+        {
+          "text": "SIZE",
+          "key": "SIZE",
+          "score": 0.79759,
+          "kind": "unclassified",
+          "parse_quality": -0.25,
+          "flags": [],
+          "confidence_peak": 0.995,
+          "whole_profiles": [
+            "1947"
+          ],
+          "profiles": [
+            "1947"
+          ],
+          "tile_samples": 0,
+          "support_examples": 1,
+          "style_bonus": 0.0
+        }
+      ]
+    },
+    {
+      "text": "CHECK",
+      "bbox_px": [
+        939.33,
+        979.33,
+        976.0,
+        999.33
+      ],
+      "alternatives": [
+        {
+          "text": "CHECK",
+          "key": "CHECK",
+          "score": 1.82928,
+          "kind": "text_note",
+          "parse_quality": 0.8,
+          "flags": [],
+          "confidence_peak": 0.956,
+          "whole_profiles": [
+            "1947"
+          ],
+          "profiles": [
+            "1947"
+          ],
+          "tile_samples": 0,
+          "support_examples": 1,
+          "style_bonus": 0.0
+        }
+      ]
+    },
+    {
+      "text": "ISSUED",
+      "bbox_px": [
+        936.0,
+        1024.0,
+        980.67,
+        1048.67
+      ],
+      "alternatives": [
+        {
+          "text": "ISSUED",
+          "key": "ISSUED",
+          "score": 1.77433,
+          "kind": "text_note",
+          "parse_quality": 0.8,
+          "flags": [],
+          "confidence_peak": 0.84,
+          "whole_profiles": [
+            "1947"
+          ],
+          "profiles": [
+            "1947"
+          ],
+          "tile_samples": 0,
+          "support_examples": 1,
+          "style_bonus": 0.0
+        }
+      ]
+    },
+    {
+      "text": "REV",
+      "bbox_px": [
+        939.33,
+        1048.67,
+        967.33,
+        1070.0
+      ],
+      "alternatives": [
+        {
+          "text": "REV",
+          "key": "REV",
+          "score": 0.74423,
+          "kind": "unclassified",
+          "parse_quality": -0.25,
+          "flags": [
+            "PARTIAL_DIMENSION_TOKEN"
+          ],
+          "confidence_peak": 0.882,
+          "whole_profiles": [
+            "1947"
+          ],
+          "profiles": [
+            "1947"
+          ],
+          "tile_samples": 0,
+          "support_examples": 1,
+          "style_bonus": 0.0
+        }
+      ]
+    },
+    {
+      "text": "DWG NO",
+      "bbox_px": [
+        1258.67,
+        1045.33,
+        1302.0,
+        1063.33
+      ],
+      "alternatives": [
+        {
+          "text": "DWG NO",
+          "key": "DWGNO",
+          "score": 1.80867,
+          "kind": "text_note",
+          "parse_quality": 0.8,
+          "flags": [],
+          "confidence_peak": 0.913,
+          "whole_profiles": [
+            "1947"
+          ],
+          "profiles": [
+            "1947"
+          ],
+          "tile_samples": 0,
+          "support_examples": 1,
+          "style_bonus": 0.0
+        }
+      ]
+    },
+    {
+      "text": "CONTRALTO",
+      "bbox_px": [
+        935.33,
+        1068.0,
+        994.67,
+        1097.33
+      ],
+      "alternatives": [
+        {
+          "text": "CONTRALTO",
+          "key": "CONTRALTO",
+          "score": 1.71211,
+          "kind": "text_note",
+          "parse_quality": 0.8,
+          "flags": [],
+          "confidence_peak": 0.708,
+          "whole_profiles": [
+            "1947"
+          ],
+          "profiles": [
+            "1947"
+          ],
+          "tile_samples": 0,
+          "support_examples": 1,
+          "style_bonus": 0.0
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,795 @@
+{
+  "truth_file": "/mnt/shopai-data-new/cad-research/experiments/qwen-3-drawing-20261030-173652-610108/shopai_three_drawing_truth/batch_lab/ocr_outline_eight_v1/truths/p5.truth.json",
+  "prediction_file": "/mnt/shopai-data-new/cad-research/experiments/qwen-3-drawing-20261030-173652-610108/shopai_three_drawing_truth/batch_lab/ocr_outline_eight_v1/results/full_gambit_20261108T191855Z_740546_12852/p5/crop_pad6_psm7_score_readings.json",
+  "truth_coverage_certified": false,
+  "certified_100_percent": false,
+  "truth_gap_count": 3,
+  "ground_truth_pending_review": 56,
+  "expected_provisional_character_instances": 195,
+  "observed_character_instances": 162,
+  "character_inventory_overlap_provisional": 80,
+  "character_inventory_pct_provisional": 41.03,
+  "missing_characters": {
+    ".": 2,
+    "0": 3,
+    "1": 5,
+    "2": 9,
+    "3": 2,
+    "4": 10,
+    "5": 8,
+    "6": 4,
+    "7": 1,
+    "8": 3,
+    "A": 3,
+    "C": 6,
+    "D": 2,
+    "E": 7,
+    "F": 2,
+    "H": 2,
+    "I": 2,
+    "K": 1,
+    "L": 2,
+    "M": 2,
+    "N": 6,
+    "O": 4,
+    "P": 2,
+    "R": 5,
+    "S": 5,
+    "T": 3,
+    "U": 1,
+    "V": 1,
+    "W": 2,
+    "°": 1,
+    "Ø": 9
+  },
+  "extra_characters": {
+    "+": 1,
+    "9": 1,
+    ":": 4,
+    ";": 1,
+    "=": 1,
+    "Z": 1,
+    "[": 1,
+    "\\": 1,
+    "_": 1,
+    "a": 7,
+    "b": 1,
+    "c": 3,
+    "d": 5,
+    "e": 7,
+    "g": 1,
+    "i": 5,
+    "k": 2,
+    "l": 4,
+    "n": 4,
+    "o": 5,
+    "p": 4,
+    "r": 2,
+    "s": 6,
+    "t": 6,
+    "u": 5,
+    "v": 1,
+    "y": 1,
+    "|": 1
+  },
+  "provisional_annotation_matches": 13,
+  "provisional_annotation_total": 56,
+  "missing_annotations": [
+    {
+      "truth_id": "p5_T001",
+      "expected_text": "1",
+      "anchor_px": [
+        102.0,
+        13.0
+      ]
+    },
+    {
+      "truth_id": "p5_T002",
+      "expected_text": "2",
+      "anchor_px": [
+        285.0,
+        13.0
+      ]
+    },
+    {
+      "truth_id": "p5_T003",
+      "expected_text": "3",
+      "anchor_px": [
+        467.0,
+        13.0
+      ]
+    },
+    {
+      "truth_id": "p5_T006",
+      "expected_text": "6",
+      "anchor_px": [
+        1010.0,
+        13.0
+      ]
+    },
+    {
+      "truth_id": "p5_T007",
+      "expected_text": "7",
+      "anchor_px": [
+        1194.0,
+        13.0
+      ]
+    },
+    {
+      "truth_id": "p5_T010",
+      "expected_text": "40",
+      "anchor_px": [
+        476.0,
+        161.0
+      ]
+    },
+    {
+      "truth_id": "p5_T014",
+      "expected_text": "4",
+      "anchor_px": [
+        532.0,
+        313.0
+      ]
+    },
+    {
+      "truth_id": "p5_T015",
+      "expected_text": "R6",
+      "anchor_px": [
+        468.0,
+        337.0
+      ]
+    },
+    {
+      "truth_id": "p5_T017",
+      "expected_text": "R3",
+      "anchor_px": [
+        497.0,
+        520.0
+      ]
+    },
+    {
+      "truth_id": "p5_T018",
+      "expected_text": "5",
+      "anchor_px": [
+        465.0,
+        429.0
+      ]
+    },
+    {
+      "truth_id": "p5_T020",
+      "expected_text": "4",
+      "anchor_px": [
+        404.0,
+        654.0
+      ]
+    },
+    {
+      "truth_id": "p5_T021",
+      "expected_text": "4",
+      "anchor_px": [
+        378.0,
+        688.0
+      ]
+    },
+    {
+      "truth_id": "p5_T022",
+      "expected_text": "45°",
+      "anchor_px": [
+        376.0,
+        750.0
+      ]
+    },
+    {
+      "truth_id": "p5_T023",
+      "expected_text": "Ø225",
+      "anchor_px": [
+        184.0,
+        447.0
+      ]
+    },
+    {
+      "truth_id": "p5_T024",
+      "expected_text": "Ø144",
+      "anchor_px": [
+        256.0,
+        445.0
+      ]
+    },
+    {
+      "truth_id": "p5_T025",
+      "expected_text": "Ø65",
+      "anchor_px": [
+        287.0,
+        447.0
+      ]
+    },
+    {
+      "truth_id": "p5_T026",
+      "expected_text": "Ø50",
+      "anchor_px": [
+        476.0,
+        429.0
+      ]
+    },
+    {
+      "truth_id": "p5_T027",
+      "expected_text": "Ø70",
+      "anchor_px": [
+        546.0,
+        484.0
+      ]
+    },
+    {
+      "truth_id": "p5_T028",
+      "expected_text": "Ø76",
+      "anchor_px": [
+        570.0,
+        476.0
+      ]
+    },
+    {
+      "truth_id": "p5_T029",
+      "expected_text": "Ø144",
+      "anchor_px": [
+        604.0,
+        445.0
+      ]
+    },
+    {
+      "truth_id": "p5_T030",
+      "expected_text": "Ø182",
+      "anchor_px": [
+        633.0,
+        440.0
+      ]
+    },
+    {
+      "truth_id": "p5_T032",
+      "expected_text": "32.5",
+      "anchor_px": [
+        949.0,
+        228.0
+      ]
+    },
+    {
+      "truth_id": "p5_T033",
+      "expected_text": "R2.5",
+      "anchor_px": [
+        1009.0,
+        286.0
+      ]
+    },
+    {
+      "truth_id": "p5_T034",
+      "expected_text": "20",
+      "anchor_px": [
+        949.0,
+        411.0
+      ]
+    },
+    {
+      "truth_id": "p5_T035",
+      "expected_text": "8",
+      "anchor_px": [
+        1013.0,
+        399.0
+      ]
+    },
+    {
+      "truth_id": "p5_T036",
+      "expected_text": "Ø30",
+      "anchor_px": [
+        1044.0,
+        427.0
+      ]
+    },
+    {
+      "truth_id": "p5_T037",
+      "expected_text": "5",
+      "anchor_px": [
+        1074.0,
+        470.0
+      ]
+    },
+    {
+      "truth_id": "p5_T038",
+      "expected_text": "120°",
+      "anchor_px": [
+        1000.0,
+        548.0
+      ]
+    },
+    {
+      "truth_id": "p5_T039",
+      "expected_text": "4",
+      "anchor_px": [
+        378.0,
+        790.0
+      ]
+    },
+    {
+      "truth_id": "p5_T040",
+      "expected_text": "48",
+      "anchor_px": [
+        487.0,
+        790.0
+      ]
+    },
+    {
+      "truth_id": "p5_T041",
+      "expected_text": "FILE NAME",
+      "anchor_px": [
+        1057.0,
+        901.0
+      ]
+    },
+    {
+      "truth_id": "p5_T042",
+      "expected_text": "FSCM NO",
+      "anchor_px": [
+        1184.0,
+        900.0
+      ]
+    },
+    {
+      "truth_id": "p5_T043",
+      "expected_text": "SHEET",
+      "anchor_px": [
+        1325.0,
+        900.0
+      ]
+    },
+    {
+      "truth_id": "p5_T044",
+      "expected_text": "SCALE",
+      "anchor_px": [
+        1403.0,
+        900.0
+      ]
+    },
+    {
+      "truth_id": "p5_T046",
+      "expected_text": "A2",
+      "anchor_px": [
+        1116.0,
+        929.0
+      ]
+    },
+    {
+      "truth_id": "p5_T047",
+      "expected_text": "DRAWN",
+      "anchor_px": [
+        1057.0,
+        953.0
+      ]
+    },
+    {
+      "truth_id": "p5_T049",
+      "expected_text": "1:1",
+      "anchor_px": [
+        1388.0,
+        915.0
+      ]
+    },
+    {
+      "truth_id": "p5_T050",
+      "expected_text": "CHECK",
+      "anchor_px": [
+        1061.0,
+        973.0
+      ]
+    },
+    {
+      "truth_id": "p5_T051",
+      "expected_text": "APPR.",
+      "anchor_px": [
+        1057.0,
+        994.0
+      ]
+    },
+    {
+      "truth_id": "p5_T052",
+      "expected_text": "ISSUED",
+      "anchor_px": [
+        1057.0,
+        1010.0
+      ]
+    },
+    {
+      "truth_id": "p5_T053",
+      "expected_text": "REV",
+      "anchor_px": [
+        1057.0,
+        1030.0
+      ]
+    },
+    {
+      "truth_id": "p5_T054",
+      "expected_text": "CONTRACT NO",
+      "anchor_px": [
+        1087.0,
+        1047.0
+      ]
+    },
+    {
+      "truth_id": "p5_T055",
+      "expected_text": "DWG NO",
+      "anchor_px": [
+        1306.0,
+        1039.0
+      ]
+    }
+  ],
+  "extra_or_fragmented_groups": [
+    {
+      "text": "407",
+      "bbox_px": [
+        517.0,
+        168.0,
+        535.0,
+        183.0
+      ],
+      "source_box": 2,
+      "crop_px": [
+        511,
+        162,
+        541,
+        189
+      ],
+      "index": 2
+    },
+    {
+      "text": "= |",
+      "bbox_px": [
+        983.0,
+        459.0,
+        999.0,
+        477.0
+      ],
+      "source_box": 7,
+      "crop_px": [
+        977,
+        453,
+        1005,
+        483
+      ],
+      "index": 7
+    },
+    {
+      "text": "_ 930",
+      "bbox_px": [
+        1145.0,
+        454.0,
+        1179.0,
+        474.0
+      ],
+      "source_box": 8,
+      "crop_px": [
+        1139,
+        448,
+        1185,
+        480
+      ],
+      "index": 8
+    },
+    {
+      "text": ":",
+      "bbox_px": [
+        190.0,
+        479.0,
+        208.0,
+        514.0
+      ],
+      "source_box": 9,
+      "crop_px": [
+        184,
+        473,
+        214,
+        520
+      ],
+      "index": 9
+    },
+    {
+      "text": ":",
+      "bbox_px": [
+        618.0,
+        484.0,
+        633.0,
+        507.0
+      ],
+      "source_box": 12,
+      "crop_px": [
+        612,
+        478,
+        639,
+        513
+      ],
+      "index": 12
+    },
+    {
+      "text": ":",
+      "bbox_px": [
+        647.0,
+        479.0,
+        665.0,
+        514.0
+      ],
+      "source_box": 13,
+      "crop_px": [
+        641,
+        473,
+        671,
+        520
+      ],
+      "index": 13
+    },
+    {
+      "text": ":",
+      "bbox_px": [
+        675.0,
+        479.0,
+        695.0,
+        514.0
+      ],
+      "source_box": 14,
+      "crop_px": [
+        669,
+        473,
+        701,
+        520
+      ],
+      "index": 14
+    },
+    {
+      "text": "[R3",
+      "bbox_px": [
+        519.0,
+        534.0,
+        539.0,
+        551.0
+      ],
+      "source_box": 16,
+      "crop_px": [
+        513,
+        528,
+        545,
+        557
+      ],
+      "index": 16
+    },
+    {
+      "text": "Eu",
+      "bbox_px": [
+        505.0,
+        860.0,
+        524.0,
+        875.0
+      ],
+      "source_box": 17,
+      "crop_px": [
+        499,
+        854,
+        530,
+        881
+      ],
+      "index": 17
+    },
+    {
+      "text": "1:7",
+      "bbox_px": [
+        1485.0,
+        980.0,
+        1500.0,
+        993.0
+      ],
+      "source_box": 19,
+      "crop_px": [
+        1479,
+        974,
+        1506,
+        999
+      ],
+      "index": 19
+    },
+    {
+      "text": "AZ",
+      "bbox_px": [
+        1170.0,
+        993.0,
+        1187.0,
+        1008.0
+      ],
+      "source_box": 20,
+      "crop_px": [
+        1164,
+        987,
+        1193,
+        1014
+      ],
+      "index": 20
+    },
+    {
+      "text": ";",
+      "bbox_px": [
+        1022.67,
+        212.67,
+        1040.67,
+        248.0
+      ],
+      "source_box": 23,
+      "crop_px": [
+        1016,
+        206,
+        1046,
+        254
+      ],
+      "index": 23
+    },
+    {
+      "text": "\\Re",
+      "bbox_px": [
+        1085.33,
+        299.33,
+        1122.0,
+        321.33
+      ],
+      "source_box": 24,
+      "crop_px": [
+        1079,
+        293,
+        1128,
+        327
+      ],
+      "index": 24
+    },
+    {
+      "text": "g",
+      "bbox_px": [
+        545.33,
+        480.67,
+        565.33,
+        510.67
+      ],
+      "source_box": 26,
+      "crop_px": [
+        539,
+        474,
+        571,
+        516
+      ],
+      "index": 26
+    },
+    {
+      "text": "+",
+      "bbox_px": [
+        6.67,
+        550.67,
+        23.33,
+        565.33
+      ],
+      "source_box": 27,
+      "crop_px": [
+        0,
+        544,
+        29,
+        571
+      ],
+      "index": 27
+    },
+    {
+      "text": "10°",
+      "bbox_px": [
+        1057.33,
+        585.33,
+        1088.67,
+        605.33
+      ],
+      "source_box": 28,
+      "crop_px": [
+        1051,
+        579,
+        1094,
+        611
+      ],
+      "index": 28
+    },
+    {
+      "text": "rustedDuG last saved by an Autodesk application or Autodesk licensed application.",
+      "bbox_px": [
+        10.0,
+        1070.0,
+        572.0,
+        1086.67
+      ],
+      "source_box": 29,
+      "crop_px": [
+        4,
+        1064,
+        578,
+        1092
+      ],
+      "index": 29
+    }
+  ],
+  "matching_instances_diagnostic": [
+    {
+      "truth_id": "p5_T004",
+      "text": "4",
+      "observation_index": 11,
+      "anchor_distance_px": 485.0
+    },
+    {
+      "truth_id": "p5_T005",
+      "text": "5",
+      "observation_index": 25,
+      "anchor_distance_px": 574.5
+    },
+    {
+      "truth_id": "p5_T008",
+      "text": "8",
+      "observation_index": 10,
+      "anchor_distance_px": 1166.5
+    },
+    {
+      "truth_id": "p5_T009",
+      "text": "70",
+      "observation_index": 0,
+      "anchor_distance_px": 41.8
+    },
+    {
+      "truth_id": "p5_T011",
+      "text": "10",
+      "observation_index": 3,
+      "anchor_distance_px": 47.7
+    },
+    {
+      "truth_id": "p5_T012",
+      "text": "24",
+      "observation_index": 4,
+      "anchor_distance_px": 54.6
+    },
+    {
+      "truth_id": "p5_T013",
+      "text": "30°",
+      "observation_index": 5,
+      "anchor_distance_px": 52.7
+    },
+    {
+      "truth_id": "p5_T016",
+      "text": "R3",
+      "observation_index": 6,
+      "anchor_distance_px": 55.0
+    },
+    {
+      "truth_id": "p5_T019",
+      "text": "35",
+      "observation_index": 15,
+      "anchor_distance_px": 97.3
+    },
+    {
+      "truth_id": "p5_T031",
+      "text": "5 (17 palete)",
+      "observation_index": 1,
+      "anchor_distance_px": 97.8
+    },
+    {
+      "truth_id": "p5_T045",
+      "text": "P27",
+      "observation_index": 18,
+      "anchor_distance_px": 118.6
+    },
+    {
+      "truth_id": "p5_T048",
+      "text": "05/16/2024 NeaPi",
+      "observation_index": 21,
+      "anchor_distance_px": 100.9
+    },
+    {
+      "truth_id": "p5_T056",
+      "text": "Material Bengos",
+      "observation_index": 22,
+      "anchor_distance_px": 117.0
+    }
+  ],
+  "note": "Inventory counts and annotation matches are PROVISIONAL. No per-glyph spatial truth exists and truth coverage is not independently verified. Counts may cancel swapped or misplaced glyphs."
+}

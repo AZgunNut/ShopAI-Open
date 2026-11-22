@@ -1,0 +1,5333 @@
+{
+  "selector_version": "2.0.0",
+  "generated_utc": "2026-11-08T19:34:26.379131+00:00",
+  "source": "otsu_cw0.png",
+  "input_study_version": "blind-drawing-1.0",
+  "rows": [
+    {
+      "profiles": "1060",
+      "plan": "whole",
+      "passes": 1,
+      "seconds": 2.236,
+      "style": {
+        "radius_order": {
+          "preferred": "prefix",
+          "supporting_locations": 6,
+          "share": 1.0,
+          "alternatives": {
+            "prefix": 5.98
+          },
+          "strength": 0.35
+        }
+      },
+      "baseline_v1_selected": null,
+      "results": [
+        {
+          "id": 0,
+          "anchor": [
+            534.0,
+            30.0,
+            593.0,
+            44.0
+          ],
+          "selected_text": "Sactiurea A-A",
+          "normalized_text": "SACTIUREAA-A",
+          "kind": "unclassified",
+          "state": "REVIEW_UNCERTAIN_TOKEN",
+          "margin": 0,
+          "alternatives": [
+            {
+              "text": "Sactiurea A-A",
+              "key": "SACTIUREAA-A",
+              "score": 0.67971,
+              "kind": "unclassified",
+              "parse_quality": -0.25,
+              "flags": [
+                "PARTIAL_DIMENSION_TOKEN"
+              ],
+              "confidence_peak": 0.745,
+              "whole_profiles": [
+                "1060"
+              ],
+              "profiles": [
+                "1060"
+              ],
+              "tile_samples": 0,
+              "support_examples": 1,
+              "style_bonus": 0.0
+            }
+          ],
+          "boundary_fragments": 0,
+          "source_items": [
+            {
+              "bbox_original_px": [
+                534.0,
+                30.0,
+                593.0,
+                44.0
+              ],
+              "bbox_processed_px": [
+                534.0,
+                30.0,
+                593.0,
+                44.0
+              ],
+              "confidence": 0.7454086542129517,
+              "near_tile_boundary": false,
+              "polygon_processed_px": [
+                [
+                  535,
+                  30
+                ],
+                [
+                  593,
+                  32
+                ],
+                [
+                  592,
+                  44
+                ],
+                [
+                  534,
+                  42
+                ]
+              ],
+              "profile": 1060,
+              "source_rect_original_px": [
+                0,
+                0,
+                943,
+                773
+              ],
+              "text": "Sactiurea A-A",
+              "tile_index": 0,
+              "tile_level": 0
+            }
+          ]
+        },
+        {
+          "id": 1,
+          "anchor": [
+            551.0,
+            63.0,
+            579.0,
+            80.0
+          ],
+          "selected_text": "060",
+          "normalized_text": "060",
+          "kind": "linear_or_value",
+          "state": "PLAUSIBLE_UNVERIFIED",
+          "margin": 0,
+          "alternatives": [
+            {
+              "text": "060",
+              "key": "060",
+              "score": 2.84194,
+              "kind": "linear_or_value",
+              "parse_quality": 1.8,
+              "flags": [],
+              "confidence_peak": 0.983,
+              "whole_profiles": [
+                "1060"
+              ],
+              "profiles": [
+                "1060"
+              ],
+              "tile_samples": 0,
+              "support_examples": 1,
+              "style_bonus": 0.0
+            }
+          ],
+          "boundary_fragments": 0,
+          "source_items": [
+            {
+              "bbox_original_px": [
+                551.0,
+                63.0,
+                579.0,
+                80.0
+              ],
+              "bbox_processed_px": [
+                551.0,
+                63.0,
+                579.0,
+                80.0
+              ],
+              "confidence": 0.9829492568969727,
+              "near_tile_boundary": false,
+              "polygon_processed_px": [
+                [
+                  551,
+                  63
+                ],
+                [
+                  579,
+                  63
+                ],
+                [
+                  579,
+                  80
+                ],
+                [
+                  551,
+                  80
+                ]
+              ],
+              "profile": 1060,
+              "source_rect_original_px": [
+                0,
+                0,
+                943,
+                773
+              ],
+              "text": "060",
+              "tile_index": 0,
+              "tile_level": 0
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "anchor": [
+            549.0,
+            92.0,
+            580.0,
+            112.0
+          ],
+          "selected_text": "040",
+          "normalized_text": "040",
+          "kind": "linear_or_value",
+          "state": "PLAUSIBLE_UNVERIFIED",
+          "margin": 0,
+          "alternatives": [
+            {
+              "text": "040",
+              "key": "040",
+              "score": 2.83265,
+              "kind": "linear_or_value",
+              "parse_quality": 1.8,
+              "flags": [],
+              "confidence_peak": 0.963,
+              "whole_profiles": [
+                "1060"
+              ],
+              "profiles": [
+                "1060"
+              ],
+              "tile_samples": 0,
+              "support_examples": 1,
+              "style_bonus": 0.0
+            }
+          ],
+          "boundary_fragments": 0,
+          "source_items": [
+            {
+              "bbox_original_px": [
+                549.0,
+                92.0,
+                580.0,
+                112.0
+              ],
+              "bbox_processed_px": [
+                549.0,
+                92.0,
+                580.0,
+                112.0
+              ],
+              "confidence": 0.9632771611213684,
+              "near_tile_boundary": false,
+              "polygon_processed_px": [
+                [
+                  549,
+                  95
+                ],
+                [
+                  578,
+                  92
+                ],
+                [
+                  580,
+                  109
+                ],
+                [
+                  551,
+                  112
+                ]
+              ],
+              "profile": 1060,
+              "source_rect_original_px": [
+                0,
+                0,
+                943,
+                773
+              ],
+              "text": "040",
+              "tile_index": 0,
+              "tile_level": 0
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "anchor": [
+            261.0,
+            165.0,
+            288.0,
+            180.0
+          ],
+          "selected_text": "016",
+          "normalized_text": "016",
+          "kind": "linear_or_value",
+          "state": "PLAUSIBLE_UNVERIFIED",
+          "margin": 0,
+          "alternatives": [
+            {
+              "text": "016",
+              "key": "016",
+              "score": 2.78604,
+              "kind": "linear_or_value",
+              "parse_quality": 1.8,
+              "flags": [],
+              "confidence_peak": 0.865,
+              "whole_profiles": [
+                "1060"
+              ],
+              "profiles": [
+                "1060"
+              ],
+              "tile_samples": 0,
+              "support_examples": 1,
+              "style_bonus": 0.0
+            }
+          ],
+          "boundary_fragments": 0,
+          "source_items": [
+            {
+              "bbox_original_px": [
+                261.0,
+                165.0,
+                288.0,
+                180.0
+              ],
+              "bbox_processed_px": [
+                261.0,
+                165.0,
+                288.0,
+                180.0
+              ],
+              "confidence": 0.8646392226219177,
+              "near_tile_boundary": false,
+              "polygon_processed_px": [
+                [
+                  261,
+                  165
+                ],
+                [
+                  288,
+                  165
+                ],
+                [
+                  288,
+                  180
+                ],
+                [
+                  261,
+                  180
+                ]
+              ],
+              "profile": 1060,
+              "source_rect_original_px": [
+                0,
+                0,
+                943,
+                773
+              ],
+              "text": "016",
+              "tile_index": 0,
+              "tile_level": 0
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "anchor": [
+            68.0,
+            176.0,
+            91.0,
+            189.0
+          ],
+          "selected_text": "R15",
+          "normalized_text": "R15",
+          "kind": "radius",
+          "state": "PLAUSIBLE_UNVERIFIED",
+          "margin": 0,
+          "alternatives": [
+            {
+              "text": "R15",
+              "key": "R15",
+              "score": 3.59974,
+              "kind": "radius",
+              "parse_quality": 2.2,
+              "flags": [],
+              "confidence_peak": 0.999,
+              "whole_profiles": [
+                "1060"
+              ],
+              "profiles": [
+                "1060"
+              ],
+              "tile_samples": 0,
+              "support_examples": 1,
+              "style_bonus": 0.35
+            }
+          ],
+          "boundary_fragments": 0,
+          "source_items": [
+            {
+              "bbox_original_px": [
+                68.0,
+                176.0,
+                91.0,
+                189.0
+              ],
+              "bbox_processed_px": [
+                68.0,
+                176.0,
+                91.0,
+                189.0
+              ],
+              "confidence": 0.999458372592926,
+              "near_tile_boundary": false,
+              "polygon_processed_px": [
+                [
+                  68,
+                  176
+                ],
+                [
+                  91,
+                  176
+                ],
+                [
+                  91,
+                  189
+                ],
+                [
+                  68,
+                  189
+                ]
+              ],
+              "profile": 1060,
+              "source_rect_original_px": [
+                0,
+                0,
+                943,
+                773
+              ],
+              "text": "R15",
+              "tile_index": 0,
+              "tile_level": 0
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "anchor": [
+            402.0,
+            213.0,
+            416.0,
+            228.0
+          ],
+          "selected_text": "品",
+          "normalized_text": "品",
+          "kind": "unclassified",
+          "state": "REVIEW_UNCERTAIN_TOKEN",
+          "margin": 0,
+          "alternatives": [
+            {
+              "text": "品",
+              "key": "品",
+              "score": 0.62079,
+              "kind": "unclassified",
+              "parse_quality": -0.25,
+              "flags": [],
+              "confidence_peak": 0.621,
+              "whole_profiles": [
+                "1060"
+              ],
+              "profiles": [
+                "1060"
+              ],
+              "tile_samples": 0,
+              "support_examples": 1,
+              "style_bonus": 0.0
+            }
+          ],
+          "boundary_fragments": 0,
+          "source_items": [
+            {
+              "bbox_original_px": [
+                402.0,
+                213.0,
+                416.0,
+                228.0
+              ],
+              "bbox_processed_px": [
+                402.0,
+                213.0,
+                416.0,
+                228.0
+              ],
+              "confidence": 0.6207127571105957,
+              "near_tile_boundary": false,
+              "polygon_processed_px": [
+                [
+                  402,
+                  213
+                ],
+                [
+                  416,
+                  213
+                ],
+                [
+                  416,
+                  228
+                ],
+                [
+                  402,
+                  228
+                ]
+              ],
+              "profile": 1060,
+              "source_rect_original_px": [
+                0,
+                0,
+                943,
+                773
+              ],
+              "text": "品",
+              "tile_index": 0,
+              "tile_level": 0
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "anchor": [
+            551.0,
+            325.0,
+            578.0,
+            340.0
+          ],
+          "selected_text": "030",
+          "normalized_text": "030",
+          "kind": "linear_or_value",
+          "state": "PLAUSIBLE_UNVERIFIED",
+          "margin": 0,
+          "alternatives": [
+            {
+              "text": "030",
+              "key": "030",
+              "score": 2.81665,
+              "kind": "linear_or_value",
+              "parse_quality": 1.8,
+              "flags": [],
+              "confidence_peak": 0.929,
+              "whole_profiles": [
+                "1060"
+              ],
+              "profiles": [
+                "1060"
+              ],
+              "tile_samples": 0,
+              "support_examples": 1,
+              "style_bonus": 0.0
+            }
+          ],
+          "boundary_fragments": 0,
+          "source_items": [
+            {
+              "bbox_original_px": [
+                551.0,
+                325.0,
+                578.0,
+                340.0
+              ],
+              "bbox_processed_px": [
+                551.0,
+                325.0,
+                578.0,
+                340.0
+              ],
+              "confidence": 0.9294269680976868,
+              "near_tile_boundary": false,
+              "polygon_processed_px": [
+                [
+                  551,
+                  325
+                ],
+                [
+                  578,
+                  325
+                ],
+                [
+                  578,
+                  340
+                ],
+                [
+                  551,
+                  340
+                ]
+              ],
+              "profile": 1060,
+              "source_rect_original_px": [
+                0,
+                0,
+                943,
+                773
+              ],
+              "text": "030",
+              "tile_index": 0,
+              "tile_level": 0
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "anchor": [
+            606.0,
+            395.0,
+            630.0,
+            411.0
+          ],
+          "selected_text": "145",
+          "normalized_text": "145",
+          "kind": "linear_or_value",
+          "state": "PLAUSIBLE_UNVERIFIED",
+          "margin": 0,
+          "alternatives": [
+            {
+              "text": "145",
+              "key": "145",
+              "score": 2.84991,
+              "kind": "linear_or_value",
+              "parse_quality": 1.8,
+              "flags": [],
+              "confidence_peak": 1.0,
+              "whole_profiles": [
+                "1060"
+              ],
+              "profiles": [
+                "1060"
+              ],
+              "tile_samples": 0,
+              "support_examples": 1,
+              "style_bonus": 0.0
+            }
+          ],
+          "boundary_fragments": 0,
+          "source_items": [
+            {
+              "bbox_original_px": [
+                606.0,
+                395.0,
+                630.0,
+                411.0
+              ],
+              "bbox_processed_px": [
+                606.0,
+                395.0,
+                630.0,
+                411.0
+              ],
+              "confidence": 0.999816358089447,
+              "near_tile_boundary": false,
+              "polygon_processed_px": [
+                [
+                  606,
+                  395
+                ],
+                [
+                  630,
+                  395
+                ],
+                [
+                  630,
+                  411
+                ],
+                [
+                  606,
+                  411
+                ]
+              ],
+              "profile": 1060,
+              "source_rect_original_px": [
+                0,
+                0,
+                943,
+                773
+              ],
+              "text": "145",
+              "tile_index": 0,
+              "tile_level": 0
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "anchor": [
+            496.0,
+            419.0,
+            514.0,
+            433.0
+          ],
+          "selected_text": "50",
+          "normalized_text": "50",
+          "kind": "linear_or_value",
+          "state": "PLAUSIBLE_UNVERIFIED",
+          "margin": 0,
+          "alternatives": [
+            {
+              "text": "50",
+              "key": "50",
+              "score": 2.84964,
+              "kind": "linear_or_value",
+              "parse_quality": 1.8,
+              "flags": [],
+              "confidence_peak": 0.999,
+              "whole_profiles": [
+                "1060"
+              ],
+              "profiles": [
+                "1060"
+              ],
+              "tile_samples": 0,
+              "support_examples": 1,
+              "style_bonus": 0.0
+            }
+          ],
+          "boundary_fragments": 0,
+          "source_items": [
+            {
+              "bbox_original_px": [
+                496.0,
+                419.0,
+                514.0,
+                433.0
+              ],
+              "bbox_processed_px": [
+                496.0,
+                419.0,
+                514.0,
+                433.0
+              ],
+              "confidence": 0.999237060546875,
+              "near_tile_boundary": false,
+              "polygon_processed_px": [
+                [
+                  496,
+                  419
+                ],
+                [
+                  514,
+                  419
+                ],
+                [
+                  514,
+                  433
+                ],
+                [
+                  496,
+                  433
+                ]
+              ],
+              "profile": 1060,
+              "source_rect_original_px": [
+                0,
+                0,
+                943,
+                773
+              ],
+              "text": "50",
+              "tile_index": 0,
+              "tile_level": 0
+            }
+          ]
+        },
+        {
+          "id": 9,
+          "anchor": [
+            629.0,
+            426.0,
+            655.0,
+            442.0
+          ],
+          "selected_text": "R15",
+          "normalized_text": "R15",
+          "kind": "radius",
+          "state": "PLAUSIBLE_UNVERIFIED",
+          "margin": 0,
+          "alternatives": [
+            {
+              "text": "R15",
+              "key": "R15",
+              "score": 3.59953,
+              "kind": "radius",
+              "parse_quality": 2.2,
+              "flags": [],
+              "confidence_peak": 0.999,
+              "whole_profiles": [
+                "1060"
+              ],
+              "profiles": [
+                "1060"
+              ],
+              "tile_samples": 0,
+              "support_examples": 1,
+              "style_bonus": 0.35
+            }
+          ],
+          "boundary_fragments": 0,
+          "source_items": [
+            {
+              "bbox_original_px": [
+                629.0,
+                426.0,
+                655.0,
+                442.0
+              ],
+              "bbox_processed_px": [
+                629.0,
+                426.0,
+                655.0,
+                442.0
+              ],
+              "confidence": 0.9989965558052063,
+              "near_tile_boundary": false,
+              "polygon_processed_px": [
+                [
+                  629,
+                  426
+                ],
+                [
+                  655,
+                  426
+                ],
+                [
+                  655,
+                  442
+                ],
+                [
+                  629,
+                  442
+                ]
+              ],
+              "profile": 1060,
+              "source_rect_original_px": [
+                0,
+                0,
+                943,
+                773
+              ],
+              "text": "R15",
+              "tile_index": 0,
+              "tile_level": 0
+            }
+          ]
+        },
+        {
+          "id": 10,
+          "anchor": [
+            405.0,
+            442.0,
+            431.0,
+            454.0
+          ],
+          "selected_text": "R15",
+          "normalized_text": "R15",
+          "kind": "radius",
+          "state": "PLAUSIBLE_UNVERIFIED",
+          "margin": 0,
+          "alternatives": [
+            {
+              "text": "R15",
+              "key": "R15",
+              "score": 3.59931,
+              "kind": "radius",
+              "parse_quality": 2.2,
+              "flags": [],
+              "confidence_peak": 0.999,
+              "whole_profiles": [
+                "1060"
+              ],
+              "profiles": [
+                "1060"
+              ],
+              "tile_samples": 0,
+              "support_examples": 1,
+              "style_bonus": 0.35
+            }
+          ],
+          "boundary_fragments": 0,
+          "source_items": [
+            {
+              "bbox_original_px": [
+                405.0,
+                442.0,
+                431.0,
+                454.0
+              ],
+              "bbox_processed_px": [
+                405.0,
+                442.0,
+                431.0,
+                454.0
+              ],
+              "confidence": 0.9985354542732239,
+              "near_tile_boundary": false,
+              "polygon_processed_px": [
+                [
+                  405,
+                  442
+                ],
+                [
+                  431,
+                  442
+                ],
+                [
+                  431,
+                  454
+                ],
+                [
+                  405,
+                  454
+                ]
+              ],
+              "profile": 1060,
+              "source_rect_original_px": [
+                0,
+                0,
+                943,
+                773
+              ],
+              "text": "R15",
+              "tile_index": 0,
+              "tile_level": 0
+            }
+          ]
+        },
+        {
+          "id": 11,
+          "anchor": [
+            874.0,
+            535.0,
+            897.0,
+            549.0
+          ],
+          "selected_text": "R15",
+          "normalized_text": "R15",
+          "kind": "radius",
+          "state": "PLAUSIBLE_UNVERIFIED",
+          "margin": 0,
+          "alternatives": [
+            {
+              "text": "R15",
+              "key": "R15",
+              "score": 3.59806,
+              "kind": "radius",
+              "parse_quality": 2.2,
+              "flags": [],
+              "confidence_peak": 0.996,
+              "whole_profiles": [
+                "1060"
+              ],
+              "profiles": [
+                "1060"
+              ],
+              "tile_samples": 0,
+              "support_examples": 1,
+              "style_bonus": 0.35
+            }
+          ],
+          "boundary_fragments": 0,
+          "source_items": [
+            {
+              "bbox_original_px": [
+                874.0,
+                535.0,
+                897.0,
+                549.0
+              ],
+              "bbox_processed_px": [
+                874.0,
+                535.0,
+                897.0,
+                549.0
+              ],
+              "confidence": 0.9958836436271667,
+              "near_tile_boundary": false,
+              "polygon_processed_px": [
+                [
+                  874,
+                  535
+                ],
+                [
+                  897,
+                  535
+                ],
+                [
+                  897,
+                  549
+                ],
+                [
+                  874,
+                  549
+                ]
+              ],
+              "profile": 1060,
+              "source_rect_original_px": [
+                0,
+                0,
+                943,
+                773
+              ],
+              "text": "R15",
+              "tile_index": 0,
+              "tile_level": 0
+            }
+          ]
+        },
+        {
+          "id": 12,
+          "anchor": [
+            368.0,
+            571.0,
+            381.0,
+            589.0
+          ],
+          "selected_text": "吕",
+          "normalized_text": "吕",
+          "kind": "unclassified",
+          "state": "REVIEW_UNCERTAIN_TOKEN",
+          "margin": 0,
+          "alternatives": [
+            {
+              "text": "吕",
+              "key": "吕",
+              "score": 0.68513,
+              "kind": "unclassified",
+              "parse_quality": -0.25,
+              "flags": [],
+              "confidence_peak": 0.757,
+              "whole_profiles": [
+                "1060"
+              ],
+              "profiles": [
+                "1060"
+              ],
+              "tile_samples": 0,
+              "support_examples": 1,
+              "style_bonus": 0.0
+            }
+          ],
+          "boundary_fragments": 0,
+          "source_items": [
+            {
+              "bbox_original_px": [
+                368.0,
+                571.0,
+                381.0,
+                589.0
+              ],
+              "bbox_processed_px": [
+                368.0,
+                571.0,
+                381.0,
+                589.0
+              ],
+              "confidence": 0.7568909525871277,
+              "near_tile_boundary": false,
+              "polygon_processed_px": [
+                [
+                  368,
+                  571
+                ],
+                [
+                  381,
+                  571
+                ],
+                [
+                  381,
+                  589
+                ],
+                [
+                  368,
+                  589
+                ]
+              ],
+              "profile": 1060,
+              "source_rect_original_px": [
+                0,
+                0,
+                943,
+                773
+              ],
+              "text": "吕",
+              "tile_index": 0,
+              "tile_level": 0
+            }
+          ]
+        },
+        {
+          "id": 13,
+          "anchor": [
+            398.0,
+            633.0,
+            412.0,
+            647.0
+          ],
+          "selected_text": "50",
+          "normalized_text": "50",
+          "kind": "linear_or_value",
+          "state": "PLAUSIBLE_UNVERIFIED",
+          "margin": 0,
+          "alternatives": [
+            {
+              "text": "50",
+              "key": "50",
+              "score": 2.69872,
+              "kind": "linear_or_value",
+              "parse_quality": 1.8,
+              "flags": [],
+              "confidence_peak": 0.68,
+              "whole_profiles": [
+                "1060"
+              ],
+              "profiles": [
+                "1060"
+              ],
+              "tile_samples": 0,
+              "support_examples": 1,
+              "style_bonus": 0.0
+            }
+          ],
+          "boundary_fragments": 0,
+          "source_items": [
+            {
+              "bbox_original_px": [
+                398.0,
+                633.0,
+                412.0,
+                647.0
+              ],
+              "bbox_processed_px": [
+                398.0,
+                633.0,
+                412.0,
+                647.0
+              ],
+              "confidence": 0.6798208355903625,
+              "near_tile_boundary": false,
+              "polygon_processed_px": [
+                [
+                  398,
+                  633
+                ],
+                [
+                  412,
+                  633
+                ],
+                [
+                  412,
+                  647
+                ],
+                [
+                  398,
+                  647
+                ]
+              ],
+              "profile": 1060,
+              "source_rect_original_px": [
+                0,
+                0,
+                943,
+                773
+              ],
+              "text": "50",
+              "tile_index": 0,
+              "tile_level": 0
+            }
+          ]
+        },
+        {
+          "id": 14,
+          "anchor": [
+            852.0,
+            641.0,
+            865.0,
+            655.0
+          ],
+          "selected_text": "42",
+          "normalized_text": "42",
+          "kind": "linear_or_value",
+          "state": "PLAUSIBLE_UNVERIFIED",
+          "margin": 0,
+          "alternatives": [
+            {
+              "text": "42",
+              "key": "42",
+              "score": 2.76756,
+              "kind": "linear_or_value",
+              "parse_quality": 1.8,
+              "flags": [],
+              "confidence_peak": 0.826,
+              "whole_profiles": [
+                "1060"
+              ],
+              "profiles": [
+                "1060"
+              ],
+              "tile_samples": 0,
+              "support_examples": 1,
+              "style_bonus": 0.0
+            }
+          ],
+          "boundary_fragments": 0,
+          "source_items": [
+            {
+              "bbox_original_px": [
+                852.0,
+                641.0,
+                865.0,
+                655.0
+              ],
+              "bbox_processed_px": [
+                852.0,
+                641.0,
+                865.0,
+                655.0
+              ],
+              "confidence": 0.825525164604187,
+              "near_tile_boundary": false,
+              "polygon_processed_px": [
+                [
+                  852,
+                  641
+                ],
+                [
+                  865,
+                  641
+                ],
+                [
+                  865,
+                  655
+                ],
+                [
+                  852,
+                  655
+                ]
+              ],
+              "profile": 1060,
+              "source_rect_original_px": [
+                0,
+                0,
+                943,
+                773
+              ],
+              "text": "42",
+              "tile_index": 0,
+              "tile_level": 0
+            }
+          ]
+        },
+        {
+          "id": 15,
+          "anchor": [
+            608.0,
+            663.0,
+            629.0,
+            680.0
+          ],
+          "selected_text": "45",
+          "normalized_text": "45",
+          "kind": "linear_or_value",
+          "state": "PLAUSIBLE_UNVERIFIED",
+          "margin": 0,
+          "alternatives": [
+            {
+              "text": "45",
+              "key": "45",
+              "score": 2.84985,
+              "kind": "linear_or_value",
+              "parse_quality": 1.8,
+              "flags": [],
+              "confidence_peak": 1.0,
+              "whole_profiles": [
+                "1060"
+              ],
+              "profiles": [
+                "1060"
+              ],
+              "tile_samples": 0,
+              "support_examples": 1,
+              "style_bonus": 0.0
+            }
+          ],
+          "boundary_fragments": 0,
+          "source_items": [
+            {
+              "bbox_original_px": [
+                608.0,
+                663.0,
+                629.0,
+                680.0
+              ],
+              "bbox_processed_px": [
+                608.0,
+                663.0,
+                629.0,
+                680.0
+              ],
+              "confidence": 0.9996873140335083,
+              "near_tile_boundary": false,
+              "polygon_processed_px": [
+                [
+                  608,
+                  663
+                ],
+                [
+                  629,
+                  663
+                ],
+                [
+                  629,
+                  680
+                ],
+                [
+                  608,
+                  680
+                ]
+              ],
+              "profile": 1060,
+              "source_rect_original_px": [
+                0,
+                0,
+                943,
+                773
+              ],
+              "text": "45",
+              "tile_index": 0,
+              "tile_level": 0
+            }
+          ]
+        },
+        {
+          "id": 16,
+          "anchor": [
+            366.0,
+            716.0,
+            395.0,
+            736.0
+          ],
+          "selected_text": "R15",
+          "normalized_text": "R15",
+          "kind": "radius",
+          "state": "PLAUSIBLE_UNVERIFIED",
+          "margin": 0,
+          "alternatives": [
+            {
+              "text": "R15",
+              "key": "R15",
+              "score": 3.59932,
+              "kind": "radius",
+              "parse_quality": 2.2,
+              "flags": [],
+              "confidence_peak": 0.999,
+              "whole_profiles": [
+                "1060"
+              ],
+              "profiles": [
+                "1060"
+              ],
+              "tile_samples": 0,
+              "support_examples": 1,
+              "style_bonus": 0.35
+            }
+          ],
+          "boundary_fragments": 0,
+          "source_items": [
+            {
+              "bbox_original_px": [
+                366.0,
+                716.0,
+                395.0,
+                736.0
+              ],
+              "bbox_processed_px": [
+                366.0,
+                716.0,
+                395.0,
+                736.0
+              ],
+              "confidence": 0.9985691905021667,
+              "near_tile_boundary": false,
+              "polygon_processed_px": [
+                [
+                  366,
+                  719
+                ],
+                [
+                  393,
+                  716
+                ],
+                [
+                  395,
+                  733
+                ],
+                [
+                  368,
+                  736
+                ]
+              ],
+              "profile": 1060,
+              "source_rect_original_px": [
+                0,
+                0,
+                943,
+                773
+              ],
+              "text": "R15",
+              "tile_index": 0,
+              "tile_level": 0
+            }
+          ]
+        },
+        {
+          "id": 17,
+          "anchor": [
+            740.0,
+            716.0,
+            768.0,
+            733.0
+          ],
+          "selected_text": "R15",
+          "normalized_text": "R15",
+          "kind": "radius",
+          "state": "PLAUSIBLE_UNVERIFIED",
+          "margin": 0,
+          "alternatives": [
+            {
+              "text": "R15",
+              "key": "R15",
+              "score": 3.59636,
+              "kind": "radius",
+              "parse_quality": 2.2,
+              "flags": [],
+              "confidence_peak": 0.992,
+              "whole_profiles": [
+                "1060"
+              ],
+              "profiles": [
+                "1060"
+              ],
+              "tile_samples": 0,
+              "support_examples": 1,
+              "style_bonus": 0.35
+            }
+          ],
+          "boundary_fragments": 0,
+          "source_items": [
+            {
+              "bbox_original_px": [
+                740.0,
+                716.0,
+                768.0,
+                733.0
+              ],
+              "bbox_processed_px": [
+                740.0,
+                716.0,
+                768.0,
+                733.0
+              ],
+              "confidence": 0.9922940135002136,
+              "near_tile_boundary": false,
+              "polygon_processed_px": [
+                [
+                  740,
+                  716
+                ],
+                [
+                  768,
+                  716
+                ],
+                [
+                  768,
+                  733
+                ],
+                [
+                  740,
+                  733
+                ]
+              ],
+              "profile": 1060,
+              "source_rect_original_px": [
+                0,
+                0,
+                943,
+                773
+              ],
+              "text": "R15",
+              "tile_index": 0,
+              "tile_level": 0
+            }
+          ]
+        }
+      ],
+      "review_count": 3
+    },
+    {
+      "profiles": "1947",
+      "plan": "whole",
+      "passes": 1,
+      "seconds": 2.252,
+      "style": {
+        "radius_order": {
+          "preferred": "prefix",
+          "supporting_locations": 6,
+          "share": 1.0,
+          "alternatives": {
+            "prefix": 5.98
+          },
+          "strength": 0.35
+        }
+      },
+      "baseline_v1_selected": null,
+      "results": [
+        {
+          "id": 0,
+          "anchor": [
+            535.33,
+            32.0,
+            592.0,
+            42.67
+          ],
+          "selected_text": "Sactiuraa A-A",
+          "normalized_text": "SACTIURAAA-A",
+          "kind": "unclassified",
+          "state": "REVIEW_UNCERTAIN_TOKEN",
+          "margin": 0,
+          "alternatives": [
+            {
+              "text": "Sactiuraa A-A",
+              "key": "SACTIURAAA-A",
+              "score": 0.658,
+              "kind": "unclassified",
+              "parse_quality": -0.25,
+              "flags": [
+                "PARTIAL_DIMENSION_TOKEN"
+              ],
+              "confidence_peak": 0.699,
+              "whole_profiles": [
+                "1947"
+              ],
+              "profiles": [
+                "1947"
+              ],
+              "tile_samples": 0,
+              "support_examples": 1,
+              "style_bonus": 0.0
+            }
+          ],
+          "boundary_fragments": 0,
+          "source_items": [
+            {
+              "bbox_original_px": [
+                535.33,
+                32.0,
+                592.0,
+                42.67
+              ],
+              "bbox_processed_px": [
+                803.0,
+                48.0,
+                888.0,
+                64.0
+              ],
+              "confidence": 0.6994742155075073,
+              "near_tile_boundary": false,
+              "polygon_processed_px": [
+                [
+                  803,
+                  48
+                ],
+                [
+                  888,
+                  48
+                ],
+                [
+                  888,
+                  64
+                ],
+                [
+                  803,
+                  64
+                ]
+              ],
+              "profile": 1947,
+              "source_rect_original_px": [
+                0,
+                0,
+                943,
+                773
+              ],
+              "text": "Sactiuraa A-A",
+              "tile_index": 0,
+              "tile_level": 0
+            }
+          ]
+        },
+        {
+          "id": 1,
+          "anchor": [
+            550.0,
+            64.0,
+            579.33,
+            79.33
+          ],
+          "selected_text": "060",
+          "normalized_text": "060",
+          "kind": "linear_or_value",
+          "state": "PLAUSIBLE_UNVERIFIED",
+          "margin": 0,
+          "alternatives": [
+            {
+              "text": "060",
+              "key": "060",
+              "score": 2.84212,
+              "kind": "linear_or_value",
+              "parse_quality": 1.8,
+              "flags": [],
+              "confidence_peak": 0.983,
+              "whole_profiles": [
+                "1947"
+              ],
+              "profiles": [
+                "1947"
+              ],
+              "tile_samples": 0,
+              "support_examples": 1,
+              "style_bonus": 0.0
+            }
+          ],
+          "boundary_fragments": 0,
+          "source_items": [
+            {
+              "bbox_original_px": [
+                550.0,
+                64.0,
+                579.33,
+                79.33
+              ],
+              "bbox_processed_px": [
+                825.0,
+                96.0,
+                869.0,
+                119.0
+              ],
+              "confidence": 0.9833155274391174,
+              "near_tile_boundary": false,
+              "polygon_processed_px": [
+                [
+                  825,
+                  96
+                ],
+                [
+                  869,
+                  96
+                ],
+                [
+                  869,
+                  119
+                ],
+                [
+                  825,
+                  119
+                ]
+              ],
+              "profile": 1947,
+              "source_rect_original_px": [
+                0,
+                0,
+                943,
+                773
+              ],
+              "text": "060",
+              "tile_index": 0,
+              "tile_level": 0
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "anchor": [
+            550.0,
+            94.67,
+            579.33,
+            110.0
+          ],
+          "selected_text": "040",
+          "normalized_text": "040",
+          "kind": "linear_or_value",
+          "state": "PLAUSIBLE_UNVERIFIED",
+          "margin": 0,
+          "alternatives": [
+            {
+              "text": "040",
+              "key": "040",
+              "score": 2.82681,
+              "kind": "linear_or_value",
+              "parse_quality": 1.8,
+              "flags": [],
+              "confidence_peak": 0.951,
+              "whole_profiles": [
+                "1947"
+              ],
+              "profiles": [
+                "1947"
+              ],
+              "tile_samples": 0,
+              "support_examples": 1,
+              "style_bonus": 0.0
+            }
+          ],
+          "boundary_fragments": 0,
+          "source_items": [
+            {
+              "bbox_original_px": [
+                550.0,
+                94.67,
+                579.33,
+                110.0
+              ],
+              "bbox_processed_px": [
+                825.0,
+                142.0,
+                869.0,
+                165.0
+              ],
+              "confidence": 0.9509151577949524,
+              "near_tile_boundary": false,
+              "polygon_processed_px": [
+                [
+                  825,
+                  142
+                ],
+                [
+                  869,
+                  142
+                ],
+                [
+                  869,
+                  165
+                ],
+                [
+                  825,
+                  165
+                ]
+              ],
+              "profile": 1947,
+              "source_rect_original_px": [
+                0,
+                0,
+                943,
+                773
+              ],
+              "text": "040",
+              "tile_index": 0,
+              "tile_level": 0
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "anchor": [
+            261.33,
+            164.0,
+            288.0,
+            180.0
+          ],
+          "selected_text": "016",
+          "normalized_text": "016",
+          "kind": "linear_or_value",
+          "state": "PLAUSIBLE_UNVERIFIED",
+          "margin": 0,
+          "alternatives": [
+            {
+              "text": "016",
+              "key": "016",
+              "score": 2.83201,
+              "kind": "linear_or_value",
+              "parse_quality": 1.8,
+              "flags": [],
+              "confidence_peak": 0.962,
+              "whole_profiles": [
+                "1947"
+              ],
+              "profiles": [
+                "1947"
+              ],
+              "tile_samples": 0,
+              "support_examples": 1,
+              "style_bonus": 0.0
+            }
+          ],
+          "boundary_fragments": 0,
+          "source_items": [
+            {
+              "bbox_original_px": [
+                261.33,
+                164.0,
+                288.0,
+                180.0
+              ],
+              "bbox_processed_px": [
+                392.0,
+                246.0,
+                432.0,
+                270.0
+              ],
+              "confidence": 0.9619266390800476,
+              "near_tile_boundary": false,
+              "polygon_processed_px": [
+                [
+                  392,
+                  246
+                ],
+                [
+                  432,
+                  246
+                ],
+                [
+                  432,
+                  270
+                ],
+                [
+                  392,
+                  270
+                ]
+              ],
+              "profile": 1947,
+              "source_rect_original_px": [
+                0,
+                0,
+                943,
+                773
+              ],
+              "text": "016",
+              "tile_index": 0,
+              "tile_level": 0
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "anchor": [
+            66.0,
+            174.67,
+            92.0,
+            189.33
+          ],
+          "selected_text": "R15",
+          "normalized_text": "R15",
+          "kind": "radius",
+          "state": "PLAUSIBLE_UNVERIFIED",
+          "margin": 0,
+          "alternatives": [
+            {
+              "text": "R15",
+              "key": "R15",
+              "score": 3.59936,
+              "kind": "radius",
+              "parse_quality": 2.2,
+              "flags": [],
+              "confidence_peak": 0.999,
+              "whole_profiles": [
+                "1947"
+              ],
+              "profiles": [
+                "1947"
+              ],
+              "tile_samples": 0,
+              "support_examples": 1,
+              "style_bonus": 0.35
+            }
+          ],
+          "boundary_fragments": 0,
+          "source_items": [
+            {
+              "bbox_original_px": [
+                66.0,
+                174.67,
+                92.0,
+                189.33
+              ],
+              "bbox_processed_px": [
+                99.0,
+                262.0,
+                138.0,
+                284.0
+              ],
+              "confidence": 0.998643159866333,
+              "near_tile_boundary": false,
+              "polygon_processed_px": [
+                [
+                  99,
+                  262
+                ],
+                [
+                  138,
+                  262
+                ],
+                [
+                  138,
+                  284
+                ],
+                [
+                  99,
+                  284
+                ]
+              ],
+              "profile": 1947,
+              "source_rect_original_px": [
+                0,
+                0,
+                943,
+                773
+              ],
+              "text": "R15",
+              "tile_index": 0,
+              "tile_level": 0
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "anchor": [
+            402.67,
+            213.33,
+            415.33,
+            228.0
+          ],
+          "selected_text": "品",
+          "normalized_text": "品",
+          "kind": "unclassified",
+          "state": "REVIEW_UNCERTAIN_TOKEN",
+          "margin": 0,
+          "alternatives": [
+            {
+              "text": "品",
+              "key": "品",
+              "score": 0.7638,
+              "kind": "unclassified",
+              "parse_quality": -0.25,
+              "flags": [],
+              "confidence_peak": 0.923,
+              "whole_profiles": [
+                "1947"
+              ],
+              "profiles": [
+                "1947"
+              ],
+              "tile_samples": 0,
+              "support_examples": 1,
+              "style_bonus": 0.0
+            }
+          ],
+          "boundary_fragments": 0,
+          "source_items": [
+            {
+              "bbox_original_px": [
+                402.67,
+                213.33,
+                415.33,
+                228.0
+              ],
+              "bbox_processed_px": [
+                604.0,
+                320.0,
+                623.0,
+                342.0
+              ],
+              "confidence": 0.9233912825584412,
+              "near_tile_boundary": false,
+              "polygon_processed_px": [
+                [
+                  604,
+                  320
+                ],
+                [
+                  623,
+                  320
+                ],
+                [
+                  623,
+                  342
+                ],
+                [
+                  604,
+                  342
+                ]
+              ],
+              "profile": 1947,
+              "source_rect_original_px": [
+                0,
+                0,
+                943,
+                773
+              ],
+              "text": "品",
+              "tile_index": 0,
+              "tile_level": 0
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "anchor": [
+            550.0,
+            324.67,
+            579.33,
+            340.0
+          ],
+          "selected_text": "030",
+          "normalized_text": "030",
+          "kind": "linear_or_value",
+          "state": "PLAUSIBLE_UNVERIFIED",
+          "margin": 0,
+          "alternatives": [
+            {
+              "text": "030",
+              "key": "030",
+              "score": 2.84277,
+              "kind": "linear_or_value",
+              "parse_quality": 1.8,
+              "flags": [],
+              "confidence_peak": 0.985,
+              "whole_profiles": [
+                "1947"
+              ],
+              "profiles": [
+                "1947"
+              ],
+              "tile_samples": 0,
+              "support_examples": 1,
+              "style_bonus": 0.0
+            }
+          ],
+          "boundary_fragments": 0,
+          "source_items": [
+            {
+              "bbox_original_px": [
+                550.0,
+                324.67,
+                579.33,
+                340.0
+              ],
+              "bbox_processed_px": [
+                825.0,
+                487.0,
+                869.0,
+                510.0
+              ],
+              "confidence": 0.9847023487091064,
+              "near_tile_boundary": false,
+              "polygon_processed_px": [
+                [
+                  825,
+                  487
+                ],
+                [
+                  869,
+                  487
+                ],
+                [
+                  869,
+                  510
+                ],
+                [
+                  825,
+                  510
+                ]
+              ],
+              "profile": 1947,
+              "source_rect_original_px": [
+                0,
+                0,
+                943,
+                773
+              ],
+              "text": "030",
+              "tile_index": 0,
+              "tile_level": 0
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "anchor": [
+            606.0,
+            394.67,
+            630.67,
+            410.67
+          ],
+          "selected_text": "145",
+          "normalized_text": "145",
+          "kind": "linear_or_value",
+          "state": "PLAUSIBLE_UNVERIFIED",
+          "margin": 0,
+          "alternatives": [
+            {
+              "text": "145",
+              "key": "145",
+              "score": 2.84943,
+              "kind": "linear_or_value",
+              "parse_quality": 1.8,
+              "flags": [],
+              "confidence_peak": 0.999,
+              "whole_profiles": [
+                "1947"
+              ],
+              "profiles": [
+                "1947"
+              ],
+              "tile_samples": 0,
+              "support_examples": 1,
+              "style_bonus": 0.0
+            }
+          ],
+          "boundary_fragments": 0,
+          "source_items": [
+            {
+              "bbox_original_px": [
+                606.0,
+                394.67,
+                630.67,
+                410.67
+              ],
+              "bbox_processed_px": [
+                909.0,
+                592.0,
+                946.0,
+                616.0
+              ],
+              "confidence": 0.998796284198761,
+              "near_tile_boundary": false,
+              "polygon_processed_px": [
+                [
+                  909,
+                  592
+                ],
+                [
+                  946,
+                  592
+                ],
+                [
+                  946,
+                  616
+                ],
+                [
+                  909,
+                  616
+                ]
+              ],
+              "profile": 1947,
+              "source_rect_original_px": [
+                0,
+                0,
+                943,
+                773
+              ],
+              "text": "145",
+              "tile_index": 0,
+              "tile_level": 0
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "anchor": [
+            494.67,
+            417.33,
+            515.33,
+            434.67
+          ],
+          "selected_text": "50",
+          "normalized_text": "50",
+          "kind": "linear_or_value",
+          "state": "PLAUSIBLE_UNVERIFIED",
+          "margin": 0,
+          "alternatives": [
+            {
+              "text": "50",
+              "key": "50",
+              "score": 2.8499,
+              "kind": "linear_or_value",
+              "parse_quality": 1.8,
+              "flags": [],
+              "confidence_peak": 1.0,
+              "whole_profiles": [
+                "1947"
+              ],
+              "profiles": [
+                "1947"
+              ],
+              "tile_samples": 0,
+              "support_examples": 1,
+              "style_bonus": 0.0
+            }
+          ],
+          "boundary_fragments": 0,
+          "source_items": [
+            {
+              "bbox_original_px": [
+                494.67,
+                417.33,
+                515.33,
+                434.67
+              ],
+              "bbox_processed_px": [
+                742.0,
+                626.0,
+                773.0,
+                652.0
+              ],
+              "confidence": 0.9997952580451965,
+              "near_tile_boundary": false,
+              "polygon_processed_px": [
+                [
+                  742,
+                  626
+                ],
+                [
+                  773,
+                  626
+                ],
+                [
+                  773,
+                  652
+                ],
+                [
+                  742,
+                  652
+                ]
+              ],
+              "profile": 1947,
+              "source_rect_original_px": [
+                0,
+                0,
+                943,
+                773
+              ],
+              "text": "50",
+              "tile_index": 0,
+              "tile_level": 0
+            }
+          ]
+        },
+        {
+          "id": 9,
+          "anchor": [
+            629.33,
+            425.33,
+            654.67,
+            442.0
+          ],
+          "selected_text": "R15",
+          "normalized_text": "R15",
+          "kind": "radius",
+          "state": "PLAUSIBLE_UNVERIFIED",
+          "margin": 0,
+          "alternatives": [
+            {
+              "text": "R15",
+              "key": "R15",
+              "score": 3.59977,
+              "kind": "radius",
+              "parse_quality": 2.2,
+              "flags": [],
+              "confidence_peak": 1.0,
+              "whole_profiles": [
+                "1947"
+              ],
+              "profiles": [
+                "1947"
+              ],
+              "tile_samples": 0,
+              "support_examples": 1,
+              "style_bonus": 0.35
+            }
+          ],
+          "boundary_fragments": 0,
+          "source_items": [
+            {
+              "bbox_original_px": [
+                629.33,
+                425.33,
+                654.67,
+                442.0
+              ],
+              "bbox_processed_px": [
+                944.0,
+                638.0,
+                982.0,
+                663.0
+              ],
+              "confidence": 0.9995055198669434,
+              "near_tile_boundary": false,
+              "polygon_processed_px": [
+                [
+                  944,
+                  638
+                ],
+                [
+                  982,
+                  638
+                ],
+                [
+                  982,
+                  663
+                ],
+                [
+                  944,
+                  663
+                ]
+              ],
+              "profile": 1947,
+              "source_rect_original_px": [
+                0,
+                0,
+                943,
+                773
+              ],
+              "text": "R15",
+              "tile_index": 0,
+              "tile_level": 0
+            }
+          ]
+        },
+        {
+          "id": 10,
+          "anchor": [
+            404.67,
+            440.0,
+            432.0,
+            455.33
+          ],
+          "selected_text": "R15",
+          "normalized_text": "R15",
+          "kind": "radius",
+          "state": "PLAUSIBLE_UNVERIFIED",
+          "margin": 0,
+          "alternatives": [
+            {
+              "text": "R15",
+              "key": "R15",
+              "score": 3.59957,
+              "kind": "radius",
+              "parse_quality": 2.2,
+              "flags": [],
+              "confidence_peak": 0.999,
+              "whole_profiles": [
+                "1947"
+              ],
+              "profiles": [
+                "1947"
+              ],
+              "tile_samples": 0,
+              "support_examples": 1,
+              "style_bonus": 0.35
+            }
+          ],
+          "boundary_fragments": 0,
+          "source_items": [
+            {
+              "bbox_original_px": [
+                404.67,
+                440.0,
+                432.0,
+                455.33
+              ],
+              "bbox_processed_px": [
+                607.0,
+                660.0,
+                648.0,
+                683.0
+              ],
+              "confidence": 0.9990846514701843,
+              "near_tile_boundary": false,
+              "polygon_processed_px": [
+                [
+                  607,
+                  660
+                ],
+                [
+                  648,
+                  660
+                ],
+                [
+                  648,
+                  683
+                ],
+                [
+                  607,
+                  683
+                ]
+              ],
+              "profile": 1947,
+              "source_rect_original_px": [
+                0,
+                0,
+                943,
+                773
+              ],
+              "text": "R15",
+              "tile_index": 0,
+              "tile_level": 0
+            }
+          ]
+        },
+        {
+          "id": 11,
+          "anchor": [
+            682.0,
+            468.0,
+            707.33,
+            496.67
+          ],
+          "selected_text": "0",
+          "normalized_text": "0",
+          "kind": "linear_or_value",
+          "state": "PLAUSIBLE_UNVERIFIED",
+          "margin": 0,
+          "alternatives": [
+            {
+              "text": "0",
+              "key": "0",
+              "score": 2.6331,
+              "kind": "linear_or_value",
+              "parse_quality": 1.8,
+              "flags": [],
+              "confidence_peak": 0.541,
+              "whole_profiles": [
+                "1947"
+              ],
+              "profiles": [
+                "1947"
+              ],
+              "tile_samples": 0,
+              "support_examples": 1,
+              "style_bonus": 0.0
+            }
+          ],
+          "boundary_fragments": 0,
+          "source_items": [
+            {
+              "bbox_original_px": [
+                682.0,
+                468.0,
+                707.33,
+                496.67
+              ],
+              "bbox_processed_px": [
+                1023.0,
+                702.0,
+                1061.0,
+                745.0
+              ],
+              "confidence": 0.5409517884254456,
+              "near_tile_boundary": false,
+              "polygon_processed_px": [
+                [
+                  1034,
+                  702
+                ],
+                [
+                  1061,
+                  709
+                ],
+                [
+                  1050,
+                  745
+                ],
+                [
+                  1023,
+                  738
+                ]
+              ],
+              "profile": 1947,
+              "source_rect_original_px": [
+                0,
+                0,
+                943,
+                773
+              ],
+              "text": "0",
+              "tile_index": 0,
+              "tile_level": 0
+            }
+          ]
+        },
+        {
+          "id": 12,
+          "anchor": [
+            872.67,
+            533.33,
+            899.33,
+            550.0
+          ],
+          "selected_text": "R15",
+          "normalized_text": "R15",
+          "kind": "radius",
+          "state": "PLAUSIBLE_UNVERIFIED",
+          "margin": 0,
+          "alternatives": [
+            {
+              "text": "R15",
+              "key": "R15",
+              "score": 3.59938,
+              "kind": "radius",
+              "parse_quality": 2.2,
+              "flags": [],
+              "confidence_peak": 0.999,
+              "whole_profiles": [
+                "1947"
+              ],
+              "profiles": [
+                "1947"
+              ],
+              "tile_samples": 0,
+              "support_examples": 1,
+              "style_bonus": 0.35
+            }
+          ],
+          "boundary_fragments": 0,
+          "source_items": [
+            {
+              "bbox_original_px": [
+                872.67,
+                533.33,
+                899.33,
+                550.0
+              ],
+              "bbox_processed_px": [
+                1309.0,
+                800.0,
+                1349.0,
+                825.0
+              ],
+              "confidence": 0.998685896396637,
+              "near_tile_boundary": false,
+              "polygon_processed_px": [
+                [
+                  1309,
+                  800
+                ],
+                [
+                  1349,
+                  800
+                ],
+                [
+                  1349,
+                  825
+                ],
+                [
+                  1309,
+                  825
+                ]
+              ],
+              "profile": 1947,
+              "source_rect_original_px": [
+                0,
+                0,
+                943,
+                773
+              ],
+              "text": "R15",
+              "tile_index": 0,
+              "tile_level": 0
+            }
+          ]
+        },
+        {
+          "id": 13,
+          "anchor": [
+            395.33,
+            630.0,
+            412.0,
+            648.0
+          ],
+          "selected_text": "50",
+          "normalized_text": "50",
+          "kind": "linear_or_value",
+          "state": "PLAUSIBLE_UNVERIFIED",
+          "margin": 0,
+          "alternatives": [
+            {
+              "text": "50",
+              "key": "50",
+              "score": 2.72922,
+              "kind": "linear_or_value",
+              "parse_quality": 1.8,
+              "flags": [],
+              "confidence_peak": 0.744,
+              "whole_profiles": [
+                "1947"
+              ],
+              "profiles": [
+                "1947"
+              ],
+              "tile_samples": 0,
+              "support_examples": 1,
+              "style_bonus": 0.0
+            }
+          ],
+          "boundary_fragments": 0,
+          "source_items": [
+            {
+              "bbox_original_px": [
+                395.33,
+                630.0,
+                412.0,
+                648.0
+              ],
+              "bbox_processed_px": [
+                593.0,
+                945.0,
+                618.0,
+                972.0
+              ],
+              "confidence": 0.7443732023239136,
+              "near_tile_boundary": false,
+              "polygon_processed_px": [
+                [
+                  596,
+                  945
+                ],
+                [
+                  618,
+                  947
+                ],
+                [
+                  615,
+                  972
+                ],
+                [
+                  593,
+                  970
+                ]
+              ],
+              "profile": 1947,
+              "source_rect_original_px": [
+                0,
+                0,
+                943,
+                773
+              ],
+              "text": "50",
+              "tile_index": 0,
+              "tile_level": 0
+            }
+          ]
+        },
+        {
+          "id": 14,
+          "anchor": [
+            851.33,
+            642.0,
+            864.0,
+            655.33
+          ],
+          "selected_text": "42",
+          "normalized_text": "42",
+          "kind": "linear_or_value",
+          "state": "PLAUSIBLE_UNVERIFIED",
+          "margin": 0,
+          "alternatives": [
+            {
+              "text": "42",
+              "key": "42",
+              "score": 2.82624,
+              "kind": "linear_or_value",
+              "parse_quality": 1.8,
+              "flags": [],
+              "confidence_peak": 0.95,
+              "whole_profiles": [
+                "1947"
+              ],
+              "profiles": [
+                "1947"
+              ],
+              "tile_samples": 0,
+              "support_examples": 1,
+              "style_bonus": 0.0
+            }
+          ],
+          "boundary_fragments": 0,
+          "source_items": [
+            {
+              "bbox_original_px": [
+                851.33,
+                642.0,
+                864.0,
+                655.33
+              ],
+              "bbox_processed_px": [
+                1277.0,
+                963.0,
+                1296.0,
+                983.0
+              ],
+              "confidence": 0.949710488319397,
+              "near_tile_boundary": false,
+              "polygon_processed_px": [
+                [
+                  1277,
+                  963
+                ],
+                [
+                  1296,
+                  963
+                ],
+                [
+                  1296,
+                  983
+                ],
+                [
+                  1277,
+                  983
+                ]
+              ],
+              "profile": 1947,
+              "source_rect_original_px": [
+                0,
+                0,
+                943,
+                773
+              ],
+              "text": "42",
+              "tile_index": 0,
+              "tile_level": 0
+            }
+          ]
+        },
+        {
+          "id": 15,
+          "anchor": [
+            606.67,
+            662.0,
+            628.67,
+            681.33
+          ],
+          "selected_text": "45",
+          "normalized_text": "45",
+          "kind": "linear_or_value",
+          "state": "PLAUSIBLE_UNVERIFIED",
+          "margin": 0,
+          "alternatives": [
+            {
+              "text": "45",
+              "key": "45",
+              "score": 2.8499,
+              "kind": "linear_or_value",
+              "parse_quality": 1.8,
+              "flags": [],
+              "confidence_peak": 1.0,
+              "whole_profiles": [
+                "1947"
+              ],
+              "profiles": [
+                "1947"
+              ],
+              "tile_samples": 0,
+              "support_examples": 1,
+              "style_bonus": 0.0
+            }
+          ],
+          "boundary_fragments": 0,
+          "source_items": [
+            {
+              "bbox_original_px": [
+                606.67,
+                662.0,
+                628.67,
+                681.33
+              ],
+              "bbox_processed_px": [
+                910.0,
+                993.0,
+                943.0,
+                1022.0
+              ],
+              "confidence": 0.9997909665107727,
+              "near_tile_boundary": false,
+              "polygon_processed_px": [
+                [
+                  910,
+                  996
+                ],
+                [
+                  940,
+                  993
+                ],
+                [
+                  943,
+                  1019
+                ],
+                [
+                  913,
+                  1022
+                ]
+              ],
+              "profile": 1947,
+              "source_rect_original_px": [
+                0,
+                0,
+                943,
+                773
+              ],
+              "text": "45",
+              "tile_index": 0,
+              "tile_level": 0
+            }
+          ]
+        },
+        {
+          "id": 16,
+          "anchor": [
+            367.33,
+            719.33,
+            394.67,
+            734.67
+          ],
+          "selected_text": "R15",
+          "normalized_text": "R15",
+          "kind": "radius",
+          "state": "PLAUSIBLE_UNVERIFIED",
+          "margin": 0,
+          "alternatives": [
+            {
+              "text": "R15",
+              "key": "R15",
+              "score": 3.59945,
+              "kind": "radius",
+              "parse_quality": 2.2,
+              "flags": [],
+              "confidence_peak": 0.999,
+              "whole_profiles": [
+                "1947"
+              ],
+              "profiles": [
+                "1947"
+              ],
+              "tile_samples": 0,
+              "support_examples": 1,
+              "style_bonus": 0.35
+            }
+          ],
+          "boundary_fragments": 0,
+          "source_items": [
+            {
+              "bbox_original_px": [
+                367.33,
+                719.33,
+                394.67,
+                734.67
+              ],
+              "bbox_processed_px": [
+                551.0,
+                1079.0,
+                592.0,
+                1102.0
+              ],
+              "confidence": 0.9988377094268799,
+              "near_tile_boundary": false,
+              "polygon_processed_px": [
+                [
+                  551,
+                  1079
+                ],
+                [
+                  592,
+                  1079
+                ],
+                [
+                  592,
+                  1102
+                ],
+                [
+                  551,
+                  1102
+                ]
+              ],
+              "profile": 1947,
+              "source_rect_original_px": [
+                0,
+                0,
+                943,
+                773
+              ],
+              "text": "R15",
+              "tile_index": 0,
+              "tile_level": 0
+            }
+          ]
+        },
+        {
+          "id": 17,
+          "anchor": [
+            738.67,
+            714.0,
+            768.0,
+            733.33
+          ],
+          "selected_text": "R15",
+          "normalized_text": "R15",
+          "kind": "radius",
+          "state": "PLAUSIBLE_UNVERIFIED",
+          "margin": 0,
+          "alternatives": [
+            {
+              "text": "R15",
+              "key": "R15",
+              "score": 3.59089,
+              "kind": "radius",
+              "parse_quality": 2.2,
+              "flags": [],
+              "confidence_peak": 0.981,
+              "whole_profiles": [
+                "1947"
+              ],
+              "profiles": [
+                "1947"
+              ],
+              "tile_samples": 0,
+              "support_examples": 1,
+              "style_bonus": 0.35
+            }
+          ],
+          "boundary_fragments": 0,
+          "source_items": [
+            {
+              "bbox_original_px": [
+                738.67,
+                714.0,
+                768.0,
+                733.33
+              ],
+              "bbox_processed_px": [
+                1108.0,
+                1071.0,
+                1152.0,
+                1100.0
+              ],
+              "confidence": 0.9807095527648926,
+              "near_tile_boundary": false,
+              "polygon_processed_px": [
+                [
+                  1108,
+                  1075
+                ],
+                [
+                  1150,
+                  1071
+                ],
+                [
+                  1152,
+                  1096
+                ],
+                [
+                  1111,
+                  1100
+                ]
+              ],
+              "profile": 1947,
+              "source_rect_original_px": [
+                0,
+                0,
+                943,
+                773
+              ],
+              "text": "R15",
+              "tile_index": 0,
+              "tile_level": 0
+            }
+          ]
+        }
+      ],
+      "review_count": 2
+    },
+    {
+      "profiles": "1060+1947",
+      "plan": "whole",
+      "passes": 2,
+      "seconds": 4.489,
+      "style": {
+        "radius_order": {
+          "preferred": "prefix",
+          "supporting_locations": 6,
+          "share": 1.0,
+          "alternatives": {
+            "prefix": 5.99
+          },
+          "strength": 0.35
+        }
+      },
+      "baseline_v1_selected": null,
+      "results": [
+        {
+          "id": 0,
+          "anchor": [
+            534.0,
+            30.0,
+            593.0,
+            44.0
+          ],
+          "selected_text": "Sactiurea A-A",
+          "normalized_text": "SACTIUREAA-A",
+          "kind": "unclassified",
+          "state": "REVIEW_UNCERTAIN_TOKEN",
+          "margin": 0.0217,
+          "alternatives": [
+            {
+              "text": "Sactiurea A-A",
+              "key": "SACTIUREAA-A",
+              "score": 0.67971,
+              "kind": "unclassified",
+              "parse_quality": -0.25,
+              "flags": [
+                "PARTIAL_DIMENSION_TOKEN"
+              ],
+              "confidence_peak": 0.745,
+              "whole_profiles": [
+                "1060"
+              ],
+              "profiles": [
+                "1060"
+              ],
+              "tile_samples": 0,
+              "support_examples": 1,
+              "style_bonus": 0.0
+            },
+            {
+              "text": "Sactiuraa A-A",
+              "key": "SACTIURAAA-A",
+              "score": 0.658,
+              "kind": "unclassified",
+              "parse_quality": -0.25,
+              "flags": [
+                "PARTIAL_DIMENSION_TOKEN"
+              ],
+              "confidence_peak": 0.699,
+              "whole_profiles": [
+                "1947"
+              ],
+              "profiles": [
+                "1947"
+              ],
+              "tile_samples": 0,
+              "support_examples": 1,
+              "style_bonus": 0.0
+            }
+          ],
+          "boundary_fragments": 0,
+          "source_items": [
+            {
+              "bbox_original_px": [
+                534.0,
+                30.0,
+                593.0,
+                44.0
+              ],
+              "bbox_processed_px": [
+                534.0,
+                30.0,
+                593.0,
+                44.0
+              ],
+              "confidence": 0.7454086542129517,
+              "near_tile_boundary": false,
+              "polygon_processed_px": [
+                [
+                  535,
+                  30
+                ],
+                [
+                  593,
+                  32
+                ],
+                [
+                  592,
+                  44
+                ],
+                [
+                  534,
+                  42
+                ]
+              ],
+              "profile": 1060,
+              "source_rect_original_px": [
+                0,
+                0,
+                943,
+                773
+              ],
+              "text": "Sactiurea A-A",
+              "tile_index": 0,
+              "tile_level": 0
+            },
+            {
+              "bbox_original_px": [
+                535.33,
+                32.0,
+                592.0,
+                42.67
+              ],
+              "bbox_processed_px": [
+                803.0,
+                48.0,
+                888.0,
+                64.0
+              ],
+              "confidence": 0.6994742155075073,
+              "near_tile_boundary": false,
+              "polygon_processed_px": [
+                [
+                  803,
+                  48
+                ],
+                [
+                  888,
+                  48
+                ],
+                [
+                  888,
+                  64
+                ],
+                [
+                  803,
+                  64
+                ]
+              ],
+              "profile": 1947,
+              "source_rect_original_px": [
+                0,
+                0,
+                943,
+                773
+              ],
+              "text": "Sactiuraa A-A",
+              "tile_index": 0,
+              "tile_level": 0
+            }
+          ]
+        },
+        {
+          "id": 1,
+          "anchor": [
+            551.0,
+            63.0,
+            579.0,
+            80.0
+          ],
+          "selected_text": "060",
+          "normalized_text": "060",
+          "kind": "linear_or_value",
+          "state": "PLAUSIBLE_UNVERIFIED",
+          "margin": 0,
+          "alternatives": [
+            {
+              "text": "060",
+              "key": "060",
+              "score": 3.02212,
+              "kind": "linear_or_value",
+              "parse_quality": 1.8,
+              "flags": [],
+              "confidence_peak": 0.983,
+              "whole_profiles": [
+                "1060",
+                "1947"
+              ],
+              "profiles": [
+                "1060",
+                "1947"
+              ],
+              "tile_samples": 0,
+              "support_examples": 2,
+              "style_bonus": 0.0
+            }
+          ],
+          "boundary_fragments": 0,
+          "source_items": [
+            {
+              "bbox_original_px": [
+                551.0,
+                63.0,
+                579.0,
+                80.0
+              ],
+              "bbox_processed_px": [
+                551.0,
+                63.0,
+                579.0,
+                80.0
+              ],
+              "confidence": 0.9829492568969727,
+              "near_tile_boundary": false,
+              "polygon_processed_px": [
+                [
+                  551,
+                  63
+                ],
+                [
+                  579,
+                  63
+                ],
+                [
+                  579,
+                  80
+                ],
+                [
+                  551,
+                  80
+                ]
+              ],
+              "profile": 1060,
+              "source_rect_original_px": [
+                0,
+                0,
+                943,
+                773
+              ],
+              "text": "060",
+              "tile_index": 0,
+              "tile_level": 0
+            },
+            {
+              "bbox_original_px": [
+                550.0,
+                64.0,
+                579.33,
+                79.33
+              ],
+              "bbox_processed_px": [
+                825.0,
+                96.0,
+                869.0,
+                119.0
+              ],
+              "confidence": 0.9833155274391174,
+              "near_tile_boundary": false,
+              "polygon_processed_px": [
+                [
+                  825,
+                  96
+                ],
+                [
+                  869,
+                  96
+                ],
+                [
+                  869,
+                  119
+                ],
+                [
+                  825,
+                  119
+                ]
+              ],
+              "profile": 1947,
+              "source_rect_original_px": [
+                0,
+                0,
+                943,
+                773
+              ],
+              "text": "060",
+              "tile_index": 0,
+              "tile_level": 0
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "anchor": [
+            549.0,
+            92.0,
+            580.0,
+            112.0
+          ],
+          "selected_text": "040",
+          "normalized_text": "040",
+          "kind": "linear_or_value",
+          "state": "PLAUSIBLE_UNVERIFIED",
+          "margin": 0,
+          "alternatives": [
+            {
+              "text": "040",
+              "key": "040",
+              "score": 3.01265,
+              "kind": "linear_or_value",
+              "parse_quality": 1.8,
+              "flags": [],
+              "confidence_peak": 0.963,
+              "whole_profiles": [
+                "1060",
+                "1947"
+              ],
+              "profiles": [
+                "1060",
+                "1947"
+              ],
+              "tile_samples": 0,
+              "support_examples": 2,
+              "style_bonus": 0.0
+            }
+          ],
+          "boundary_fragments": 0,
+          "source_items": [
+            {
+              "bbox_original_px": [
+                549.0,
+                92.0,
+                580.0,
+                112.0
+              ],
+              "bbox_processed_px": [
+                549.0,
+                92.0,
+                580.0,
+                112.0
+              ],
+              "confidence": 0.9632771611213684,
+              "near_tile_boundary": false,
+              "polygon_processed_px": [
+                [
+                  549,
+                  95
+                ],
+                [
+                  578,
+                  92
+                ],
+                [
+                  580,
+                  109
+                ],
+                [
+                  551,
+                  112
+                ]
+              ],
+              "profile": 1060,
+              "source_rect_original_px": [
+                0,
+                0,
+                943,
+                773
+              ],
+              "text": "040",
+              "tile_index": 0,
+              "tile_level": 0
+            },
+            {
+              "bbox_original_px": [
+                550.0,
+                94.67,
+                579.33,
+                110.0
+              ],
+              "bbox_processed_px": [
+                825.0,
+                142.0,
+                869.0,
+                165.0
+              ],
+              "confidence": 0.9509151577949524,
+              "near_tile_boundary": false,
+              "polygon_processed_px": [
+                [
+                  825,
+                  142
+                ],
+                [
+                  869,
+                  142
+                ],
+                [
+                  869,
+                  165
+                ],
+                [
+                  825,
+                  165
+                ]
+              ],
+              "profile": 1947,
+              "source_rect_original_px": [
+                0,
+                0,
+                943,
+                773
+              ],
+              "text": "040",
+              "tile_index": 0,
+              "tile_level": 0
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "anchor": [
+            261.0,
+            165.0,
+            288.0,
+            180.0
+          ],
+          "selected_text": "016",
+          "normalized_text": "016",
+          "kind": "linear_or_value",
+          "state": "PLAUSIBLE_UNVERIFIED",
+          "margin": 0,
+          "alternatives": [
+            {
+              "text": "016",
+              "key": "016",
+              "score": 3.01201,
+              "kind": "linear_or_value",
+              "parse_quality": 1.8,
+              "flags": [],
+              "confidence_peak": 0.962,
+              "whole_profiles": [
+                "1060",
+                "1947"
+              ],
+              "profiles": [
+                "1060",
+                "1947"
+              ],
+              "tile_samples": 0,
+              "support_examples": 2,
+              "style_bonus": 0.0
+            }
+          ],
+          "boundary_fragments": 0,
+          "source_items": [
+            {
+              "bbox_original_px": [
+                261.0,
+                165.0,
+                288.0,
+                180.0
+              ],
+              "bbox_processed_px": [
+                261.0,
+                165.0,
+                288.0,
+                180.0
+              ],
+              "confidence": 0.8646392226219177,
+              "near_tile_boundary": false,
+              "polygon_processed_px": [
+                [
+                  261,
+                  165
+                ],
+                [
+                  288,
+                  165
+                ],
+                [
+                  288,
+                  180
+                ],
+                [
+                  261,
+                  180
+                ]
+              ],
+              "profile": 1060,
+              "source_rect_original_px": [
+                0,
+                0,
+                943,
+                773
+              ],
+              "text": "016",
+              "tile_index": 0,
+              "tile_level": 0
+            },
+            {
+              "bbox_original_px": [
+                261.33,
+                164.0,
+                288.0,
+                180.0
+              ],
+              "bbox_processed_px": [
+                392.0,
+                246.0,
+                432.0,
+                270.0
+              ],
+              "confidence": 0.9619266390800476,
+              "near_tile_boundary": false,
+              "polygon_processed_px": [
+                [
+                  392,
+                  246
+                ],
+                [
+                  432,
+                  246
+                ],
+                [
+                  432,
+                  270
+                ],
+                [
+                  392,
+                  270
+                ]
+              ],
+              "profile": 1947,
+              "source_rect_original_px": [
+                0,
+                0,
+                943,
+                773
+              ],
+              "text": "016",
+              "tile_index": 0,
+              "tile_level": 0
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "anchor": [
+            68.0,
+            176.0,
+            91.0,
+            189.0
+          ],
+          "selected_text": "R15",
+          "normalized_text": "R15",
+          "kind": "radius",
+          "state": "PLAUSIBLE_UNVERIFIED",
+          "margin": 0,
+          "alternatives": [
+            {
+              "text": "R15",
+              "key": "R15",
+              "score": 3.77974,
+              "kind": "radius",
+              "parse_quality": 2.2,
+              "flags": [],
+              "confidence_peak": 0.999,
+              "whole_profiles": [
+                "1060",
+                "1947"
+              ],
+              "profiles": [
+                "1060",
+                "1947"
+              ],
+              "tile_samples": 0,
+              "support_examples": 2,
+              "style_bonus": 0.35
+            }
+          ],
+          "boundary_fragments": 0,
+          "source_items": [
+            {
+              "bbox_original_px": [
+                68.0,
+                176.0,
+                91.0,
+                189.0
+              ],
+              "bbox_processed_px": [
+                68.0,
+                176.0,
+                91.0,
+                189.0
+              ],
+              "confidence": 0.999458372592926,
+              "near_tile_boundary": false,
+              "polygon_processed_px": [
+                [
+                  68,
+                  176
+                ],
+                [
+                  91,
+                  176
+                ],
+                [
+                  91,
+                  189
+                ],
+                [
+                  68,
+                  189
+                ]
+              ],
+              "profile": 1060,
+              "source_rect_original_px": [
+                0,
+                0,
+                943,
+                773
+              ],
+              "text": "R15",
+              "tile_index": 0,
+              "tile_level": 0
+            },
+            {
+              "bbox_original_px": [
+                66.0,
+                174.67,
+                92.0,
+                189.33
+              ],
+              "bbox_processed_px": [
+                99.0,
+                262.0,
+                138.0,
+                284.0
+              ],
+              "confidence": 0.998643159866333,
+              "near_tile_boundary": false,
+              "polygon_processed_px": [
+                [
+                  99,
+                  262
+                ],
+                [
+                  138,
+                  262
+                ],
+                [
+                  138,
+                  284
+                ],
+                [
+                  99,
+                  284
+                ]
+              ],
+              "profile": 1947,
+              "source_rect_original_px": [
+                0,
+                0,
+                943,
+                773
+              ],
+              "text": "R15",
+              "tile_index": 0,
+              "tile_level": 0
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "anchor": [
+            402.0,
+            213.0,
+            416.0,
+            228.0
+          ],
+          "selected_text": "品",
+          "normalized_text": "品",
+          "kind": "unclassified",
+          "state": "REVIEW_UNCERTAIN_TOKEN",
+          "margin": 0,
+          "alternatives": [
+            {
+              "text": "品",
+              "key": "品",
+              "score": 0.9438,
+              "kind": "unclassified",
+              "parse_quality": -0.25,
+              "flags": [],
+              "confidence_peak": 0.923,
+              "whole_profiles": [
+                "1060",
+                "1947"
+              ],
+              "profiles": [
+                "1060",
+                "1947"
+              ],
+              "tile_samples": 0,
+              "support_examples": 2,
+              "style_bonus": 0.0
+            }
+          ],
+          "boundary_fragments": 0,
+          "source_items": [
+            {
+              "bbox_original_px": [
+                402.0,
+                213.0,
+                416.0,
+                228.0
+              ],
+              "bbox_processed_px": [
+                402.0,
+                213.0,
+                416.0,
+                228.0
+              ],
+              "confidence": 0.6207127571105957,
+              "near_tile_boundary": false,
+              "polygon_processed_px": [
+                [
+                  402,
+                  213
+                ],
+                [
+                  416,
+                  213
+                ],
+                [
+                  416,
+                  228
+                ],
+                [
+                  402,
+                  228
+                ]
+              ],
+              "profile": 1060,
+              "source_rect_original_px": [
+                0,
+                0,
+                943,
+                773
+              ],
+              "text": "品",
+              "tile_index": 0,
+              "tile_level": 0
+            },
+            {
+              "bbox_original_px": [
+                402.67,
+                213.33,
+                415.33,
+                228.0
+              ],
+              "bbox_processed_px": [
+                604.0,
+                320.0,
+                623.0,
+                342.0
+              ],
+              "confidence": 0.9233912825584412,
+              "near_tile_boundary": false,
+              "polygon_processed_px": [
+                [
+                  604,
+                  320
+                ],
+                [
+                  623,
+                  320
+                ],
+                [
+                  623,
+                  342
+                ],
+                [
+                  604,
+                  342
+                ]
+              ],
+              "profile": 1947,
+              "source_rect_original_px": [
+                0,
+                0,
+                943,
+                773
+              ],
+              "text": "品",
+              "tile_index": 0,
+              "tile_level": 0
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "anchor": [
+            551.0,
+            325.0,
+            578.0,
+            340.0
+          ],
+          "selected_text": "030",
+          "normalized_text": "030",
+          "kind": "linear_or_value",
+          "state": "PLAUSIBLE_UNVERIFIED",
+          "margin": 0,
+          "alternatives": [
+            {
+              "text": "030",
+              "key": "030",
+              "score": 3.02277,
+              "kind": "linear_or_value",
+              "parse_quality": 1.8,
+              "flags": [],
+              "confidence_peak": 0.985,
+              "whole_profiles": [
+                "1060",
+                "1947"
+              ],
+              "profiles": [
+                "1060",
+                "1947"
+              ],
+              "tile_samples": 0,
+              "support_examples": 2,
+              "style_bonus": 0.0
+            }
+          ],
+          "boundary_fragments": 0,
+          "source_items": [
+            {
+              "bbox_original_px": [
+                551.0,
+                325.0,
+                578.0,
+                340.0
+              ],
+              "bbox_processed_px": [
+                551.0,
+                325.0,
+                578.0,
+                340.0
+              ],
+              "confidence": 0.9294269680976868,
+              "near_tile_boundary": false,
+              "polygon_processed_px": [
+                [
+                  551,
+                  325
+                ],
+                [
+                  578,
+                  325
+                ],
+                [
+                  578,
+                  340
+                ],
+                [
+                  551,
+                  340
+                ]
+              ],
+              "profile": 1060,
+              "source_rect_original_px": [
+                0,
+                0,
+                943,
+                773
+              ],
+              "text": "030",
+              "tile_index": 0,
+              "tile_level": 0
+            },
+            {
+              "bbox_original_px": [
+                550.0,
+                324.67,
+                579.33,
+                340.0
+              ],
+              "bbox_processed_px": [
+                825.0,
+                487.0,
+                869.0,
+                510.0
+              ],
+              "confidence": 0.9847023487091064,
+              "near_tile_boundary": false,
+              "polygon_processed_px": [
+                [
+                  825,
+                  487
+                ],
+                [
+                  869,
+                  487
+                ],
+                [
+                  869,
+                  510
+                ],
+                [
+                  825,
+                  510
+                ]
+              ],
+              "profile": 1947,
+              "source_rect_original_px": [
+                0,
+                0,
+                943,
+                773
+              ],
+              "text": "030",
+              "tile_index": 0,
+              "tile_level": 0
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "anchor": [
+            606.0,
+            395.0,
+            630.0,
+            411.0
+          ],
+          "selected_text": "145",
+          "normalized_text": "145",
+          "kind": "linear_or_value",
+          "state": "PLAUSIBLE_UNVERIFIED",
+          "margin": 0,
+          "alternatives": [
+            {
+              "text": "145",
+              "key": "145",
+              "score": 3.02991,
+              "kind": "linear_or_value",
+              "parse_quality": 1.8,
+              "flags": [],
+              "confidence_peak": 1.0,
+              "whole_profiles": [
+                "1060",
+                "1947"
+              ],
+              "profiles": [
+                "1060",
+                "1947"
+              ],
+              "tile_samples": 0,
+              "support_examples": 2,
+              "style_bonus": 0.0
+            }
+          ],
+          "boundary_fragments": 0,
+          "source_items": [
+            {
+              "bbox_original_px": [
+                606.0,
+                395.0,
+                630.0,
+                411.0
+              ],
+              "bbox_processed_px": [
+                606.0,
+                395.0,
+                630.0,
+                411.0
+              ],
+              "confidence": 0.999816358089447,
+              "near_tile_boundary": false,
+              "polygon_processed_px": [
+                [
+                  606,
+                  395
+                ],
+                [
+                  630,
+                  395
+                ],
+                [
+                  630,
+                  411
+                ],
+                [
+                  606,
+                  411
+                ]
+              ],
+              "profile": 1060,
+              "source_rect_original_px": [
+                0,
+                0,
+                943,
+                773
+              ],
+              "text": "145",
+              "tile_index": 0,
+              "tile_level": 0
+            },
+            {
+              "bbox_original_px": [
+                606.0,
+                394.67,
+                630.67,
+                410.67
+              ],
+              "bbox_processed_px": [
+                909.0,
+                592.0,
+                946.0,
+                616.0
+              ],
+              "confidence": 0.998796284198761,
+              "near_tile_boundary": false,
+              "polygon_processed_px": [
+                [
+                  909,
+                  592
+                ],
+                [
+                  946,
+                  592
+                ],
+                [
+                  946,
+                  616
+                ],
+                [
+                  909,
+                  616
+                ]
+              ],
+              "profile": 1947,
+              "source_rect_original_px": [
+                0,
+                0,
+                943,
+                773
+              ],
+              "text": "145",
+              "tile_index": 0,
+              "tile_level": 0
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "anchor": [
+            496.0,
+            419.0,
+            514.0,
+            433.0
+          ],
+          "selected_text": "50",
+          "normalized_text": "50",
+          "kind": "linear_or_value",
+          "state": "PLAUSIBLE_UNVERIFIED",
+          "margin": 0,
+          "alternatives": [
+            {
+              "text": "50",
+              "key": "50",
+              "score": 3.0299,
+              "kind": "linear_or_value",
+              "parse_quality": 1.8,
+              "flags": [],
+              "confidence_peak": 1.0,
+              "whole_profiles": [
+                "1060",
+                "1947"
+              ],
+              "profiles": [
+                "1060",
+                "1947"
+              ],
+              "tile_samples": 0,
+              "support_examples": 2,
+              "style_bonus": 0.0
+            }
+          ],
+          "boundary_fragments": 0,
+          "source_items": [
+            {
+              "bbox_original_px": [
+                496.0,
+                419.0,
+                514.0,
+                433.0
+              ],
+              "bbox_processed_px": [
+                496.0,
+                419.0,
+                514.0,
+                433.0
+              ],
+              "confidence": 0.999237060546875,
+              "near_tile_boundary": false,
+              "polygon_processed_px": [
+                [
+                  496,
+                  419
+                ],
+                [
+                  514,
+                  419
+                ],
+                [
+                  514,
+                  433
+                ],
+                [
+                  496,
+                  433
+                ]
+              ],
+              "profile": 1060,
+              "source_rect_original_px": [
+                0,
+                0,
+                943,
+                773
+              ],
+              "text": "50",
+              "tile_index": 0,
+              "tile_level": 0
+            },
+            {
+              "bbox_original_px": [
+                494.67,
+                417.33,
+                515.33,
+                434.67
+              ],
+              "bbox_processed_px": [
+                742.0,
+                626.0,
+                773.0,
+                652.0
+              ],
+              "confidence": 0.9997952580451965,
+              "near_tile_boundary": false,
+              "polygon_processed_px": [
+                [
+                  742,
+                  626
+                ],
+                [
+                  773,
+                  626
+                ],
+                [
+                  773,
+                  652
+                ],
+                [
+                  742,
+                  652
+                ]
+              ],
+              "profile": 1947,
+              "source_rect_original_px": [
+                0,
+                0,
+                943,
+                773
+              ],
+              "text": "50",
+              "tile_index": 0,
+              "tile_level": 0
+            }
+          ]
+        },
+        {
+          "id": 9,
+          "anchor": [
+            629.0,
+            426.0,
+            655.0,
+            442.0
+          ],
+          "selected_text": "R15",
+          "normalized_text": "R15",
+          "kind": "radius",
+          "state": "PLAUSIBLE_UNVERIFIED",
+          "margin": 0,
+          "alternatives": [
+            {
+              "text": "R15",
+              "key": "R15",
+              "score": 3.77977,
+              "kind": "radius",
+              "parse_quality": 2.2,
+              "flags": [],
+              "confidence_peak": 1.0,
+              "whole_profiles": [
+                "1060",
+                "1947"
+              ],
+              "profiles": [
+                "1060",
+                "1947"
+              ],
+              "tile_samples": 0,
+              "support_examples": 2,
+              "style_bonus": 0.35
+            }
+          ],
+          "boundary_fragments": 0,
+          "source_items": [
+            {
+              "bbox_original_px": [
+                629.0,
+                426.0,
+                655.0,
+                442.0
+              ],
+              "bbox_processed_px": [
+                629.0,
+                426.0,
+                655.0,
+                442.0
+              ],
+              "confidence": 0.9989965558052063,
+              "near_tile_boundary": false,
+              "polygon_processed_px": [
+                [
+                  629,
+                  426
+                ],
+                [
+                  655,
+                  426
+                ],
+                [
+                  655,
+                  442
+                ],
+                [
+                  629,
+                  442
+                ]
+              ],
+              "profile": 1060,
+              "source_rect_original_px": [
+                0,
+                0,
+                943,
+                773
+              ],
+              "text": "R15",
+              "tile_index": 0,
+              "tile_level": 0
+            },
+            {
+              "bbox_original_px": [
+                629.33,
+                425.33,
+                654.67,
+                442.0
+              ],
+              "bbox_processed_px": [
+                944.0,
+                638.0,
+                982.0,
+                663.0
+              ],
+              "confidence": 0.9995055198669434,
+              "near_tile_boundary": false,
+              "polygon_processed_px": [
+                [
+                  944,
+                  638
+                ],
+                [
+                  982,
+                  638
+                ],
+                [
+                  982,
+                  663
+                ],
+                [
+                  944,
+                  663
+                ]
+              ],
+              "profile": 1947,
+              "source_rect_original_px": [
+                0,
+                0,
+                943,
+                773
+              ],
+              "text": "R15",
+              "tile_index": 0,
+              "tile_level": 0
+            }
+          ]
+        },
+        {
+          "id": 10,
+          "anchor": [
+            405.0,
+            442.0,
+            431.0,
+            454.0
+          ],
+          "selected_text": "R15",
+          "normalized_text": "R15",
+          "kind": "radius",
+          "state": "PLAUSIBLE_UNVERIFIED",
+          "margin": 0,
+          "alternatives": [
+            {
+              "text": "R15",
+              "key": "R15",
+              "score": 3.77957,
+              "kind": "radius",
+              "parse_quality": 2.2,
+              "flags": [],
+              "confidence_peak": 0.999,
+              "whole_profiles": [
+                "1060",
+                "1947"
+              ],
+              "profiles": [
+                "1060",
+                "1947"
+              ],
+              "tile_samples": 0,
+              "support_examples": 2,
+              "style_bonus": 0.35
+            }
+          ],
+          "boundary_fragments": 0,
+          "source_items": [
+            {
+              "bbox_original_px": [
+                405.0,
+                442.0,
+                431.0,
+                454.0
+              ],
+              "bbox_processed_px": [
+                405.0,
+                442.0,
+                431.0,
+                454.0
+              ],
+              "confidence": 0.9985354542732239,
+              "near_tile_boundary": false,
+              "polygon_processed_px": [
+                [
+                  405,
+                  442
+                ],
+                [
+                  431,
+                  442
+                ],
+                [
+                  431,
+                  454
+                ],
+                [
+                  405,
+                  454
+                ]
+              ],
+              "profile": 1060,
+              "source_rect_original_px": [
+                0,
+                0,
+                943,
+                773
+              ],
+              "text": "R15",
+              "tile_index": 0,
+              "tile_level": 0
+            },
+            {
+              "bbox_original_px": [
+                404.67,
+                440.0,
+                432.0,
+                455.33
+              ],
+              "bbox_processed_px": [
+                607.0,
+                660.0,
+                648.0,
+                683.0
+              ],
+              "confidence": 0.9990846514701843,
+              "near_tile_boundary": false,
+              "polygon_processed_px": [
+                [
+                  607,
+                  660
+                ],
+                [
+                  648,
+                  660
+                ],
+                [
+                  648,
+                  683
+                ],
+                [
+                  607,
+                  683
+                ]
+              ],
+              "profile": 1947,
+              "source_rect_original_px": [
+                0,
+                0,
+                943,
+                773
+              ],
+              "text": "R15",
+              "tile_index": 0,
+              "tile_level": 0
+            }
+          ]
+        },
+        {
+          "id": 11,
+          "anchor": [
+            874.0,
+            535.0,
+            897.0,
+            549.0
+          ],
+          "selected_text": "R15",
+          "normalized_text": "R15",
+          "kind": "radius",
+          "state": "PLAUSIBLE_UNVERIFIED",
+          "margin": 0,
+          "alternatives": [
+            {
+              "text": "R15",
+              "key": "R15",
+              "score": 3.77938,
+              "kind": "radius",
+              "parse_quality": 2.2,
+              "flags": [],
+              "confidence_peak": 0.999,
+              "whole_profiles": [
+                "1060",
+                "1947"
+              ],
+              "profiles": [
+                "1060",
+                "1947"
+              ],
+              "tile_samples": 0,
+              "support_examples": 2,
+              "style_bonus": 0.35
+            }
+          ],
+          "boundary_fragments": 0,
+          "source_items": [
+            {
+              "bbox_original_px": [
+                874.0,
+                535.0,
+                897.0,
+                549.0
+              ],
+              "bbox_processed_px": [
+                874.0,
+                535.0,
+                897.0,
+                549.0
+              ],
+              "confidence": 0.9958836436271667,
+              "near_tile_boundary": false,
+              "polygon_processed_px": [
+                [
+                  874,
+                  535
+                ],
+                [
+                  897,
+                  535
+                ],
+                [
+                  897,
+                  549
+                ],
+                [
+                  874,
+                  549
+                ]
+              ],
+              "profile": 1060,
+              "source_rect_original_px": [
+                0,
+                0,
+                943,
+                773
+              ],
+              "text": "R15",
+              "tile_index": 0,
+              "tile_level": 0
+            },
+            {
+              "bbox_original_px": [
+                872.67,
+                533.33,
+                899.33,
+                550.0
+              ],
+              "bbox_processed_px": [
+                1309.0,
+                800.0,
+                1349.0,
+                825.0
+              ],
+              "confidence": 0.998685896396637,
+              "near_tile_boundary": false,
+              "polygon_processed_px": [
+                [
+                  1309,
+                  800
+                ],
+                [
+                  1349,
+                  800
+                ],
+                [
+                  1349,
+                  825
+                ],
+                [
+                  1309,
+                  825
+                ]
+              ],
+              "profile": 1947,
+              "source_rect_original_px": [
+                0,
+                0,
+                943,
+                773
+              ],
+              "text": "R15",
+              "tile_index": 0,
+              "tile_level": 0
+            }
+          ]
+        },
+        {
+          "id": 12,
+          "anchor": [
+            368.0,
+            571.0,
+            381.0,
+            589.0
+          ],
+          "selected_text": "吕",
+          "normalized_text": "吕",
+          "kind": "unclassified",
+          "state": "REVIEW_UNCERTAIN_TOKEN",
+          "margin": 0,
+          "alternatives": [
+            {
+              "text": "吕",
+              "key": "吕",
+              "score": 0.68513,
+              "kind": "unclassified",
+              "parse_quality": -0.25,
+              "flags": [],
+              "confidence_peak": 0.757,
+              "whole_profiles": [
+                "1060"
+              ],
+              "profiles": [
+                "1060"
+              ],
+              "tile_samples": 0,
+              "support_examples": 1,
+              "style_bonus": 0.0
+            }
+          ],
+          "boundary_fragments": 0,
+          "source_items": [
+            {
+              "bbox_original_px": [
+                368.0,
+                571.0,
+                381.0,
+                589.0
+              ],
+              "bbox_processed_px": [
+                368.0,
+                571.0,
+                381.0,
+                589.0
+              ],
+              "confidence": 0.7568909525871277,
+              "near_tile_boundary": false,
+              "polygon_processed_px": [
+                [
+                  368,
+                  571
+                ],
+                [
+                  381,
+                  571
+                ],
+                [
+                  381,
+                  589
+                ],
+                [
+                  368,
+                  589
+                ]
+              ],
+              "profile": 1060,
+              "source_rect_original_px": [
+                0,
+                0,
+                943,
+                773
+              ],
+              "text": "吕",
+              "tile_index": 0,
+              "tile_level": 0
+            }
+          ]
+        },
+        {
+          "id": 13,
+          "anchor": [
+            398.0,
+            633.0,
+            412.0,
+            647.0
+          ],
+          "selected_text": "50",
+          "normalized_text": "50",
+          "kind": "linear_or_value",
+          "state": "PLAUSIBLE_UNVERIFIED",
+          "margin": 0,
+          "alternatives": [
+            {
+              "text": "50",
+              "key": "50",
+              "score": 2.90922,
+              "kind": "linear_or_value",
+              "parse_quality": 1.8,
+              "flags": [],
+              "confidence_peak": 0.744,
+              "whole_profiles": [
+                "1060",
+                "1947"
+              ],
+              "profiles": [
+                "1060",
+                "1947"
+              ],
+              "tile_samples": 0,
+              "support_examples": 2,
+              "style_bonus": 0.0
+            }
+          ],
+          "boundary_fragments": 0,
+          "source_items": [
+            {
+              "bbox_original_px": [
+                398.0,
+                633.0,
+                412.0,
+                647.0
+              ],
+              "bbox_processed_px": [
+                398.0,
+                633.0,
+                412.0,
+                647.0
+              ],
+              "confidence": 0.6798208355903625,
+              "near_tile_boundary": false,
+              "polygon_processed_px": [
+                [
+                  398,
+                  633
+                ],
+                [
+                  412,
+                  633
+                ],
+                [
+                  412,
+                  647
+                ],
+                [
+                  398,
+                  647
+                ]
+              ],
+              "profile": 1060,
+              "source_rect_original_px": [
+                0,
+                0,
+                943,
+                773
+              ],
+              "text": "50",
+              "tile_index": 0,
+              "tile_level": 0
+            },
+            {
+              "bbox_original_px": [
+                395.33,
+                630.0,
+                412.0,
+                648.0
+              ],
+              "bbox_processed_px": [
+                593.0,
+                945.0,
+                618.0,
+                972.0
+              ],
+              "confidence": 0.7443732023239136,
+              "near_tile_boundary": false,
+              "polygon_processed_px": [
+                [
+                  596,
+                  945
+                ],
+                [
+                  618,
+                  947
+                ],
+                [
+                  615,
+                  972
+                ],
+                [
+                  593,
+                  970
+                ]
+              ],
+              "profile": 1947,
+              "source_rect_original_px": [
+                0,
+                0,
+                943,
+                773
+              ],
+              "text": "50",
+              "tile_index": 0,
+              "tile_level": 0
+            }
+          ]
+        },
+        {
+          "id": 14,
+          "anchor": [
+            852.0,
+            641.0,
+            865.0,
+            655.0
+          ],
+          "selected_text": "42",
+          "normalized_text": "42",
+          "kind": "linear_or_value",
+          "state": "PLAUSIBLE_UNVERIFIED",
+          "margin": 0,
+          "alternatives": [
+            {
+              "text": "42",
+              "key": "42",
+              "score": 3.00624,
+              "kind": "linear_or_value",
+              "parse_quality": 1.8,
+              "flags": [],
+              "confidence_peak": 0.95,
+              "whole_profiles": [
+                "1060",
+                "1947"
+              ],
+              "profiles": [
+                "1060",
+                "1947"
+              ],
+              "tile_samples": 0,
+              "support_examples": 2,
+              "style_bonus": 0.0
+            }
+          ],
+          "boundary_fragments": 0,
+          "source_items": [
+            {
+              "bbox_original_px": [
+                852.0,
+                641.0,
+                865.0,
+                655.0
+              ],
+              "bbox_processed_px": [
+                852.0,
+                641.0,
+                865.0,
+                655.0
+              ],
+              "confidence": 0.825525164604187,
+              "near_tile_boundary": false,
+              "polygon_processed_px": [
+                [
+                  852,
+                  641
+                ],
+                [
+                  865,
+                  641
+                ],
+                [
+                  865,
+                  655
+                ],
+                [
+                  852,
+                  655
+                ]
+              ],
+              "profile": 1060,
+              "source_rect_original_px": [
+                0,
+                0,
+                943,
+                773
+              ],
+              "text": "42",
+              "tile_index": 0,
+              "tile_level": 0
+            },
+            {
+              "bbox_original_px": [
+                851.33,
+                642.0,
+                864.0,
+                655.33
+              ],
+              "bbox_processed_px": [
+                1277.0,
+                963.0,
+                1296.0,
+                983.0
+              ],
+              "confidence": 0.949710488319397,
+              "near_tile_boundary": false,
+              "polygon_processed_px": [
+                [
+                  1277,
+                  963
+                ],
+                [
+                  1296,
+                  963
+                ],
+                [
+                  1296,
+                  983
+                ],
+                [
+                  1277,
+                  983
+                ]
+              ],
+              "profile": 1947,
+              "source_rect_original_px": [
+                0,
+                0,
+                943,
+                773
+              ],
+              "text": "42",
+              "tile_index": 0,
+              "tile_level": 0
+            }
+          ]
+        },
+        {
+          "id": 15,
+          "anchor": [
+            608.0,
+            663.0,
+            629.0,
+            680.0
+          ],
+          "selected_text": "45",
+          "normalized_text": "45",
+          "kind": "linear_or_value",
+          "state": "PLAUSIBLE_UNVERIFIED",
+          "margin": 0,
+          "alternatives": [
+            {
+              "text": "45",
+              "key": "45",
+              "score": 3.0299,
+              "kind": "linear_or_value",
+              "parse_quality": 1.8,
+              "flags": [],
+              "confidence_peak": 1.0,
+              "whole_profiles": [
+                "1060",
+                "1947"
+              ],
+              "profiles": [
+                "1060",
+                "1947"
+              ],
+              "tile_samples": 0,
+              "support_examples": 2,
+              "style_bonus": 0.0
+            }
+          ],
+          "boundary_fragments": 0,
+          "source_items": [
+            {
+              "bbox_original_px": [
+                608.0,
+                663.0,
+                629.0,
+                680.0
+              ],
+              "bbox_processed_px": [
+                608.0,
+                663.0,
+                629.0,
+                680.0
+              ],
+              "confidence": 0.9996873140335083,
+              "near_tile_boundary": false,
+              "polygon_processed_px": [
+                [
+                  608,
+                  663
+                ],
+                [
+                  629,
+                  663
+                ],
+                [
+                  629,
+                  680
+                ],
+                [
+                  608,
+                  680
+                ]
+              ],
+              "profile": 1060,
+              "source_rect_original_px": [
+                0,
+                0,
+                943,
+                773
+              ],
+              "text": "45",
+              "tile_index": 0,
+              "tile_level": 0
+            },
+            {
+              "bbox_original_px": [
+                606.67,
+                662.0,
+                628.67,
+                681.33
+              ],
+              "bbox_processed_px": [
+                910.0,
+                993.0,
+                943.0,
+                1022.0
+              ],
+              "confidence": 0.9997909665107727,
+              "near_tile_boundary": false,
+              "polygon_processed_px": [
+                [
+                  910,
+                  996
+                ],
+                [
+                  940,
+                  993
+                ],
+                [
+                  943,
+                  1019
+                ],
+                [
+                  913,
+                  1022
+                ]
+              ],
+              "profile": 1947,
+              "source_rect_original_px": [
+                0,
+                0,
+                943,
+                773
+              ],
+              "text": "45",
+              "tile_index": 0,
+              "tile_level": 0
+            }
+          ]
+        },
+        {
+          "id": 16,
+          "anchor": [
+            366.0,
+            716.0,
+            395.0,
+            736.0
+          ],
+          "selected_text": "R15",
+          "normalized_text": "R15",
+          "kind": "radius",
+          "state": "PLAUSIBLE_UNVERIFIED",
+          "margin": 0,
+          "alternatives": [
+            {
+              "text": "R15",
+              "key": "R15",
+              "score": 3.77945,
+              "kind": "radius",
+              "parse_quality": 2.2,
+              "flags": [],
+              "confidence_peak": 0.999,
+              "whole_profiles": [
+                "1060",
+                "1947"
+              ],
+              "profiles": [
+                "1060",
+                "1947"
+              ],
+              "tile_samples": 0,
+              "support_examples": 2,
+              "style_bonus": 0.35
+            }
+          ],
+          "boundary_fragments": 0,
+          "source_items": [
+            {
+              "bbox_original_px": [
+                366.0,
+                716.0,
+                395.0,
+                736.0
+              ],
+              "bbox_processed_px": [
+                366.0,
+                716.0,
+                395.0,
+                736.0
+              ],
+              "confidence": 0.9985691905021667,
+              "near_tile_boundary": false,
+              "polygon_processed_px": [
+                [
+                  366,
+                  719
+                ],
+                [
+                  393,
+                  716
+                ],
+                [
+                  395,
+                  733
+                ],
+                [
+                  368,
+                  736
+                ]
+              ],
+              "profile": 1060,
+              "source_rect_original_px": [
+                0,
+                0,
+                943,
+                773
+              ],
+              "text": "R15",
+              "tile_index": 0,
+              "tile_level": 0
+            },
+            {
+              "bbox_original_px": [
+                367.33,
+                719.33,
+                394.67,
+                734.67
+              ],
+              "bbox_processed_px": [
+                551.0,
+                1079.0,
+                592.0,
+                1102.0
+              ],
+              "confidence": 0.9988377094268799,
+              "near_tile_boundary": false,
+              "polygon_processed_px": [
+                [
+                  551,
+                  1079
+                ],
+                [
+                  592,
+                  1079
+                ],
+                [
+                  592,
+                  1102
+                ],
+                [
+                  551,
+                  1102
+                ]
+              ],
+              "profile": 1947,
+              "source_rect_original_px": [
+                0,
+                0,
+                943,
+                773
+              ],
+              "text": "R15",
+              "tile_index": 0,
+              "tile_level": 0
+            }
+          ]
+        },
+        {
+          "id": 17,
+          "anchor": [
+            740.0,
+            716.0,
+            768.0,
+            733.0
+          ],
+          "selected_text": "R15",
+          "normalized_text": "R15",
+          "kind": "radius",
+          "state": "PLAUSIBLE_UNVERIFIED",
+          "margin": 0,
+          "alternatives": [
+            {
+              "text": "R15",
+              "key": "R15",
+              "score": 3.77636,
+              "kind": "radius",
+              "parse_quality": 2.2,
+              "flags": [],
+              "confidence_peak": 0.992,
+              "whole_profiles": [
+                "1060",
+                "1947"
+              ],
+              "profiles": [
+                "1060",
+                "1947"
+              ],
+              "tile_samples": 0,
+              "support_examples": 2,
+              "style_bonus": 0.35
+            }
+          ],
+          "boundary_fragments": 0,
+          "source_items": [
+            {
+              "bbox_original_px": [
+                740.0,
+                716.0,
+                768.0,
+                733.0
+              ],
+              "bbox_processed_px": [
+                740.0,
+                716.0,
+                768.0,
+                733.0
+              ],
+              "confidence": 0.9922940135002136,
+              "near_tile_boundary": false,
+              "polygon_processed_px": [
+                [
+                  740,
+                  716
+                ],
+                [
+                  768,
+                  716
+                ],
+                [
+                  768,
+                  733
+                ],
+                [
+                  740,
+                  733
+                ]
+              ],
+              "profile": 1060,
+              "source_rect_original_px": [
+                0,
+                0,
+                943,
+                773
+              ],
+              "text": "R15",
+              "tile_index": 0,
+              "tile_level": 0
+            },
+            {
+              "bbox_original_px": [
+                738.67,
+                714.0,
+                768.0,
+                733.33
+              ],
+              "bbox_processed_px": [
+                1108.0,
+                1071.0,
+                1152.0,
+                1100.0
+              ],
+              "confidence": 0.9807095527648926,
+              "near_tile_boundary": false,
+              "polygon_processed_px": [
+                [
+                  1108,
+                  1075
+                ],
+                [
+                  1150,
+                  1071
+                ],
+                [
+                  1152,
+                  1096
+                ],
+                [
+                  1111,
+                  1100
+                ]
+              ],
+              "profile": 1947,
+              "source_rect_original_px": [
+                0,
+                0,
+                943,
+                773
+              ],
+              "text": "R15",
+              "tile_index": 0,
+              "tile_level": 0
+            }
+          ]
+        },
+        {
+          "id": 18,
+          "anchor": [
+            682.0,
+            468.0,
+            707.33,
+            496.67
+          ],
+          "selected_text": "0",
+          "normalized_text": "0",
+          "kind": "linear_or_value",
+          "state": "PLAUSIBLE_UNVERIFIED",
+          "margin": 0,
+          "alternatives": [
+            {
+              "text": "0",
+              "key": "0",
+              "score": 2.6331,
+              "kind": "linear_or_value",
+              "parse_quality": 1.8,
+              "flags": [],
+              "confidence_peak": 0.541,
+              "whole_profiles": [
+                "1947"
+              ],
+              "profiles": [
+                "1947"
+              ],
+              "tile_samples": 0,
+              "support_examples": 1,
+              "style_bonus": 0.0
+            }
+          ],
+          "boundary_fragments": 0,
+          "source_items": [
+            {
+              "bbox_original_px": [
+                682.0,
+                468.0,
+                707.33,
+                496.67
+              ],
+              "bbox_processed_px": [
+                1023.0,
+                702.0,
+                1061.0,
+                745.0
+              ],
+              "confidence": 0.5409517884254456,
+              "near_tile_boundary": false,
+              "polygon_processed_px": [
+                [
+                  1034,
+                  702
+                ],
+                [
+                  1061,
+                  709
+                ],
+                [
+                  1050,
+                  745
+                ],
+                [
+                  1023,
+                  738
+                ]
+              ],
+              "profile": 1947,
+              "source_rect_original_px": [
+                0,
+                0,
+                943,
+                773
+              ],
+              "text": "0",
+              "tile_index": 0,
+              "tile_level": 0
+            }
+          ]
+        }
+      ],
+      "review_count": 3
+    }
+  ],
+  "reference_isolation": "reference used only after scoring; no tuning during processing"
+}

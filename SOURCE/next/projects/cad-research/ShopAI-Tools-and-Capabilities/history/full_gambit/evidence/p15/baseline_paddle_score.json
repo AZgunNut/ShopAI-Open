@@ -1,0 +1,557 @@
+{
+  "truth_file": "/mnt/shopai-data-new/cad-research/experiments/qwen-3-drawing-20261030-173652-610108/shopai_three_drawing_truth/batch_lab/ocr_outline_eight_v1/truths/p15.truth.json",
+  "prediction_file": "/mnt/shopai-data-new/cad-research/experiments/qwen-3-drawing-20261030-173652-610108/shopai_three_drawing_truth/batch_lab/ocr_outline_eight_v1/results/full_gambit_20261108T191855Z_740546_12852/p15/baseline_paddle_score_readings.json",
+  "truth_coverage_certified": false,
+  "certified_100_percent": false,
+  "truth_gap_count": 1,
+  "ground_truth_pending_review": 12,
+  "expected_provisional_character_instances": 56,
+  "observed_character_instances": 73,
+  "character_inventory_overlap_provisional": 37,
+  "character_inventory_pct_provisional": 66.07,
+  "missing_characters": {
+    "1": 5,
+    "3": 1,
+    "5": 4,
+    ":": 2,
+    "t": 2,
+    "Ø": 5
+  },
+  "extra_characters": {
+    ".": 1,
+    "0": 1,
+    "C": 1,
+    "a": 2,
+    "d": 2,
+    "e": 12,
+    "i": 2,
+    "l": 2,
+    "n": 2,
+    "p": 4,
+    "s": 6,
+    "ø": 1
+  },
+  "provisional_annotation_matches": 3,
+  "provisional_annotation_total": 12,
+  "missing_annotations": [
+    {
+      "truth_id": "p15_T001",
+      "expected_text": "Ø2 conicitate 1:50",
+      "anchor_px": [
+        43.0,
+        228.0
+      ]
+    },
+    {
+      "truth_id": "p15_T002",
+      "expected_text": "Ø5 conicitate 1:50",
+      "anchor_px": [
+        43.0,
+        597.0
+      ]
+    },
+    {
+      "truth_id": "p15_T003",
+      "expected_text": "Ø6",
+      "anchor_px": [
+        423.0,
+        54.0
+      ]
+    },
+    {
+      "truth_id": "p15_T006",
+      "expected_text": "12",
+      "anchor_px": [
+        683.0,
+        180.0
+      ]
+    },
+    {
+      "truth_id": "p15_T007",
+      "expected_text": "31.5",
+      "anchor_px": [
+        676.0,
+        364.0
+      ]
+    },
+    {
+      "truth_id": "p15_T008",
+      "expected_text": "18",
+      "anchor_px": [
+        625.0,
+        413.0
+      ]
+    },
+    {
+      "truth_id": "p15_T010",
+      "expected_text": "Ø15",
+      "anchor_px": [
+        412.0,
+        542.0
+      ]
+    },
+    {
+      "truth_id": "p15_T011",
+      "expected_text": "Ø28",
+      "anchor_px": [
+        412.0,
+        585.0
+      ]
+    },
+    {
+      "truth_id": "p15_T012",
+      "expected_text": "5",
+      "anchor_px": [
+        393.0,
+        918.0
+      ]
+    }
+  ],
+  "extra_or_fragmented_groups": [
+    {
+      "text": "ø6",
+      "bbox_px": [
+        405.0,
+        35.0,
+        441.0,
+        57.0
+      ],
+      "alternatives": [
+        {
+          "text": "ø6",
+          "key": "Ø6",
+          "score": 3.21984,
+          "kind": "diameter",
+          "parse_quality": 2.2,
+          "flags": [],
+          "confidence_peak": 0.936,
+          "whole_profiles": [
+            "1947"
+          ],
+          "profiles": [
+            "1947"
+          ],
+          "tile_samples": 0,
+          "support_examples": 1,
+          "style_bonus": 0.0
+        },
+        {
+          "text": "26",
+          "key": "26",
+          "score": 2.81563,
+          "kind": "linear_or_value",
+          "parse_quality": 1.8,
+          "flags": [],
+          "confidence_peak": 0.927,
+          "whole_profiles": [
+            "1060"
+          ],
+          "profiles": [
+            "1060"
+          ],
+          "tile_samples": 0,
+          "support_examples": 1,
+          "style_bonus": 0.0
+        }
+      ],
+      "index": 0
+    },
+    {
+      "text": "esseee",
+      "bbox_px": [
+        32.0,
+        93.0,
+        58.0,
+        285.0
+      ],
+      "alternatives": [
+        {
+          "text": "esseee",
+          "key": "ESSEEE",
+          "score": 1.47451,
+          "kind": "text_note",
+          "parse_quality": 0.8,
+          "flags": [],
+          "confidence_peak": 0.205,
+          "whole_profiles": [
+            "1947"
+          ],
+          "profiles": [
+            "1947"
+          ],
+          "tile_samples": 0,
+          "support_examples": 1,
+          "style_bonus": 0.0
+        },
+        {
+          "text": "Ceseeee",
+          "key": "CESEEEE",
+          "score": 1.46471,
+          "kind": "text_note",
+          "parse_quality": 0.8,
+          "flags": [],
+          "confidence_peak": 0.185,
+          "whole_profiles": [
+            "1060"
+          ],
+          "profiles": [
+            "1060"
+          ],
+          "tile_samples": 0,
+          "support_examples": 1,
+          "style_bonus": 0.0
+        }
+      ],
+      "index": 2
+    },
+    {
+      "text": "2",
+      "bbox_px": [
+        610.0,
+        186.0,
+        633.0,
+        206.0
+      ],
+      "alternatives": [
+        {
+          "text": "2",
+          "key": "2",
+          "score": 2.84137,
+          "kind": "linear_or_value",
+          "parse_quality": 1.8,
+          "flags": [],
+          "confidence_peak": 0.982,
+          "whole_profiles": [
+            "1060"
+          ],
+          "profiles": [
+            "1060"
+          ],
+          "tile_samples": 0,
+          "support_examples": 1,
+          "style_bonus": 0.0
+        }
+      ],
+      "index": 3
+    },
+    {
+      "text": "500",
+      "bbox_px": [
+        667.0,
+        282.0,
+        697.0,
+        338.0
+      ],
+      "alternatives": [
+        {
+          "text": "500",
+          "key": "500",
+          "score": 2.48246,
+          "kind": "linear_or_value",
+          "parse_quality": 1.8,
+          "flags": [],
+          "confidence_peak": 0.222,
+          "whole_profiles": [
+            "1060"
+          ],
+          "profiles": [
+            "1060"
+          ],
+          "tile_samples": 0,
+          "support_examples": 1,
+          "style_bonus": 0.0
+        }
+      ],
+      "index": 4
+    },
+    {
+      "text": "8",
+      "bbox_px": [
+        611.0,
+        371.0,
+        634.0,
+        390.0
+      ],
+      "alternatives": [
+        {
+          "text": "8",
+          "key": "8",
+          "score": 2.79115,
+          "kind": "linear_or_value",
+          "parse_quality": 1.8,
+          "flags": [],
+          "confidence_peak": 0.875,
+          "whole_profiles": [
+            "1060"
+          ],
+          "profiles": [
+            "1060"
+          ],
+          "tile_samples": 0,
+          "support_examples": 1,
+          "style_bonus": 0.0
+        }
+      ],
+      "index": 5
+    },
+    {
+      "text": "Cee sseee e",
+      "bbox_px": [
+        34.0,
+        475.0,
+        57.0,
+        666.0
+      ],
+      "alternatives": [
+        {
+          "text": "Cee sseee e",
+          "key": "CEESSEEEE",
+          "score": 1.49655,
+          "kind": "text_note",
+          "parse_quality": 0.8,
+          "flags": [],
+          "confidence_peak": 0.252,
+          "whole_profiles": [
+            "1060"
+          ],
+          "profiles": [
+            "1060"
+          ],
+          "tile_samples": 0,
+          "support_examples": 1,
+          "style_bonus": 0.0
+        },
+        {
+          "text": "ceeiieeee",
+          "key": "CEEIIEEEE",
+          "score": 1.47374,
+          "kind": "text_note",
+          "parse_quality": 0.8,
+          "flags": [],
+          "confidence_peak": 0.204,
+          "whole_profiles": [
+            "1947"
+          ],
+          "profiles": [
+            "1947"
+          ],
+          "tile_samples": 0,
+          "support_examples": 1,
+          "style_bonus": 0.0
+        }
+      ],
+      "index": 7
+    },
+    {
+      "text": "015",
+      "bbox_px": [
+        378.0,
+        499.0,
+        432.0,
+        530.0
+      ],
+      "alternatives": [
+        {
+          "text": "015",
+          "key": "015",
+          "score": 2.79389,
+          "kind": "linear_or_value",
+          "parse_quality": 1.8,
+          "flags": [],
+          "confidence_peak": 0.881,
+          "whole_profiles": [
+            "1060"
+          ],
+          "profiles": [
+            "1060"
+          ],
+          "tile_samples": 0,
+          "support_examples": 1,
+          "style_bonus": 0.0
+        },
+        {
+          "text": "∅15",
+          "key": "∅15",
+          "score": 0.79151,
+          "kind": "unclassified",
+          "parse_quality": -0.25,
+          "flags": [],
+          "confidence_peak": 0.982,
+          "whole_profiles": [
+            "1947"
+          ],
+          "profiles": [
+            "1947"
+          ],
+          "tile_samples": 0,
+          "support_examples": 1,
+          "style_bonus": 0.0
+        }
+      ],
+      "index": 8
+    },
+    {
+      "text": "228",
+      "bbox_px": [
+        339.0,
+        549.0,
+        390.0,
+        576.0
+      ],
+      "alternatives": [
+        {
+          "text": "228",
+          "key": "228",
+          "score": 2.81286,
+          "kind": "linear_or_value",
+          "parse_quality": 1.8,
+          "flags": [],
+          "confidence_peak": 0.921,
+          "whole_profiles": [
+            "1060"
+          ],
+          "profiles": [
+            "1060"
+          ],
+          "tile_samples": 0,
+          "support_examples": 1,
+          "style_bonus": 0.0
+        },
+        {
+          "text": "∅28",
+          "key": "∅28",
+          "score": 0.77507,
+          "kind": "unclassified",
+          "parse_quality": -0.25,
+          "flags": [],
+          "confidence_peak": 0.947,
+          "whole_profiles": [
+            "1947"
+          ],
+          "profiles": [
+            "1947"
+          ],
+          "tile_samples": 0,
+          "support_examples": 1,
+          "style_bonus": 0.0
+        }
+      ],
+      "index": 9
+    },
+    {
+      "text": "icensed application.",
+      "bbox_px": [
+        0.0,
+        1057.0,
+        138.0,
+        1069.0
+      ],
+      "alternatives": [
+        {
+          "text": "icensed application.",
+          "key": "ICENSEDAPPLICATION.",
+          "score": -0.60701,
+          "kind": "unclassified",
+          "parse_quality": -1.65,
+          "flags": [
+            "TRAILING_STRAY_MARK"
+          ],
+          "confidence_peak": 0.985,
+          "whole_profiles": [
+            "1060"
+          ],
+          "profiles": [
+            "1060"
+          ],
+          "tile_samples": 0,
+          "support_examples": 1,
+          "style_bonus": 0.0
+        }
+      ],
+      "index": 11
+    },
+    {
+      "text": "icensed",
+      "bbox_px": [
+        0.0,
+        1056.67,
+        52.0,
+        1069.33
+      ],
+      "alternatives": [
+        {
+          "text": "icensed",
+          "key": "ICENSED",
+          "score": 1.84897,
+          "kind": "text_note",
+          "parse_quality": 0.8,
+          "flags": [],
+          "confidence_peak": 0.998,
+          "whole_profiles": [
+            "1947"
+          ],
+          "profiles": [
+            "1947"
+          ],
+          "tile_samples": 0,
+          "support_examples": 1,
+          "style_bonus": 0.0
+        }
+      ],
+      "index": 12
+    },
+    {
+      "text": "application.",
+      "bbox_px": [
+        47.33,
+        1054.67,
+        141.33,
+        1071.33
+      ],
+      "alternatives": [
+        {
+          "text": "application.",
+          "key": "APPLICATION.",
+          "score": -0.60115,
+          "kind": "unclassified",
+          "parse_quality": -1.65,
+          "flags": [
+            "TRAILING_STRAY_MARK"
+          ],
+          "confidence_peak": 0.998,
+          "whole_profiles": [
+            "1947"
+          ],
+          "profiles": [
+            "1947"
+          ],
+          "tile_samples": 0,
+          "support_examples": 1,
+          "style_bonus": 0.0
+        }
+      ],
+      "index": 13
+    }
+  ],
+  "matching_instances_diagnostic": [
+    {
+      "truth_id": "p15_T004",
+      "text": "1x45°",
+      "observation_index": 1,
+      "anchor_distance_px": 5.1
+    },
+    {
+      "truth_id": "p15_T005",
+      "text": "5",
+      "observation_index": 10,
+      "anchor_distance_px": 738.7
+    },
+    {
+      "truth_id": "p15_T009",
+      "text": "8",
+      "observation_index": 6,
+      "anchor_distance_px": 71.3
+    }
+  ],
+  "note": "Inventory counts and annotation matches are PROVISIONAL. No per-glyph spatial truth exists and truth coverage is not independently verified. Counts may cancel swapped or misplaced glyphs."
+}

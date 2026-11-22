@@ -1,0 +1,707 @@
+{
+  "engine": "PADDLE clahe_cw0 1060",
+  "readings": [
+    {
+      "text": "Sactiurea A-A",
+      "bbox_px": [
+        534.0,
+        30.0,
+        594.0,
+        44.0
+      ],
+      "bbox_rotated_px": [
+        534.0,
+        30.0,
+        594.0,
+        44.0
+      ],
+      "alternatives": [
+        {
+          "text": "Sactiurea A-A",
+          "key": "SACTIUREAA-A",
+          "score": 0.68243,
+          "kind": "unclassified",
+          "parse_quality": -0.25,
+          "flags": [
+            "PARTIAL_DIMENSION_TOKEN"
+          ],
+          "confidence_peak": 0.751,
+          "whole_profiles": [
+            "1060"
+          ],
+          "profiles": [
+            "1060"
+          ],
+          "tile_samples": 0,
+          "support_examples": 1,
+          "style_bonus": 0.0
+        }
+      ]
+    },
+    {
+      "text": "060",
+      "bbox_px": [
+        551.0,
+        63.0,
+        579.0,
+        80.0
+      ],
+      "bbox_rotated_px": [
+        551.0,
+        63.0,
+        579.0,
+        80.0
+      ],
+      "alternatives": [
+        {
+          "text": "060",
+          "key": "060",
+          "score": 2.84194,
+          "kind": "linear_or_value",
+          "parse_quality": 1.8,
+          "flags": [],
+          "confidence_peak": 0.983,
+          "whole_profiles": [
+            "1060"
+          ],
+          "profiles": [
+            "1060"
+          ],
+          "tile_samples": 0,
+          "support_examples": 1,
+          "style_bonus": 0.0
+        }
+      ]
+    },
+    {
+      "text": "040",
+      "bbox_px": [
+        551.0,
+        94.0,
+        579.0,
+        111.0
+      ],
+      "bbox_rotated_px": [
+        551.0,
+        94.0,
+        579.0,
+        111.0
+      ],
+      "alternatives": [
+        {
+          "text": "040",
+          "key": "040",
+          "score": 2.83455,
+          "kind": "linear_or_value",
+          "parse_quality": 1.8,
+          "flags": [],
+          "confidence_peak": 0.967,
+          "whole_profiles": [
+            "1060"
+          ],
+          "profiles": [
+            "1060"
+          ],
+          "tile_samples": 0,
+          "support_examples": 1,
+          "style_bonus": 0.0
+        }
+      ]
+    },
+    {
+      "text": "6",
+      "bbox_px": [
+        451.0,
+        138.0,
+        462.0,
+        148.0
+      ],
+      "bbox_rotated_px": [
+        451.0,
+        138.0,
+        462.0,
+        148.0
+      ],
+      "alternatives": [
+        {
+          "text": "6",
+          "key": "6",
+          "score": 2.80161,
+          "kind": "linear_or_value",
+          "parse_quality": 1.8,
+          "flags": [],
+          "confidence_peak": 0.898,
+          "whole_profiles": [
+            "1060"
+          ],
+          "profiles": [
+            "1060"
+          ],
+          "tile_samples": 0,
+          "support_examples": 1,
+          "style_bonus": 0.0
+        }
+      ]
+    },
+    {
+      "text": "016",
+      "bbox_px": [
+        260.0,
+        165.0,
+        288.0,
+        181.0
+      ],
+      "bbox_rotated_px": [
+        260.0,
+        165.0,
+        288.0,
+        181.0
+      ],
+      "alternatives": [
+        {
+          "text": "016",
+          "key": "016",
+          "score": 2.78827,
+          "kind": "linear_or_value",
+          "parse_quality": 1.8,
+          "flags": [],
+          "confidence_peak": 0.869,
+          "whole_profiles": [
+            "1060"
+          ],
+          "profiles": [
+            "1060"
+          ],
+          "tile_samples": 0,
+          "support_examples": 1,
+          "style_bonus": 0.0
+        }
+      ]
+    },
+    {
+      "text": "R15",
+      "bbox_px": [
+        68.0,
+        176.0,
+        91.0,
+        188.0
+      ],
+      "bbox_rotated_px": [
+        68.0,
+        176.0,
+        91.0,
+        188.0
+      ],
+      "alternatives": [
+        {
+          "text": "R15",
+          "key": "R15",
+          "score": 3.59973,
+          "kind": "radius",
+          "parse_quality": 2.2,
+          "flags": [],
+          "confidence_peak": 0.999,
+          "whole_profiles": [
+            "1060"
+          ],
+          "profiles": [
+            "1060"
+          ],
+          "tile_samples": 0,
+          "support_examples": 1,
+          "style_bonus": 0.35
+        }
+      ]
+    },
+    {
+      "text": "品",
+      "bbox_px": [
+        402.0,
+        214.0,
+        416.0,
+        228.0
+      ],
+      "bbox_rotated_px": [
+        402.0,
+        214.0,
+        416.0,
+        228.0
+      ],
+      "alternatives": [
+        {
+          "text": "品",
+          "key": "品",
+          "score": 0.64632,
+          "kind": "unclassified",
+          "parse_quality": -0.25,
+          "flags": [],
+          "confidence_peak": 0.675,
+          "whole_profiles": [
+            "1060"
+          ],
+          "profiles": [
+            "1060"
+          ],
+          "tile_samples": 0,
+          "support_examples": 1,
+          "style_bonus": 0.0
+        }
+      ]
+    },
+    {
+      "text": "230",
+      "bbox_px": [
+        551.0,
+        325.0,
+        578.0,
+        340.0
+      ],
+      "bbox_rotated_px": [
+        551.0,
+        325.0,
+        578.0,
+        340.0
+      ],
+      "alternatives": [
+        {
+          "text": "230",
+          "key": "230",
+          "score": 2.80666,
+          "kind": "linear_or_value",
+          "parse_quality": 1.8,
+          "flags": [],
+          "confidence_peak": 0.908,
+          "whole_profiles": [
+            "1060"
+          ],
+          "profiles": [
+            "1060"
+          ],
+          "tile_samples": 0,
+          "support_examples": 1,
+          "style_bonus": 0.0
+        }
+      ]
+    },
+    {
+      "text": "145",
+      "bbox_px": [
+        606.0,
+        394.0,
+        630.0,
+        411.0
+      ],
+      "bbox_rotated_px": [
+        606.0,
+        394.0,
+        630.0,
+        411.0
+      ],
+      "alternatives": [
+        {
+          "text": "145",
+          "key": "145",
+          "score": 2.84989,
+          "kind": "linear_or_value",
+          "parse_quality": 1.8,
+          "flags": [],
+          "confidence_peak": 1.0,
+          "whole_profiles": [
+            "1060"
+          ],
+          "profiles": [
+            "1060"
+          ],
+          "tile_samples": 0,
+          "support_examples": 1,
+          "style_bonus": 0.0
+        }
+      ]
+    },
+    {
+      "text": "50",
+      "bbox_px": [
+        496.0,
+        419.0,
+        514.0,
+        433.0
+      ],
+      "bbox_rotated_px": [
+        496.0,
+        419.0,
+        514.0,
+        433.0
+      ],
+      "alternatives": [
+        {
+          "text": "50",
+          "key": "50",
+          "score": 2.84964,
+          "kind": "linear_or_value",
+          "parse_quality": 1.8,
+          "flags": [],
+          "confidence_peak": 0.999,
+          "whole_profiles": [
+            "1060"
+          ],
+          "profiles": [
+            "1060"
+          ],
+          "tile_samples": 0,
+          "support_examples": 1,
+          "style_bonus": 0.0
+        }
+      ]
+    },
+    {
+      "text": "R15",
+      "bbox_px": [
+        629.0,
+        426.0,
+        654.0,
+        443.0
+      ],
+      "bbox_rotated_px": [
+        629.0,
+        426.0,
+        654.0,
+        443.0
+      ],
+      "alternatives": [
+        {
+          "text": "R15",
+          "key": "R15",
+          "score": 3.59941,
+          "kind": "radius",
+          "parse_quality": 2.2,
+          "flags": [],
+          "confidence_peak": 0.999,
+          "whole_profiles": [
+            "1060"
+          ],
+          "profiles": [
+            "1060"
+          ],
+          "tile_samples": 0,
+          "support_examples": 1,
+          "style_bonus": 0.35
+        }
+      ]
+    },
+    {
+      "text": "R15",
+      "bbox_px": [
+        404.0,
+        438.0,
+        432.0,
+        458.0
+      ],
+      "bbox_rotated_px": [
+        404.0,
+        438.0,
+        432.0,
+        458.0
+      ],
+      "alternatives": [
+        {
+          "text": "R15",
+          "key": "R15",
+          "score": 3.599,
+          "kind": "radius",
+          "parse_quality": 2.2,
+          "flags": [],
+          "confidence_peak": 0.998,
+          "whole_profiles": [
+            "1060"
+          ],
+          "profiles": [
+            "1060"
+          ],
+          "tile_samples": 0,
+          "support_examples": 1,
+          "style_bonus": 0.35
+        }
+      ]
+    },
+    {
+      "text": "3",
+      "bbox_px": [
+        684.0,
+        469.0,
+        705.0,
+        495.0
+      ],
+      "bbox_rotated_px": [
+        684.0,
+        469.0,
+        705.0,
+        495.0
+      ],
+      "alternatives": [
+        {
+          "text": "3",
+          "key": "3",
+          "score": 2.59558,
+          "kind": "linear_or_value",
+          "parse_quality": 1.8,
+          "flags": [],
+          "confidence_peak": 0.462,
+          "whole_profiles": [
+            "1060"
+          ],
+          "profiles": [
+            "1060"
+          ],
+          "tile_samples": 0,
+          "support_examples": 1,
+          "style_bonus": 0.0
+        }
+      ]
+    },
+    {
+      "text": "R15",
+      "bbox_px": [
+        874.0,
+        535.0,
+        897.0,
+        549.0
+      ],
+      "bbox_rotated_px": [
+        874.0,
+        535.0,
+        897.0,
+        549.0
+      ],
+      "alternatives": [
+        {
+          "text": "R15",
+          "key": "R15",
+          "score": 3.59806,
+          "kind": "radius",
+          "parse_quality": 2.2,
+          "flags": [],
+          "confidence_peak": 0.996,
+          "whole_profiles": [
+            "1060"
+          ],
+          "profiles": [
+            "1060"
+          ],
+          "tile_samples": 0,
+          "support_examples": 1,
+          "style_bonus": 0.35
+        }
+      ]
+    },
+    {
+      "text": "吕",
+      "bbox_px": [
+        368.0,
+        571.0,
+        381.0,
+        588.0
+      ],
+      "bbox_rotated_px": [
+        368.0,
+        571.0,
+        381.0,
+        588.0
+      ],
+      "alternatives": [
+        {
+          "text": "吕",
+          "key": "吕",
+          "score": 0.61001,
+          "kind": "unclassified",
+          "parse_quality": -0.25,
+          "flags": [],
+          "confidence_peak": 0.598,
+          "whole_profiles": [
+            "1060"
+          ],
+          "profiles": [
+            "1060"
+          ],
+          "tile_samples": 0,
+          "support_examples": 1,
+          "style_bonus": 0.0
+        }
+      ]
+    },
+    {
+      "text": "50",
+      "bbox_px": [
+        398.0,
+        633.0,
+        412.0,
+        647.0
+      ],
+      "bbox_rotated_px": [
+        398.0,
+        633.0,
+        412.0,
+        647.0
+      ],
+      "alternatives": [
+        {
+          "text": "50",
+          "key": "50",
+          "score": 2.69872,
+          "kind": "linear_or_value",
+          "parse_quality": 1.8,
+          "flags": [],
+          "confidence_peak": 0.68,
+          "whole_profiles": [
+            "1060"
+          ],
+          "profiles": [
+            "1060"
+          ],
+          "tile_samples": 0,
+          "support_examples": 1,
+          "style_bonus": 0.0
+        }
+      ]
+    },
+    {
+      "text": "42",
+      "bbox_px": [
+        852.0,
+        641.0,
+        865.0,
+        655.0
+      ],
+      "bbox_rotated_px": [
+        852.0,
+        641.0,
+        865.0,
+        655.0
+      ],
+      "alternatives": [
+        {
+          "text": "42",
+          "key": "42",
+          "score": 2.76756,
+          "kind": "linear_or_value",
+          "parse_quality": 1.8,
+          "flags": [],
+          "confidence_peak": 0.826,
+          "whole_profiles": [
+            "1060"
+          ],
+          "profiles": [
+            "1060"
+          ],
+          "tile_samples": 0,
+          "support_examples": 1,
+          "style_bonus": 0.0
+        }
+      ]
+    },
+    {
+      "text": "45",
+      "bbox_px": [
+        606.0,
+        661.0,
+        630.0,
+        681.0
+      ],
+      "bbox_rotated_px": [
+        606.0,
+        661.0,
+        630.0,
+        681.0
+      ],
+      "alternatives": [
+        {
+          "text": "45",
+          "key": "45",
+          "score": 2.84981,
+          "kind": "linear_or_value",
+          "parse_quality": 1.8,
+          "flags": [],
+          "confidence_peak": 1.0,
+          "whole_profiles": [
+            "1060"
+          ],
+          "profiles": [
+            "1060"
+          ],
+          "tile_samples": 0,
+          "support_examples": 1,
+          "style_bonus": 0.0
+        }
+      ]
+    },
+    {
+      "text": "R15",
+      "bbox_px": [
+        366.0,
+        717.0,
+        395.0,
+        736.0
+      ],
+      "bbox_rotated_px": [
+        366.0,
+        717.0,
+        395.0,
+        736.0
+      ],
+      "alternatives": [
+        {
+          "text": "R15",
+          "key": "R15",
+          "score": 3.59919,
+          "kind": "radius",
+          "parse_quality": 2.2,
+          "flags": [],
+          "confidence_peak": 0.998,
+          "whole_profiles": [
+            "1060"
+          ],
+          "profiles": [
+            "1060"
+          ],
+          "tile_samples": 0,
+          "support_examples": 1,
+          "style_bonus": 0.35
+        }
+      ]
+    },
+    {
+      "text": "R15",
+      "bbox_px": [
+        739.0,
+        716.0,
+        768.0,
+        733.0
+      ],
+      "bbox_rotated_px": [
+        739.0,
+        716.0,
+        768.0,
+        733.0
+      ],
+      "alternatives": [
+        {
+          "text": "R15",
+          "key": "R15",
+          "score": 3.59297,
+          "kind": "radius",
+          "parse_quality": 2.2,
+          "flags": [],
+          "confidence_peak": 0.985,
+          "whole_profiles": [
+            "1060"
+          ],
+          "profiles": [
+            "1060"
+          ],
+          "tile_samples": 0,
+          "support_examples": 1,
+          "style_bonus": 0.35
+        }
+      ]
+    }
+  ]
+}

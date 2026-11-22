@@ -1,0 +1,689 @@
+{
+  "truth_file": "/mnt/shopai-data-new/cad-research/experiments/qwen-3-drawing-20261030-173652-610108/shopai_three_drawing_truth/batch_lab/ocr_outline_eight_v1/truths/P1.truth.json",
+  "prediction_file": "/mnt/shopai-data-new/cad-research/experiments/qwen-3-drawing-20261030-173652-610108/shopai_three_drawing_truth/batch_lab/ocr_outline_eight_v1/results/full_gambit_20261108T191855Z_740546_12852/P1/tesseract_otsu_cw0_psm3_score_readings.json",
+  "truth_coverage_certified": false,
+  "certified_100_percent": false,
+  "truth_gap_count": 3,
+  "ground_truth_pending_review": 68,
+  "expected_provisional_character_instances": 214,
+  "observed_character_instances": 1132,
+  "character_inventory_overlap_provisional": 100,
+  "character_inventory_pct_provisional": 46.73,
+  "missing_characters": {
+    ":": 1,
+    "A": 10,
+    "B": 5,
+    "C": 10,
+    "D": 6,
+    "E": 11,
+    "F": 4,
+    "G": 1,
+    "H": 2,
+    "I": 3,
+    "K": 1,
+    "L": 2,
+    "M": 2,
+    "N": 6,
+    "O": 4,
+    "P": 2,
+    "R": 7,
+    "S": 7,
+    "T": 3,
+    "U": 1,
+    "V": 1,
+    "W": 2,
+    "Z": 1,
+    "a": 1,
+    "c": 1,
+    "e": 3,
+    "i": 2,
+    "l": 1,
+    "n": 1,
+    "t": 2,
+    "u": 2,
+    "°": 7,
+    "Ø": 2
+  },
+  "extra_characters": {
+    "-": 37,
+    ".": 12,
+    "0": 171,
+    "1": 299,
+    "2": 126,
+    "3": 80,
+    "4": 61,
+    "5": 49,
+    "6": 17,
+    "7": 30,
+    "8": 72,
+    "9": 78
+  },
+  "provisional_annotation_matches": 1,
+  "provisional_annotation_total": 68,
+  "missing_annotations": [
+    {
+      "truth_id": "P1_T001",
+      "expected_text": "1",
+      "anchor_px": [
+        121.0,
+        4.0
+      ]
+    },
+    {
+      "truth_id": "P1_T002",
+      "expected_text": "2",
+      "anchor_px": [
+        280.0,
+        4.0
+      ]
+    },
+    {
+      "truth_id": "P1_T003",
+      "expected_text": "3",
+      "anchor_px": [
+        439.0,
+        4.0
+      ]
+    },
+    {
+      "truth_id": "P1_T004",
+      "expected_text": "4",
+      "anchor_px": [
+        597.0,
+        4.0
+      ]
+    },
+    {
+      "truth_id": "P1_T005",
+      "expected_text": "5",
+      "anchor_px": [
+        757.0,
+        4.0
+      ]
+    },
+    {
+      "truth_id": "P1_T006",
+      "expected_text": "6",
+      "anchor_px": [
+        916.0,
+        4.0
+      ]
+    },
+    {
+      "truth_id": "P1_T007",
+      "expected_text": "7",
+      "anchor_px": [
+        1077.0,
+        4.0
+      ]
+    },
+    {
+      "truth_id": "P1_T008",
+      "expected_text": "8",
+      "anchor_px": [
+        1234.0,
+        4.0
+      ]
+    },
+    {
+      "truth_id": "P1_T009",
+      "expected_text": "A",
+      "anchor_px": [
+        32.0,
+        119.0
+      ]
+    },
+    {
+      "truth_id": "P1_T011",
+      "expected_text": "C",
+      "anchor_px": [
+        31.0,
+        407.0
+      ]
+    },
+    {
+      "truth_id": "P1_T012",
+      "expected_text": "D",
+      "anchor_px": [
+        31.0,
+        554.0
+      ]
+    },
+    {
+      "truth_id": "P1_T013",
+      "expected_text": "E",
+      "anchor_px": [
+        31.0,
+        700.0
+      ]
+    },
+    {
+      "truth_id": "P1_T014",
+      "expected_text": "F",
+      "anchor_px": [
+        31.0,
+        849.0
+      ]
+    },
+    {
+      "truth_id": "P1_T015",
+      "expected_text": "A",
+      "anchor_px": [
+        1320.0,
+        120.0
+      ]
+    },
+    {
+      "truth_id": "P1_T016",
+      "expected_text": "B",
+      "anchor_px": [
+        1320.0,
+        264.0
+      ]
+    },
+    {
+      "truth_id": "P1_T017",
+      "expected_text": "C",
+      "anchor_px": [
+        1320.0,
+        410.0
+      ]
+    },
+    {
+      "truth_id": "P1_T018",
+      "expected_text": "D",
+      "anchor_px": [
+        1320.0,
+        551.0
+      ]
+    },
+    {
+      "truth_id": "P1_T019",
+      "expected_text": "E",
+      "anchor_px": [
+        1320.0,
+        701.0
+      ]
+    },
+    {
+      "truth_id": "P1_T020",
+      "expected_text": "F",
+      "anchor_px": [
+        1320.0,
+        850.0
+      ]
+    },
+    {
+      "truth_id": "P1_T021",
+      "expected_text": "A",
+      "anchor_px": [
+        186.0,
+        132.0
+      ]
+    },
+    {
+      "truth_id": "P1_T022",
+      "expected_text": "A",
+      "anchor_px": [
+        188.0,
+        646.0
+      ]
+    },
+    {
+      "truth_id": "P1_T023",
+      "expected_text": "B",
+      "anchor_px": [
+        764.0,
+        154.0
+      ]
+    },
+    {
+      "truth_id": "P1_T024",
+      "expected_text": "B",
+      "anchor_px": [
+        184.0,
+        592.0
+      ]
+    },
+    {
+      "truth_id": "P1_T025",
+      "expected_text": "Sectiunea A-A",
+      "anchor_px": [
+        988.0,
+        246.0
+      ]
+    },
+    {
+      "truth_id": "P1_T026",
+      "expected_text": "Sectiunea B-B",
+      "anchor_px": [
+        347.0,
+        507.0
+      ]
+    },
+    {
+      "truth_id": "P1_T027",
+      "expected_text": "Vedere din B",
+      "anchor_px": [
+        589.0,
+        517.0
+      ]
+    },
+    {
+      "truth_id": "P1_T028",
+      "expected_text": "Detaliu C",
+      "anchor_px": [
+        315.0,
+        555.0
+      ]
+    },
+    {
+      "truth_id": "P1_T029",
+      "expected_text": "C",
+      "anchor_px": [
+        188.0,
+        463.0
+      ]
+    },
+    {
+      "truth_id": "P1_T030",
+      "expected_text": "8°",
+      "anchor_px": [
+        176.0,
+        378.0
+      ]
+    },
+    {
+      "truth_id": "P1_T031",
+      "expected_text": "22°",
+      "anchor_px": [
+        219.0,
+        436.0
+      ]
+    },
+    {
+      "truth_id": "P1_T032",
+      "expected_text": "R169",
+      "anchor_px": [
+        260.0,
+        355.0
+      ]
+    },
+    {
+      "truth_id": "P1_T033",
+      "expected_text": "125",
+      "anchor_px": [
+        471.0,
+        375.0
+      ]
+    },
+    {
+      "truth_id": "P1_T034",
+      "expected_text": "6",
+      "anchor_px": [
+        404.0,
+        389.0
+      ]
+    },
+    {
+      "truth_id": "P1_T035",
+      "expected_text": "37°",
+      "anchor_px": [
+        510.0,
+        299.0
+      ]
+    },
+    {
+      "truth_id": "P1_T036",
+      "expected_text": "22°",
+      "anchor_px": [
+        710.0,
+        181.0
+      ]
+    },
+    {
+      "truth_id": "P1_T037",
+      "expected_text": "8°",
+      "anchor_px": [
+        750.0,
+        220.0
+      ]
+    },
+    {
+      "truth_id": "P1_T038",
+      "expected_text": "R115",
+      "anchor_px": [
+        706.0,
+        354.0
+      ]
+    },
+    {
+      "truth_id": "P1_T039",
+      "expected_text": "52",
+      "anchor_px": [
+        87.0,
+        471.0
+      ]
+    },
+    {
+      "truth_id": "P1_T040",
+      "expected_text": "Ø32",
+      "anchor_px": [
+        188.0,
+        593.0
+      ]
+    },
+    {
+      "truth_id": "P1_T041",
+      "expected_text": "35",
+      "anchor_px": [
+        95.0,
+        835.0
+      ]
+    },
+    {
+      "truth_id": "P1_T042",
+      "expected_text": "26",
+      "anchor_px": [
+        645.0,
+        764.0
+      ]
+    },
+    {
+      "truth_id": "P1_T043",
+      "expected_text": "35",
+      "anchor_px": [
+        874.0,
+        482.0
+      ]
+    },
+    {
+      "truth_id": "P1_T044",
+      "expected_text": "8",
+      "anchor_px": [
+        894.0,
+        553.0
+      ]
+    },
+    {
+      "truth_id": "P1_T045",
+      "expected_text": "16",
+      "anchor_px": [
+        1089.0,
+        543.0
+      ]
+    },
+    {
+      "truth_id": "P1_T046",
+      "expected_text": "2°",
+      "anchor_px": [
+        1061.0,
+        454.0
+      ]
+    },
+    {
+      "truth_id": "P1_T047",
+      "expected_text": "2°",
+      "anchor_px": [
+        1076.0,
+        537.0
+      ]
+    },
+    {
+      "truth_id": "P1_T048",
+      "expected_text": "Ø16",
+      "anchor_px": [
+        979.0,
+        589.0
+      ]
+    },
+    {
+      "truth_id": "P1_T049",
+      "expected_text": "10.5",
+      "anchor_px": [
+        373.0,
+        691.0
+      ]
+    },
+    {
+      "truth_id": "P1_T050",
+      "expected_text": "6.5",
+      "anchor_px": [
+        378.0,
+        641.0
+      ]
+    },
+    {
+      "truth_id": "P1_T051",
+      "expected_text": "R6",
+      "anchor_px": [
+        679.0,
+        590.0
+      ]
+    },
+    {
+      "truth_id": "P1_T052",
+      "expected_text": "P31",
+      "anchor_px": [
+        809.0,
+        786.0
+      ]
+    },
+    {
+      "truth_id": "P1_T053",
+      "expected_text": "A3",
+      "anchor_px": [
+        811.0,
+        807.0
+      ]
+    },
+    {
+      "truth_id": "P1_T054",
+      "expected_text": "05/20/2024 NeaPi",
+      "anchor_px": [
+        884.0,
+        831.0
+      ]
+    },
+    {
+      "truth_id": "P1_T055",
+      "expected_text": "1:1",
+      "anchor_px": [
+        1155.0,
+        783.0
+      ]
+    },
+    {
+      "truth_id": "P1_T056",
+      "expected_text": "MB",
+      "anchor_px": [
+        1073.0,
+        862.0
+      ]
+    },
+    {
+      "truth_id": "P1_T057",
+      "expected_text": "FILE NAME",
+      "anchor_px": [
+        815.0,
+        770.0
+      ]
+    },
+    {
+      "truth_id": "P1_T058",
+      "expected_text": "FSCM NO",
+      "anchor_px": [
+        954.0,
+        770.0
+      ]
+    },
+    {
+      "truth_id": "P1_T059",
+      "expected_text": "SHEET",
+      "anchor_px": [
+        1071.0,
+        770.0
+      ]
+    },
+    {
+      "truth_id": "P1_T060",
+      "expected_text": "SCALE",
+      "anchor_px": [
+        1174.0,
+        770.0
+      ]
+    },
+    {
+      "truth_id": "P1_T061",
+      "expected_text": "SIZE",
+      "anchor_px": [
+        806.0,
+        804.0
+      ]
+    },
+    {
+      "truth_id": "P1_T062",
+      "expected_text": "DRAWN",
+      "anchor_px": [
+        809.0,
+        828.0
+      ]
+    },
+    {
+      "truth_id": "P1_T063",
+      "expected_text": "CHECK",
+      "anchor_px": [
+        809.0,
+        848.0
+      ]
+    },
+    {
+      "truth_id": "P1_T064",
+      "expected_text": "APPR.",
+      "anchor_px": [
+        806.0,
+        867.0
+      ]
+    },
+    {
+      "truth_id": "P1_T065",
+      "expected_text": "ISSUED",
+      "anchor_px": [
+        806.0,
+        887.0
+      ]
+    },
+    {
+      "truth_id": "P1_T066",
+      "expected_text": "REV",
+      "anchor_px": [
+        803.0,
+        909.0
+      ]
+    },
+    {
+      "truth_id": "P1_T067",
+      "expected_text": "CONTRACT NO",
+      "anchor_px": [
+        815.0,
+        927.0
+      ]
+    },
+    {
+      "truth_id": "P1_T068",
+      "expected_text": "DWG NO",
+      "anchor_px": [
+        1072.0,
+        888.0
+      ]
+    }
+  ],
+  "extra_or_fragmented_groups": [
+    {
+      "text": "Vedere",
+      "confidence": 0.9159,
+      "bbox_px": [
+        512.0,
+        511.0,
+        583.0,
+        527.0
+      ],
+      "index": 0
+    },
+    {
+      "text": "din",
+      "confidence": 0.7349,
+      "bbox_px": [
+        591.0,
+        511.0,
+        618.0,
+        527.0
+      ],
+      "index": 1
+    },
+    {
+      "text": "Sectiunea",
+      "confidence": 0.9141,
+      "bbox_px": [
+        911.0,
+        233.0,
+        1009.0,
+        249.0
+      ],
+      "index": 3
+    },
+    {
+      "text": "A-A",
+      "confidence": 0.9089,
+      "bbox_px": [
+        1015.0,
+        233.0,
+        1054.0,
+        249.0
+      ],
+      "index": 4
+    },
+    {
+      "text": "B16",
+      "confidence": 0.8621,
+      "bbox_px": [
+        969.0,
+        594.0,
+        998.0,
+        606.0
+      ],
+      "index": 5
+    },
+    {
+      "text": "P3",
+      "confidence": 0.3009,
+      "bbox_px": [
+        801.0,
+        776.0,
+        819.0,
+        787.0
+      ],
+      "index": 6
+    },
+    {
+      "text": "1\n4\t1\t29\t1\t2\t0\t831\t792\t14\t10\t-1\t\n5\t1\t29\t1\t2\t1\t831\t792\t14\t10\t27.746796\ta3\n4\t1\t29\t1\t3\t0\t831\t811\t104\t10\t-1\t\n5\t1\t29\t1\t3\t1\t831\t811\t66\t10\t81.211868\t05/20/2024\n5\t1\t29\t1\t3\t2\t905\t811\t30\t10\t89.896667\tNeaPi\n2\t1\t30\t0\t0\t0\t1067\t864\t14\t10\t-1\t\n3\t1\t30\t1\t0\t0\t1067\t864\t14\t10\t-1\t\n4\t1\t30\t1\t1\t0\t1067\t864\t14\t10\t-1\t\n5\t1\t30\t1\t1\t1\t1067\t864\t14\t10\t71.355972\tMB\n2\t1\t31\t0\t0\t0\t42\t922\t1274\t2\t-1\t\n3\t1\t31\t1\t0\t0\t42\t922\t1274\t2\t-1\t\n4\t1\t31\t1\t1\t0\t42\t922\t1274\t2\t-1\t\n5\t1\t31\t1\t1\t1\t42\t922\t1274\t2\t95.000000\t \n2\t1\t32\t0\t0\t0\t519\t922\t1\t18\t-1\t\n3\t1\t32\t1\t0\t0\t519\t922\t1\t18\t-1\t\n4\t1\t32\t1\t1\t0\t519\t922\t1\t18\t-1\t\n5\t1\t32\t1\t1\t1\t519\t922\t1\t18\t95.000000\t \n2\t1\t33\t0\t0\t0\t551\t922\t1\t18\t-1\t\n3\t1\t33\t1\t0\t0\t551\t922\t1\t18\t-1\t\n4\t1\t33\t1\t1\t0\t551\t922\t1\t18\t-1\t\n5\t1\t33\t1\t1\t1\t551\t922\t1\t18\t95.000000\t \n2\t1\t34\t0\t0\t0\t582\t922\t2\t18\t-1\t\n3\t1\t34\t1\t0\t0\t582\t922\t2\t18\t-1\t\n4\t1\t34\t1\t1\t0\t582\t922\t2\t18\t-1\t\n5\t1\t34\t1\t1\t1\t582\t922\t2\t18\t95.000000\t \n2\t1\t35\t0\t0\t0\t614\t922\t2\t18\t-1\t\n3\t1\t35\t1\t0\t0\t614\t922\t2\t18\t-1\t\n4\t1\t35\t1\t1\t0\t614\t922\t2\t18\t-1\t\n5\t1\t35\t1\t1\t1\t614\t922\t2\t18\t95.000000\t \n2\t1\t36\t0\t0\t0\t710\t922\t1\t18\t-1\t\n3\t1\t36\t1\t0\t0\t710\t922\t1\t18\t-1\t\n4\t1\t36\t1\t1\t0\t710\t922\t1\t18\t-1\t\n5\t1\t36\t1\t1\t1\t710\t922\t1\t18\t95.000000\t \n2\t1\t37\t0\t0\t0\t741\t922\t2\t18\t-1\t\n3\t1\t37\t1\t0\t0\t741\t922\t2\t18\t-1\t\n4\t1\t37\t1\t1\t0\t741\t922\t2\t18\t-1\t\n5\t1\t37\t1\t1\t1\t741\t922\t2\t18\t95.000000\t \n2\t1\t38\t0\t0\t0\t805\t922\t1\t18\t-1\t\n3\t1\t38\t1\t0\t0\t805\t922\t1\t18\t-1\t\n4\t1\t38\t1\t1\t0\t805\t922\t1\t18\t-1\t\n5\t1\t38\t1\t1\t1\t805\t922\t1\t18\t95.000000\t \n2\t1\t39\t0\t0\t0\t837\t922\t1\t18\t-1\t\n3\t1\t39\t1\t0\t0\t837\t922\t1\t18\t-1\t\n4\t1\t39\t1\t1\t0\t837\t922\t1\t18\t-1\t\n5\t1\t39\t1\t1\t1\t837\t922\t1\t18\t95.000000\t \n2\t1\t40\t0\t0\t0\t519\t938\t319\t2\t-1\t\n3\t1\t40\t1\t0\t0\t519\t938\t319\t2\t-1\t\n4\t1\t40\t1\t1\t0\t519\t938\t319\t2\t-1\t\n5\t1\t40\t1\t1\t1\t519\t938\t319\t2\t95.000000\t \n2\t1\t41\t0\t0\t0\t1314\t41\t2\t883\t-1\t\n3\t1\t41\t1\t0\t0\t1314\t41\t2\t883\t-1\t\n4\t1\t41\t1\t1\t0\t1314\t41\t2\t883\t-1\t\n5\t1\t41\t1\t1\t1\t1314\t41\t2\t883\t95.000000",
+      "confidence": 0.0531,
+      "bbox_px": [
+        1194.0,
+        776.0,
+        1205.0,
+        786.0
+      ],
+      "index": 7
+    }
+  ],
+  "matching_instances_diagnostic": [
+    {
+      "truth_id": "P1_T010",
+      "text": "B",
+      "observation_index": 2,
+      "anchor_distance_px": 655.7
+    }
+  ],
+  "note": "Inventory counts and annotation matches are PROVISIONAL. No per-glyph spatial truth exists and truth coverage is not independently verified. Counts may cancel swapped or misplaced glyphs."
+}

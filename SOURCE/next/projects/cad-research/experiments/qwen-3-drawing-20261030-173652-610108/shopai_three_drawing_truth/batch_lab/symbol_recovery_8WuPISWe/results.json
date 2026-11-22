@@ -1,0 +1,1878 @@
+{
+  "source_image": "/mnt/shopai-data-new/cad-research/experiments/qwen-3-drawing-20261030-173652-610108/shopai_three_drawing_truth/images/drawing_03.jpg",
+  "truth_used_for_recognition": false,
+  "results": [
+    {
+      "region": "angle",
+      "padding": [
+        0,
+        0,
+        2,
+        0
+      ],
+      "method": "lanczos",
+      "psm": 7,
+      "constrained": false,
+      "reading": "40°"
+    },
+    {
+      "region": "angle",
+      "padding": [
+        0,
+        0,
+        2,
+        0
+      ],
+      "method": "lanczos",
+      "psm": 7,
+      "constrained": true,
+      "reading": "40°"
+    },
+    {
+      "region": "angle",
+      "padding": [
+        0,
+        0,
+        2,
+        0
+      ],
+      "method": "lanczos",
+      "psm": 13,
+      "constrained": false,
+      "reading": "4r"
+    },
+    {
+      "region": "angle",
+      "padding": [
+        0,
+        0,
+        2,
+        0
+      ],
+      "method": "lanczos",
+      "psm": 13,
+      "constrained": true,
+      "reading": "4"
+    },
+    {
+      "region": "angle",
+      "padding": [
+        0,
+        0,
+        2,
+        0
+      ],
+      "method": "clahe",
+      "psm": 7,
+      "constrained": false,
+      "reading": "ed | ."
+    },
+    {
+      "region": "angle",
+      "padding": [
+        0,
+        0,
+        2,
+        0
+      ],
+      "method": "clahe",
+      "psm": 7,
+      "constrained": true,
+      "reading": ", ."
+    },
+    {
+      "region": "angle",
+      "padding": [
+        0,
+        0,
+        2,
+        0
+      ],
+      "method": "clahe",
+      "psm": 13,
+      "constrained": false,
+      "reading": "‘“a0°"
+    },
+    {
+      "region": "angle",
+      "padding": [
+        0,
+        0,
+        2,
+        0
+      ],
+      "method": "clahe",
+      "psm": 13,
+      "constrained": true,
+      "reading": "40°"
+    },
+    {
+      "region": "angle",
+      "padding": [
+        0,
+        0,
+        2,
+        0
+      ],
+      "method": "sharpen",
+      "psm": 7,
+      "constrained": false,
+      "reading": "40°"
+    },
+    {
+      "region": "angle",
+      "padding": [
+        0,
+        0,
+        2,
+        0
+      ],
+      "method": "sharpen",
+      "psm": 7,
+      "constrained": true,
+      "reading": "40°"
+    },
+    {
+      "region": "angle",
+      "padding": [
+        0,
+        0,
+        2,
+        0
+      ],
+      "method": "sharpen",
+      "psm": 13,
+      "constrained": false,
+      "reading": "4r"
+    },
+    {
+      "region": "angle",
+      "padding": [
+        0,
+        0,
+        2,
+        0
+      ],
+      "method": "sharpen",
+      "psm": 13,
+      "constrained": true,
+      "reading": "4"
+    },
+    {
+      "region": "angle",
+      "padding": [
+        1,
+        1,
+        4,
+        2
+      ],
+      "method": "lanczos",
+      "psm": 7,
+      "constrained": false,
+      "reading": "40 -"
+    },
+    {
+      "region": "angle",
+      "padding": [
+        1,
+        1,
+        4,
+        2
+      ],
+      "method": "lanczos",
+      "psm": 7,
+      "constrained": true,
+      "reading": "40-"
+    },
+    {
+      "region": "angle",
+      "padding": [
+        1,
+        1,
+        4,
+        2
+      ],
+      "method": "lanczos",
+      "psm": 13,
+      "constrained": false,
+      "reading": "40 -"
+    },
+    {
+      "region": "angle",
+      "padding": [
+        1,
+        1,
+        4,
+        2
+      ],
+      "method": "lanczos",
+      "psm": 13,
+      "constrained": true,
+      "reading": "40-"
+    },
+    {
+      "region": "angle",
+      "padding": [
+        1,
+        1,
+        4,
+        2
+      ],
+      "method": "clahe",
+      "psm": 7,
+      "constrained": false,
+      "reading": "“40"
+    },
+    {
+      "region": "angle",
+      "padding": [
+        1,
+        1,
+        4,
+        2
+      ],
+      "method": "clahe",
+      "psm": 7,
+      "constrained": true,
+      "reading": "40"
+    },
+    {
+      "region": "angle",
+      "padding": [
+        1,
+        1,
+        4,
+        2
+      ],
+      "method": "clahe",
+      "psm": 13,
+      "constrained": false,
+      "reading": "“40"
+    },
+    {
+      "region": "angle",
+      "padding": [
+        1,
+        1,
+        4,
+        2
+      ],
+      "method": "clahe",
+      "psm": 13,
+      "constrained": true,
+      "reading": "40"
+    },
+    {
+      "region": "angle",
+      "padding": [
+        1,
+        1,
+        4,
+        2
+      ],
+      "method": "sharpen",
+      "psm": 7,
+      "constrained": false,
+      "reading": "40 -"
+    },
+    {
+      "region": "angle",
+      "padding": [
+        1,
+        1,
+        4,
+        2
+      ],
+      "method": "sharpen",
+      "psm": 7,
+      "constrained": true,
+      "reading": "40-"
+    },
+    {
+      "region": "angle",
+      "padding": [
+        1,
+        1,
+        4,
+        2
+      ],
+      "method": "sharpen",
+      "psm": 13,
+      "constrained": false,
+      "reading": "40 -"
+    },
+    {
+      "region": "angle",
+      "padding": [
+        1,
+        1,
+        4,
+        2
+      ],
+      "method": "sharpen",
+      "psm": 13,
+      "constrained": true,
+      "reading": "40-"
+    },
+    {
+      "region": "angle",
+      "padding": [
+        2,
+        2,
+        8,
+        3
+      ],
+      "method": "lanczos",
+      "psm": 7,
+      "constrained": false,
+      "reading": "4 ~"
+    },
+    {
+      "region": "angle",
+      "padding": [
+        2,
+        2,
+        8,
+        3
+      ],
+      "method": "lanczos",
+      "psm": 7,
+      "constrained": true,
+      "reading": "4-"
+    },
+    {
+      "region": "angle",
+      "padding": [
+        2,
+        2,
+        8,
+        3
+      ],
+      "method": "lanczos",
+      "psm": 13,
+      "constrained": false,
+      "reading": "4o -"
+    },
+    {
+      "region": "angle",
+      "padding": [
+        2,
+        2,
+        8,
+        3
+      ],
+      "method": "lanczos",
+      "psm": 13,
+      "constrained": true,
+      "reading": "4-"
+    },
+    {
+      "region": "angle",
+      "padding": [
+        2,
+        2,
+        8,
+        3
+      ],
+      "method": "clahe",
+      "psm": 7,
+      "constrained": false,
+      "reading": "40°"
+    },
+    {
+      "region": "angle",
+      "padding": [
+        2,
+        2,
+        8,
+        3
+      ],
+      "method": "clahe",
+      "psm": 7,
+      "constrained": true,
+      "reading": "40°"
+    },
+    {
+      "region": "angle",
+      "padding": [
+        2,
+        2,
+        8,
+        3
+      ],
+      "method": "clahe",
+      "psm": 13,
+      "constrained": false,
+      "reading": "““-"
+    },
+    {
+      "region": "angle",
+      "padding": [
+        2,
+        2,
+        8,
+        3
+      ],
+      "method": "clahe",
+      "psm": 13,
+      "constrained": true,
+      "reading": "4"
+    },
+    {
+      "region": "angle",
+      "padding": [
+        2,
+        2,
+        8,
+        3
+      ],
+      "method": "sharpen",
+      "psm": 7,
+      "constrained": false,
+      "reading": "4 ~"
+    },
+    {
+      "region": "angle",
+      "padding": [
+        2,
+        2,
+        8,
+        3
+      ],
+      "method": "sharpen",
+      "psm": 7,
+      "constrained": true,
+      "reading": "4-"
+    },
+    {
+      "region": "angle",
+      "padding": [
+        2,
+        2,
+        8,
+        3
+      ],
+      "method": "sharpen",
+      "psm": 13,
+      "constrained": false,
+      "reading": "4 -"
+    },
+    {
+      "region": "angle",
+      "padding": [
+        2,
+        2,
+        8,
+        3
+      ],
+      "method": "sharpen",
+      "psm": 13,
+      "constrained": true,
+      "reading": "4-"
+    },
+    {
+      "region": "upper_DIA",
+      "padding": [
+        0,
+        0,
+        2,
+        0
+      ],
+      "method": "lanczos",
+      "psm": 7,
+      "constrained": false,
+      "reading": "0.75 DIA,"
+    },
+    {
+      "region": "upper_DIA",
+      "padding": [
+        0,
+        0,
+        2,
+        0
+      ],
+      "method": "lanczos",
+      "psm": 7,
+      "constrained": true,
+      "reading": "0.75DIA,"
+    },
+    {
+      "region": "upper_DIA",
+      "padding": [
+        0,
+        0,
+        2,
+        0
+      ],
+      "method": "lanczos",
+      "psm": 13,
+      "constrained": false,
+      "reading": "0.75 DIA,"
+    },
+    {
+      "region": "upper_DIA",
+      "padding": [
+        0,
+        0,
+        2,
+        0
+      ],
+      "method": "lanczos",
+      "psm": 13,
+      "constrained": true,
+      "reading": "0.75DIA,"
+    },
+    {
+      "region": "upper_DIA",
+      "padding": [
+        0,
+        0,
+        2,
+        0
+      ],
+      "method": "clahe",
+      "psm": 7,
+      "constrained": false,
+      "reading": "0.75 DIA,"
+    },
+    {
+      "region": "upper_DIA",
+      "padding": [
+        0,
+        0,
+        2,
+        0
+      ],
+      "method": "clahe",
+      "psm": 7,
+      "constrained": true,
+      "reading": "0.75DIA,"
+    },
+    {
+      "region": "upper_DIA",
+      "padding": [
+        0,
+        0,
+        2,
+        0
+      ],
+      "method": "clahe",
+      "psm": 13,
+      "constrained": false,
+      "reading": "0.75 DIA,"
+    },
+    {
+      "region": "upper_DIA",
+      "padding": [
+        0,
+        0,
+        2,
+        0
+      ],
+      "method": "clahe",
+      "psm": 13,
+      "constrained": true,
+      "reading": "0.75DIA,"
+    },
+    {
+      "region": "upper_DIA",
+      "padding": [
+        0,
+        0,
+        2,
+        0
+      ],
+      "method": "sharpen",
+      "psm": 7,
+      "constrained": false,
+      "reading": "0.75 DIA,"
+    },
+    {
+      "region": "upper_DIA",
+      "padding": [
+        0,
+        0,
+        2,
+        0
+      ],
+      "method": "sharpen",
+      "psm": 7,
+      "constrained": true,
+      "reading": "0.75DIA,"
+    },
+    {
+      "region": "upper_DIA",
+      "padding": [
+        0,
+        0,
+        2,
+        0
+      ],
+      "method": "sharpen",
+      "psm": 13,
+      "constrained": false,
+      "reading": "0.75 DIA,"
+    },
+    {
+      "region": "upper_DIA",
+      "padding": [
+        0,
+        0,
+        2,
+        0
+      ],
+      "method": "sharpen",
+      "psm": 13,
+      "constrained": true,
+      "reading": "0.75DIA,"
+    },
+    {
+      "region": "upper_DIA",
+      "padding": [
+        1,
+        1,
+        4,
+        2
+      ],
+      "method": "lanczos",
+      "psm": 7,
+      "constrained": false,
+      "reading": "0.75 DIA,"
+    },
+    {
+      "region": "upper_DIA",
+      "padding": [
+        1,
+        1,
+        4,
+        2
+      ],
+      "method": "lanczos",
+      "psm": 7,
+      "constrained": true,
+      "reading": "0.75DIA,"
+    },
+    {
+      "region": "upper_DIA",
+      "padding": [
+        1,
+        1,
+        4,
+        2
+      ],
+      "method": "lanczos",
+      "psm": 13,
+      "constrained": false,
+      "reading": "0.75 DIA,"
+    },
+    {
+      "region": "upper_DIA",
+      "padding": [
+        1,
+        1,
+        4,
+        2
+      ],
+      "method": "lanczos",
+      "psm": 13,
+      "constrained": true,
+      "reading": "0.75DIA,"
+    },
+    {
+      "region": "upper_DIA",
+      "padding": [
+        1,
+        1,
+        4,
+        2
+      ],
+      "method": "clahe",
+      "psm": 7,
+      "constrained": false,
+      "reading": "0.75 DIA,"
+    },
+    {
+      "region": "upper_DIA",
+      "padding": [
+        1,
+        1,
+        4,
+        2
+      ],
+      "method": "clahe",
+      "psm": 7,
+      "constrained": true,
+      "reading": "0.75DIA,"
+    },
+    {
+      "region": "upper_DIA",
+      "padding": [
+        1,
+        1,
+        4,
+        2
+      ],
+      "method": "clahe",
+      "psm": 13,
+      "constrained": false,
+      "reading": "0.75 DIA,"
+    },
+    {
+      "region": "upper_DIA",
+      "padding": [
+        1,
+        1,
+        4,
+        2
+      ],
+      "method": "clahe",
+      "psm": 13,
+      "constrained": true,
+      "reading": "0.75DIA,"
+    },
+    {
+      "region": "upper_DIA",
+      "padding": [
+        1,
+        1,
+        4,
+        2
+      ],
+      "method": "sharpen",
+      "psm": 7,
+      "constrained": false,
+      "reading": "0.75 DIA,"
+    },
+    {
+      "region": "upper_DIA",
+      "padding": [
+        1,
+        1,
+        4,
+        2
+      ],
+      "method": "sharpen",
+      "psm": 7,
+      "constrained": true,
+      "reading": "0.75DIA,"
+    },
+    {
+      "region": "upper_DIA",
+      "padding": [
+        1,
+        1,
+        4,
+        2
+      ],
+      "method": "sharpen",
+      "psm": 13,
+      "constrained": false,
+      "reading": "0.75 DIA,"
+    },
+    {
+      "region": "upper_DIA",
+      "padding": [
+        1,
+        1,
+        4,
+        2
+      ],
+      "method": "sharpen",
+      "psm": 13,
+      "constrained": true,
+      "reading": "0.75DIA,"
+    },
+    {
+      "region": "upper_DIA",
+      "padding": [
+        2,
+        2,
+        8,
+        3
+      ],
+      "method": "lanczos",
+      "psm": 7,
+      "constrained": false,
+      "reading": "0.75 DIA,"
+    },
+    {
+      "region": "upper_DIA",
+      "padding": [
+        2,
+        2,
+        8,
+        3
+      ],
+      "method": "lanczos",
+      "psm": 7,
+      "constrained": true,
+      "reading": "0.75DIA,"
+    },
+    {
+      "region": "upper_DIA",
+      "padding": [
+        2,
+        2,
+        8,
+        3
+      ],
+      "method": "lanczos",
+      "psm": 13,
+      "constrained": false,
+      "reading": "0.75 DIA,"
+    },
+    {
+      "region": "upper_DIA",
+      "padding": [
+        2,
+        2,
+        8,
+        3
+      ],
+      "method": "lanczos",
+      "psm": 13,
+      "constrained": true,
+      "reading": "O.75DIA,"
+    },
+    {
+      "region": "upper_DIA",
+      "padding": [
+        2,
+        2,
+        8,
+        3
+      ],
+      "method": "clahe",
+      "psm": 7,
+      "constrained": false,
+      "reading": "0.75 DIA,"
+    },
+    {
+      "region": "upper_DIA",
+      "padding": [
+        2,
+        2,
+        8,
+        3
+      ],
+      "method": "clahe",
+      "psm": 7,
+      "constrained": true,
+      "reading": "0.75DIA,"
+    },
+    {
+      "region": "upper_DIA",
+      "padding": [
+        2,
+        2,
+        8,
+        3
+      ],
+      "method": "clahe",
+      "psm": 13,
+      "constrained": false,
+      "reading": "0.75 DIA,"
+    },
+    {
+      "region": "upper_DIA",
+      "padding": [
+        2,
+        2,
+        8,
+        3
+      ],
+      "method": "clahe",
+      "psm": 13,
+      "constrained": true,
+      "reading": "0.75DIA,"
+    },
+    {
+      "region": "upper_DIA",
+      "padding": [
+        2,
+        2,
+        8,
+        3
+      ],
+      "method": "sharpen",
+      "psm": 7,
+      "constrained": false,
+      "reading": "0.75 DIA,"
+    },
+    {
+      "region": "upper_DIA",
+      "padding": [
+        2,
+        2,
+        8,
+        3
+      ],
+      "method": "sharpen",
+      "psm": 7,
+      "constrained": true,
+      "reading": "0.75DIA,"
+    },
+    {
+      "region": "upper_DIA",
+      "padding": [
+        2,
+        2,
+        8,
+        3
+      ],
+      "method": "sharpen",
+      "psm": 13,
+      "constrained": false,
+      "reading": "0.75 DIA,"
+    },
+    {
+      "region": "upper_DIA",
+      "padding": [
+        2,
+        2,
+        8,
+        3
+      ],
+      "method": "sharpen",
+      "psm": 13,
+      "constrained": true,
+      "reading": "O.75DIA,"
+    },
+    {
+      "region": "lower_DIA",
+      "padding": [
+        0,
+        0,
+        2,
+        0
+      ],
+      "method": "lanczos",
+      "psm": 7,
+      "constrained": false,
+      "reading": "1.0 DIA-"
+    },
+    {
+      "region": "lower_DIA",
+      "padding": [
+        0,
+        0,
+        2,
+        0
+      ],
+      "method": "lanczos",
+      "psm": 7,
+      "constrained": true,
+      "reading": "1.0DIA-"
+    },
+    {
+      "region": "lower_DIA",
+      "padding": [
+        0,
+        0,
+        2,
+        0
+      ],
+      "method": "lanczos",
+      "psm": 13,
+      "constrained": false,
+      "reading": "1.0 DiA-"
+    },
+    {
+      "region": "lower_DIA",
+      "padding": [
+        0,
+        0,
+        2,
+        0
+      ],
+      "method": "lanczos",
+      "psm": 13,
+      "constrained": true,
+      "reading": "1.0DA-"
+    },
+    {
+      "region": "lower_DIA",
+      "padding": [
+        0,
+        0,
+        2,
+        0
+      ],
+      "method": "clahe",
+      "psm": 7,
+      "constrained": false,
+      "reading": "1.0 Di Ap"
+    },
+    {
+      "region": "lower_DIA",
+      "padding": [
+        0,
+        0,
+        2,
+        0
+      ],
+      "method": "clahe",
+      "psm": 7,
+      "constrained": true,
+      "reading": "1.0 DI A-"
+    },
+    {
+      "region": "lower_DIA",
+      "padding": [
+        0,
+        0,
+        2,
+        0
+      ],
+      "method": "clahe",
+      "psm": 13,
+      "constrained": false,
+      "reading": "4.0 DIAS"
+    },
+    {
+      "region": "lower_DIA",
+      "padding": [
+        0,
+        0,
+        2,
+        0
+      ],
+      "method": "clahe",
+      "psm": 13,
+      "constrained": true,
+      "reading": "4.0DIA-"
+    },
+    {
+      "region": "lower_DIA",
+      "padding": [
+        0,
+        0,
+        2,
+        0
+      ],
+      "method": "sharpen",
+      "psm": 7,
+      "constrained": false,
+      "reading": "1.0 DIA-"
+    },
+    {
+      "region": "lower_DIA",
+      "padding": [
+        0,
+        0,
+        2,
+        0
+      ],
+      "method": "sharpen",
+      "psm": 7,
+      "constrained": true,
+      "reading": "1.0DIA-"
+    },
+    {
+      "region": "lower_DIA",
+      "padding": [
+        0,
+        0,
+        2,
+        0
+      ],
+      "method": "sharpen",
+      "psm": 13,
+      "constrained": false,
+      "reading": "1.0 DiA-"
+    },
+    {
+      "region": "lower_DIA",
+      "padding": [
+        0,
+        0,
+        2,
+        0
+      ],
+      "method": "sharpen",
+      "psm": 13,
+      "constrained": true,
+      "reading": "1.0DA-"
+    },
+    {
+      "region": "lower_DIA",
+      "padding": [
+        1,
+        1,
+        4,
+        2
+      ],
+      "method": "lanczos",
+      "psm": 7,
+      "constrained": false,
+      "reading": "1.0 DIA>-"
+    },
+    {
+      "region": "lower_DIA",
+      "padding": [
+        1,
+        1,
+        4,
+        2
+      ],
+      "method": "lanczos",
+      "psm": 7,
+      "constrained": true,
+      "reading": "1.0DIA-"
+    },
+    {
+      "region": "lower_DIA",
+      "padding": [
+        1,
+        1,
+        4,
+        2
+      ],
+      "method": "lanczos",
+      "psm": 13,
+      "constrained": false,
+      "reading": "1.0 DIA="
+    },
+    {
+      "region": "lower_DIA",
+      "padding": [
+        1,
+        1,
+        4,
+        2
+      ],
+      "method": "lanczos",
+      "psm": 13,
+      "constrained": true,
+      "reading": "1.0DIA-"
+    },
+    {
+      "region": "lower_DIA",
+      "padding": [
+        1,
+        1,
+        4,
+        2
+      ],
+      "method": "clahe",
+      "psm": 7,
+      "constrained": false,
+      "reading": "1.0 DIA"
+    },
+    {
+      "region": "lower_DIA",
+      "padding": [
+        1,
+        1,
+        4,
+        2
+      ],
+      "method": "clahe",
+      "psm": 7,
+      "constrained": true,
+      "reading": "1.0DIA"
+    },
+    {
+      "region": "lower_DIA",
+      "padding": [
+        1,
+        1,
+        4,
+        2
+      ],
+      "method": "clahe",
+      "psm": 13,
+      "constrained": false,
+      "reading": "4.0 DIAH"
+    },
+    {
+      "region": "lower_DIA",
+      "padding": [
+        1,
+        1,
+        4,
+        2
+      ],
+      "method": "clahe",
+      "psm": 13,
+      "constrained": true,
+      "reading": "4.0DIAH"
+    },
+    {
+      "region": "lower_DIA",
+      "padding": [
+        1,
+        1,
+        4,
+        2
+      ],
+      "method": "sharpen",
+      "psm": 7,
+      "constrained": false,
+      "reading": "1.0 DIA>-"
+    },
+    {
+      "region": "lower_DIA",
+      "padding": [
+        1,
+        1,
+        4,
+        2
+      ],
+      "method": "sharpen",
+      "psm": 7,
+      "constrained": true,
+      "reading": "1.0DIA-"
+    },
+    {
+      "region": "lower_DIA",
+      "padding": [
+        1,
+        1,
+        4,
+        2
+      ],
+      "method": "sharpen",
+      "psm": 13,
+      "constrained": false,
+      "reading": "1.0 DIA="
+    },
+    {
+      "region": "lower_DIA",
+      "padding": [
+        1,
+        1,
+        4,
+        2
+      ],
+      "method": "sharpen",
+      "psm": 13,
+      "constrained": true,
+      "reading": "1.0DIA-"
+    },
+    {
+      "region": "lower_DIA",
+      "padding": [
+        2,
+        2,
+        8,
+        3
+      ],
+      "method": "lanczos",
+      "psm": 7,
+      "constrained": false,
+      "reading": "1.0 DIA"
+    },
+    {
+      "region": "lower_DIA",
+      "padding": [
+        2,
+        2,
+        8,
+        3
+      ],
+      "method": "lanczos",
+      "psm": 7,
+      "constrained": true,
+      "reading": "1.0DIA-"
+    },
+    {
+      "region": "lower_DIA",
+      "padding": [
+        2,
+        2,
+        8,
+        3
+      ],
+      "method": "lanczos",
+      "psm": 13,
+      "constrained": false,
+      "reading": "1.0 DIA"
+    },
+    {
+      "region": "lower_DIA",
+      "padding": [
+        2,
+        2,
+        8,
+        3
+      ],
+      "method": "lanczos",
+      "psm": 13,
+      "constrained": true,
+      "reading": "1.0DIA-"
+    },
+    {
+      "region": "lower_DIA",
+      "padding": [
+        2,
+        2,
+        8,
+        3
+      ],
+      "method": "clahe",
+      "psm": 7,
+      "constrained": false,
+      "reading": "1.0 DIA"
+    },
+    {
+      "region": "lower_DIA",
+      "padding": [
+        2,
+        2,
+        8,
+        3
+      ],
+      "method": "clahe",
+      "psm": 7,
+      "constrained": true,
+      "reading": "1.0DIA-"
+    },
+    {
+      "region": "lower_DIA",
+      "padding": [
+        2,
+        2,
+        8,
+        3
+      ],
+      "method": "clahe",
+      "psm": 13,
+      "constrained": false,
+      "reading": "4.0 DIA"
+    },
+    {
+      "region": "lower_DIA",
+      "padding": [
+        2,
+        2,
+        8,
+        3
+      ],
+      "method": "clahe",
+      "psm": 13,
+      "constrained": true,
+      "reading": "4.0DIA-"
+    },
+    {
+      "region": "lower_DIA",
+      "padding": [
+        2,
+        2,
+        8,
+        3
+      ],
+      "method": "sharpen",
+      "psm": 7,
+      "constrained": false,
+      "reading": "1.0 DIA"
+    },
+    {
+      "region": "lower_DIA",
+      "padding": [
+        2,
+        2,
+        8,
+        3
+      ],
+      "method": "sharpen",
+      "psm": 7,
+      "constrained": true,
+      "reading": "1.0DIA-"
+    },
+    {
+      "region": "lower_DIA",
+      "padding": [
+        2,
+        2,
+        8,
+        3
+      ],
+      "method": "sharpen",
+      "psm": 13,
+      "constrained": false,
+      "reading": "1.0 DIA-"
+    },
+    {
+      "region": "lower_DIA",
+      "padding": [
+        2,
+        2,
+        8,
+        3
+      ],
+      "method": "sharpen",
+      "psm": 13,
+      "constrained": true,
+      "reading": "1.0DIA-"
+    },
+    {
+      "region": "angle_control",
+      "padding": [
+        0,
+        0,
+        2,
+        0
+      ],
+      "method": "lanczos",
+      "psm": 7,
+      "constrained": false,
+      "reading": "35°"
+    },
+    {
+      "region": "angle_control",
+      "padding": [
+        0,
+        0,
+        2,
+        0
+      ],
+      "method": "lanczos",
+      "psm": 7,
+      "constrained": true,
+      "reading": "35°"
+    },
+    {
+      "region": "angle_control",
+      "padding": [
+        0,
+        0,
+        2,
+        0
+      ],
+      "method": "lanczos",
+      "psm": 13,
+      "constrained": false,
+      "reading": "35"
+    },
+    {
+      "region": "angle_control",
+      "padding": [
+        0,
+        0,
+        2,
+        0
+      ],
+      "method": "lanczos",
+      "psm": 13,
+      "constrained": true,
+      "reading": "35"
+    },
+    {
+      "region": "angle_control",
+      "padding": [
+        0,
+        0,
+        2,
+        0
+      ],
+      "method": "clahe",
+      "psm": 7,
+      "constrained": false,
+      "reading": "35°"
+    },
+    {
+      "region": "angle_control",
+      "padding": [
+        0,
+        0,
+        2,
+        0
+      ],
+      "method": "clahe",
+      "psm": 7,
+      "constrained": true,
+      "reading": "35°"
+    },
+    {
+      "region": "angle_control",
+      "padding": [
+        0,
+        0,
+        2,
+        0
+      ],
+      "method": "clahe",
+      "psm": 13,
+      "constrained": false,
+      "reading": "35°"
+    },
+    {
+      "region": "angle_control",
+      "padding": [
+        0,
+        0,
+        2,
+        0
+      ],
+      "method": "clahe",
+      "psm": 13,
+      "constrained": true,
+      "reading": "35°"
+    },
+    {
+      "region": "angle_control",
+      "padding": [
+        0,
+        0,
+        2,
+        0
+      ],
+      "method": "sharpen",
+      "psm": 7,
+      "constrained": false,
+      "reading": "35°"
+    },
+    {
+      "region": "angle_control",
+      "padding": [
+        0,
+        0,
+        2,
+        0
+      ],
+      "method": "sharpen",
+      "psm": 7,
+      "constrained": true,
+      "reading": "35°"
+    },
+    {
+      "region": "angle_control",
+      "padding": [
+        0,
+        0,
+        2,
+        0
+      ],
+      "method": "sharpen",
+      "psm": 13,
+      "constrained": false,
+      "reading": "3°"
+    },
+    {
+      "region": "angle_control",
+      "padding": [
+        0,
+        0,
+        2,
+        0
+      ],
+      "method": "sharpen",
+      "psm": 13,
+      "constrained": true,
+      "reading": "3°"
+    },
+    {
+      "region": "angle_control",
+      "padding": [
+        1,
+        1,
+        4,
+        2
+      ],
+      "method": "lanczos",
+      "psm": 7,
+      "constrained": false,
+      "reading": "35°"
+    },
+    {
+      "region": "angle_control",
+      "padding": [
+        1,
+        1,
+        4,
+        2
+      ],
+      "method": "lanczos",
+      "psm": 7,
+      "constrained": true,
+      "reading": "35°"
+    },
+    {
+      "region": "angle_control",
+      "padding": [
+        1,
+        1,
+        4,
+        2
+      ],
+      "method": "lanczos",
+      "psm": 13,
+      "constrained": false,
+      "reading": "3"
+    },
+    {
+      "region": "angle_control",
+      "padding": [
+        1,
+        1,
+        4,
+        2
+      ],
+      "method": "lanczos",
+      "psm": 13,
+      "constrained": true,
+      "reading": "3"
+    },
+    {
+      "region": "angle_control",
+      "padding": [
+        1,
+        1,
+        4,
+        2
+      ],
+      "method": "clahe",
+      "psm": 7,
+      "constrained": false,
+      "reading": ""
+    },
+    {
+      "region": "angle_control",
+      "padding": [
+        1,
+        1,
+        4,
+        2
+      ],
+      "method": "clahe",
+      "psm": 7,
+      "constrained": true,
+      "reading": ""
+    },
+    {
+      "region": "angle_control",
+      "padding": [
+        1,
+        1,
+        4,
+        2
+      ],
+      "method": "clahe",
+      "psm": 13,
+      "constrained": false,
+      "reading": "3"
+    },
+    {
+      "region": "angle_control",
+      "padding": [
+        1,
+        1,
+        4,
+        2
+      ],
+      "method": "clahe",
+      "psm": 13,
+      "constrained": true,
+      "reading": "3"
+    },
+    {
+      "region": "angle_control",
+      "padding": [
+        1,
+        1,
+        4,
+        2
+      ],
+      "method": "sharpen",
+      "psm": 7,
+      "constrained": false,
+      "reading": "35°"
+    },
+    {
+      "region": "angle_control",
+      "padding": [
+        1,
+        1,
+        4,
+        2
+      ],
+      "method": "sharpen",
+      "psm": 7,
+      "constrained": true,
+      "reading": "35°"
+    },
+    {
+      "region": "angle_control",
+      "padding": [
+        1,
+        1,
+        4,
+        2
+      ],
+      "method": "sharpen",
+      "psm": 13,
+      "constrained": false,
+      "reading": "3"
+    },
+    {
+      "region": "angle_control",
+      "padding": [
+        1,
+        1,
+        4,
+        2
+      ],
+      "method": "sharpen",
+      "psm": 13,
+      "constrained": true,
+      "reading": "3"
+    },
+    {
+      "region": "angle_control",
+      "padding": [
+        2,
+        2,
+        8,
+        3
+      ],
+      "method": "lanczos",
+      "psm": 7,
+      "constrained": false,
+      "reading": "35°"
+    },
+    {
+      "region": "angle_control",
+      "padding": [
+        2,
+        2,
+        8,
+        3
+      ],
+      "method": "lanczos",
+      "psm": 7,
+      "constrained": true,
+      "reading": "35°"
+    },
+    {
+      "region": "angle_control",
+      "padding": [
+        2,
+        2,
+        8,
+        3
+      ],
+      "method": "lanczos",
+      "psm": 13,
+      "constrained": false,
+      "reading": "3"
+    },
+    {
+      "region": "angle_control",
+      "padding": [
+        2,
+        2,
+        8,
+        3
+      ],
+      "method": "lanczos",
+      "psm": 13,
+      "constrained": true,
+      "reading": "3"
+    },
+    {
+      "region": "angle_control",
+      "padding": [
+        2,
+        2,
+        8,
+        3
+      ],
+      "method": "clahe",
+      "psm": 7,
+      "constrained": false,
+      "reading": ""
+    },
+    {
+      "region": "angle_control",
+      "padding": [
+        2,
+        2,
+        8,
+        3
+      ],
+      "method": "clahe",
+      "psm": 7,
+      "constrained": true,
+      "reading": ""
+    },
+    {
+      "region": "angle_control",
+      "padding": [
+        2,
+        2,
+        8,
+        3
+      ],
+      "method": "clahe",
+      "psm": 13,
+      "constrained": false,
+      "reading": "3"
+    },
+    {
+      "region": "angle_control",
+      "padding": [
+        2,
+        2,
+        8,
+        3
+      ],
+      "method": "clahe",
+      "psm": 13,
+      "constrained": true,
+      "reading": "3"
+    },
+    {
+      "region": "angle_control",
+      "padding": [
+        2,
+        2,
+        8,
+        3
+      ],
+      "method": "sharpen",
+      "psm": 7,
+      "constrained": false,
+      "reading": "35°"
+    },
+    {
+      "region": "angle_control",
+      "padding": [
+        2,
+        2,
+        8,
+        3
+      ],
+      "method": "sharpen",
+      "psm": 7,
+      "constrained": true,
+      "reading": "35°"
+    },
+    {
+      "region": "angle_control",
+      "padding": [
+        2,
+        2,
+        8,
+        3
+      ],
+      "method": "sharpen",
+      "psm": 13,
+      "constrained": false,
+      "reading": "3"
+    },
+    {
+      "region": "angle_control",
+      "padding": [
+        2,
+        2,
+        8,
+        3
+      ],
+      "method": "sharpen",
+      "psm": 13,
+      "constrained": true,
+      "reading": "3"
+    }
+  ]
+}

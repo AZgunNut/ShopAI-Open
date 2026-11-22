@@ -1,0 +1,371 @@
+{
+  "truth_file": "/mnt/shopai-data-new/cad-research/experiments/qwen-3-drawing-20261030-173652-610108/shopai_three_drawing_truth/batch_lab/ocr_outline_eight_v1/truths/p9.truth.json",
+  "prediction_file": "/mnt/shopai-data-new/cad-research/experiments/qwen-3-drawing-20261030-173652-610108/shopai_three_drawing_truth/batch_lab/ocr_outline_eight_v1/results/full_gambit_20261108T191855Z_740546_12852/p9/edocr2_recognizer_gdts.keras_score_readings.json",
+  "truth_coverage_certified": false,
+  "certified_100_percent": false,
+  "truth_gap_count": 1,
+  "ground_truth_pending_review": 12,
+  "expected_provisional_character_instances": 31,
+  "observed_character_instances": 16,
+  "character_inventory_overlap_provisional": 6,
+  "character_inventory_pct_provisional": 19.35,
+  "missing_characters": {
+    ".": 1,
+    "0": 1,
+    "1": 6,
+    "2": 1,
+    "4": 2,
+    "5": 3,
+    "6": 2,
+    "7": 2,
+    "8": 1,
+    "R": 2,
+    "x": 1,
+    "°": 1,
+    "Ø": 2
+  },
+  "extra_characters": {
+    ",": 2,
+    "3": 3,
+    "C": 1,
+    "⌓": 3,
+    "⏊": 1
+  },
+  "provisional_annotation_matches": 1,
+  "provisional_annotation_total": 12,
+  "missing_annotations": [
+    {
+      "truth_id": "p9_T001",
+      "expected_text": "36",
+      "anchor_px": [
+        250.0,
+        20.0
+      ]
+    },
+    {
+      "truth_id": "p9_T002",
+      "expected_text": "4",
+      "anchor_px": [
+        137.0,
+        66.0
+      ]
+    },
+    {
+      "truth_id": "p9_T003",
+      "expected_text": "1.5",
+      "anchor_px": [
+        128.0,
+        103.0
+      ]
+    },
+    {
+      "truth_id": "p9_T004",
+      "expected_text": "Ø20",
+      "anchor_px": [
+        73.0,
+        219.0
+      ]
+    },
+    {
+      "truth_id": "p9_T005",
+      "expected_text": "Ø14",
+      "anchor_px": [
+        130.0,
+        221.0
+      ]
+    },
+    {
+      "truth_id": "p9_T006",
+      "expected_text": "78",
+      "anchor_px": [
+        58.0,
+        527.0
+      ]
+    },
+    {
+      "truth_id": "p9_T007",
+      "expected_text": "R6 x 6",
+      "anchor_px": [
+        399.0,
+        341.0
+      ]
+    },
+    {
+      "truth_id": "p9_T008",
+      "expected_text": "R15",
+      "anchor_px": [
+        544.0,
+        136.0
+      ]
+    },
+    {
+      "truth_id": "p9_T009",
+      "expected_text": "15",
+      "anchor_px": [
+        600.0,
+        289.0
+      ]
+    },
+    {
+      "truth_id": "p9_T010",
+      "expected_text": "15°",
+      "anchor_px": [
+        658.0,
+        337.0
+      ]
+    },
+    {
+      "truth_id": "p9_T011",
+      "expected_text": "117",
+      "anchor_px": [
+        510.0,
+        469.0
+      ]
+    }
+  ],
+  "extra_or_fragmented_groups": [
+    {
+      "text": "C",
+      "bbox_px": [
+        6,
+        11,
+        16,
+        21
+      ],
+      "source_bbox": [
+        8.0,
+        13.0,
+        14.0,
+        19.0
+      ],
+      "recognizer": "recognizer_gdts.keras",
+      "detection_source": "existing Paddle baseline boxes",
+      "index": 0
+    },
+    {
+      "text": "33",
+      "bbox_px": [
+        233,
+        9,
+        266,
+        38
+      ],
+      "source_bbox": [
+        235.0,
+        11.0,
+        264.0,
+        36.0
+      ],
+      "recognizer": "recognizer_gdts.keras",
+      "detection_source": "existing Paddle baseline boxes",
+      "index": 1
+    },
+    {
+      "text": "",
+      "bbox_px": [
+        130,
+        56,
+        145,
+        73
+      ],
+      "source_bbox": [
+        132.0,
+        58.0,
+        143.0,
+        71.0
+      ],
+      "recognizer": "recognizer_gdts.keras",
+      "detection_source": "existing Paddle baseline boxes",
+      "index": 2
+    },
+    {
+      "text": "13",
+      "bbox_px": [
+        111,
+        90,
+        148,
+        119
+      ],
+      "source_bbox": [
+        113.0,
+        92.0,
+        146.0,
+        117.0
+      ],
+      "recognizer": "recognizer_gdts.keras",
+      "detection_source": "existing Paddle baseline boxes",
+      "index": 3
+    },
+    {
+      "text": "5",
+      "bbox_px": [
+        518,
+        119,
+        566,
+        150
+      ],
+      "source_bbox": [
+        520.0,
+        121.0,
+        564.0,
+        148.0
+      ],
+      "recognizer": "recognizer_gdts.keras",
+      "detection_source": "existing Paddle baseline boxes",
+      "index": 4
+    },
+    {
+      "text": ",",
+      "bbox_px": [
+        63,
+        183,
+        89,
+        227
+      ],
+      "source_bbox": [
+        65.0,
+        185.0,
+        87.0,
+        225.0
+      ],
+      "recognizer": "recognizer_gdts.keras",
+      "detection_source": "existing Paddle baseline boxes",
+      "index": 5
+    },
+    {
+      "text": "⌓",
+      "bbox_px": [
+        102,
+        201,
+        126,
+        227
+      ],
+      "source_bbox": [
+        104.0,
+        203.0,
+        124.0,
+        225.0
+      ],
+      "recognizer": "recognizer_gdts.keras",
+      "detection_source": "existing Paddle baseline boxes",
+      "index": 6
+    },
+    {
+      "text": "3",
+      "bbox_px": [
+        587,
+        274,
+        620,
+        303
+      ],
+      "source_bbox": [
+        589.0,
+        276.0,
+        618.0,
+        301.0
+      ],
+      "recognizer": "recognizer_gdts.keras",
+      "detection_source": "existing Paddle baseline boxes",
+      "index": 7
+    },
+    {
+      "text": "⏊6",
+      "bbox_px": [
+        366,
+        315,
+        438,
+        348
+      ],
+      "source_bbox": [
+        368.0,
+        317.0,
+        436.0,
+        346.0
+      ],
+      "recognizer": "recognizer_gdts.keras",
+      "detection_source": "existing Paddle baseline boxes",
+      "index": 8
+    },
+    {
+      "text": "",
+      "bbox_px": [
+        630,
+        319,
+        671,
+        351
+      ],
+      "source_bbox": [
+        632.0,
+        321.0,
+        669.0,
+        349.0
+      ],
+      "recognizer": "recognizer_gdts.keras",
+      "detection_source": "existing Paddle baseline boxes",
+      "index": 9
+    },
+    {
+      "text": "⌓",
+      "bbox_px": [
+        497,
+        423,
+        523,
+        462
+      ],
+      "source_bbox": [
+        499.0,
+        425.0,
+        521.0,
+        460.0
+      ],
+      "recognizer": "recognizer_gdts.keras",
+      "detection_source": "existing Paddle baseline boxes",
+      "index": 10
+    },
+    {
+      "text": ",",
+      "bbox_px": [
+        26,
+        504,
+        51,
+        526
+      ],
+      "source_bbox": [
+        28.0,
+        506.0,
+        49.0,
+        524.0
+      ],
+      "recognizer": "recognizer_gdts.keras",
+      "detection_source": "existing Paddle baseline boxes",
+      "index": 11
+    },
+    {
+      "text": "⌓",
+      "bbox_px": [
+        103,
+        184,
+        124,
+        204
+      ],
+      "source_bbox": [
+        105.33,
+        186.67,
+        122.0,
+        202.0
+      ],
+      "recognizer": "recognizer_gdts.keras",
+      "detection_source": "existing Paddle baseline boxes",
+      "index": 13
+    }
+  ],
+  "matching_instances_diagnostic": [
+    {
+      "truth_id": "p9_T012",
+      "text": "48",
+      "observation_index": 12,
+      "anchor_distance_px": 9.5
+    }
+  ],
+  "note": "Inventory counts and annotation matches are PROVISIONAL. No per-glyph spatial truth exists and truth coverage is not independently verified. Counts may cancel swapped or misplaced glyphs."
+}

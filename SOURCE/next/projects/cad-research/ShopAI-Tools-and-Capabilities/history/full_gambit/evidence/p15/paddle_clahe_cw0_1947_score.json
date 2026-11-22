@@ -1,0 +1,382 @@
+{
+  "truth_file": "/mnt/shopai-data-new/cad-research/experiments/qwen-3-drawing-20261030-173652-610108/shopai_three_drawing_truth/batch_lab/ocr_outline_eight_v1/truths/p15.truth.json",
+  "prediction_file": "/mnt/shopai-data-new/cad-research/experiments/qwen-3-drawing-20261030-173652-610108/shopai_three_drawing_truth/batch_lab/ocr_outline_eight_v1/results/full_gambit_20261108T191855Z_740546_12852/p15/paddle_clahe_cw0_1947_score_readings.json",
+  "truth_coverage_certified": false,
+  "certified_100_percent": false,
+  "truth_gap_count": 1,
+  "ground_truth_pending_review": 12,
+  "expected_provisional_character_instances": 56,
+  "observed_character_instances": 52,
+  "character_inventory_overlap_provisional": 32,
+  "character_inventory_pct_provisional": 57.14,
+  "missing_characters": {
+    "0": 1,
+    "1": 3,
+    "2": 1,
+    "5": 5,
+    ":": 2,
+    "c": 2,
+    "i": 1,
+    "o": 1,
+    "t": 3,
+    "Ø": 5
+  },
+  "extra_characters": {
+    "d": 1,
+    "e": 11,
+    "l": 1,
+    "p": 2,
+    "s": 2,
+    "ø": 1,
+    "∅": 2
+  },
+  "provisional_annotation_matches": 5,
+  "provisional_annotation_total": 12,
+  "missing_annotations": [
+    {
+      "truth_id": "p15_T001",
+      "expected_text": "Ø2 conicitate 1:50",
+      "anchor_px": [
+        43.0,
+        228.0
+      ]
+    },
+    {
+      "truth_id": "p15_T002",
+      "expected_text": "Ø5 conicitate 1:50",
+      "anchor_px": [
+        43.0,
+        597.0
+      ]
+    },
+    {
+      "truth_id": "p15_T003",
+      "expected_text": "Ø6",
+      "anchor_px": [
+        423.0,
+        54.0
+      ]
+    },
+    {
+      "truth_id": "p15_T007",
+      "expected_text": "31.5",
+      "anchor_px": [
+        676.0,
+        364.0
+      ]
+    },
+    {
+      "truth_id": "p15_T010",
+      "expected_text": "Ø15",
+      "anchor_px": [
+        412.0,
+        542.0
+      ]
+    },
+    {
+      "truth_id": "p15_T011",
+      "expected_text": "Ø28",
+      "anchor_px": [
+        412.0,
+        585.0
+      ]
+    },
+    {
+      "truth_id": "p15_T012",
+      "expected_text": "5",
+      "anchor_px": [
+        393.0,
+        918.0
+      ]
+    }
+  ],
+  "extra_or_fragmented_groups": [
+    {
+      "text": "ø6",
+      "bbox_px": [
+        405.33,
+        33.33,
+        440.67,
+        58.0
+      ],
+      "bbox_rotated_px": [
+        405.33,
+        33.33,
+        440.67,
+        58.0
+      ],
+      "alternatives": [
+        {
+          "text": "ø6",
+          "key": "Ø6",
+          "score": 3.22782,
+          "kind": "diameter",
+          "parse_quality": 2.2,
+          "flags": [],
+          "confidence_peak": 0.953,
+          "whole_profiles": [
+            "1947"
+          ],
+          "profiles": [
+            "1947"
+          ],
+          "tile_samples": 0,
+          "support_examples": 1,
+          "style_bonus": 0.0
+        }
+      ],
+      "index": 0
+    },
+    {
+      "text": "eseeee",
+      "bbox_px": [
+        32.0,
+        90.67,
+        57.33,
+        283.33
+      ],
+      "bbox_rotated_px": [
+        32.0,
+        90.67,
+        57.33,
+        283.33
+      ],
+      "alternatives": [
+        {
+          "text": "eseeee",
+          "key": "ESEEEE",
+          "score": 1.46734,
+          "kind": "text_note",
+          "parse_quality": 0.8,
+          "flags": [],
+          "confidence_peak": 0.19,
+          "whole_profiles": [
+            "1947"
+          ],
+          "profiles": [
+            "1947"
+          ],
+          "tile_samples": 0,
+          "support_examples": 1,
+          "style_bonus": 0.0
+        }
+      ],
+      "index": 2
+    },
+    {
+      "text": "30",
+      "bbox_px": [
+        666.67,
+        282.0,
+        696.67,
+        338.0
+      ],
+      "bbox_rotated_px": [
+        666.67,
+        282.0,
+        696.67,
+        338.0
+      ],
+      "alternatives": [
+        {
+          "text": "30",
+          "key": "30",
+          "score": 2.47634,
+          "kind": "linear_or_value",
+          "parse_quality": 1.8,
+          "flags": [],
+          "confidence_peak": 0.209,
+          "whole_profiles": [
+            "1947"
+          ],
+          "profiles": [
+            "1947"
+          ],
+          "tile_samples": 0,
+          "support_examples": 1,
+          "style_bonus": 0.0
+        }
+      ],
+      "index": 4
+    },
+    {
+      "text": "ee eee e",
+      "bbox_px": [
+        35.33,
+        474.67,
+        58.67,
+        666.0
+      ],
+      "bbox_rotated_px": [
+        35.33,
+        474.67,
+        58.67,
+        666.0
+      ],
+      "alternatives": [
+        {
+          "text": "ee eee e",
+          "key": "EEEEEE",
+          "score": 1.52964,
+          "kind": "text_note",
+          "parse_quality": 0.8,
+          "flags": [],
+          "confidence_peak": 0.322,
+          "whole_profiles": [
+            "1947"
+          ],
+          "profiles": [
+            "1947"
+          ],
+          "tile_samples": 0,
+          "support_examples": 1,
+          "style_bonus": 0.0
+        }
+      ],
+      "index": 7
+    },
+    {
+      "text": "∅15",
+      "bbox_px": [
+        377.33,
+        499.33,
+        432.0,
+        529.33
+      ],
+      "bbox_rotated_px": [
+        377.33,
+        499.33,
+        432.0,
+        529.33
+      ],
+      "alternatives": [
+        {
+          "text": "∅15",
+          "key": "∅15",
+          "score": 0.78102,
+          "kind": "unclassified",
+          "parse_quality": -0.25,
+          "flags": [],
+          "confidence_peak": 0.96,
+          "whole_profiles": [
+            "1947"
+          ],
+          "profiles": [
+            "1947"
+          ],
+          "tile_samples": 0,
+          "support_examples": 1,
+          "style_bonus": 0.0
+        }
+      ],
+      "index": 8
+    },
+    {
+      "text": "∅28",
+      "bbox_px": [
+        338.67,
+        548.67,
+        390.0,
+        574.0
+      ],
+      "bbox_rotated_px": [
+        338.67,
+        548.67,
+        390.0,
+        574.0
+      ],
+      "alternatives": [
+        {
+          "text": "∅28",
+          "key": "∅28",
+          "score": 0.75408,
+          "kind": "unclassified",
+          "parse_quality": -0.25,
+          "flags": [],
+          "confidence_peak": 0.903,
+          "whole_profiles": [
+            "1947"
+          ],
+          "profiles": [
+            "1947"
+          ],
+          "tile_samples": 0,
+          "support_examples": 1,
+          "style_bonus": 0.0
+        }
+      ],
+      "index": 9
+    },
+    {
+      "text": "icensed application.",
+      "bbox_px": [
+        0.0,
+        1054.67,
+        141.33,
+        1071.33
+      ],
+      "bbox_rotated_px": [
+        0.0,
+        1054.67,
+        141.33,
+        1071.33
+      ],
+      "alternatives": [
+        {
+          "text": "icensed application.",
+          "key": "ICENSEDAPPLICATION.",
+          "score": -0.60235,
+          "kind": "unclassified",
+          "parse_quality": -1.65,
+          "flags": [
+            "TRAILING_STRAY_MARK"
+          ],
+          "confidence_peak": 0.995,
+          "whole_profiles": [
+            "1947"
+          ],
+          "profiles": [
+            "1947"
+          ],
+          "tile_samples": 0,
+          "support_examples": 1,
+          "style_bonus": 0.0
+        }
+      ],
+      "index": 11
+    }
+  ],
+  "matching_instances_diagnostic": [
+    {
+      "truth_id": "p15_T004",
+      "text": "1x45°",
+      "observation_index": 1,
+      "anchor_distance_px": 5.0
+    },
+    {
+      "truth_id": "p15_T005",
+      "text": "5",
+      "observation_index": 10,
+      "anchor_distance_px": 738.9
+    },
+    {
+      "truth_id": "p15_T006",
+      "text": "12",
+      "observation_index": 3,
+      "anchor_distance_px": 65.4
+    },
+    {
+      "truth_id": "p15_T008",
+      "text": "18",
+      "observation_index": 5,
+      "anchor_distance_px": 29.2
+    },
+    {
+      "truth_id": "p15_T009",
+      "text": "8",
+      "observation_index": 6,
+      "anchor_distance_px": 72.1
+    }
+  ],
+  "note": "Inventory counts and annotation matches are PROVISIONAL. No per-glyph spatial truth exists and truth coverage is not independently verified. Counts may cancel swapped or misplaced glyphs."
+}

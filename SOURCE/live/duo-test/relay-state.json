@@ -1,0 +1,264 @@
+{
+  "image_path": "/home/shopai/ShopAI/duo-test/cube-relay-v2/cubewithHoleTest.png",
+  "image_sha256": "84a14717d1c3b1937c6244c23e21a9bed105d169b994ca9e2454048a819ca794",
+  "image_width": 360,
+  "image_height": 494,
+  "run_directory": "/home/shopai/ShopAI/duo-test/relay-cube-fixed-20260929-211507",
+  "step": 2,
+  "round": 5,
+  "step_questions": 3,
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are the Director for a mechanical drawing inspection. You CANNOT see the image.\nKeep a continuing conversation with a fresh Viewer. Work through the supplied checklist IN ORDER.\nAsk exactly one short, specific question per turn. Split views/features into separate questions. Ask for ONE numeric value at a time; do not bundle length/width/height. For written-dimension questions request dimension_text and points=[]; pixel localization is a separate question. An observation with pixel_status=rejected has NO usable pixel coordinates; request a recheck if pixel location is needed. Never accept or copy rejected_points into coordinate records.\nNever fabricate Viewer observations or dimensions. Treat all coordinates as UNVERIFIED estimates.\nImage Cartesian coordinates: origin bottom-left; x right; y up; pixels. Do not confuse pixels with mm/inches.\nPhysical part coordinates require legible printed dimensions, an established origin, and enough constraints. When printed units are unknown, retain the raw numerical coordinates in drawing_units without assuming a physical unit. Blind-hole depths may exclude the conical drill point; keep cylindrical depth and drill-tip depth separate and leave an undimensioned tip unresolved.\nDo not infer a hidden dimension or assume the drawing is to scale. Keep missing information unresolved.\nThe provided LOCKED_DATUM is immutable. Never move its zero or change its view axes. Read written dimensions before deriving part coordinates.\nAssess the previous Viewer answer: accepted, rejected, needs_recheck, or none. Accepted means provisionally usable, not independently verified.\nReturn ONLY JSON with keys:\n{\"decision\":\"accepted|rejected|needs_recheck|none\", \"reason\":\"brief assessment\",\n \"action\":\"ask|advance\", \"question\":\"one question when action=ask\"}.\nUse advance when this checklist item is exhausted or cannot be resolved. Never give commands or code.\n"
+    },
+    {
+      "role": "user",
+      "content": "LOCKED_DATUM (immutable):\n{\"source\": \"chosen\", \"origin_feature\": \"Bottom-front-left physical corner of the block\", \"units\": \"unknown\", \"common_zero\": [0, 0, 0], \"uncertainty\": \"Physical units are not printed. Retain drawing values without assuming mm or inches.\", \"views\": [{\"id\": \"Top (upper view)\", \"plane\": [\"X\", \"Y\"], \"horizontal_axis\": \"X\", \"vertical_axis\": \"Y\", \"horizontal_sign\": 1, \"vertical_sign\": 1, \"origin_pixel\": [149, 276], \"origin_evidence\": \"Common corner projects to lower-left of upper square.\"}, {\"id\": \"Front (lower view)\", \"plane\": [\"X\", \"Z\"], \"horizontal_axis\": \"X\", \"vertical_axis\": \"Z\", \"horizontal_sign\": 1, \"vertical_sign\": 1, \"origin_pixel\": [149, 114], \"origin_evidence\": \"Common corner is lower-left of lower square.\"}], \"locked\": true, \"verification\": \"Chosen working frame based on inspected drawing; pixel locations approximate\"}\nChecklist item 1/10: Identify and confirm the visible view labels and their XYZ projection planes against the locked datum.\nOriginal image size: 360 x 494. Questions asked on this item: 0. "
+    },
+    {
+      "role": "assistant",
+      "content": "{\"decision\":\"none\", \"reason\":\"Initial checklist step; no prior answers to assess.\", \"action\":\"ask\", \"question\":\"What are the visible view labels and their corresponding XYZ projection planes?\"}"
+    },
+    {
+      "role": "user",
+      "content": "Actual Viewer response to your question:\n{\"answer\": \"The drawing shows two visible views: the upper one is the Top (upper view) projected onto the X\\u2011Y plane, and the lower one is the Front (lower view) projected onto the X\\u2011Z plane. The locked datum is the bottom\\u2011front\\u2011left physical corner of the block, with the origin at (0,0,0) and the axes defined by the projection directions.\", \"observations\": [{\"id\": \"Top (upper view)\", \"view\": \"upper view\", \"kind\": \"view\", \"description\": \"The upper view displays the top face of the block, showing a square outline with a central hole and dimension annotations (e.g., 1.00, 2.00).\", \"points\": [], \"dimension_text\": \"1.00, 2.00\", \"uncertainty\": \"The view is projected onto the X\\u2011Y plane; the coordinate system is defined by the locked datum.\", \"part_coordinate\": null, \"coordinate_system\": \"image_cartesian_bottom_left\", \"coordinate_units\": \"pixels\", \"verification\": \"unverified_model_observation\"}, {\"id\": \"Front (lower view)\", \"view\": \"lower view\", \"kind\": \"view\", \"description\": \"The lower view shows the front face of the block, revealing the hole\\u2019s depth and side dimensions (e.g., 2.00, (1.18)), with dashed lines indicating the hole\\u2019s interior.\", \"points\": [], \"dimension_text\": \"2.00, (1.18)\", \"uncertainty\": \"The view is projected onto the X\\u2011Z plane; the coordinate system is defined by the locked datum.\", \"part_coordinate\": null, \"coordinate_system\": \"image_cartesian_bottom_left\", \"coordinate_units\": \"pixels\", \"verification\": \"unverified_model_observation\"}]}"
+    },
+    {
+      "role": "user",
+      "content": "LOCKED_DATUM (immutable):\n{\"source\": \"chosen\", \"origin_feature\": \"Bottom-front-left physical corner of the block\", \"units\": \"unknown\", \"common_zero\": [0, 0, 0], \"uncertainty\": \"Physical units are not printed. Retain drawing values without assuming mm or inches.\", \"views\": [{\"id\": \"Top (upper view)\", \"plane\": [\"X\", \"Y\"], \"horizontal_axis\": \"X\", \"vertical_axis\": \"Y\", \"horizontal_sign\": 1, \"vertical_sign\": 1, \"origin_pixel\": [149, 276], \"origin_evidence\": \"Common corner projects to lower-left of upper square.\"}, {\"id\": \"Front (lower view)\", \"plane\": [\"X\", \"Z\"], \"horizontal_axis\": \"X\", \"vertical_axis\": \"Z\", \"horizontal_sign\": 1, \"vertical_sign\": 1, \"origin_pixel\": [149, 114], \"origin_evidence\": \"Common corner is lower-left of lower square.\"}], \"locked\": true, \"verification\": \"Chosen working frame based on inspected drawing; pixel locations approximate\"}\nChecklist item 1/10: Identify and confirm the visible view labels and their XYZ projection planes against the locked datum.\nOriginal image size: 360 x 494. Questions asked on this item: 1. \nPrevious Viewer response:\n{\"answer\": \"The drawing shows two visible views: the upper one is the Top (upper view) projected onto the X\\u2011Y plane, and the lower one is the Front (lower view) projected onto the X\\u2011Z plane. The locked datum is the bottom\\u2011front\\u2011left physical corner of the block, with the origin at (0,0,0) and the axes defined by the projection directions.\", \"observations\": [{\"id\": \"Top (upper view)\", \"view\": \"upper view\", \"kind\": \"view\", \"description\": \"The upper view displays the top face of the block, showing a square outline with a central hole and dimension annotations (e.g., 1.00, 2.00).\", \"points\": [], \"dimension_text\": \"1.00, 2.00\", \"uncertainty\": \"The view is projected onto the X\\u2011Y plane; the coordinate system is defined by the locked datum.\", \"part_coordinate\": null, \"coordinate_system\": \"image_cartesian_bottom_left\", \"coordinate_units\": \"pixels\", \"verification\": \"unverified_model_observation\"}, {\"id\": \"Front (lower view)\", \"view\": \"lower view\", \"kind\": \"view\", \"description\": \"The lower view shows the front face of the block, revealing the hole\\u2019s depth and side dimensions (e.g., 2.00, (1.18)), with dashed lines indicating the hole\\u2019s interior.\", \"points\": [], \"dimension_text\": \"2.00, (1.18)\", \"uncertainty\": \"The view is projected onto the X\\u2011Z plane; the coordinate system is defined by the locked datum.\", \"part_coordinate\": null, \"coordinate_system\": \"image_cartesian_bottom_left\", \"coordinate_units\": \"pixels\", \"verification\": \"unverified_model_observation\"}]}"
+    },
+    {
+      "role": "assistant",
+      "content": "{\"decision\":\"accepted\", \"reason\":\"Viewer correctly identified the Top (X-Y) and Front (X-Z) views matching the locked datum definition.\", \"action\":\"advance\", \"question\": null}"
+    },
+    {
+      "role": "user",
+      "content": "LOCKED_DATUM (immutable):\n{\"source\": \"chosen\", \"origin_feature\": \"Bottom-front-left physical corner of the block\", \"units\": \"unknown\", \"common_zero\": [0, 0, 0], \"uncertainty\": \"Physical units are not printed. Retain drawing values without assuming mm or inches.\", \"views\": [{\"id\": \"Top (upper view)\", \"plane\": [\"X\", \"Y\"], \"horizontal_axis\": \"X\", \"vertical_axis\": \"Y\", \"horizontal_sign\": 1, \"vertical_sign\": 1, \"origin_pixel\": [149, 276], \"origin_evidence\": \"Common corner projects to lower-left of upper square.\"}, {\"id\": \"Front (lower view)\", \"plane\": [\"X\", \"Z\"], \"horizontal_axis\": \"X\", \"vertical_axis\": \"Z\", \"horizontal_sign\": 1, \"vertical_sign\": 1, \"origin_pixel\": [149, 114], \"origin_evidence\": \"Common corner is lower-left of lower square.\"}], \"locked\": true, \"verification\": \"Chosen working frame based on inspected drawing; pixel locations approximate\"}\nChecklist item 2/10: Read the written overall dimensions and units, one dimension at a time.\nOriginal image size: 360 x 494. Questions asked on this item: 0. "
+    },
+    {
+      "role": "assistant",
+      "content": "{\"decision\":\"none\", \"reason\":\"Initial checklist step; no prior answers to assess.\", \"action\":\"ask\", \"question\":\"What is the overall width dimension of the block?\"}"
+    },
+    {
+      "role": "user",
+      "content": "Actual Viewer response to your question:\n{\"answer\": \"unanswerable\", \"observations\": [{\"id\": \"overall width dimension\", \"view\": \"Front (lower view)\", \"kind\": \"dimension annotation\", \"description\": \"A horizontal dimension line labeled '2.00' spans the full width of the block (left edge to right edge).\", \"points\": [], \"dimension_text\": \"\\\"2.00\\\"\", \"uncertainty\": \"The drawing explicitly provides the value; no ambiguity about the feature or its location.\", \"pixel_status\": \"not_provided\", \"coordinate_system\": \"image_cartesian_bottom_left\", \"coordinate_units\": \"pixels\", \"verification\": \"unverified_model_observation\"}]}"
+    },
+    {
+      "role": "user",
+      "content": "LOCKED_DATUM (immutable):\n{\"source\": \"chosen\", \"origin_feature\": \"Bottom-front-left physical corner of the block\", \"units\": \"unknown\", \"common_zero\": [0, 0, 0], \"uncertainty\": \"Physical units are not printed. Retain drawing values without assuming mm or inches.\", \"views\": [{\"id\": \"Top (upper view)\", \"plane\": [\"X\", \"Y\"], \"horizontal_axis\": \"X\", \"vertical_axis\": \"Y\", \"horizontal_sign\": 1, \"vertical_sign\": 1, \"origin_pixel\": [149, 276], \"origin_evidence\": \"Common corner projects to lower-left of upper square.\"}, {\"id\": \"Front (lower view)\", \"plane\": [\"X\", \"Z\"], \"horizontal_axis\": \"X\", \"vertical_axis\": \"Z\", \"horizontal_sign\": 1, \"vertical_sign\": 1, \"origin_pixel\": [149, 114], \"origin_evidence\": \"Common corner is lower-left of lower square.\"}], \"locked\": true, \"verification\": \"Chosen working frame based on inspected drawing; pixel locations approximate\"}\nChecklist item 2/10: Read the written overall dimensions and units, one dimension at a time.\nOriginal image size: 360 x 494. Questions asked on this item: 1. \nPrevious Viewer response:\n{\"answer\": \"unanswerable\", \"observations\": [{\"id\": \"overall width dimension\", \"view\": \"Front (lower view)\", \"kind\": \"dimension annotation\", \"description\": \"A horizontal dimension line labeled '2.00' spans the full width of the block (left edge to right edge).\", \"points\": [], \"dimension_text\": \"\\\"2.00\\\"\", \"uncertainty\": \"The drawing explicitly provides the value; no ambiguity about the feature or its location.\", \"pixel_status\": \"not_provided\", \"coordinate_system\": \"image_cartesian_bottom_left\", \"coordinate_units\": \"pixels\", \"verification\": \"unverified_model_observation\"}]}"
+    },
+    {
+      "role": "assistant",
+      "content": "{\"decision\":\"accepted\", \"reason\":\"Viewer correctly identified the overall width dimension as 2.00 from the Front view.\", \"action\":\"advance\", \"question\": null}"
+    },
+    {
+      "role": "user",
+      "content": "LOCKED_DATUM (immutable):\n{\"source\": \"chosen\", \"origin_feature\": \"Bottom-front-left physical corner of the block\", \"units\": \"unknown\", \"common_zero\": [0, 0, 0], \"uncertainty\": \"Physical units are not printed. Retain drawing values without assuming mm or inches.\", \"views\": [{\"id\": \"Top (upper view)\", \"plane\": [\"X\", \"Y\"], \"horizontal_axis\": \"X\", \"vertical_axis\": \"Y\", \"horizontal_sign\": 1, \"vertical_sign\": 1, \"origin_pixel\": [149, 276], \"origin_evidence\": \"Common corner projects to lower-left of upper square.\"}, {\"id\": \"Front (lower view)\", \"plane\": [\"X\", \"Z\"], \"horizontal_axis\": \"X\", \"vertical_axis\": \"Z\", \"horizontal_sign\": 1, \"vertical_sign\": 1, \"origin_pixel\": [149, 114], \"origin_evidence\": \"Common corner is lower-left of lower square.\"}], \"locked\": true, \"verification\": \"Chosen working frame based on inspected drawing; pixel locations approximate\"}\nChecklist item 3/10: Locate outer contour corners/endpoints, one view or feature at a time, relative to the locked zero.\nOriginal image size: 360 x 494. Questions asked on this item: 0. "
+    },
+    {
+      "role": "assistant",
+      "content": "{\"decision\":\"none\", \"reason\":\"Initial checklist step; no prior answers to assess.\", \"action\":\"ask\", \"question\":\"What is the pixel coordinate of the top-right corner of the block in the Top view?\"}"
+    },
+    {
+      "role": "user",
+      "content": "Actual Viewer response to your question:\n{\"answer\": \"unclear\", \"observations\": []}"
+    },
+    {
+      "role": "user",
+      "content": "LOCKED_DATUM (immutable):\n{\"source\": \"chosen\", \"origin_feature\": \"Bottom-front-left physical corner of the block\", \"units\": \"unknown\", \"common_zero\": [0, 0, 0], \"uncertainty\": \"Physical units are not printed. Retain drawing values without assuming mm or inches.\", \"views\": [{\"id\": \"Top (upper view)\", \"plane\": [\"X\", \"Y\"], \"horizontal_axis\": \"X\", \"vertical_axis\": \"Y\", \"horizontal_sign\": 1, \"vertical_sign\": 1, \"origin_pixel\": [149, 276], \"origin_evidence\": \"Common corner projects to lower-left of upper square.\"}, {\"id\": \"Front (lower view)\", \"plane\": [\"X\", \"Z\"], \"horizontal_axis\": \"X\", \"vertical_axis\": \"Z\", \"horizontal_sign\": 1, \"vertical_sign\": 1, \"origin_pixel\": [149, 114], \"origin_evidence\": \"Common corner is lower-left of lower square.\"}], \"locked\": true, \"verification\": \"Chosen working frame based on inspected drawing; pixel locations approximate\"}\nChecklist item 3/10: Locate outer contour corners/endpoints, one view or feature at a time, relative to the locked zero.\nOriginal image size: 360 x 494. Questions asked on this item: 1. \nPrevious Viewer response:\n{\"answer\": \"unclear\", \"observations\": []}"
+    },
+    {
+      "role": "assistant",
+      "content": "{\"decision\":\"rejected\", \"reason\":\"Viewer could not locate the top-right corner; observation is empty.\", \"action\":\"ask\", \"question\":\"What is the pixel coordinate of the bottom-left corner of the block in the Front view?\"}"
+    },
+    {
+      "role": "user",
+      "content": "Actual Viewer response to your question:\n{\"answer\": \"unclear\", \"observations\": []}"
+    },
+    {
+      "role": "user",
+      "content": "LOCKED_DATUM (immutable):\n{\"source\": \"chosen\", \"origin_feature\": \"Bottom-front-left physical corner of the block\", \"units\": \"unknown\", \"common_zero\": [0, 0, 0], \"uncertainty\": \"Physical units are not printed. Retain drawing values without assuming mm or inches.\", \"views\": [{\"id\": \"Top (upper view)\", \"plane\": [\"X\", \"Y\"], \"horizontal_axis\": \"X\", \"vertical_axis\": \"Y\", \"horizontal_sign\": 1, \"vertical_sign\": 1, \"origin_pixel\": [149, 276], \"origin_evidence\": \"Common corner projects to lower-left of upper square.\"}, {\"id\": \"Front (lower view)\", \"plane\": [\"X\", \"Z\"], \"horizontal_axis\": \"X\", \"vertical_axis\": \"Z\", \"horizontal_sign\": 1, \"vertical_sign\": 1, \"origin_pixel\": [149, 114], \"origin_evidence\": \"Common corner is lower-left of lower square.\"}], \"locked\": true, \"verification\": \"Chosen working frame based on inspected drawing; pixel locations approximate\"}\nChecklist item 3/10: Locate outer contour corners/endpoints, one view or feature at a time, relative to the locked zero.\nOriginal image size: 360 x 494. Questions asked on this item: 2. \nPrevious Viewer response:\n{\"answer\": \"unclear\", \"observations\": []}"
+    },
+    {
+      "role": "assistant",
+      "content": "{\"decision\":\"rejected\", \"reason\":\"Viewer failed to locate the bottom-left corner in the Front view; observation is empty.\", \"action\":\"ask\", \"question\":\"What is the pixel coordinate of the top-left corner of the block in the Top view?\"}"
+    },
+    {
+      "role": "user",
+      "content": "Actual Viewer response to your question:\n{\"answer\": \"unclear\", \"observations\": []}"
+    }
+  ],
+  "observations": [
+    {
+      "round": 1,
+      "checklist_item": 1,
+      "id": "Top (upper view)",
+      "view": "upper view",
+      "kind": "view",
+      "description": "The upper view displays the top face of the block, showing a square outline with a central hole and dimension annotations (e.g., 1.00, 2.00).",
+      "points": [],
+      "dimension_text": "1.00, 2.00",
+      "uncertainty": "The view is projected onto the X‑Y plane; the coordinate system is defined by the locked datum.",
+      "part_coordinate": null,
+      "coordinate_system": "image_cartesian_bottom_left",
+      "coordinate_units": "pixels",
+      "verification": "unverified_model_observation"
+    },
+    {
+      "round": 1,
+      "checklist_item": 1,
+      "id": "Front (lower view)",
+      "view": "lower view",
+      "kind": "view",
+      "description": "The lower view shows the front face of the block, revealing the hole’s depth and side dimensions (e.g., 2.00, (1.18)), with dashed lines indicating the hole’s interior.",
+      "points": [],
+      "dimension_text": "2.00, (1.18)",
+      "uncertainty": "The view is projected onto the X‑Z plane; the coordinate system is defined by the locked datum.",
+      "part_coordinate": null,
+      "coordinate_system": "image_cartesian_bottom_left",
+      "coordinate_units": "pixels",
+      "verification": "unverified_model_observation"
+    },
+    {
+      "round": 2,
+      "checklist_item": 2,
+      "id": "overall width dimension",
+      "view": "Front (lower view)",
+      "kind": "dimension annotation",
+      "description": "A horizontal dimension line labeled '2.00' spans the full width of the block (left edge to right edge).",
+      "points": [],
+      "dimension_text": "\"2.00\"",
+      "uncertainty": "The drawing explicitly provides the value; no ambiguity about the feature or its location.",
+      "pixel_status": "not_provided",
+      "coordinate_system": "image_cartesian_bottom_left",
+      "coordinate_units": "pixels",
+      "verification": "unverified_model_observation"
+    }
+  ],
+  "checklist": [
+    "Identify and confirm the visible view labels and their XYZ projection planes against the locked datum.",
+    "Read the written overall dimensions and units, one dimension at a time.",
+    "Locate outer contour corners/endpoints, one view or feature at a time, relative to the locked zero.",
+    "Locate hole centers and visible circles, one feature at a time, relative to the locked zero.",
+    "Locate slots, steps, recesses, and other internal features, one feature at a time.",
+    "Read feature position dimensions and their reference endpoints, one dimension at a time.",
+    "Read radius, diameter, depth, thread, and tolerance callouts, one callout at a time.",
+    "Determine feature Cartesian part coordinates ONLY from written dimensions and constraints, one feature at a time. Use the locked common XYZ zero.",
+    "Check corresponding feature coordinates between views using the locked XYZ projections.",
+    "Recheck inconsistencies and list missing dimensions or unresolved coordinates."
+  ],
+  "assessments": [
+    {
+      "checklist_item": 1,
+      "round": 0,
+      "forced_advance": false,
+      "decision": "none",
+      "reason": "Initial checklist step; no prior answers to assess.",
+      "action": "ask",
+      "question": "What are the visible view labels and their corresponding XYZ projection planes?"
+    },
+    {
+      "checklist_item": 1,
+      "round": 1,
+      "forced_advance": false,
+      "decision": "accepted",
+      "reason": "Viewer correctly identified the Top (X-Y) and Front (X-Z) views matching the locked datum definition.",
+      "action": "advance",
+      "question": null
+    },
+    {
+      "checklist_item": 2,
+      "round": 1,
+      "forced_advance": false,
+      "decision": "none",
+      "reason": "Initial checklist step; no prior answers to assess.",
+      "action": "ask",
+      "question": "What is the overall width dimension of the block?"
+    },
+    {
+      "checklist_item": 2,
+      "round": 2,
+      "forced_advance": false,
+      "decision": "accepted",
+      "reason": "Viewer correctly identified the overall width dimension as 2.00 from the Front view.",
+      "action": "advance",
+      "question": null
+    },
+    {
+      "checklist_item": 3,
+      "round": 2,
+      "forced_advance": false,
+      "decision": "none",
+      "reason": "Initial checklist step; no prior answers to assess.",
+      "action": "ask",
+      "question": "What is the pixel coordinate of the top-right corner of the block in the Top view?"
+    },
+    {
+      "checklist_item": 3,
+      "round": 3,
+      "forced_advance": false,
+      "decision": "rejected",
+      "reason": "Viewer could not locate the top-right corner; observation is empty.",
+      "action": "ask",
+      "question": "What is the pixel coordinate of the bottom-left corner of the block in the Front view?"
+    },
+    {
+      "checklist_item": 3,
+      "round": 4,
+      "forced_advance": false,
+      "decision": "rejected",
+      "reason": "Viewer failed to locate the bottom-left corner in the Front view; observation is empty.",
+      "action": "ask",
+      "question": "What is the pixel coordinate of the top-left corner of the block in the Top view?"
+    }
+  ],
+  "datum": {
+    "source": "chosen",
+    "origin_feature": "Bottom-front-left physical corner of the block",
+    "units": "unknown",
+    "common_zero": [
+      0,
+      0,
+      0
+    ],
+    "uncertainty": "Physical units are not printed. Retain drawing values without assuming mm or inches.",
+    "views": [
+      {
+        "id": "Top (upper view)",
+        "plane": [
+          "X",
+          "Y"
+        ],
+        "horizontal_axis": "X",
+        "vertical_axis": "Y",
+        "horizontal_sign": 1,
+        "vertical_sign": 1,
+        "origin_pixel": [
+          149,
+          276
+        ],
+        "origin_evidence": "Common corner projects to lower-left of upper square."
+      },
+      {
+        "id": "Front (lower view)",
+        "plane": [
+          "X",
+          "Z"
+        ],
+        "horizontal_axis": "X",
+        "vertical_axis": "Z",
+        "horizontal_sign": 1,
+        "vertical_sign": 1,
+        "origin_pixel": [
+          149,
+          114
+        ],
+        "origin_evidence": "Common corner is lower-left of lower square."
+      }
+    ],
+    "locked": true,
+    "verification": "Chosen working frame based on inspected drawing; pixel locations approximate"
+  },
+  "datum_sha256": "a27bd711678cfd7e26c1033afd18ed03242b26f0b2764b3eaba9b90b6a1aa044"
+}

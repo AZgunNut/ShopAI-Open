@@ -1,0 +1,42 @@
+{
+  "engine": "PADDLE otsu_cw180 1060+1947",
+  "readings": [
+    {
+      "text": "4",
+      "bbox_px": [
+        0.0,
+        638.0,
+        22.0,
+        658.0
+      ],
+      "bbox_rotated_px": [
+        701.0,
+        324.0,
+        723.0,
+        344.0
+      ],
+      "alternatives": [
+        {
+          "text": "4",
+          "key": "4",
+          "score": 2.73555,
+          "kind": "linear_or_value",
+          "parse_quality": 1.8,
+          "flags": [],
+          "confidence_peak": 0.377,
+          "whole_profiles": [
+            "1060",
+            "1947"
+          ],
+          "profiles": [
+            "1060",
+            "1947"
+          ],
+          "tile_samples": 0,
+          "support_examples": 2,
+          "style_bonus": 0.0
+        }
+      ]
+    }
+  ]
+}
